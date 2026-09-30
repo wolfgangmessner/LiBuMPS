@@ -82,12 +82,9 @@
       <concept id="406105322043152820" name="org.modellwerkstatt.objectflow.structure.ComponentsScanning" flags="ng" index="20ptWn">
         <child id="406105322043152971" name="componentBaseName" index="20ptNC" />
       </concept>
-      <concept id="1440642197017487130" name="org.modellwerkstatt.objectflow.structure.StaticRessources" flags="ng" index="il5tC">
-        <child id="3146313690715522546" name="platforms" index="2kDvpj" />
-      </concept>
-      <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.PlatformDeclaration" flags="ng" index="2kDv1q" />
       <concept id="3875131616719432922" name="org.modellwerkstatt.objectflow.structure.CommandCallBasis" flags="ng" index="2_HltQ">
         <reference id="3875131616719438756" name="command" index="2_Hrw8" />
+        <child id="3875131616719439029" name="actualArgument" index="2_HrWp" />
       </concept>
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
@@ -135,6 +132,7 @@
         <child id="7784207101902693002" name="exp" index="2MZaQn" />
       </concept>
       <concept id="3887124829266131198" name="org.modellwerkstatt.dataux.structure.MenuAction" flags="ng" index="33WYYh" />
+      <concept id="2497433976992505068" name="org.modellwerkstatt.dataux.structure.MenuSeparator" flags="ng" index="1U2rok" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -149,8 +147,26 @@
       <node concept="33WYYh" id="c_HYpdGq9z" role="fOGQ8">
         <ref role="2_Hrw8" to="9evg:c_HYpdFTKG" resolve="Vereinbarungen suchen" />
       </node>
+      <node concept="33WYYh" id="1SEqE6yBLyF" role="fOGQ8">
+        <ref role="2_Hrw8" to="9evg:c_HYpdGVJf" resolve="VereinbarungAnlegen" />
+      </node>
+      <node concept="1U2rok" id="1SEqE6yBLQJ" role="fOGQ8" />
+      <node concept="33WYYh" id="1SEqE6yBLTh" role="fOGQ8">
+        <ref role="2_Hrw8" to="9evg:c_HYpdGUqk" resolve="Konditionen suchen" />
+        <node concept="3cmrfG" id="1SEqE6yBM9Y" role="2_HrWp">
+          <property role="3cmrfH" value="0" />
+        </node>
+      </node>
+      <node concept="33WYYh" id="1SEqE6yGfaG" role="fOGQ8">
+        <ref role="2_Hrw8" to="9evg:1SEqE6yBMdC" resolve="GueltigeKonditionenEinsehen" />
+      </node>
       <node concept="Xl_RD" id="c_HYpdFSUo" role="33Ov9O">
         <property role="Xl_RC" value="Lieferantenkonditionen" />
+      </node>
+    </node>
+    <node concept="fOGPe" id="1SEqE6yBLEL" role="2N77jT">
+      <node concept="Xl_RD" id="1SEqE6yBLEN" role="33Ov9O">
+        <property role="Xl_RC" value="Bewertung" />
       </node>
     </node>
     <node concept="2MWAvL" id="c_HYpdEwW$" role="2A_d42">
@@ -481,7 +497,7 @@
       <node concept="2CJf3v" id="6ni6$jL7Sn1" role="2CJdiS">
         <property role="TrG5h" value="platForm" />
         <node concept="Xl_RD" id="6ni6$jL7Sn2" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.libu.LiefKond.core.ui.Ressource_RICH" />
+          <property role="Xl_RC" value="org.modellwerkstatt.libu.LiefKond.core.domain.Ressource_RICH" />
         </node>
       </node>
       <node concept="2CPvp3" id="c_HYpdED$p" role="2CJdiS" />
@@ -516,12 +532,6 @@
       <node concept="Xl_RD" id="3xvuS$eSydy" role="20ptNC">
         <property role="Xl_RC" value="org.modellwerkstatt.libu" />
       </node>
-    </node>
-  </node>
-  <node concept="il5tC" id="c_HYpdFl3H">
-    <property role="TrG5h" value="Ressource" />
-    <node concept="2kDv1q" id="c_HYpdFlw9" role="2kDvpj">
-      <property role="TrG5h" value="RICH" />
     </node>
   </node>
 </model>

@@ -2,6 +2,8 @@
 <model ref="r:dcc1c0ca-ab44-4898-906e-e8b4a9d7f836(org.modellwerkstatt.libu.LiefKond.core.domain)">
   <persistence version="9" />
   <languages>
+    <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="b2950e54-da96-4c3b-868c-2b5e12af9605(org.modellwerkstatt.MoWareWerkbank)" />
   </languages>
   <imports />
@@ -51,6 +53,18 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="1440642197017487130" name="org.modellwerkstatt.objectflow.structure.StaticRessources" flags="ng" index="il5tC">
+        <child id="3146313690717155086" name="labels" index="2kzhMJ" />
+        <child id="3146313690715522546" name="platforms" index="2kDvpj" />
+      </concept>
+      <concept id="1440642197017487635" name="org.modellwerkstatt.objectflow.structure.Label" flags="ng" index="il5_x">
+        <child id="3146313690717155575" name="specification" index="2kzgdm" />
+      </concept>
+      <concept id="3146313690717155301" name="org.modellwerkstatt.objectflow.structure.LabelSpecification" flags="ng" index="2kzhL4">
+        <property id="1440642197017487963" name="hotkey" index="il5CD" />
+        <child id="1440642197017487671" name="text" index="il5_5" />
+      </concept>
+      <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.PlatformDeclaration" flags="ng" index="2kDv1q" />
       <concept id="1707086779731223260" name="org.modellwerkstatt.objectflow.structure.OnCreationStatusElemOption" flags="ng" index="2_5uyX" />
       <concept id="4779674245164303002" name="org.modellwerkstatt.objectflow.structure.StaticRole" flags="ng" index="2RjHbW">
         <child id="4779674245164315371" name="staticRoleFunc" index="2RjIad" />
@@ -141,7 +155,7 @@
     <node concept="2XvgOf" id="c_HYpdFSt8" role="kV5ob">
       <property role="TrG5h" value="Mandant" />
       <node concept="2XvgOc" id="c_HYpdFSt9" role="2XvgO2">
-        <property role="TrG5h" value="IT" />
+        <property role="TrG5h" value="ITALIEN" />
         <property role="2XvgOS" value="2" />
         <node concept="Xl_RD" id="c_HYpdFSta" role="3RLGe5">
           <property role="Xl_RC" value="MITALIA" />
@@ -175,6 +189,70 @@
         <property role="Xl_RC" value="Name" />
       </node>
       <node concept="17QB3L" id="c_HYpdFRBQ" role="2RkE6I" />
+    </node>
+  </node>
+  <node concept="il5tC" id="c_HYpdFl3H">
+    <property role="TrG5h" value="Ressource" />
+    <node concept="il5_x" id="1SEqE6yDQxw" role="2kzhMJ">
+      <property role="TrG5h" value="Anzeigen" />
+      <node concept="2kzhL4" id="1SEqE6yDQxx" role="2kzgdm">
+        <property role="il5CD" value="7MWNCzXNDQp/SCAN_UPDATE" />
+        <node concept="Xl_RD" id="1SEqE6yDQxy" role="il5_5">
+          <property role="Xl_RC" value="Anzeigen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="1SEqE6z0rPe" role="2kzhMJ">
+      <property role="TrG5h" value="LieferantNachschlagen" />
+      <node concept="2kzhL4" id="1SEqE6z0rPf" role="2kzgdm">
+        <property role="il5CD" value="7MWNCzXNDQp/SCAN_UPDATE" />
+        <node concept="Xl_RD" id="1SEqE6z0rPg" role="il5_5">
+          <property role="Xl_RC" value="Lieferant nachschlagen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="1SEqE6z0v19" role="2kzhMJ">
+      <property role="TrG5h" value="Anlegen" />
+      <node concept="2kzhL4" id="1SEqE6z0v1a" role="2kzgdm">
+        <node concept="Xl_RD" id="1SEqE6z0v1b" role="il5_5">
+          <property role="Xl_RC" value="Anlegen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="1SEqE6z0$4r" role="2kzhMJ">
+      <property role="TrG5h" value="Speichern" />
+      <node concept="2kzhL4" id="1SEqE6z0$4s" role="2kzgdm">
+        <node concept="Xl_RD" id="1SEqE6z0$4t" role="il5_5">
+          <property role="Xl_RC" value="Speichern" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="1SEqE6z0_ve" role="2kzhMJ">
+      <property role="TrG5h" value="Uebernehmen" />
+      <node concept="2kzhL4" id="1SEqE6z0_vf" role="2kzgdm">
+        <node concept="Xl_RD" id="1SEqE6z0_vg" role="il5_5">
+          <property role="Xl_RC" value="Übernehmen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="1SEqE6z0Dyr" role="2kzhMJ">
+      <property role="TrG5h" value="Neu" />
+      <node concept="2kzhL4" id="1SEqE6z0Dys" role="2kzgdm">
+        <node concept="Xl_RD" id="1SEqE6z0Dyt" role="il5_5">
+          <property role="Xl_RC" value="Neu" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="1SEqE6z4jXd" role="2kzhMJ">
+      <property role="TrG5h" value="EngueltigLoeschen" />
+      <node concept="2kzhL4" id="1SEqE6z4jXe" role="2kzgdm">
+        <node concept="Xl_RD" id="1SEqE6z4jXf" role="il5_5">
+          <property role="Xl_RC" value="Entgültig löschen" />
+        </node>
+      </node>
+    </node>
+    <node concept="2kDv1q" id="c_HYpdFlw9" role="2kDvpj">
+      <property role="TrG5h" value="RICH" />
     </node>
   </node>
 </model>
