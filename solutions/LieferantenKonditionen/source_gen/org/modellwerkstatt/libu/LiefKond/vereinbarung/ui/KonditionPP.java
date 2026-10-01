@@ -21,8 +21,8 @@ public class KonditionPP implements PagePane.PagePaneDescription<Kondition> {
       formKondition_10.columnWeights(DelegateForm.Weight.ONE);
       formKondition_10.bindTo(Kondition.class, "");
 
-      formKondition_10.addStringDelegate(F.property("lieferantName").label("LieferantName"));
-      formKondition_10.addStringDelegate(F.property("vereinbarungBezeichnung").label("VereinbarungBezeichnung"));
+      formKondition_10.addStringDelegate(F.property("vereinbarung.lieferantName").label("Vereinbarung-LieferanenBez"));
+      formKondition_10.addStringDelegate(F.property("vereinbarung.bezeichnung").label("Vereinbarung-Bezeichnung"));
       formKondition_10.addStringDelegate(F.property("bezeichnung").label("Bezeichnung"));
       formKondition_10.addStatusDelegate(F.property("berechnungsart").label("Berechnungsart").optionalText(Kondition_Berechnungsart.OPTIONAL_TEXT));
       formKondition_10.addDecimalDelegate(F.property("satzProzent").label("SatzProzent"));

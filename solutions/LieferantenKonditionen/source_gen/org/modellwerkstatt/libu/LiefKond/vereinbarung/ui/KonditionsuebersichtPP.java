@@ -71,7 +71,7 @@ public class KonditionsuebersichtPP implements PagePane.PagePaneDescription<Kond
           if (CmdParams.notAvailable(gueltigekonditionInfo)) {
             return null;
           }
-          return CmdParams.of(gueltigekonditionInfo.getVereinbarungId());
+          return CmdParams.of(gueltigekonditionInfo.getVereinbarungId(), 0);
         }))));
         grid10.insert(tableGueltigekonditionInfo_22);
       }
