@@ -235,9 +235,7 @@
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.DTO" flags="ig" index="1YeyE5" />
     </language>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
-      <concept id="1750699687529771353" name="org.modellwerkstatt.dataux.structure.MenuSub" flags="ng" index="fOGPe">
-        <child id="3887124829268092187" name="label" index="33Ov9O" />
-      </concept>
+      <concept id="1750699687529771353" name="org.modellwerkstatt.dataux.structure.MenuSub" flags="ng" index="fOGPe" />
       <concept id="1750699687529771422" name="org.modellwerkstatt.dataux.structure.IHasMenu" flags="ngI" index="fOGQ9">
         <child id="1750699687529771423" name="menuItems" index="fOGQ8" />
       </concept>
@@ -262,7 +260,6 @@
       <concept id="465568541573490183" name="org.modellwerkstatt.dataux.structure.IHasFormOptions" flags="ngI" index="PoUSo">
         <child id="465568541573490184" name="options" index="PoUSn" />
       </concept>
-      <concept id="3899779351686566800" name="org.modellwerkstatt.dataux.structure.DateTimeDateOnlyDelegate" flags="ng" index="2TG9WS" />
       <concept id="3899779351686566801" name="org.modellwerkstatt.dataux.structure.DateTimeDelegate" flags="ng" index="2TG9WT" />
       <concept id="3899779351686566802" name="org.modellwerkstatt.dataux.structure.LocalDateDelegate" flags="ng" index="2TG9WU" />
       <concept id="3899779351686566805" name="org.modellwerkstatt.dataux.structure.StatusDelegate" flags="ng" index="2TG9WX" />
@@ -602,34 +599,29 @@
           <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
         </node>
         <node concept="fOGPe" id="c_HYpdHcYG" role="fOGQ8">
-          <node concept="fOGPe" id="c_HYpdGU23" role="fOGQ8">
-            <node concept="33WYYh" id="c_HYpdGTJI" role="fOGQ8">
-              <ref role="2_Hrw8" node="c_HYpdGT7m" resolve="VereinbarungOeffnen" />
-              <node concept="2OqwBi" id="c_HYpdGVz7" role="2_HrWp">
-                <node concept="2IFXgM" id="c_HYpdGVz8" role="2Oq$k0">
-                  <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
-                </node>
-                <node concept="2S8uIT" id="c_HYpdGVz9" role="2OqNvi">
-                  <ref role="2S8YL0" to="uyeg:c_HYpdFVTD" resolve="id" />
-                </node>
+          <node concept="33WYYh" id="c_HYpdGTJI" role="fOGQ8">
+            <ref role="2_Hrw8" node="c_HYpdGT7m" resolve="VereinbarungOeffnen" />
+            <node concept="2OqwBi" id="c_HYpdGVz7" role="2_HrWp">
+              <node concept="2IFXgM" id="c_HYpdGVz8" role="2Oq$k0">
+                <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
               </node>
-              <node concept="3cmrfG" id="6L7N348r_A" role="2_HrWp">
-                <property role="3cmrfH" value="0" />
+              <node concept="2S8uIT" id="c_HYpdGVz9" role="2OqNvi">
+                <ref role="2S8YL0" to="uyeg:c_HYpdFVTD" resolve="id" />
               </node>
             </node>
-            <node concept="33WYYh" id="c_HYpdGTU5" role="fOGQ8">
-              <ref role="2_Hrw8" node="c_HYpdGThd" resolve="VereinbarungLoeschen" />
-              <node concept="2OqwBi" id="c_HYpdGVCo" role="2_HrWp">
-                <node concept="2IFXgM" id="c_HYpdGVCp" role="2Oq$k0">
-                  <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
-                </node>
-                <node concept="2S8uIT" id="c_HYpdGVCq" role="2OqNvi">
-                  <ref role="2S8YL0" to="uyeg:c_HYpdFVTD" resolve="id" />
-                </node>
-              </node>
+            <node concept="3cmrfG" id="6L7N348r_A" role="2_HrWp">
+              <property role="3cmrfH" value="0" />
             </node>
-            <node concept="Xl_RD" id="c_HYpdGU5D" role="33Ov9O">
-              <property role="Xl_RC" value="Aktionen" />
+          </node>
+          <node concept="33WYYh" id="c_HYpdGTU5" role="fOGQ8">
+            <ref role="2_Hrw8" node="c_HYpdGThd" resolve="VereinbarungLoeschen" />
+            <node concept="2OqwBi" id="c_HYpdGVCo" role="2_HrWp">
+              <node concept="2IFXgM" id="c_HYpdGVCp" role="2Oq$k0">
+                <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
+              </node>
+              <node concept="2S8uIT" id="c_HYpdGVCq" role="2OqNvi">
+                <ref role="2S8YL0" to="uyeg:c_HYpdFVTD" resolve="id" />
+              </node>
             </node>
           </node>
         </node>
@@ -709,7 +701,7 @@
   </node>
   <node concept="3ugp7m" id="c_HYpdGT7m">
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
-    <property role="TrG5h" value="VereinbarungOeffnen" />
+    <property role="TrG5h" value="Vereinbarung öffnen" />
     <property role="19I623" value="6Rdz00$tuDr/GRAPH_OWNER_CMD" />
     <node concept="3ugp7q" id="1SEqE6z0zxJ" role="3ug97V">
       <property role="TrG5h" value="Vereinbarung" />
@@ -852,7 +844,6 @@
   <node concept="3ugp7m" id="c_HYpdGThd">
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="VereinbarungLoeschen" />
-    <property role="3GE5qa" value="depr" />
     <node concept="3ugp7q" id="1SEqE6z4jDp" role="3ug97V">
       <property role="TrG5h" value="Bestätigen" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
@@ -1142,7 +1133,6 @@
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="VereinbarungAnlegen" />
     <property role="19I623" value="701$ZaZsahE/GRAPH_OWNER_CMD_MODAL" />
-    <property role="3GE5qa" value="depr" />
     <node concept="3ugp7q" id="1SEqE6z0mdl" role="3ug97V">
       <property role="TrG5h" value="Erfassen" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
@@ -1640,7 +1630,6 @@
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="GueltigeKonditionenEinsehen" />
     <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
-    <property role="3GE5qa" value="depr" />
     <node concept="2ticAD" id="1SEqE6yJNAM" role="2ticAe">
       <node concept="1G1AcV" id="1SEqE6yJNHN" role="2TIb5R">
         <ref role="3ymtqE" to="hg40:c_HYpdFOT0" resolve="KategorieManagement" />
@@ -2605,12 +2594,12 @@
             <ref role="3O0p26" to="uyeg:c_HYpdHvj1" resolve="bezeichnung" />
           </node>
         </node>
-        <node concept="3Oe2Ik" id="1SEqE6yDKD2" role="3OfFNq">
-          <node concept="PnLzW" id="1SEqE6yDKD3" role="PoUSh">
-            <property role="PiFy3" value="8" />
-          </node>
-          <node concept="3Oe$u_" id="1SEqE6yDKD4" role="3Oe2NS">
+        <node concept="2TG9WX" id="6L7N34pUAX" role="3OfFNq">
+          <node concept="3Oe$u_" id="6L7N34pUB1" role="3Oe2NS">
             <ref role="3O0p26" to="uyeg:c_HYpdHvjg" resolve="berechnungsart" />
+          </node>
+          <node concept="PnLzW" id="6L7N34pUB2" role="PoUSh">
+            <property role="PiFy3" value="8" />
           </node>
         </node>
         <node concept="3Oe2Ik" id="1SEqE6yDKD5" role="3OfFNq">
@@ -2621,12 +2610,12 @@
             <ref role="3O0p26" to="uyeg:c_HYpdHvjv" resolve="satzText" />
           </node>
         </node>
-        <node concept="3Oe2Ik" id="1SEqE6yDKD8" role="3OfFNq">
-          <node concept="PnLzW" id="1SEqE6yDKD9" role="PoUSh">
-            <property role="PiFy3" value="6" />
-          </node>
-          <node concept="3Oe$u_" id="1SEqE6yDKDa" role="3Oe2NS">
+        <node concept="2TG9WX" id="6L7N34pUDp" role="3OfFNq">
+          <node concept="3Oe$u_" id="6L7N34pUDt" role="3Oe2NS">
             <ref role="3O0p26" to="uyeg:c_HYpdHvjI" resolve="zyklus" />
+          </node>
+          <node concept="PnLzW" id="6L7N34pUDu" role="PoUSh">
+            <property role="PiFy3" value="6" />
           </node>
         </node>
         <node concept="3Oe2Ik" id="1SEqE6yDKDh" role="3OfFNq">
@@ -2637,11 +2626,11 @@
             <ref role="3O0p26" to="uyeg:c_HYpdHvkr" resolve="warengruppeText" />
           </node>
         </node>
-        <node concept="2TG9WS" id="1SEqE6yDKDk" role="3OfFNq">
-          <node concept="PnLzW" id="1SEqE6yDKDl" role="PoUSh">
+        <node concept="2TG9WU" id="6L7N34kiWU" role="3OfFNq">
+          <node concept="PnLzW" id="6L7N34kiWV" role="PoUSh">
             <property role="PiFy3" value="6" />
           </node>
-          <node concept="3Oe$u_" id="1SEqE6yDKDm" role="3Oe2NS">
+          <node concept="3Oe$u_" id="6L7N34kiWW" role="3Oe2NS">
             <ref role="3O0p26" to="uyeg:c_HYpdHvkE" resolve="gueltigVon" />
           </node>
         </node>
@@ -2653,12 +2642,12 @@
             <ref role="3O0p26" to="uyeg:c_HYpdHvl8" resolve="wirksamBisText" />
           </node>
         </node>
-        <node concept="3Oe2Ik" id="1SEqE6yDKDt" role="3OfFNq">
-          <node concept="PnLzW" id="1SEqE6yDKDu" role="PoUSh">
-            <property role="PiFy3" value="6" />
-          </node>
-          <node concept="3Oe$u_" id="1SEqE6yDKDv" role="3Oe2NS">
+        <node concept="2TG9WX" id="6L7N34pUJb" role="3OfFNq">
+          <node concept="3Oe$u_" id="6L7N34pUJf" role="3Oe2NS">
             <ref role="3O0p26" to="uyeg:c_HYpdHvln" resolve="istVerwendet" />
+          </node>
+          <node concept="PnLzW" id="6L7N34pUJg" role="PoUSh">
+            <property role="PiFy3" value="6" />
           </node>
         </node>
       </node>

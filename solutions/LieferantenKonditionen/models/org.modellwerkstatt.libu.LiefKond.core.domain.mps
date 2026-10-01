@@ -338,10 +338,10 @@
       </node>
       <node concept="2Mceeh" id="1SEqE6yD6jo" role="0orDa" />
       <node concept="Xl_RD" id="1SEqE6z9$mb" role="2CNmdP">
-        <property role="Xl_RC" value="ErstelltAm" />
+        <property role="Xl_RC" value="Erstellt am" />
       </node>
       <node concept="Xl_RD" id="1SEqE6z9$md" role="2CNmdL">
-        <property role="Xl_RC" value="ErstelltAm" />
+        <property role="Xl_RC" value="Erstellt am" />
       </node>
       <node concept="20vkWO" id="1SEqE6z9$mf" role="3b_Q0">
         <node concept="1PaTwC" id="1SEqE6z9$mj" role="13z7HO">
@@ -363,10 +363,10 @@
       <node concept="17QB3L" id="c_HYpdEect" role="2RkE6I" />
       <node concept="2McexJ" id="1SEqE6yD6k2" role="0orDa" />
       <node concept="Xl_RD" id="1SEqE6z9$mm" role="2CNmdP">
-        <property role="Xl_RC" value="ErstelltVon" />
+        <property role="Xl_RC" value="Erstellt von" />
       </node>
       <node concept="Xl_RD" id="1SEqE6z9$mo" role="2CNmdL">
-        <property role="Xl_RC" value="ErstelltVon" />
+        <property role="Xl_RC" value="Erstellt von" />
       </node>
       <node concept="20vkWO" id="1SEqE6z9$mq" role="3b_Q0">
         <node concept="1PaTwC" id="1SEqE6z9$mu" role="13z7HO">
@@ -390,10 +390,10 @@
       </node>
       <node concept="2Mc99S" id="1SEqE6yD6kq" role="0orDa" />
       <node concept="Xl_RD" id="1SEqE6z9$mx" role="2CNmdP">
-        <property role="Xl_RC" value="GeaendertAm" />
+        <property role="Xl_RC" value="Geaendert am" />
       </node>
       <node concept="Xl_RD" id="1SEqE6z9$mz" role="2CNmdL">
-        <property role="Xl_RC" value="GeaendertAm" />
+        <property role="Xl_RC" value="Geaendert am" />
       </node>
       <node concept="20vkWO" id="1SEqE6z9$m_" role="3b_Q0">
         <node concept="1PaTwC" id="1SEqE6z9$mD" role="13z7HO">
@@ -415,10 +415,10 @@
       <node concept="17QB3L" id="c_HYpdEecV" role="2RkE6I" />
       <node concept="2Mc95d" id="1SEqE6yD6lm" role="0orDa" />
       <node concept="Xl_RD" id="1SEqE6z9$mG" role="2CNmdP">
-        <property role="Xl_RC" value="GeaendertVon" />
+        <property role="Xl_RC" value="Geaendert von" />
       </node>
       <node concept="Xl_RD" id="1SEqE6z9$mI" role="2CNmdL">
-        <property role="Xl_RC" value="GeaendertVon" />
+        <property role="Xl_RC" value="Geaendert von" />
       </node>
       <node concept="20vkWO" id="1SEqE6z9$mK" role="3b_Q0">
         <node concept="1PaTwC" id="1SEqE6z9$mO" role="13z7HO">

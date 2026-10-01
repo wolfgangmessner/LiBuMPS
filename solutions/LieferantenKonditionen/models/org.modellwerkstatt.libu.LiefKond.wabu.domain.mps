@@ -167,7 +167,7 @@
     <property role="TrG5h" value="LieferantenQ" />
     <node concept="3Tm1VV" id="1SEqE6yDWUL" role="1B3o_S" />
     <node concept="1o6$dd" id="1SEqE6yDXf3" role="jymVt">
-      <property role="TrG5h" value="LieferanteninfoNK" />
+      <property role="TrG5h" value="LieferantInfoNK" />
       <ref role="1o6$9c" node="1SEqE6yDXeH" resolve="Lieferantinfo" />
       <node concept="12nEzJ" id="1SEqE6yDXfh" role="3caO6$">
         <ref role="12nL8z" node="1SEqE6yDXf4" resolve="lieferantNr" />
@@ -585,7 +585,7 @@
     <property role="TrG5h" value="WarengruppenQ" />
     <node concept="3Tm1VV" id="1SEqE6yDX1Q" role="1B3o_S" />
     <node concept="1o6$dd" id="1SEqE6yDX9B" role="jymVt">
-      <property role="TrG5h" value="WarengruppeninfoNK" />
+      <property role="TrG5h" value="WarengruppenInfoNK" />
       <ref role="1o6$9c" node="1SEqE6yDX9h" resolve="Warengruppeinfo" />
       <node concept="12nEzJ" id="1SEqE6yDX9P" role="3caO6$">
         <ref role="12nL8z" node="1SEqE6yDX9C" resolve="hauptNr" />
