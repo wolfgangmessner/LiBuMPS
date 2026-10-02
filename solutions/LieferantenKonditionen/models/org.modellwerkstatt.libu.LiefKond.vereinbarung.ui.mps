@@ -1159,6 +1159,9 @@
       <node concept="3063JU" id="c_HYpdHCM4" role="3063Jp">
         <ref role="3063JT" node="c_HYpdHZd8" resolve="PPKonditionSucheMain" />
       </node>
+      <node concept="Xl_RD" id="6DuqmNvWxhE" role="1K0AWC">
+        <property role="Xl_RC" value="Konditionen suchen" />
+      </node>
     </node>
     <node concept="3ulXEM" id="c_HYpdHCsZ" role="3ulXEG">
       <property role="TrG5h" value="suche" />
@@ -1427,6 +1430,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="Xl_RD" id="6DuqmNvWwGY" role="1K0AWC">
+        <property role="Xl_RC" value="Neue Vereinbarung erfassen" />
       </node>
     </node>
     <node concept="3ulXEM" id="1SEqE6z0llW" role="3ulXEG">
