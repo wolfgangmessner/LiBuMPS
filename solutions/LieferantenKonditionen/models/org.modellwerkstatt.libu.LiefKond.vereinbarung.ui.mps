@@ -364,10 +364,71 @@
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="Vereinbarungen suchen" />
     <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
-    <property role="3GE5qa" value="depr" />
     <node concept="3ugp7q" id="c_HYpdG2bB" role="3ug97V">
       <property role="TrG5h" value="Suche" />
       <ref role="3gcvY6" node="c_HYpdFU2K" resolve="VereinbarungSuche" />
+      <node concept="2niumk" id="6DuqmNvzTJj" role="2nihkg">
+        <ref role="2zWoI2" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
+        <node concept="2niuml" id="6DuqmNvzTJk" role="2nium9">
+          <node concept="3clFbS" id="6DuqmNvzTJl" role="2VODD2">
+            <node concept="3clFbJ" id="6DuqmNvzTUl" role="3cqZAp">
+              <node concept="2mdy1M" id="6DuqmNvzTVc" role="3clFbw" />
+              <node concept="3clFbS" id="6DuqmNvzTUn" role="3clFbx">
+                <node concept="3clFbF" id="6DuqmNvzTYj" role="3cqZAp">
+                  <node concept="37vLTI" id="6DuqmNvzTYk" role="3clFbG">
+                    <node concept="1odsa" id="6DuqmNvzTYl" role="37vLTx">
+                      <ref role="1ods_" to="uyeg:c_HYpdEfWD" resolve="VereinbarungenQ" />
+                      <ref role="37wK5l" to="uyeg:c_HYpdEfXp" resolve="passendeVereinbarungen" />
+                      <node concept="2OqwBi" id="6DuqmNvzTYm" role="37wK5m">
+                        <node concept="3urNR4" id="6DuqmNvzTYn" role="2Oq$k0">
+                          <ref role="3cqZAo" node="c_HYpdG0dh" resolve="suche" />
+                        </node>
+                        <node concept="2S8uIT" id="6DuqmNvzTYo" role="2OqNvi">
+                          <ref role="2S8YL0" node="c_HYpdFUmZ" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="6DuqmNvzTYp" role="37wK5m">
+                        <node concept="3urNR4" id="6DuqmNvzTYq" role="2Oq$k0">
+                          <ref role="3cqZAo" node="c_HYpdG0dh" resolve="suche" />
+                        </node>
+                        <node concept="2S8uIT" id="6DuqmNvzTYr" role="2OqNvi">
+                          <ref role="2S8YL0" node="c_HYpdFU2R" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="6DuqmNvzTYs" role="37wK5m">
+                        <node concept="3urNR4" id="6DuqmNvzTYt" role="2Oq$k0">
+                          <ref role="3cqZAo" node="c_HYpdG0dh" resolve="suche" />
+                        </node>
+                        <node concept="2S8uIT" id="6DuqmNvzTYu" role="2OqNvi">
+                          <ref role="2S8YL0" node="c_HYpdFU$F" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="6DuqmNvzTYv" role="37vLTJ">
+                      <node concept="3urNR4" id="6DuqmNvzTYw" role="2Oq$k0">
+                        <ref role="3cqZAo" node="c_HYpdG0dh" resolve="suche" />
+                      </node>
+                      <node concept="2S8uIT" id="6DuqmNvzTYx" role="2OqNvi">
+                        <ref role="2S8YL0" node="c_HYpdFUGf" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10qiFn" id="6DuqmNvzTzK" role="10qiF9">
+        <ref role="2DFCCC" to="hg40:6DuqmNvzQAF" resolve="Suchen" />
+        <node concept="20qIzx" id="6DuqmNvzTzL" role="10ot2L">
+          <node concept="3clFbS" id="6DuqmNvzTzM" role="2VODD2">
+            <node concept="10Adxa" id="6DuqmNvzTHr" role="3cqZAp">
+              <ref role="10Adxb" node="c_HYpdG2bB" resolve="Suche" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="20qEzJ" id="c_HYpdG2bC" role="10qiF$">
         <node concept="3clFbS" id="c_HYpdG2bD" role="2VODD2">
           <node concept="3clFbF" id="c_HYpdG2z2" role="3cqZAp">
@@ -420,6 +481,9 @@
       <node concept="3063JU" id="c_HYpdG2bE" role="3063Jp">
         <ref role="3063JT" node="c_HYpdG7md" resolve="PPVereinbarungSucheEditor" />
       </node>
+      <node concept="Xl_RD" id="6DuqmNvzUhK" role="1K0AWC">
+        <property role="Xl_RC" value="Vereinbarungen suchen" />
+      </node>
     </node>
     <node concept="2ticAD" id="c_HYpdFZVm" role="2ticAe">
       <node concept="1G1AcV" id="c_HYpdFZYK" role="2TIb5R">
@@ -469,6 +533,7 @@
     <node concept="Xl_RD" id="c_HYpdG2ix" role="IYfpf">
       <property role="Xl_RC" value="Vereinbarungen" />
     </node>
+    <node concept="2YYyHn" id="6DuqmNvAMJY" role="3ap3dX" />
   </node>
   <node concept="1YeyE5" id="c_HYpdFU2K">
     <property role="TrG5h" value="VereinbarungSuche" />
@@ -970,6 +1035,73 @@
     <node concept="3ugp7q" id="c_HYpdHCM1" role="3ug97V">
       <property role="TrG5h" value="Suche" />
       <ref role="3gcvY6" node="c_HYpdHtlm" resolve="KonditionSuche" />
+      <node concept="2niumk" id="6DuqmNvzRB3" role="2nihkg">
+        <ref role="2zWoI2" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
+        <node concept="2niuml" id="6DuqmNvzRB4" role="2nium9">
+          <node concept="3clFbS" id="6DuqmNvzRB5" role="2VODD2">
+            <node concept="3clFbJ" id="6DuqmNvzRMn" role="3cqZAp">
+              <node concept="2mdy1M" id="6DuqmNvzRNb" role="3clFbw" />
+              <node concept="3clFbS" id="6DuqmNvzRMp" role="3clFbx">
+                <node concept="3clFbF" id="6DuqmNvzROk" role="3cqZAp">
+                  <node concept="37vLTI" id="6DuqmNvzTe8" role="3clFbG">
+                    <node concept="2OqwBi" id="6DuqmNvzRSX" role="37vLTJ">
+                      <node concept="3urNR4" id="6DuqmNvzROj" role="2Oq$k0">
+                        <ref role="3cqZAo" node="c_HYpdHCsZ" resolve="suche" />
+                      </node>
+                      <node concept="2S8uIT" id="6DuqmNvzS0s" role="2OqNvi">
+                        <ref role="2S8YL0" node="c_HYpdHtPz" resolve="results" />
+                      </node>
+                    </node>
+                    <node concept="1odsa" id="6DuqmNvzTiB" role="37vLTx">
+                      <ref role="1ods_" to="uyeg:c_HYpdHtZD" resolve="KonditionenSuchenQ" />
+                      <ref role="37wK5l" to="uyeg:c_HYpdHNqP" resolve="passendeKonditionen" />
+                      <node concept="2OqwBi" id="6DuqmNvzTiC" role="37wK5m">
+                        <node concept="3urNR4" id="6DuqmNvzTiD" role="2Oq$k0">
+                          <ref role="3cqZAo" node="c_HYpdHCsZ" resolve="suche" />
+                        </node>
+                        <node concept="2S8uIT" id="6DuqmNvzTiE" role="2OqNvi">
+                          <ref role="2S8YL0" node="c_HYpdHtw5" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="6DuqmNvzTiF" role="37wK5m">
+                        <node concept="3urNR4" id="6DuqmNvzTiG" role="2Oq$k0">
+                          <ref role="3cqZAo" node="c_HYpdHCsZ" resolve="suche" />
+                        </node>
+                        <node concept="2S8uIT" id="6DuqmNvzTiH" role="2OqNvi">
+                          <ref role="2S8YL0" node="c_HYpdHtBQ" />
+                        </node>
+                      </node>
+                      <node concept="2veflS" id="6DuqmNvzTiI" role="37wK5m">
+                        <node concept="2vefiz" id="6DuqmNvzTiJ" role="2vefj5">
+                          <ref role="2vefiw" to="hg40:c_HYpdFS7U" resolve="Ja" />
+                        </node>
+                        <node concept="2OqwBi" id="6DuqmNvzTiK" role="2vefmd">
+                          <node concept="3urNR4" id="6DuqmNvzTiL" role="2Oq$k0">
+                            <ref role="3cqZAo" node="c_HYpdHCsZ" resolve="suche" />
+                          </node>
+                          <node concept="2S8uIT" id="6DuqmNvzTiM" role="2OqNvi">
+                            <ref role="2S8YL0" node="c_HYpdHtHQ" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10qiFn" id="6DuqmNvzQrx" role="10qiF9">
+        <ref role="2DFCCC" to="hg40:6DuqmNvzQAF" resolve="Suchen" />
+        <node concept="20qIzx" id="6DuqmNvzQry" role="10ot2L">
+          <node concept="3clFbS" id="6DuqmNvzQrz" role="2VODD2">
+            <node concept="10Adxa" id="6DuqmNvzR_h" role="3cqZAp">
+              <ref role="10Adxb" node="c_HYpdHCM1" resolve="Suche" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="20qEzJ" id="c_HYpdHCM2" role="10qiF$">
         <node concept="3clFbS" id="c_HYpdHCM3" role="2VODD2">
           <node concept="3clFbF" id="c_HYpdHL8E" role="3cqZAp">
@@ -1107,6 +1239,7 @@
     <node concept="Xl_RD" id="c_HYpdItOB" role="IYfpf">
       <property role="Xl_RC" value="Konditionen" />
     </node>
+    <node concept="2YYyHn" id="6DuqmNvAMHZ" role="3ap3dX" />
   </node>
   <node concept="3ugp7m" id="c_HYpdGVJf">
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
@@ -3368,6 +3501,25 @@
         <ref role="2DFCCC" to="hg40:5VOHcF3Tzhq" resolve="Aktualisieren" />
         <node concept="20qIzx" id="5VOHcF3TxMO" role="10ot2L">
           <node concept="3clFbS" id="5VOHcF3TxMP" role="2VODD2">
+            <node concept="3clFbF" id="6DuqmNvzEY0" role="3cqZAp">
+              <node concept="2OqwBi" id="6DuqmNvzF3U" role="3clFbG">
+                <node concept="3urNR4" id="6DuqmNvzEXY" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5VOHcF3Txbv" resolve="kondition" />
+                </node>
+                <node concept="liA8E" id="6DuqmNvzFaV" role="2OqNvi">
+                  <ref role="37wK5l" to="uyeg:1SEqE6yO4uW" resolve="passeAnBerechnungsartAn" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6DuqmNvzFd6" role="3cqZAp">
+              <node concept="1odsa" id="6DuqmNvzFd4" role="3clFbG">
+                <ref role="1ods_" to="uyeg:1SEqE6z0iMR" resolve="KonditionAnzeigeS" />
+                <ref role="37wK5l" to="uyeg:1SEqE6z0j1c" resolve="ergaenzeWarengruppe" />
+                <node concept="3urNR4" id="6DuqmNvzFhq" role="37wK5m">
+                  <ref role="3cqZAo" node="5VOHcF3Txbv" resolve="kondition" />
+                </node>
+              </node>
+            </node>
             <node concept="10Adxa" id="5VOHcF3Tzca" role="3cqZAp">
               <ref role="10Adxb" node="5VOHcF3TxBR" resolve="Erfasseh" />
             </node>
@@ -3378,6 +3530,60 @@
         <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
         <node concept="20qIzx" id="5VOHcF3TxRl" role="10ot2L">
           <node concept="3clFbS" id="5VOHcF3TxRm" role="2VODD2">
+            <node concept="3clFbF" id="6DuqmNvzFkg" role="3cqZAp">
+              <node concept="1odsa" id="6DuqmNvzFke" role="3clFbG">
+                <ref role="1ods_" to="uyeg:1SEqE6z0iMR" resolve="KonditionAnzeigeS" />
+                <ref role="37wK5l" to="uyeg:1SEqE6z0j1c" resolve="ergaenzeWarengruppe" />
+                <node concept="3urNR4" id="6DuqmNvzFob" role="37wK5m">
+                  <ref role="3cqZAo" node="5VOHcF3Txbv" resolve="kondition" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6DuqmNvzFqM" role="3cqZAp">
+              <node concept="1odsa" id="6DuqmNvzFqK" role="3clFbG">
+                <ref role="1ods_" to="uyeg:1SEqE6yRRqt" resolve="KonditionS" />
+                <ref role="37wK5l" to="uyeg:1SEqE6yRSC8" resolve="pruefeKondition" />
+                <node concept="3urNR4" id="6DuqmNvzFvl" role="37wK5m">
+                  <ref role="3cqZAo" node="5VOHcF3Txbv" resolve="kondition" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="6DuqmNvzFyr" role="3cqZAp">
+              <node concept="3cpWsn" id="6DuqmNvzFyu" role="3cpWs9">
+                <property role="TrG5h" value="rueckwirkend" />
+                <node concept="10Oyi0" id="6DuqmNvzFyp" role="1tU5fm" />
+                <node concept="1odsa" id="6DuqmNvzF_0" role="33vP2m">
+                  <ref role="1ods_" to="uyeg:1SEqE6yRRqt" resolve="KonditionS" />
+                  <ref role="37wK5l" to="uyeg:1SEqE6ySSXv" resolve="anzahlRueckwirkendBetroffen" />
+                  <node concept="3urNR4" id="6DuqmNvzFCI" role="37wK5m">
+                    <ref role="3cqZAo" node="5VOHcF3Txbv" resolve="kondition" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="mlg3r" id="6DuqmNvzFGu" role="3cqZAp">
+              <node concept="3clFbC" id="6DuqmNvzGSN" role="mlgNJ">
+                <node concept="3cmrfG" id="6DuqmNvzGTZ" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="37vLTw" id="6DuqmNvzFIC" role="3uHU7B">
+                  <ref role="3cqZAo" node="6DuqmNvzFyu" resolve="rueckwirkend" />
+                </node>
+              </node>
+              <node concept="lgADV" id="6DuqmNvzFGx" role="mlgNH">
+                <node concept="35AVbj" id="6DuqmNvzFGy" role="lgxf9">
+                  <node concept="37vLTw" id="6DuqmNvzI2I" role="35Gt3$">
+                    <ref role="3cqZAo" node="6DuqmNvzFyu" resolve="rueckwirkend" />
+                  </node>
+                  <node concept="ic4WF" id="6DuqmNvzFGz" role="icr7_">
+                    <property role="ic4Xk" value="Für bis zu %d bereits bewertete Wareneingänge des Lieferanten wirkt die Kondition erst nach deren Neubewertung (UC-008). Sie erscheinen in der Prüfliste der Bewertungslücken (UC-011)." />
+                  </node>
+                </node>
+              </node>
+              <node concept="mp1e1" id="6DuqmNvzGVc" role="mp0NM">
+                <ref role="mp1e0" to="28jr:51llZt5Ptbk" resolve="WARNING_HINT" />
+              </node>
+            </node>
             <node concept="10Adxj" id="5VOHcF3Tzsp" role="3cqZAp" />
           </node>
         </node>
@@ -3404,7 +3610,7 @@
           </node>
         </node>
         <node concept="ic4WF" id="5VOHcF3WKFR" role="icr7_">
-          <property role="ic4Xk" value="Neue Konditin - %s" />
+          <property role="ic4Xk" value="Neue Kondition - %s" />
         </node>
       </node>
       <node concept="JX2Gw" id="6HrJs_lMrpn" role="JX2Go">
@@ -3479,7 +3685,7 @@
               <node concept="1Wc70l" id="6HrJs_lMsFK" role="33vP2m">
                 <node concept="2veflS" id="6HrJs_lMsFL" role="3uHU7w">
                   <node concept="2vefiz" id="6HrJs_lMsFM" role="2vefj5">
-                    <ref role="2vefiw" to="uyeg:1SEqE6yBNIn" resolve="Prozent" />
+                    <ref role="2vefiw" to="uyeg:1SEqE6yBNRc" resolve="Menge" />
                   </node>
                   <node concept="2OqwBi" id="6HrJs_lMsFN" role="2vefmd">
                     <node concept="3urNR4" id="6HrJs_lMsFO" role="2Oq$k0">
@@ -3790,7 +3996,7 @@
   </node>
   <node concept="3ugp7m" id="64Z6K0hRPkH">
     <property role="1ptSWV" value="R_Y55k$Btz/OVERWRITE_FORCED" />
-    <property role="TrG5h" value="Kondidtionsbezeichnung ändern" />
+    <property role="TrG5h" value="Konditionsbezeichnung ändern" />
     <node concept="3ugp7q" id="5VOHcF41jZn" role="3ug97V">
       <property role="TrG5h" value="Bezeichnung" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
@@ -3992,7 +4198,7 @@
               <node concept="1Wc70l" id="6HrJs_lMAXi" role="33vP2m">
                 <node concept="2veflS" id="6HrJs_lMAXj" role="3uHU7w">
                   <node concept="2vefiz" id="6HrJs_lMAXk" role="2vefj5">
-                    <ref role="2vefiw" to="uyeg:1SEqE6yBNIn" resolve="Prozent" />
+                    <ref role="2vefiw" to="uyeg:1SEqE6yBNRc" resolve="Menge" />
                   </node>
                   <node concept="2OqwBi" id="6HrJs_lMAXl" role="2vefmd">
                     <node concept="3urNQE" id="6HrJs_lMBOW" role="2Oq$k0">
@@ -4028,7 +4234,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="6HrJs_lMAYH" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:38DqI$$HDoH" resolve="setOptional" />
+                <ref role="37wK5l" to="28jr:38DqI$$HF2J" resolve="setEnabled" />
                 <node concept="3clFbT" id="6HrJs_lMAYI" role="37wK5m" />
               </node>
             </node>
@@ -4099,6 +4305,24 @@
                 <ref role="37wK5l" to="28jr:38DqI$$HF2J" resolve="setEnabled" />
                 <node concept="37vLTw" id="6HrJs_lMAXL" role="37wK5m">
                   <ref role="3cqZAo" node="6HrJs_lMAXg" resolve="menge" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="6DuqmNvzJV5" role="3cqZAp">
+            <node concept="2OqwBi" id="6DuqmNvzKxH" role="3clFbG">
+              <node concept="2OqwBi" id="6DuqmNvzKaf" role="2Oq$k0">
+                <node concept="3urNQE" id="6DuqmNvzJV3" role="2Oq$k0">
+                  <ref role="3cqZAo" node="64Z6K0hRPva" resolve="kondition" />
+                </node>
+                <node concept="2dcwcJ" id="6DuqmNvzKny" role="2OqNvi">
+                  <ref role="2dcwcH" to="uyeg:c_HYpdEeaC" resolve="einheit" />
+                </node>
+              </node>
+              <node concept="liA8E" id="6DuqmNvzMs7" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:38DqI$$HDoH" resolve="setOptional" />
+                <node concept="3clFbT" id="6DuqmNvzMtC" role="37wK5m">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>
@@ -4997,7 +5221,7 @@
               <node concept="1Wc70l" id="6HrJs_lMNgU" role="33vP2m">
                 <node concept="2veflS" id="6HrJs_lMNgV" role="3uHU7w">
                   <node concept="2vefiz" id="6HrJs_lMNgW" role="2vefj5">
-                    <ref role="2vefiw" to="uyeg:1SEqE6yBNIn" resolve="Prozent" />
+                    <ref role="2vefiw" to="uyeg:1SEqE6yBNRc" resolve="Menge" />
                   </node>
                   <node concept="2OqwBi" id="6HrJs_lMNgX" role="2vefmd">
                     <node concept="3urNR4" id="6HrJs_lMNgY" role="2Oq$k0">
@@ -5139,7 +5363,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="6HrJs_lMNhH" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:38DqI$$HF2J" resolve="setEnabled" />
+                <ref role="37wK5l" to="28jr:38DqI$$HDoH" resolve="setOptional" />
                 <node concept="3clFbT" id="6HrJs_lMNhI" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>

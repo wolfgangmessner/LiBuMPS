@@ -15454,7 +15454,7 @@
       </node>
     </node>
     <node concept="1o6$dd" id="6L7N33QeHo" role="jymVt">
-      <property role="TrG5h" value="KonditinonenWarengruppeNK" />
+      <property role="TrG5h" value="KonditionenWarengruppeNK" />
       <ref role="1o6$9c" node="6L7N33QeH2" resolve="Konditionwarengruppe" />
       <node concept="12nEzJ" id="6L7N33QeHA" role="3caO6$">
         <ref role="12nL8z" node="6L7N33QeHp" resolve="konditionId" />
