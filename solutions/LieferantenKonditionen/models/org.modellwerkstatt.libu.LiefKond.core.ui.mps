@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="9evg" ref="r:a6c257f9-fc96-4114-be61-ce15e0320374(org.modellwerkstatt.libu.LiefKond.vereinbarung.ui)" />
+    <import index="752l" ref="r:bc1aa817-c898-4c87-9387-605f3f16a2a2(org.modellwerkstatt.libu.LiefKond.core.test)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
@@ -121,6 +122,7 @@
       <concept id="7784207101901652180" name="org.modellwerkstatt.dataux.structure.AppUiModule" flags="ng" index="2MVcZ9">
         <child id="2781909770750563212" name="tiles" index="2$nsuY" />
         <child id="7784207101902499646" name="authFunction" index="2MZU0z" />
+        <child id="7784207101904780268" name="extrasMenu" index="2N77jL" />
         <child id="7784207101904780260" name="mainMenu" index="2N77jT" />
       </concept>
       <concept id="7784207101902368101" name="org.modellwerkstatt.dataux.structure.AppAuthenticationFunction" flags="ig" index="2MWq9S" />
@@ -142,6 +144,9 @@
   <node concept="2MVcZ9" id="c_HYpdEwWz">
     <property role="TrG5h" value="LibuApp" />
     <ref role="2WPtWl" node="3xvuS$eSydi" resolve="ConfigFx8" />
+    <node concept="33WYYh" id="64Z6K0hVCie" role="2N77jL">
+      <ref role="2_Hrw8" to="752l:64Z6K0hVxbx" resolve="TestUi" />
+    </node>
     <node concept="33WYYh" id="6L7N34hs4t" role="2N77jT">
       <ref role="2_Hrw8" to="9evg:c_HYpdFTKG" resolve="Vereinbarungen suchen" />
     </node>

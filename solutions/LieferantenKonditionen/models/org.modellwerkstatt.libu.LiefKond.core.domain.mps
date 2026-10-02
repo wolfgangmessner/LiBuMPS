@@ -263,6 +263,15 @@
         </node>
       </node>
     </node>
+    <node concept="il5_x" id="5VOHcF3Tzhq" role="2kzhMJ">
+      <property role="TrG5h" value="Aktualisieren" />
+      <node concept="2kzhL4" id="5VOHcF3Tzhr" role="2kzgdm">
+        <property role="il5CD" value="7MWNCzXNDQp/SCAN_UPDATE" />
+        <node concept="Xl_RD" id="5VOHcF3Tzhs" role="il5_5">
+          <property role="Xl_RC" value="Aktualisieren" />
+        </node>
+      </node>
+    </node>
     <node concept="il5_x" id="1SEqE6z0rPe" role="2kzhMJ">
       <property role="TrG5h" value="LieferantNachschlagen" />
       <node concept="2kzhL4" id="1SEqE6z0rPf" role="2kzgdm">
@@ -305,10 +314,42 @@
       </node>
     </node>
     <node concept="il5_x" id="1SEqE6z4jXd" role="2kzhMJ">
-      <property role="TrG5h" value="EngueltigLoeschen" />
+      <property role="TrG5h" value="EntgueltigLoeschen" />
       <node concept="2kzhL4" id="1SEqE6z4jXe" role="2kzgdm">
         <node concept="Xl_RD" id="1SEqE6z4jXf" role="il5_5">
           <property role="Xl_RC" value="Entgültig löschen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="5VOHcF41wn9" role="2kzhMJ">
+      <property role="TrG5h" value="TrotzdemUebernehmen" />
+      <node concept="2kzhL4" id="5VOHcF41wna" role="2kzgdm">
+        <node concept="Xl_RD" id="5VOHcF41wnb" role="il5_5">
+          <property role="Xl_RC" value="Trotzdem übernehmen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="5VOHcF41wrZ" role="2kzhMJ">
+      <property role="TrG5h" value="Zurueck" />
+      <node concept="2kzhL4" id="5VOHcF41ws0" role="2kzgdm">
+        <node concept="Xl_RD" id="5VOHcF41ws1" role="il5_5">
+          <property role="Xl_RC" value="Zurück" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="5VOHcF41Av5" role="2kzhMJ">
+      <property role="TrG5h" value="Weiter" />
+      <node concept="2kzhL4" id="5VOHcF41Av6" role="2kzgdm">
+        <node concept="Xl_RD" id="5VOHcF41Av7" role="il5_5">
+          <property role="Xl_RC" value="Weiter" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="5VOHcF41OrQ" role="2kzhMJ">
+      <property role="TrG5h" value="Loeschen" />
+      <node concept="2kzhL4" id="5VOHcF41OrR" role="2kzgdm">
+        <node concept="Xl_RD" id="5VOHcF41OrS" role="il5_5">
+          <property role="Xl_RC" value="Löschen" />
         </node>
       </node>
     </node>
