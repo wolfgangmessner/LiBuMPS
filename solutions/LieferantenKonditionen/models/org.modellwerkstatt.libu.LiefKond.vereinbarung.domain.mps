@@ -342,6 +342,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -405,6 +406,7 @@
   </registry>
   <node concept="12nvSr" id="c_HYpdEe0M">
     <property role="TrG5h" value="VereinbarungPD" />
+    <property role="3GE5qa" value="Vereinbarung" />
     <node concept="12nEzA" id="c_HYpdEe1c" role="12nEwW">
       <property role="TrG5h" value="MapVereinbarung" />
       <ref role="12nOxz" node="c_HYpdEe0N" resolve="Vereinbarung" />
@@ -602,6 +604,7 @@
   </node>
   <node concept="34Athd" id="c_HYpdEe0N">
     <property role="TrG5h" value="Vereinbarung" />
+    <property role="3GE5qa" value="Vereinbarung" />
     <node concept="3Tm1VV" id="c_HYpdEe0P" role="1B3o_S" />
     <node concept="3clFbW" id="c_HYpdEe0Q" role="jymVt">
       <node concept="3cqZAl" id="c_HYpdEe0R" role="3clF45" />
@@ -1316,6 +1319,7 @@
   </node>
   <node concept="34Athd" id="c_HYpdEe8J">
     <property role="TrG5h" value="Kondition" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="2XvgOf" id="1SEqE6yBNIm" role="2XvChp">
       <property role="TrG5h" value="Berechnungsart" />
       <node concept="2XvgOc" id="1SEqE6yBNIn" role="2XvgO2">
@@ -2536,6 +2540,7 @@
   </node>
   <node concept="DXQ2w" id="c_HYpdEeiQ">
     <property role="TrG5h" value="VereinbarungR" />
+    <property role="3GE5qa" value="Vereinbarung" />
     <node concept="DXQ2B" id="c_HYpdEeHd" role="jymVt">
       <property role="2a4t7v" value="3PtsrckEx4n/CHECKOUT" />
       <property role="TrG5h" value="checkoutVereinbarung" />
@@ -2801,6 +2806,7 @@
   </node>
   <node concept="DXQ2w" id="c_HYpdEfWD">
     <property role="TrG5h" value="VereinbarungenQ" />
+    <property role="3GE5qa" value="Vereinbarung" />
     <node concept="DXQ2B" id="c_HYpdEfXp" role="jymVt">
       <property role="TrG5h" value="passendeVereinbarungen" />
       <node concept="37vLTG" id="c_HYpdEgiQ" role="3clF46">
@@ -3817,6 +3823,7 @@
   </node>
   <node concept="1YeyE5" id="c_HYpdFVTy">
     <property role="TrG5h" value="VereinbarungInfo" />
+    <property role="3GE5qa" value="Vereinbarung" />
     <node concept="3Tm1VV" id="c_HYpdFVT$" role="1B3o_S" />
     <node concept="3clFbW" id="c_HYpdFVT_" role="jymVt">
       <node concept="3cqZAl" id="c_HYpdFVTA" role="3clF45" />
@@ -4049,6 +4056,7 @@
   </node>
   <node concept="DXQ2w" id="c_HYpdHtZD">
     <property role="TrG5h" value="KonditionenSuchenQ" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="DXQ2B" id="c_HYpdHNqP" role="jymVt">
       <property role="TrG5h" value="passendeKonditionen" />
       <node concept="37vLTG" id="c_HYpdHNI$" role="3clF46">
@@ -6778,6 +6786,7 @@
   </node>
   <node concept="1YeyE5" id="c_HYpdHuWw">
     <property role="TrG5h" value="KonditionInfo" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="3Tm1VV" id="c_HYpdHuWy" role="1B3o_S" />
     <node concept="3clFbW" id="c_HYpdHuWz" role="jymVt">
       <node concept="3cqZAl" id="c_HYpdHuW$" role="3clF45" />
@@ -7135,6 +7144,7 @@
   </node>
   <node concept="DXQ2w" id="c_HYpdHv59">
     <property role="TrG5h" value="GueltigeKonditionenQ" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="3Tm1VV" id="c_HYpdHv5a" role="1B3o_S" />
     <node concept="1o6$dd" id="c_HYpdHvhP" role="jymVt">
       <property role="TrG5h" value="GueltigekonditionInfoNK" />
@@ -11164,6 +11174,7 @@
   </node>
   <node concept="1YeyE5" id="c_HYpdHvhv">
     <property role="TrG5h" value="GueltigeKonditionInfo" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="3Tm1VV" id="c_HYpdHvhx" role="1B3o_S" />
     <node concept="3clFbW" id="c_HYpdHvhy" role="jymVt">
       <node concept="3cqZAl" id="c_HYpdHvhz" role="3clF45" />
@@ -11589,6 +11600,7 @@
   </node>
   <node concept="xR6oC" id="1SEqE6yBNXA">
     <property role="TrG5h" value="Zeitraum" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="3clFbW" id="1SEqE6yBOSr" role="jymVt">
       <node concept="3cqZAl" id="1SEqE6yBOSs" role="3clF45" />
       <node concept="3Tm1VV" id="1SEqE6yBOSt" role="1B3o_S" />
@@ -11999,6 +12011,7 @@
   </node>
   <node concept="xR6oC" id="1SEqE6yCUCM">
     <property role="TrG5h" value="Warengruppenbezug" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="3clFbW" id="1SEqE6yCUJe" role="jymVt">
       <node concept="3cqZAl" id="1SEqE6yCUJf" role="3clF45" />
       <node concept="3Tm1VV" id="1SEqE6yCUJg" role="1B3o_S" />
@@ -12315,6 +12328,7 @@
   </node>
   <node concept="2EH5hC" id="1SEqE6yDVpa">
     <property role="TrG5h" value="KonditionsuebersichtS" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="2vDG_T" id="1SEqE6yDVEk" role="jymVt">
       <property role="TrG5h" value="warengruppenbezug" />
       <node concept="37vLTG" id="1SEqE6yDVQD" role="3clF46">
@@ -12814,6 +12828,7 @@
   </node>
   <node concept="DXQ2w" id="1SEqE6yPRIT">
     <property role="TrG5h" value="KonditionenQ" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="DXQ2B" id="1SEqE6yQ7Tu" role="jymVt">
       <property role="TrG5h" value="istInBewertungVerwendet" />
       <node concept="10P_77" id="1SEqE6yQ7W3" role="3clF45" />
@@ -15490,6 +15505,7 @@
   </node>
   <node concept="1YeyE5" id="1SEqE6yPRKl">
     <property role="TrG5h" value="KonditionFakt" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="3Tm1VV" id="1SEqE6yPRKn" role="1B3o_S" />
     <node concept="3clFbW" id="1SEqE6yPRKo" role="jymVt">
       <node concept="3cqZAl" id="1SEqE6yPRKp" role="3clF45" />
@@ -15709,6 +15725,7 @@
   </node>
   <node concept="2EH5hC" id="1SEqE6yRRqt">
     <property role="TrG5h" value="KonditionS" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="3Tm1VV" id="1SEqE6yRRqu" role="1B3o_S" />
     <node concept="20vkWO" id="1SEqE6yRRse" role="1qkbco">
       <node concept="1PaTwC" id="1SEqE6yRRsf" role="13z7HO">
@@ -17811,6 +17828,7 @@
   </node>
   <node concept="2EH5hC" id="1SEqE6z0igB">
     <property role="TrG5h" value="VereinbarungS" />
+    <property role="3GE5qa" value="Vereinbarung" />
     <node concept="2vDG_T" id="1SEqE6z0ijE" role="jymVt">
       <property role="TrG5h" value="pruefeVereinbarung" />
       <node concept="37vLTG" id="1SEqE6z0imY" role="3clF46">
@@ -18598,6 +18616,7 @@
   </node>
   <node concept="2EH5hC" id="1SEqE6z0iMR">
     <property role="TrG5h" value="KonditionAnzeigeS" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="2vDG_T" id="1SEqE6z0iUb" role="jymVt">
       <property role="TrG5h" value="ergaenzeAnzeige" />
       <node concept="37vLTG" id="1SEqE6z0iWL" role="3clF46">
@@ -19023,6 +19042,7 @@
   </node>
   <node concept="1YeyE5" id="6L7N33QeH2">
     <property role="TrG5h" value="KonditionWarengruppe" />
+    <property role="3GE5qa" value="Kondition" />
     <node concept="3Tm1VV" id="6L7N33QeH4" role="1B3o_S" />
     <node concept="3clFbW" id="6L7N33QeH5" role="jymVt">
       <node concept="3cqZAl" id="6L7N33QeH6" role="3clF45" />

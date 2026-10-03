@@ -8,6 +8,7 @@
     <import index="9evg" ref="r:a6c257f9-fc96-4114-be61-ce15e0320374(org.modellwerkstatt.libu.LiefKond.vereinbarung.ui)" />
     <import index="752l" ref="r:bc1aa817-c898-4c87-9387-605f3f16a2a2(org.modellwerkstatt.libu.LiefKond.test.basics)" />
     <import index="sjr1" ref="r:048192bd-873a-4ddf-9861-7a2b22ab0ab4(org.modellwerkstatt.libu.LiefKond.test.wabu)" />
+    <import index="h0p1" ref="r:46ddb3ce-809a-4f3b-a08a-26aa6b0e9c9a(org.modellwerkstatt.libu.LiefKond.belegartregel.ui)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
@@ -164,12 +165,46 @@
     <node concept="33WYYh" id="6L7N34hs4y" role="2N77jT">
       <ref role="2_Hrw8" to="9evg:1SEqE6yBMdC" resolve="GueltigeKonditionenEinsehen" />
     </node>
+    <node concept="1U2rok" id="6DuqmNw0KTP" role="2N77jT" />
+    <node concept="33WYYh" id="6DuqmNw0LiK" role="2N77jT">
+      <ref role="2_Hrw8" to="h0p1:6DuqmNw0L9B" resolve="Belegart-Regeln suchen" />
+    </node>
+    <node concept="33WYYh" id="6DuqmNw0L2q" role="2N77jT">
+      <ref role="2_Hrw8" to="h0p1:6DuqmNw0JgU" resolve="Belegart-Regel anlegen" />
+    </node>
     <node concept="2$ntO6" id="6L7N34eCEk" role="2$nsuY">
       <node concept="33WYYh" id="6L7N34eCEl" role="2$ntUL">
         <ref role="2_Hrw8" to="9evg:c_HYpdFTKG" resolve="Vereinbarungen suchen" />
       </node>
       <node concept="Xl_RD" id="6L7N34eCJ8" role="2$ntWM">
         <property role="Xl_RC" value="Vereinbarungen" />
+      </node>
+    </node>
+    <node concept="2$ntO6" id="6DuqmNw0Lm6" role="2$nsuY">
+      <node concept="33WYYh" id="6DuqmNw0Lm7" role="2$ntUL">
+        <ref role="2_Hrw8" to="9evg:c_HYpdGUqk" resolve="Konditionen suchen" />
+        <node concept="3cmrfG" id="6DuqmNw0LDB" role="2_HrWp">
+          <property role="3cmrfH" value="0" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="6DuqmNw0LsE" role="2$ntWM">
+        <property role="Xl_RC" value="Konditionen" />
+      </node>
+    </node>
+    <node concept="2$ntO6" id="6DuqmNw0LEV" role="2$nsuY">
+      <node concept="33WYYh" id="6DuqmNw0LEW" role="2$ntUL">
+        <ref role="2_Hrw8" to="9evg:1SEqE6yBMdC" resolve="Gültige Konditionen einsehen" />
+      </node>
+      <node concept="Xl_RD" id="6DuqmNw0LKJ" role="2$ntWM">
+        <property role="Xl_RC" value="Gültige Konditionen" />
+      </node>
+    </node>
+    <node concept="2$ntO6" id="6DuqmNw0M5$" role="2$nsuY">
+      <node concept="33WYYh" id="6DuqmNw0M5_" role="2$ntUL">
+        <ref role="2_Hrw8" to="h0p1:6DuqmNw0L9B" resolve="Belegart-Regeln suchen" />
+      </node>
+      <node concept="Xl_RD" id="6DuqmNw0MaC" role="2$ntWM">
+        <property role="Xl_RC" value="Belegart-Regeln" />
       </node>
     </node>
     <node concept="2$ntO6" id="6DuqmNvDeou" role="2$nsuY">

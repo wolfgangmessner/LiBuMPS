@@ -364,6 +364,7 @@
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="Vereinbarungen suchen" />
     <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
+    <property role="3GE5qa" value="VereinbarungenSuchen" />
     <node concept="3ugp7q" id="c_HYpdG2bB" role="3ug97V">
       <property role="TrG5h" value="Suche" />
       <ref role="3gcvY6" node="c_HYpdFU2K" resolve="VereinbarungSuche" />
@@ -537,7 +538,7 @@
   </node>
   <node concept="1YeyE5" id="c_HYpdFU2K">
     <property role="TrG5h" value="VereinbarungSuche" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="VereinbarungenSuchen" />
     <node concept="3Tm1VV" id="c_HYpdFU2M" role="1B3o_S" />
     <node concept="3clFbW" id="c_HYpdFU2N" role="jymVt">
       <node concept="3cqZAl" id="c_HYpdFU2O" role="3clF45" />
@@ -651,7 +652,7 @@
   <node concept="2mKXYI" id="c_HYpdG7md">
     <property role="TrG5h" value="VereinbarungenSuchenPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="VereinbarungenSuchen" />
     <ref role="1Tjo7l" node="c_HYpdFU2K" resolve="VereinbarungSuche" />
     <node concept="2U5qGN" id="c_HYpdG7Cf" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -789,6 +790,7 @@
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="Vereinbarung öffnen" />
     <property role="19I623" value="6Rdz00$tuDr/GRAPH_OWNER_CMD" />
+    <property role="3GE5qa" value="VereinabrungOeffnen" />
     <node concept="3ugp7q" id="1SEqE6z0zxJ" role="3ug97V">
       <property role="TrG5h" value="Vereinbarung" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
@@ -934,6 +936,7 @@
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="Vereinbarung löschen" />
     <property role="19I623" value="701$ZaZsahE/GRAPH_OWNER_CMD_MODAL" />
+    <property role="3GE5qa" value="VereinbarungLoeschen" />
     <node concept="2ticAD" id="64Z6K0hROGi" role="2ticAe">
       <node concept="1G1AcV" id="64Z6K0hROHr" role="2TIb5R">
         <ref role="3ymtqE" to="hg40:c_HYpdFOT0" resolve="KategorieManagement" />
@@ -1031,7 +1034,7 @@
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="Konditionen suchen" />
     <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="KonditionenSuchen" />
     <node concept="3ugp7q" id="c_HYpdHCM1" role="3ug97V">
       <property role="TrG5h" value="Suche" />
       <ref role="3gcvY6" node="c_HYpdHtlm" resolve="KonditionSuche" />
@@ -1248,6 +1251,7 @@
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="Vereinbarung anlegen" />
     <property role="19I623" value="701$ZaZsahE/GRAPH_OWNER_CMD_MODAL" />
+    <property role="3GE5qa" value="VereinbarungAnlegen" />
     <node concept="3ugp7q" id="1SEqE6z0mdl" role="3ug97V">
       <property role="TrG5h" value="Erfassen" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
@@ -1499,7 +1503,7 @@
   </node>
   <node concept="1YeyE5" id="c_HYpdHtlm">
     <property role="TrG5h" value="KonditionSuche" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="KonditionenSuchen" />
     <node concept="1bOX9e" id="c_HYpdHtw5" role="TxmiU">
       <property role="2RkwnN" value="vereinbarungId" />
       <node concept="3Tm1VV" id="c_HYpdHtwb" role="1B3o_S" />
@@ -1612,7 +1616,7 @@
   <node concept="2mKXYI" id="c_HYpdHZd8">
     <property role="TrG5h" value="KonditionSuchenPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="KonditionenSuchen" />
     <ref role="1Tjo7l" node="c_HYpdHtlm" resolve="KonditionSuche" />
     <node concept="2U5qGN" id="c_HYpdHZdb" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -1748,6 +1752,7 @@
     <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <property role="TrG5h" value="Gültige Konditionen einsehen" />
     <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
+    <property role="3GE5qa" value="GueltigeKonditionenEinsehen" />
     <node concept="2ticAD" id="1SEqE6yJNAM" role="2ticAe">
       <node concept="1G1AcV" id="1SEqE6yJNHN" role="2TIb5R">
         <ref role="3ymtqE" to="hg40:c_HYpdFOT0" resolve="KategorieManagement" />
@@ -2392,7 +2397,7 @@
   </node>
   <node concept="1YeyE5" id="1SEqE6yBMmk">
     <property role="TrG5h" value="KonditionsuebersichtSuche" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="GueltigeKonditionenEinsehen" />
     <node concept="1bOX9e" id="1SEqE6yBMpH" role="TxmiU">
       <property role="2RkwnN" value="lieferantNr" />
       <node concept="3Tm1VV" id="1SEqE6yBMpN" role="1B3o_S" />
@@ -2603,7 +2608,7 @@
   <node concept="2mKXYI" id="1SEqE6yDKC3">
     <property role="TrG5h" value="KonditionsuebersichtPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="GueltigeKonditionenEinsehen" />
     <ref role="1Tjo7l" node="1SEqE6yBMmk" resolve="KonditionsuebersichtSuche" />
     <node concept="2U5qGN" id="1SEqE6yDKC6" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -2777,7 +2782,7 @@
   <node concept="2mKXYI" id="1SEqE6z0mlf">
     <property role="TrG5h" value="VereinbarungErfassenPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="VereinbarungAnlegen" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
     <node concept="2U5qGO" id="1SEqE6z0mli" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -2826,7 +2831,7 @@
   <node concept="2mKXYI" id="1SEqE6z0$Ou">
     <property role="TrG5h" value="VereinbarungPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="UI" />
+    <property role="3GE5qa" value="VereinabrungOeffnen" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
     <node concept="fOGPe" id="1SEqE6z0_3I" role="fOGQ8">
       <node concept="33WYYh" id="1SEqE6z0_I_" role="fOGQ8">
@@ -3034,6 +3039,7 @@
   <node concept="3ugp7m" id="1SEqE6z0_56">
     <property role="1ptSWV" value="R_Y55k$Btz/OVERWRITE_FORCED" />
     <property role="TrG5h" value="Beschreibung ändern" />
+    <property role="3GE5qa" value="VereinabrungOeffnen" />
     <node concept="3ugp7q" id="1SEqE6z0_eB" role="3ug97V">
       <property role="TrG5h" value="Beschreibung" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
@@ -3083,7 +3089,7 @@
   <node concept="2mKXYI" id="1SEqE6z0_yG">
     <property role="TrG5h" value="BeschreibungAendernPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="VereinabrungOeffnen" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
     <node concept="2U5qGO" id="1SEqE6z0_yJ" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -3104,6 +3110,7 @@
   <node concept="3ugp7m" id="1SEqE6z0_KA">
     <property role="1ptSWV" value="R_Y55k$Btz/OVERWRITE_FORCED" />
     <property role="TrG5h" value="Gültigkeit ändern" />
+    <property role="3GE5qa" value="VereinabrungOeffnen" />
     <node concept="3ugp7q" id="1SEqE6z0_KB" role="3ug97V">
       <property role="TrG5h" value="Gueltigkeit" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
@@ -3175,7 +3182,7 @@
   <node concept="2mKXYI" id="1SEqE6z0AHl">
     <property role="TrG5h" value="GueltigkeitAendernPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="VereinabrungOeffnen" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
     <node concept="2U5qGO" id="1SEqE6z0AHm" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -3196,6 +3203,7 @@
   <node concept="3ugp7m" id="1SEqE6z0Be6">
     <property role="1ptSWV" value="R_Y55k$Btz/OVERWRITE_FORCED" />
     <property role="TrG5h" value="Lieferant korrigieren" />
+    <property role="3GE5qa" value="VereinabrungOeffnen" />
     <node concept="3ugp7q" id="1SEqE6z0Be7" role="3ug97V">
       <property role="TrG5h" value="Lieferant" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
@@ -3319,7 +3327,7 @@
   <node concept="2mKXYI" id="1SEqE6z0CRy">
     <property role="TrG5h" value="LieferantKorrigierenPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="VereinabrungOeffnen" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
     <node concept="2U5qGO" id="1SEqE6z0CRz" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -3342,7 +3350,7 @@
   <node concept="2mKXYI" id="1SEqE6z4k_W">
     <property role="TrG5h" value="VereinbarungLoeschenPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="depr" />
+    <property role="3GE5qa" value="VereinbarungLoeschen" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
     <node concept="2U5qGO" id="1SEqE6z4k_Z" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -3381,125 +3389,9 @@
       <node concept="PoU6y" id="1SEqE6z4kMs" role="PoUSn" />
     </node>
   </node>
-  <node concept="2mKXYI" id="1SEqE6z4m3_">
-    <property role="TrG5h" value="KonditionPP" />
-    <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="depr" />
-    <ref role="1Tjo7l" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
-    <node concept="2U5qGO" id="1SEqE6z4m3C" role="21u2x1">
-      <property role="TrG5h" value="#" />
-      <ref role="1Tjo7l" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
-      <node concept="2U5nhG" id="1SEqE6z4m3E" role="2TFpq_" />
-      <node concept="3Oe2Ik" id="1SEqE6z4m4j" role="3OfFNq">
-        <node concept="3O0p8O" id="6L7N348rkP" role="3Oe2NS">
-          <node concept="2THnN3" id="6L7N348rlu" role="3O0p8V">
-            <ref role="2THnOx" to="uyeg:1SEqE6z0qA$" resolve="lieferantName" />
-          </node>
-          <node concept="3Oe$u_" id="1SEqE6z4m4k" role="3O0p8X">
-            <ref role="3O0p26" to="uyeg:6L7N33MMLf" resolve="vereinbarung" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Oe2Ik" id="1SEqE6z4m4f" role="3OfFNq">
-        <node concept="3O0p8O" id="6L7N348rmZ" role="3Oe2NS">
-          <node concept="2THnN3" id="6L7N348rnE" role="3O0p8V">
-            <ref role="2THnOx" to="uyeg:c_HYpdEe1X" resolve="bezeichnung" />
-          </node>
-          <node concept="3Oe$u_" id="1SEqE6z4m4g" role="3O0p8X">
-            <ref role="3O0p26" to="uyeg:6L7N33MMLf" resolve="vereinbarung" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Oe2Ik" id="1SEqE6z4m3N" role="3OfFNq">
-        <node concept="3Oe$u_" id="1SEqE6z4m3O" role="3Oe2NS">
-          <ref role="3O0p26" to="uyeg:c_HYpdEe9E" resolve="bezeichnung" />
-        </node>
-      </node>
-      <node concept="2TG9WX" id="1SEqE6z4m3P" role="3OfFNq">
-        <node concept="3Oe$u_" id="1SEqE6z4m3Q" role="3Oe2NS">
-          <ref role="3O0p26" to="uyeg:c_HYpdEe9T" resolve="berechnungsart" />
-        </node>
-      </node>
-      <node concept="3Oe2In" id="1SEqE6z4m3R" role="3OfFNq">
-        <node concept="3Oe$u_" id="1SEqE6z4m3S" role="3Oe2NS">
-          <ref role="3O0p26" to="uyeg:c_HYpdEea8" resolve="satzProzent" />
-        </node>
-      </node>
-      <node concept="3Oe2In" id="1SEqE6z4m3T" role="3OfFNq">
-        <node concept="3Oe$u_" id="1SEqE6z4m3U" role="3Oe2NS">
-          <ref role="3O0p26" to="uyeg:c_HYpdEeao" resolve="betragJeEinheit" />
-        </node>
-      </node>
-      <node concept="3Oe2Ik" id="1SEqE6z4m3V" role="3OfFNq">
-        <node concept="3Oe$u_" id="1SEqE6z4m3W" role="3Oe2NS">
-          <ref role="3O0p26" to="uyeg:c_HYpdEeaC" resolve="einheit" />
-        </node>
-      </node>
-      <node concept="2TG9WX" id="1SEqE6z4m3X" role="3OfFNq">
-        <node concept="3Oe$u_" id="1SEqE6z4m3Y" role="3Oe2NS">
-          <ref role="3O0p26" to="uyeg:c_HYpdEeaR" resolve="zyklus" />
-        </node>
-      </node>
-      <node concept="3Oe2Ik" id="1SEqE6z4m4l" role="3OfFNq">
-        <node concept="3Oe$u_" id="1SEqE6z4m4m" role="3Oe2NS">
-          <ref role="3O0p26" to="uyeg:1SEqE6yD6_i" resolve="warengruppeName" />
-        </node>
-      </node>
-      <node concept="2TG9WU" id="1SEqE6z4m43" role="3OfFNq">
-        <node concept="3Oe$u_" id="1SEqE6z4m44" role="3Oe2NS">
-          <ref role="3O0p26" to="uyeg:c_HYpdEeb$" resolve="gueltigVon" />
-        </node>
-      </node>
-      <node concept="2TG9WU" id="1SEqE6z4m45" role="3OfFNq">
-        <node concept="3Oe$u_" id="1SEqE6z4m46" role="3Oe2NS">
-          <ref role="3O0p26" to="uyeg:c_HYpdEebN" resolve="gueltigBis" />
-        </node>
-      </node>
-      <node concept="2TG9WT" id="1SEqE6z4m47" role="3OfFNq">
-        <node concept="3O0p8O" id="1SEqE6z86il" role="3Oe2NS">
-          <node concept="2THnN3" id="1SEqE6z86jc" role="3O0p8V">
-            <ref role="2THnOx" to="hg40:c_HYpdEec2" resolve="erstelltUm" />
-          </node>
-          <node concept="3Oe$u_" id="1SEqE6z4m48" role="3O0p8X">
-            <ref role="3O0p26" to="uyeg:1SEqE6z7i13" resolve="audit" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Oe2Ik" id="1SEqE6z4m49" role="3OfFNq">
-        <node concept="3O0p8O" id="1SEqE6z86kT" role="3Oe2NS">
-          <node concept="2THnN3" id="1SEqE6z86lK" role="3O0p8V">
-            <ref role="2THnOx" to="hg40:c_HYpdEech" resolve="erstelltVon" />
-          </node>
-          <node concept="3Oe$u_" id="1SEqE6z4m4a" role="3O0p8X">
-            <ref role="3O0p26" to="uyeg:1SEqE6z7i13" resolve="audit" />
-          </node>
-        </node>
-      </node>
-      <node concept="2TG9WT" id="1SEqE6z4m4b" role="3OfFNq">
-        <node concept="3O0p8O" id="1SEqE6z86nj" role="3Oe2NS">
-          <node concept="2THnN3" id="1SEqE6z86oa" role="3O0p8V">
-            <ref role="2THnOx" to="hg40:c_HYpdEecw" resolve="geaendertUm" />
-          </node>
-          <node concept="3Oe$u_" id="1SEqE6z4m4c" role="3O0p8X">
-            <ref role="3O0p26" to="uyeg:1SEqE6z7i13" resolve="audit" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Oe2Ik" id="1SEqE6z4m4d" role="3OfFNq">
-        <node concept="3O0p8O" id="1SEqE6z86qT" role="3Oe2NS">
-          <node concept="2THnN3" id="1SEqE6z86rK" role="3O0p8V">
-            <ref role="2THnOx" to="hg40:c_HYpdEecJ" resolve="geaendertVon" />
-          </node>
-          <node concept="3Oe$u_" id="1SEqE6z4m4e" role="3O0p8X">
-            <ref role="3O0p26" to="uyeg:1SEqE6z7i13" resolve="audit" />
-          </node>
-        </node>
-      </node>
-      <node concept="PoU6y" id="1SEqE6z4mZX" role="PoUSn" />
-    </node>
-  </node>
   <node concept="3ugp7m" id="64Z6K0hRPax">
     <property role="TrG5h" value="Kondition anlegen" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <node concept="3ugp7q" id="5VOHcF3TxBR" role="3ug97V">
       <property role="TrG5h" value="Erfassen" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
@@ -4003,6 +3895,7 @@
   <node concept="3ugp7m" id="64Z6K0hRPkH">
     <property role="1ptSWV" value="R_Y55k$Btz/OVERWRITE_FORCED" />
     <property role="TrG5h" value="Konditionsbezeichnung ändern" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <node concept="3ugp7q" id="5VOHcF41jZn" role="3ug97V">
       <property role="TrG5h" value="Bezeichnung" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
@@ -4057,6 +3950,7 @@
   <node concept="3ugp7m" id="64Z6K0hRPv7">
     <property role="1ptSWV" value="R_Y55k$Btz/OVERWRITE_FORCED" />
     <property role="TrG5h" value="Berechnung ändern" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <node concept="3ugp7q" id="5VOHcF41kMi" role="3ug97V">
       <property role="TrG5h" value="Berechnung" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
@@ -4502,6 +4396,7 @@
   <node concept="3ugp7m" id="64Z6K0hRPxt">
     <property role="1ptSWV" value="R_Y55k$Btz/OVERWRITE_FORCED" />
     <property role="TrG5h" value="Konditionsgültigkeit ändern" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <node concept="3ugp7q" id="5VOHcF41nQj" role="3ug97V">
       <property role="TrG5h" value="Gueltigkeit" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
@@ -4807,6 +4702,7 @@
   <node concept="3ugp7m" id="64Z6K0hRP$v">
     <property role="1ptSWV" value="R_Y55k$Btz/OVERWRITE_FORCED" />
     <property role="TrG5h" value="Nachfolgekondition anlegen" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <node concept="3ugp7q" id="5VOHcF41_DG" role="3ug97V">
       <property role="TrG5h" value="Stichtag" />
       <ref role="3gcvY6" node="5VOHcF41wCG" resolve="NachfolgeEingabe" />
@@ -5596,6 +5492,7 @@
   <node concept="3ugp7m" id="64Z6K0hRPFp">
     <property role="1ptSWV" value="R_Y55k$Btz/OVERWRITE_FORCED" />
     <property role="TrG5h" value="Kondition löschen" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <node concept="3ugp7q" id="5VOHcF41NTi" role="3ug97V">
       <property role="TrG5h" value="Bestaeigen" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
@@ -5681,7 +5578,7 @@
   <node concept="2mKXYI" id="5VOHcF3TznS">
     <property role="TrG5h" value="KonditionErfassenPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="UI" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
     <node concept="2U5qGN" id="5VOHcF3WLhy" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -5790,7 +5687,7 @@
   <node concept="2mKXYI" id="5VOHcF41k57">
     <property role="TrG5h" value="KonditionsbezeichnungAendernPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="UI" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
     <node concept="2U5qGO" id="5VOHcF41k5a" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -5806,7 +5703,7 @@
   <node concept="2mKXYI" id="5VOHcF41nXw">
     <property role="TrG5h" value="KonditionsgueltigkeitAendernPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="UI" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
     <node concept="2U5qGO" id="5VOHcF41nXz" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -5827,6 +5724,7 @@
   </node>
   <node concept="1YeyE5" id="5VOHcF41sg3">
     <property role="TrG5h" value="GueltigkeitHinweis" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <node concept="3Tm1VV" id="5VOHcF41sg5" role="1B3o_S" />
     <node concept="3clFbW" id="5VOHcF41sg6" role="jymVt">
       <node concept="3cqZAl" id="5VOHcF41sg7" role="3clF45" />
@@ -5855,7 +5753,7 @@
   <node concept="2mKXYI" id="5VOHcF41w4W">
     <property role="TrG5h" value="GueltigkeitBestaetigenPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="UI" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <ref role="1Tjo7l" node="5VOHcF41sg3" resolve="GueltigkeitHinweis" />
     <node concept="2U5qGO" id="5VOHcF41w4Z" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -5874,6 +5772,7 @@
   </node>
   <node concept="1YeyE5" id="5VOHcF41wCG">
     <property role="TrG5h" value="NachfolgeEingabe" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <node concept="3Tm1VV" id="5VOHcF41wCI" role="1B3o_S" />
     <node concept="3clFbW" id="5VOHcF41wCJ" role="jymVt">
       <node concept="3cqZAl" id="5VOHcF41wCK" role="3clF45" />
@@ -5935,7 +5834,7 @@
   <node concept="2mKXYI" id="5VOHcF41_Re">
     <property role="TrG5h" value="NachfolgeStichtagPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="UI" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <ref role="1Tjo7l" node="5VOHcF41wCG" resolve="NachfolgeEingabe" />
     <node concept="2U5qGO" id="5VOHcF41_Rh" role="21u2x1">
       <property role="TrG5h" value="#" />
@@ -5957,7 +5856,7 @@
   <node concept="2mKXYI" id="5VOHcF41O9U">
     <property role="TrG5h" value="KonditionLoeschenPP" />
     <property role="1Nb$_v" value="true" />
-    <property role="3GE5qa" value="UI" />
+    <property role="3GE5qa" value="KonditionBearbeiten" />
     <ref role="1Tjo7l" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
     <node concept="2U5qGO" id="5VOHcF41O9X" role="21u2x1">
       <property role="TrG5h" value="#" />
