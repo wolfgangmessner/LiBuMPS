@@ -742,7 +742,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw2QjL" role="1PaTwD">
-                      <property role="3oM_SC" value="bonusbewertung" />
+                      <property role="3oM_SC" value="positionsbewertung" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw2QjM" role="1PaTwD">
                       <property role="3oM_SC" value="bw" />
@@ -880,7 +880,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw2QkM" role="1PaTwD">
-                      <property role="3oM_SC" value="bonusbewertung" />
+                      <property role="3oM_SC" value="positionsbewertung" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw2QkN" role="1PaTwD">
                       <property role="3oM_SC" value="" />
@@ -3325,7 +3325,7 @@
                     <property role="3oM_SC" value="" />
                   </node>
                   <node concept="3oM_SD" id="6DuqmNw7Tbs" role="1PaTwD">
-                    <property role="3oM_SC" value="bonusbewertung" />
+                    <property role="3oM_SC" value="positionsbewertung" />
                   </node>
                   <node concept="3oM_SD" id="6DuqmNw7Tbt" role="1PaTwD">
                     <property role="3oM_SC" value="" />
@@ -3393,7 +3393,7 @@
                     <property role="3oM_SC" value="" />
                   </node>
                   <node concept="3oM_SD" id="6DuqmNw7TbN" role="1PaTwD">
-                    <property role="3oM_SC" value="konditionsbuchung" />
+                    <property role="3oM_SC" value="konditionsbetrag" />
                   </node>
                   <node concept="3oM_SD" id="6DuqmNw7TbO" role="1PaTwD">
                     <property role="3oM_SC" value="kb" />
@@ -3402,7 +3402,7 @@
                     <property role="3oM_SC" value="ON" />
                   </node>
                   <node concept="3oM_SD" id="6DuqmNw7TbQ" role="1PaTwD">
-                    <property role="3oM_SC" value="kb.bonusbewertung_id" />
+                    <property role="3oM_SC" value="kb.positionsbewertung_id" />
                   </node>
                   <node concept="3oM_SD" id="6DuqmNw7TbR" role="1PaTwD">
                     <property role="3oM_SC" value="=" />
@@ -4611,7 +4611,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw7U5r" role="1PaTwD">
-                      <property role="3oM_SC" value="bonusbewertung" />
+                      <property role="3oM_SC" value="positionsbewertung" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw7U5s" role="1PaTwD">
                       <property role="3oM_SC" value="" />
@@ -4679,7 +4679,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw7U5M" role="1PaTwD">
-                      <property role="3oM_SC" value="konditionsbuchung" />
+                      <property role="3oM_SC" value="konditionsbetrag" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw7U5N" role="1PaTwD">
                       <property role="3oM_SC" value="kb" />
@@ -4688,7 +4688,7 @@
                       <property role="3oM_SC" value="ON" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw7U5P" role="1PaTwD">
-                      <property role="3oM_SC" value="kb.bonusbewertung_id" />
+                      <property role="3oM_SC" value="kb.positionsbewertung_id" />
                     </node>
                     <node concept="3oM_SD" id="6DuqmNw7U5Q" role="1PaTwD">
                       <property role="3oM_SC" value="=" />
@@ -6007,7 +6007,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoNp" role="1PaTwD">
-                      <property role="3oM_SC" value="bonusbewertung" />
+                      <property role="3oM_SC" value="positionsbewertung" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoNq" role="1PaTwD">
                       <property role="3oM_SC" value="" />
@@ -6075,7 +6075,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoNK" role="1PaTwD">
-                      <property role="3oM_SC" value="konditionsbuchung" />
+                      <property role="3oM_SC" value="konditionsbetrag" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoNL" role="1PaTwD">
                       <property role="3oM_SC" value="kb" />
@@ -6084,7 +6084,7 @@
                       <property role="3oM_SC" value="ON" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoNN" role="1PaTwD">
-                      <property role="3oM_SC" value="kb.bonusbewertung_id" />
+                      <property role="3oM_SC" value="kb.positionsbewertung_id" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoNO" role="1PaTwD">
                       <property role="3oM_SC" value="=" />
@@ -6255,7 +6255,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoOH" role="1PaTwD">
-                      <property role="3oM_SC" value="bonusbewertung" />
+                      <property role="3oM_SC" value="positionsbewertung" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoOI" role="1PaTwD">
                       <property role="3oM_SC" value="" />
@@ -6323,7 +6323,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoP4" role="1PaTwD">
-                      <property role="3oM_SC" value="konditionsbuchung" />
+                      <property role="3oM_SC" value="konditionsbetrag" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoP5" role="1PaTwD">
                       <property role="3oM_SC" value="kb" />
@@ -6332,7 +6332,7 @@
                       <property role="3oM_SC" value="ON" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoP7" role="1PaTwD">
-                      <property role="3oM_SC" value="kb.bonusbewertung_id" />
+                      <property role="3oM_SC" value="kb.positionsbewertung_id" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSoP8" role="1PaTwD">
                       <property role="3oM_SC" value="=" />
@@ -7316,7 +7316,7 @@
                       <property role="3oM_SC" value="," />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSsEy" role="1PaTwD">
-                      <property role="3oM_SC" value="bw.bonus_summe" />
+                      <property role="3oM_SC" value="bw.betrag_summe" />
                     </node>
                   </node>
                   <node concept="1PaTwC" id="5E0k43hSsEz" role="3QOC2y">
@@ -7416,7 +7416,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSsF4" role="1PaTwD">
-                      <property role="3oM_SC" value="konditionsbuchung" />
+                      <property role="3oM_SC" value="konditionsbetrag" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSsF5" role="1PaTwD">
                       <property role="3oM_SC" value="kb" />
@@ -7472,7 +7472,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSsFn" role="1PaTwD">
-                      <property role="3oM_SC" value="kb.bonusbewertung_id" />
+                      <property role="3oM_SC" value="kb.positionsbewertung_id" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSsFo" role="1PaTwD">
                       <property role="3oM_SC" value="=" />
@@ -7481,7 +7481,7 @@
                       <property role="3oM_SC" value="bw.id)" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSsFq" role="1PaTwD">
-                      <property role="3oM_SC" value="anzahl_buchungen" />
+                      <property role="3oM_SC" value="anzahl_betraege" />
                     </node>
                   </node>
                   <node concept="1PaTwC" id="5E0k43hSsFr" role="3QOC2y">
@@ -7548,7 +7548,7 @@
                       <property role="3oM_SC" value="" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSsFL" role="1PaTwD">
-                      <property role="3oM_SC" value="bonusbewertung" />
+                      <property role="3oM_SC" value="positionsbewertung" />
                     </node>
                     <node concept="3oM_SD" id="5E0k43hSsFM" role="1PaTwD">
                       <property role="3oM_SC" value="bw" />
@@ -7777,7 +7777,7 @@
       </node>
     </node>
     <node concept="DXQ2B" id="5E0k43hSlg0" role="jymVt">
-      <property role="TrG5h" value="konditionsbuchungenZu" />
+      <property role="TrG5h" value="konditionsbetraegeZu" />
       <node concept="37vLTG" id="5E0k43hSlDf" role="3clF46">
         <property role="TrG5h" value="belegId" />
         <node concept="17QB3L" id="5E0k43hSlH2" role="1tU5fm" />
@@ -7959,7 +7959,7 @@
                     <property role="3oM_SC" value="" />
                   </node>
                   <node concept="3oM_SD" id="5E0k43hSmRC" role="1PaTwD">
-                    <property role="3oM_SC" value="bonusbewertung_id" />
+                    <property role="3oM_SC" value="positionsbewertung_id" />
                   </node>
                 </node>
                 <node concept="1PaTwC" id="5E0k43hSmRD" role="3QOC2y">
@@ -8645,7 +8645,7 @@
                     <property role="3oM_SC" value="" />
                   </node>
                   <node concept="3oM_SD" id="5E0k43hSmVh" role="1PaTwD">
-                    <property role="3oM_SC" value="bonusbewertung" />
+                    <property role="3oM_SC" value="positionsbewertung" />
                   </node>
                   <node concept="3oM_SD" id="5E0k43hSmVi" role="1PaTwD">
                     <property role="3oM_SC" value="" />
@@ -8701,7 +8701,7 @@
                     <property role="3oM_SC" value="" />
                   </node>
                   <node concept="3oM_SD" id="5E0k43hSmV$" role="1PaTwD">
-                    <property role="3oM_SC" value="konditionsbuchung" />
+                    <property role="3oM_SC" value="konditionsbetrag" />
                   </node>
                   <node concept="3oM_SD" id="5E0k43hSmV_" role="1PaTwD">
                     <property role="3oM_SC" value="kb" />
@@ -8710,7 +8710,7 @@
                     <property role="3oM_SC" value="ON" />
                   </node>
                   <node concept="3oM_SD" id="5E0k43hSmVB" role="1PaTwD">
-                    <property role="3oM_SC" value="kb.bonusbewertung_id" />
+                    <property role="3oM_SC" value="kb.positionsbewertung_id" />
                   </node>
                   <node concept="3oM_SD" id="5E0k43hSmVC" role="1PaTwD">
                     <property role="3oM_SC" value="=" />
@@ -8936,7 +8936,7 @@
       </node>
     </node>
     <node concept="1o6$dd" id="5E0k43hSlMT" role="jymVt">
-      <property role="TrG5h" value="KonditionsbuchungInfoNK" />
+      <property role="TrG5h" value="KonditionsBetragInfoNK" />
       <ref role="1o6$9c" node="5E0k43hSlMz" resolve="Konditionsbuchunginfo" />
       <node concept="12nEzJ" id="5E0k43hSlN7" role="3caO6$">
         <ref role="12nL8z" node="5E0k43hSlMU" resolve="id" />
@@ -8947,7 +8947,7 @@
       <node concept="12nEzJ" id="5E0k43hSlNm" role="3caO6$">
         <ref role="12nL8z" node="5E0k43hSlN9" resolve="bonusbewertungId" />
         <node concept="Xl_RD" id="5E0k43hSlNn" role="12k7lF">
-          <property role="Xl_RC" value="BONUSBEWERTUNG_ID" />
+          <property role="Xl_RC" value="POSITIONSBEWERTUNG_ID" />
         </node>
       </node>
       <node concept="12nEzJ" id="5E0k43hSlN_" role="3caO6$">
@@ -9088,7 +9088,7 @@
       </node>
     </node>
     <node concept="1o6$dd" id="5E0k43hSs3C" role="jymVt">
-      <property role="TrG5h" value="BonusbewertungInfoNK" />
+      <property role="TrG5h" value="PositionsbewertungInfoNK" />
       <ref role="1o6$9c" node="5E0k43hSs3i" resolve="Bonusbewertunginfo" />
       <node concept="12nEzJ" id="5E0k43hSs3Q" role="3caO6$">
         <ref role="12nL8z" node="5E0k43hSs3D" resolve="id" />
@@ -9147,13 +9147,13 @@
       <node concept="12nEzJ" id="5E0k43hSs60" role="3caO6$">
         <ref role="12nL8z" node="5E0k43hSs5M" resolve="bonusSumme" />
         <node concept="Xl_RD" id="5E0k43hSs61" role="12k7lF">
-          <property role="Xl_RC" value="BONUS_SUMME" />
+          <property role="Xl_RC" value="BETRAG_SUMME" />
         </node>
       </node>
       <node concept="12nEzJ" id="5E0k43hSs6f" role="3caO6$">
         <ref role="12nL8z" node="5E0k43hSs62" resolve="anzahlBuchungen" />
         <node concept="Xl_RD" id="5E0k43hSs6g" role="12k7lF">
-          <property role="Xl_RC" value="ANZAHL_BUCHUNGEN" />
+          <property role="Xl_RC" value="ANZAHL_BETRAEGE" />
         </node>
       </node>
     </node>
@@ -10471,7 +10471,7 @@
     </node>
   </node>
   <node concept="1YeyE5" id="5E0k43hSlMz">
-    <property role="TrG5h" value="KonditionsbuchungInfo" />
+    <property role="TrG5h" value="KonditionsBetrag" />
     <node concept="3Tm1VV" id="5E0k43hSlM_" role="1B3o_S" />
     <node concept="3clFbW" id="5E0k43hSlMA" role="jymVt">
       <node concept="3cqZAl" id="5E0k43hSlMB" role="3clF45" />
@@ -10488,22 +10488,22 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSlN6" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyTf" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUya2" role="2CNmdP">
         <property role="Xl_RC" value="Id" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTg" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUya4" role="2CNmdL">
         <property role="Xl_RC" value="Id" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyTh" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyTi" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyTk" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUya6" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyaa" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyac" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
       </node>
     </node>
     <node concept="1bOX9e" id="5E0k43hSlN9" role="TxmiU">
-      <property role="2RkwnN" value="bonusbewertungId" />
+      <property role="2RkwnN" value="positionsbewertungId" />
       <node concept="3Tm1VV" id="5E0k43hSlNf" role="1B3o_S" />
       <node concept="2RoN1w" id="5E0k43hSlNg" role="2RnVtd">
         <node concept="3wEZqW" id="5E0k43hSlNh" role="3wFrgM" />
@@ -10512,15 +10512,15 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSlNl" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyTl" role="2CNmdP">
-        <property role="Xl_RC" value="BonusbewertungId" />
+      <node concept="Xl_RD" id="1pSXirUyad" role="2CNmdP">
+        <property role="Xl_RC" value="PositionsbewertungId" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTm" role="2CNmdL">
-        <property role="Xl_RC" value="BonusbewertungId" />
+      <node concept="Xl_RD" id="1pSXirUyaf" role="2CNmdL">
+        <property role="Xl_RC" value="PositionsbewertungId" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyTn" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyTo" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyTq" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyah" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyal" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyan" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10536,15 +10536,15 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSlN$" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyTr" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyao" role="2CNmdP">
         <property role="Xl_RC" value="Vereinbarung" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTs" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyaq" role="2CNmdL">
         <property role="Xl_RC" value="Vereinbarung" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyTt" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyTu" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyTw" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyas" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyaw" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyay" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10560,15 +10560,15 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSlNN" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyTx" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyaz" role="2CNmdP">
         <property role="Xl_RC" value="Kondition" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTy" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUya_" role="2CNmdL">
         <property role="Xl_RC" value="Kondition" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyTz" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyT$" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyTA" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyaB" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyaF" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyaH" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10584,15 +10584,15 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSlO2" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyTB" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyaI" role="2CNmdP">
         <property role="Xl_RC" value="Berechnungsart" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTC" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyaK" role="2CNmdL">
         <property role="Xl_RC" value="Berechnungsart" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyTD" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyTE" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyTG" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyaM" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyaQ" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyaS" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10614,15 +10614,15 @@
         <property role="jyRC9" value="4" />
         <property role="jyRC8" value="13" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTH" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyaT" role="2CNmdP">
         <property role="Xl_RC" value="Satz" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTI" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyaV" role="2CNmdL">
         <property role="Xl_RC" value="Satz" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyTJ" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyTK" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyTM" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyaX" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyb1" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyb3" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10638,15 +10638,15 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSlOx" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyTN" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyb4" role="2CNmdP">
         <property role="Xl_RC" value="Zyklus" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTO" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyb6" role="2CNmdL">
         <property role="Xl_RC" value="Zyklus" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyTP" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyTQ" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyTS" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyb8" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUybc" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUybe" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10668,15 +10668,15 @@
         <property role="jyRC9" value="4" />
         <property role="jyRC8" value="13" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTT" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUybf" role="2CNmdP">
         <property role="Xl_RC" value="Bemessungsgrundlage" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTU" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUybh" role="2CNmdL">
         <property role="Xl_RC" value="Bemessungsgrundlage" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyTV" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyTW" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyTY" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUybj" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUybn" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUybp" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10698,15 +10698,15 @@
         <property role="jyRC9" value="4" />
         <property role="jyRC8" value="13" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyTZ" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUybq" role="2CNmdP">
         <property role="Xl_RC" value="BetragUngerundet" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyU0" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUybs" role="2CNmdL">
         <property role="Xl_RC" value="BetragUngerundet" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyU1" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyU2" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyU4" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUybu" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyby" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyb$" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10728,15 +10728,15 @@
         <property role="jyRC9" value="2" />
         <property role="jyRC8" value="13" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyU5" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyb_" role="2CNmdP">
         <property role="Xl_RC" value="Betrag" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyU6" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUybB" role="2CNmdL">
         <property role="Xl_RC" value="Betrag" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyU7" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyU8" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyUa" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUybD" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUybH" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUybJ" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10754,15 +10754,15 @@
       <node concept="3uibUv" id="5E0k43hSlPw" role="2RkE6I">
         <ref role="3uigEE" to="w08f:~DateTime" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyUb" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUybK" role="2CNmdP">
         <property role="Xl_RC" value="PeriodeVon" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyUc" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUybM" role="2CNmdL">
         <property role="Xl_RC" value="PeriodeVon" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyUd" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyUe" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyUg" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUybO" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUybS" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUybU" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10780,15 +10780,15 @@
       <node concept="3uibUv" id="5E0k43hSlPJ" role="2RkE6I">
         <ref role="3uigEE" to="w08f:~DateTime" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyUh" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUybV" role="2CNmdP">
         <property role="Xl_RC" value="PeriodeBis" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyUi" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUybX" role="2CNmdL">
         <property role="Xl_RC" value="PeriodeBis" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyUj" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyUk" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyUm" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUybZ" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyc3" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyc5" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -10804,15 +10804,15 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSlPY" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyUn" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyc6" role="2CNmdP">
         <property role="Xl_RC" value="ZuabPosId" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyUo" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyc8" role="2CNmdL">
         <property role="Xl_RC" value="ZuabPosId" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyUp" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyUq" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyUs" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyca" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyce" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUycg" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11109,7 +11109,7 @@
     </node>
   </node>
   <node concept="1YeyE5" id="5E0k43hSs3i">
-    <property role="TrG5h" value="BonusbewertungInfo" />
+    <property role="TrG5h" value="PositionsbewertungInfo" />
     <node concept="3Tm1VV" id="5E0k43hSs3k" role="1B3o_S" />
     <node concept="3clFbW" id="5E0k43hSs3l" role="jymVt">
       <node concept="3cqZAl" id="5E0k43hSs3m" role="3clF45" />
@@ -11126,15 +11126,15 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSs3P" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyOY" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyND" role="2CNmdP">
         <property role="Xl_RC" value="Id" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyOZ" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyNF" role="2CNmdL">
         <property role="Xl_RC" value="Id" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyP0" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyP1" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyP3" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyNH" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyNL" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyNN" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11150,15 +11150,15 @@
         </node>
       </node>
       <node concept="10Oyi0" id="5E0k43hSs44" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyP4" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyNO" role="2CNmdP">
         <property role="Xl_RC" value="PosIdx" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyP5" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyNQ" role="2CNmdL">
         <property role="Xl_RC" value="PosIdx" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyP6" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyP7" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyP9" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyNS" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyNW" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyNY" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11174,15 +11174,15 @@
         </node>
       </node>
       <node concept="10Oyi0" id="5E0k43hSs4j" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyPa" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyNZ" role="2CNmdP">
         <property role="Xl_RC" value="ArtikelNr" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPb" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyO1" role="2CNmdL">
         <property role="Xl_RC" value="ArtikelNr" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyPc" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyPd" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyPf" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyO3" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyO7" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyO9" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11198,15 +11198,15 @@
         </node>
       </node>
       <node concept="10Oyi0" id="5E0k43hSs4y" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyPg" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyOa" role="2CNmdP">
         <property role="Xl_RC" value="WgHauptNr" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPh" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyOc" role="2CNmdL">
         <property role="Xl_RC" value="WgHauptNr" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyPi" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyPj" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyPl" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyOe" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyOi" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyOk" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11222,15 +11222,15 @@
         </node>
       </node>
       <node concept="10Oyi0" id="5E0k43hSs4L" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyPm" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyOl" role="2CNmdP">
         <property role="Xl_RC" value="WgUnterNr" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPn" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyOn" role="2CNmdL">
         <property role="Xl_RC" value="WgUnterNr" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyPo" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyPp" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyPr" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyOp" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyOt" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyOv" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11252,15 +11252,15 @@
         <property role="jyRC9" value="4" />
         <property role="jyRC8" value="13" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPs" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyOw" role="2CNmdP">
         <property role="Xl_RC" value="Menge" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPt" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyOy" role="2CNmdL">
         <property role="Xl_RC" value="Menge" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyPu" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyPv" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyPx" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyO$" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyOC" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyOE" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11276,15 +11276,15 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSs5g" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyPy" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyOF" role="2CNmdP">
         <property role="Xl_RC" value="Einheit" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPz" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyOH" role="2CNmdL">
         <property role="Xl_RC" value="Einheit" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyP$" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyP_" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyPB" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyOJ" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyON" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyOP" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11306,15 +11306,15 @@
         <property role="jyRC9" value="4" />
         <property role="jyRC8" value="13" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPC" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyOQ" role="2CNmdP">
         <property role="Xl_RC" value="Warenwert" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPD" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyOS" role="2CNmdL">
         <property role="Xl_RC" value="Warenwert" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyPE" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyPF" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyPH" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyOU" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyOY" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyP0" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11330,22 +11330,22 @@
         </node>
       </node>
       <node concept="17QB3L" id="5E0k43hSs5J" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyPI" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyP1" role="2CNmdP">
         <property role="Xl_RC" value="Ergebnis" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPJ" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyP3" role="2CNmdL">
         <property role="Xl_RC" value="Ergebnis" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyPK" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyPL" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyPN" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyP5" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyP9" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyPb" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
       </node>
     </node>
     <node concept="1bOX9e" id="5E0k43hSs5M" role="TxmiU">
-      <property role="2RkwnN" value="bonusSumme" />
+      <property role="2RkwnN" value="betragSumme" />
       <node concept="3Tm1VV" id="5E0k43hSs5S" role="1B3o_S" />
       <node concept="2RoN1w" id="5E0k43hSs5T" role="2RnVtd">
         <node concept="3wEZqW" id="5E0k43hSs5U" role="3wFrgM" />
@@ -11360,22 +11360,22 @@
         <property role="jyRC9" value="2" />
         <property role="jyRC8" value="13" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPO" role="2CNmdP">
-        <property role="Xl_RC" value="BonusSumme" />
+      <node concept="Xl_RD" id="1pSXirUyPc" role="2CNmdP">
+        <property role="Xl_RC" value="BetragSumme" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPP" role="2CNmdL">
-        <property role="Xl_RC" value="BonusSumme" />
+      <node concept="Xl_RD" id="1pSXirUyPe" role="2CNmdL">
+        <property role="Xl_RC" value="BetragSumme" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyPQ" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyPR" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyPT" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyPg" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyPk" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyPm" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
       </node>
     </node>
     <node concept="1bOX9e" id="5E0k43hSs62" role="TxmiU">
-      <property role="2RkwnN" value="anzahlBuchungen" />
+      <property role="2RkwnN" value="anzahlBetraege" />
       <node concept="3Tm1VV" id="5E0k43hSs68" role="1B3o_S" />
       <node concept="2RoN1w" id="5E0k43hSs69" role="2RnVtd">
         <node concept="3wEZqW" id="5E0k43hSs6a" role="3wFrgM" />
@@ -11384,15 +11384,15 @@
         </node>
       </node>
       <node concept="10Oyi0" id="5E0k43hSs6e" role="2RkE6I" />
-      <node concept="Xl_RD" id="5E0k43hSyPU" role="2CNmdP">
-        <property role="Xl_RC" value="AnzahlBuchungen" />
+      <node concept="Xl_RD" id="1pSXirUyPn" role="2CNmdP">
+        <property role="Xl_RC" value="AnzahlBetraege" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyPV" role="2CNmdL">
-        <property role="Xl_RC" value="AnzahlBuchungen" />
+      <node concept="Xl_RD" id="1pSXirUyPp" role="2CNmdL">
+        <property role="Xl_RC" value="AnzahlBetraege" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyPW" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyPX" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyPZ" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyPr" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyPv" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyPx" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>
@@ -11412,15 +11412,15 @@
           <ref role="3uigEE" node="5E0k43hSlMz" resolve="KonditionsbuchungInfo" />
         </node>
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyQ0" role="2CNmdP">
+      <node concept="Xl_RD" id="1pSXirUyPy" role="2CNmdP">
         <property role="Xl_RC" value="Konditionsbuchungen" />
       </node>
-      <node concept="Xl_RD" id="5E0k43hSyQ1" role="2CNmdL">
+      <node concept="Xl_RD" id="1pSXirUyP$" role="2CNmdL">
         <property role="Xl_RC" value="Konditionsbuchungen" />
       </node>
-      <node concept="20vkWO" id="5E0k43hSyQ2" role="3b_Q0">
-        <node concept="1PaTwC" id="5E0k43hSyQ3" role="13z7HO">
-          <node concept="3oM_SD" id="5E0k43hSyQ5" role="1PaTwD">
+      <node concept="20vkWO" id="1pSXirUyPA" role="3b_Q0">
+        <node concept="1PaTwC" id="1pSXirUyPE" role="13z7HO">
+          <node concept="3oM_SD" id="1pSXirUyPG" role="1PaTwD">
             <property role="3oM_SC" value="" />
           </node>
         </node>

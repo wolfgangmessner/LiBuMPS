@@ -214,14 +214,6 @@
         <property role="Xl_RC" value="Konditionen" />
       </node>
     </node>
-    <node concept="2$ntO6" id="6DuqmNw0LEV" role="2$nsuY">
-      <node concept="33WYYh" id="6DuqmNw0LEW" role="2$ntUL">
-        <ref role="2_Hrw8" to="9evg:1SEqE6yBMdC" resolve="Gültige Konditionen einsehen" />
-      </node>
-      <node concept="Xl_RD" id="6DuqmNw0LKJ" role="2$ntWM">
-        <property role="Xl_RC" value="Gültige Konditionen" />
-      </node>
-    </node>
     <node concept="2$ntO6" id="6DuqmNw0M5$" role="2$nsuY">
       <node concept="33WYYh" id="6DuqmNw0M5_" role="2$ntUL">
         <ref role="2_Hrw8" to="h0p1:6DuqmNw0L9B" resolve="Belegart-Regeln suchen" />
