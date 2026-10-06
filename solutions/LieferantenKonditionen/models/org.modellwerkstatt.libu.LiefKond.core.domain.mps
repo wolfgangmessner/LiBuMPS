@@ -356,6 +356,7 @@
     <node concept="il5_x" id="6DuqmNvzQAF" role="2kzhMJ">
       <property role="TrG5h" value="Suchen" />
       <node concept="2kzhL4" id="6DuqmNvzQAG" role="2kzgdm">
+        <property role="il5CD" value="7MWNCzXNDQp/SCAN_UPDATE" />
         <node concept="Xl_RD" id="6DuqmNvzQAH" role="il5_5">
           <property role="Xl_RC" value="Suchen" />
         </node>
