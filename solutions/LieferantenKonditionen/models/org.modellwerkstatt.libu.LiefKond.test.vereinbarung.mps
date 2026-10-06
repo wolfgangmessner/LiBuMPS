@@ -2136,7 +2136,7 @@
             <node concept="17QB3L" id="7x330000710" role="1tU5fm" />
             <node concept="35AVbj" id="7x330000711" role="33vP2m">
               <node concept="ic4WF" id="7x330000712" role="icr7_">
-                <property role="ic4Xk" value="UC-003 Test %dt" />
+                <property role="ic4Xk" value="UC-003 Hauptszenario %dt" />
               </node>
               <node concept="1$4sJe" id="7x330000713" role="35Gt3$">
                 <property role="1$4sGS" value="0" />
@@ -2408,7 +2408,7 @@
             <node concept="17QB3L" id="7x330000819" role="1tU5fm" />
             <node concept="35AVbj" id="7x330000820" role="33vP2m">
               <node concept="ic4WF" id="7x330000821" role="icr7_">
-                <property role="ic4Xk" value="UC-003 Test %dt" />
+                <property role="ic4Xk" value="UC-003 A4 teilweise %dt" />
               </node>
               <node concept="1$4sJe" id="7x330000822" role="35Gt3$">
                 <property role="1$4sGS" value="0" />
@@ -2665,7 +2665,7 @@
             <node concept="17QB3L" id="7x330000919" role="1tU5fm" />
             <node concept="35AVbj" id="7x330000920" role="33vP2m">
               <node concept="ic4WF" id="7x330000921" role="icr7_">
-                <property role="ic4Xk" value="UC-003 Test %dt" />
+                <property role="ic4Xk" value="UC-003 A4 Ausschluss im Sortiment %dt" />
               </node>
               <node concept="1$4sJe" id="7x330000922" role="35Gt3$">
                 <property role="1$4sGS" value="0" />
@@ -2881,7 +2881,7 @@
             <node concept="17QB3L" id="7x330001003" role="1tU5fm" />
             <node concept="35AVbj" id="7x330001004" role="33vP2m">
               <node concept="ic4WF" id="7x330001005" role="icr7_">
-                <property role="ic4Xk" value="UC-003 Test %dt" />
+                <property role="ic4Xk" value="UC-003 A8 Ausschlussregel %dt" />
               </node>
               <node concept="1$4sJe" id="7x330001006" role="35Gt3$">
                 <property role="1$4sGS" value="0" />
@@ -3324,7 +3324,7 @@
             <node concept="17QB3L" id="7x330001170" role="1tU5fm" />
             <node concept="35AVbj" id="7x330001171" role="33vP2m">
               <node concept="ic4WF" id="7x330001172" role="icr7_">
-                <property role="ic4Xk" value="UC-003 Test %dt" />
+                <property role="ic4Xk" value="UC-003 Ablauf %dt" />
               </node>
               <node concept="1$4sJe" id="7x330001173" role="35Gt3$">
                 <property role="1$4sGS" value="0" />
