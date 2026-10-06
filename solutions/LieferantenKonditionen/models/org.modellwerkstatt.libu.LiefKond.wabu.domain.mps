@@ -129,6 +129,10 @@
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.DTO" flags="ig" index="1YeyE5" />
     </language>
     <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" name="org.modellwerkstatt.manmap">
+      <concept id="8915366638470223859" name="org.modellwerkstatt.manmap.structure.InOperation" flags="ng" index="2zQQ_b">
+        <child id="8915366638470223860" name="operand" index="2zQQ_c" />
+        <child id="8915366638470223861" name="targetList" index="2zQQ_d" />
+      </concept>
       <concept id="774207833082839987" name="org.modellwerkstatt.manmap.structure.SortByQuery" flags="ng" index="jxcDv">
         <child id="774207833082840017" name="toComparable" index="jxcCX" />
       </concept>
@@ -201,10 +205,6 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
-      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
-        <child id="540871147943773366" name="argument" index="25WWJ7" />
-      </concept>
-      <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
@@ -513,15 +513,13 @@
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="7wab000000b" resolve="MapHauptwarengruppe" />
             <node concept="jxyYR" id="7wab000001O" role="jxX7b">
-              <node concept="2OqwBi" id="7wab000001N" role="jxyYK">
-                <node concept="37vLTw" id="7wab000001K" role="2Oq$k0">
+              <node concept="2zQQ_b" id="7wab000001N" role="jxyYK">
+                <node concept="37vLTw" id="7wab000001K" role="2zQQ_d">
                   <ref role="3cqZAo" node="7wab000001E" resolve="wgHauptNummern" />
                 </node>
-                <node concept="3JPx81" id="7wab000001M" role="2OqNvi">
-                  <node concept="3_7ulE" id="7wab000001L" role="25WWJ7">
-                    <ref role="3_688M" node="7wab000001F" />
-                    <ref role="2OG787" node="7wab000000c" />
-                  </node>
+                <node concept="3_7ulE" id="7wab000001L" role="2zQQ_c">
+                  <ref role="3_688M" node="7wab000001F" />
+                  <ref role="2OG787" node="7wab000000c" />
                 </node>
               </node>
             </node>
@@ -549,15 +547,13 @@
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="7wab000000e" resolve="MapUnterwarengruppe" />
             <node concept="jxyYR" id="7wab0000021" role="jxX7b">
-              <node concept="2OqwBi" id="7wab0000020" role="jxyYK">
-                <node concept="37vLTw" id="7wab000001Z" role="2Oq$k0">
+              <node concept="2zQQ_b" id="7wab0000020" role="jxyYK">
+                <node concept="37vLTw" id="7wab000001Z" role="2zQQ_d">
                   <ref role="3cqZAo" node="7wab000001T" resolve="wgUnterNummern" />
                 </node>
-                <node concept="3JPx81" id="7wab000001_" role="2OqNvi">
-                  <node concept="3_7ulE" id="7wab000001$" role="25WWJ7">
-                    <ref role="3_688M" node="7wab000001U" />
-                    <ref role="2OG787" node="7wab000000f" />
-                  </node>
+                <node concept="3_7ulE" id="7wab000001$" role="2zQQ_c">
+                  <ref role="3_688M" node="7wab000001U" />
+                  <ref role="2OG787" node="7wab000000f" />
                 </node>
               </node>
             </node>
@@ -696,15 +692,13 @@
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="7wab000000i" resolve="MapArtikel" />
             <node concept="jxyYR" id="7wab000002Y" role="jxX7b">
-              <node concept="2OqwBi" id="7wab000002X" role="jxyYK">
-                <node concept="37vLTw" id="7wab000002U" role="2Oq$k0">
+              <node concept="2zQQ_b" id="7wab000002X" role="jxyYK">
+                <node concept="37vLTw" id="7wab000002U" role="2zQQ_d">
                   <ref role="3cqZAo" node="7wab000002O" resolve="artikelNummern" />
                 </node>
-                <node concept="3JPx81" id="7wab000002W" role="2OqNvi">
-                  <node concept="3_7ulE" id="7wab000002V" role="25WWJ7">
-                    <ref role="3_688M" node="7wab000002P" />
-                    <ref role="2OG787" node="7wab000000j" />
-                  </node>
+                <node concept="3_7ulE" id="7wab000002V" role="2zQQ_c">
+                  <ref role="3_688M" node="7wab000002P" />
+                  <ref role="2OG787" node="7wab000000j" />
                 </node>
               </node>
             </node>
