@@ -1277,7 +1277,7 @@
               <node concept="3cpWsn" id="1SEqE6z0pNQ" role="3cpWs9">
                 <property role="TrG5h" value="lieferant" />
                 <node concept="3uibUv" id="1SEqE6z0pNR" role="1tU5fm">
-                  <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="LieferantInfo" />
+                  <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="Lieferant" />
                 </node>
                 <node concept="1odsa" id="1SEqE6z0pQ3" role="33vP2m">
                   <ref role="1ods_" to="k2it:1SEqE6yDWUK" resolve="LieferantenQ" />
@@ -3229,7 +3229,7 @@
               <node concept="3cpWsn" id="1SEqE6z0BHx" role="3cpWs9">
                 <property role="TrG5h" value="lieferant" />
                 <node concept="3uibUv" id="1SEqE6z0BHy" role="1tU5fm">
-                  <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="LieferantInfo" />
+                  <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="Lieferant" />
                 </node>
                 <node concept="1odsa" id="1SEqE6z0BJ2" role="33vP2m">
                   <ref role="1ods_" to="k2it:1SEqE6yDWUK" resolve="LieferantenQ" />
@@ -6015,13 +6015,7 @@
                 <ref role="37wK5l" to="28jr:3_EaJyvi4d8" resolve="setScope" />
                 <node concept="1odsa" id="1pSXirp9ua" role="37wK5m">
                   <ref role="1ods_" to="k2it:1SEqE6yDWUK" resolve="LieferantenQ" />
-                  <ref role="37wK5l" to="k2it:1pSXir1B3t" resolve="gueltigeLieferanten" />
-                  <node concept="2XvMaL" id="1pSXirp9FC" role="37wK5m">
-                    <ref role="2XvMaQ" to="hg40:c_HYpdFSt8" resolve="Mandant" />
-                    <node concept="2vefiz" id="1pSXirp9JD" role="h55Ek">
-                      <ref role="2vefiw" to="hg40:c_HYpdFSt9" resolve="ITALIEN" />
-                    </node>
-                  </node>
+                  <ref role="37wK5l" to="k2it:1pSXir1B3t" resolve="alleLieferanten" />
                 </node>
               </node>
             </node>
@@ -6133,7 +6127,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="1pSXir_0aW" role="2RkE6I">
-        <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="LieferantInfo" />
+        <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="Lieferant" />
       </node>
       <node concept="Xl_RD" id="1pSXir4_sr" role="2CNmdP">
         <property role="Xl_RC" value="Lieferant" />
