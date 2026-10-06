@@ -6,11 +6,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="b2950e54-da96-4c3b-868c-2b5e12af9605(org.modellwerkstatt.MoWareWerkbank)" />
   </languages>
-  <imports>
-    <import index="d6qo" ref="r:06597830-36fd-48b8-905c-d3b7fe2f155f(org.modellwerkstatt.libu.LiefKond.test.ui)" />
-    <import index="yrn6" ref="r:791b941e-5d22-40b1-8af0-af623b3367bf(org.modellwerkstatt.libu.LiefKond.test.bewertung)" />
-    <import index="sjr1" ref="r:048192bd-873a-4ddf-9861-7a2b22ab0ab4(org.modellwerkstatt.libu.LiefKond.test.wabu)" />
-  </imports>
+  <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
@@ -582,7 +578,7 @@
     </node>
   </node>
   <node concept="2CG7Z0" id="5E0k43hHz10">
-    <property role="TrG5h" value="ConfigTest" />
+    <property role="TrG5h" value="ConNfigTest" />
     <property role="2320hu" value="2018-08-07T11:43:47.117+02:00" />
     <node concept="2CPvp3" id="5E0k43hHz11" role="2CGBMS" />
     <node concept="2CJoq6" id="5E0k43hHz12" role="2CGBMS">
