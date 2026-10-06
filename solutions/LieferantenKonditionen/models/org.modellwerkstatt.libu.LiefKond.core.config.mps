@@ -736,7 +736,7 @@
         <node concept="2CJ4$C" id="5E0k43hHz1J" role="2CJ4_l">
           <property role="TrG5h" value="AlwaysRollbackSession" />
           <node concept="Xl_RD" id="5E0k43hHz1K" role="2CaGCA">
-            <property role="Xl_RC" value="true" />
+            <property role="Xl_RC" value="false" />
           </node>
         </node>
       </node>
