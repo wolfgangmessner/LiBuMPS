@@ -179,12 +179,6 @@
       <ref role="2_Hrw8" to="9evg:c_HYpdGVJf" resolve="VereinbarungAnlegen" />
     </node>
     <node concept="1U2rok" id="6L7N34hs4v" role="2N77jT" />
-    <node concept="33WYYh" id="6L7N34hs4w" role="2N77jT">
-      <ref role="2_Hrw8" to="9evg:c_HYpdGUqk" resolve="Konditionen suchen" />
-      <node concept="3cmrfG" id="6L7N34hs4x" role="2_HrWp">
-        <property role="3cmrfH" value="0" />
-      </node>
-    </node>
     <node concept="33WYYh" id="6L7N34hs4y" role="2N77jT">
       <ref role="2_Hrw8" to="9evg:1SEqE6yBMdC" resolve="GueltigeKonditionenEinsehen" />
     </node>
@@ -201,17 +195,6 @@
       </node>
       <node concept="Xl_RD" id="6L7N34eCJ8" role="2$ntWM">
         <property role="Xl_RC" value="Vereinbarungen" />
-      </node>
-    </node>
-    <node concept="2$ntO6" id="6DuqmNw0Lm6" role="2$nsuY">
-      <node concept="33WYYh" id="6DuqmNw0Lm7" role="2$ntUL">
-        <ref role="2_Hrw8" to="9evg:c_HYpdGUqk" resolve="Konditionen suchen" />
-        <node concept="3cmrfG" id="6DuqmNw0LDB" role="2_HrWp">
-          <property role="3cmrfH" value="0" />
-        </node>
-      </node>
-      <node concept="Xl_RD" id="6DuqmNw0LsE" role="2$ntWM">
-        <property role="Xl_RC" value="Konditionen" />
       </node>
     </node>
     <node concept="2$ntO6" id="6DuqmNw0M5$" role="2$nsuY">

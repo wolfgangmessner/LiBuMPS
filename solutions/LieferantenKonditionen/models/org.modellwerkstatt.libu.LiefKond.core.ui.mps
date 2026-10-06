@@ -132,12 +132,6 @@
       <ref role="2_Hrw8" to="9evg:c_HYpdGVJf" resolve="VereinbarungAnlegen" />
     </node>
     <node concept="1U2rok" id="6L7N34hs4v" role="2N77jT" />
-    <node concept="33WYYh" id="6L7N34hs4w" role="2N77jT">
-      <ref role="2_Hrw8" to="9evg:c_HYpdGUqk" resolve="Konditionen suchen" />
-      <node concept="3cmrfG" id="6L7N34hs4x" role="2_HrWp">
-        <property role="3cmrfH" value="0" />
-      </node>
-    </node>
     <node concept="33WYYh" id="6L7N34hs4y" role="2N77jT">
       <ref role="2_Hrw8" to="9evg:1SEqE6yBMdC" resolve="GueltigeKonditionenEinsehen" />
     </node>
