@@ -2308,31 +2308,6 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="1SEqE6yO7Oc" role="3cqZAp">
-          <node concept="1PaTwC" id="1SEqE6yO7Od" role="1aUNEU">
-            <node concept="3oM_SD" id="1SEqE6yO7Of" role="1PaTwD">
-              <property role="3oM_SC" value="TODO" />
-            </node>
-            <node concept="3oM_SD" id="1SEqE6yO7Og" role="1PaTwD">
-              <property role="3oM_SC" value="MPS:" />
-            </node>
-            <node concept="3oM_SD" id="1SEqE6yO7Oh" role="1PaTwD">
-              <property role="3oM_SC" value="decimal-Vergleich" />
-            </node>
-            <node concept="3oM_SD" id="1SEqE6yO7Oi" role="1PaTwD">
-              <property role="3oM_SC" value="(compareTo/signum)" />
-            </node>
-            <node concept="3oM_SD" id="1SEqE6yO7Oj" role="1PaTwD">
-              <property role="3oM_SC" value="in" />
-            </node>
-            <node concept="3oM_SD" id="1SEqE6yO7Ok" role="1PaTwD">
-              <property role="3oM_SC" value="ObjectFlow-Schreibweise" />
-            </node>
-            <node concept="3oM_SD" id="1SEqE6yO7Ol" role="1PaTwD">
-              <property role="3oM_SC" value="prüfen." />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="1SEqE6yO9jV" role="3cqZAp">
           <node concept="3clFbS" id="1SEqE6yO9jX" role="3clFbx">
             <node concept="3clFbJ" id="1SEqE6yObpz" role="3cqZAp">
@@ -22346,65 +22321,6 @@
                   <node concept="37vLTw" id="7vdm0000550" role="35Gt3$">
                     <ref role="3cqZAo" node="1SEqE6yRRAE" resolve="verstossBerechnung" />
                   </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="1SEqE6yRRCk" role="3cqZAp">
-              <node concept="1PaTwC" id="1SEqE6yRRCl" role="1aUNEU">
-                <node concept="3oM_SD" id="1SEqE6yRRCn" role="1PaTwD">
-                  <property role="3oM_SC" value="TODO" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCo" role="1PaTwD">
-                  <property role="3oM_SC" value="MPS:" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCp" role="1PaTwD">
-                  <property role="3oM_SC" value="Precondition-Text" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCq" role="1PaTwD">
-                  <property role="3oM_SC" value="aus" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCr" role="1PaTwD">
-                  <property role="3oM_SC" value="Variable" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCs" role="1PaTwD">
-                  <property role="3oM_SC" value="statt" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCt" role="1PaTwD">
-                  <property role="3oM_SC" value="Literal" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCu" role="1PaTwD">
-                  <property role="3oM_SC" value="zulässig?" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCv" role="1PaTwD">
-                  <property role="3oM_SC" value="Sonst" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCw" role="1PaTwD">
-                  <property role="3oM_SC" value="je" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCx" role="1PaTwD">
-                  <property role="3oM_SC" value="Fall" />
-                </node>
-              </node>
-            </node>
-            <node concept="3SKdUt" id="1SEqE6yRRCy" role="3cqZAp">
-              <node concept="1PaTwC" id="1SEqE6yRRCz" role="1aUNEU">
-                <node concept="3oM_SD" id="1SEqE6yRRC_" role="1PaTwD">
-                  <property role="3oM_SC" value="eine" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCA" role="1PaTwD">
-                  <property role="3oM_SC" value="eigene" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCB" role="1PaTwD">
-                  <property role="3oM_SC" value="precondition" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCC" role="1PaTwD">
-                  <property role="3oM_SC" value="mit" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCD" role="1PaTwD">
-                  <property role="3oM_SC" value="festem" />
-                </node>
-                <node concept="3oM_SD" id="1SEqE6yRRCE" role="1PaTwD">
-                  <property role="3oM_SC" value="Text." />
                 </node>
               </node>
             </node>
