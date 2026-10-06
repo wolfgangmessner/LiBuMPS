@@ -1561,6 +1561,56 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="7x730000005" role="3cqZAp">
+          <node concept="1PaTwC" id="7x730000006" role="1aUNEU">
+            <node concept="3oM_SD" id="7x730000007" role="1PaTwD">
+              <property role="3oM_SC" value="Wie" />
+            </node>
+            <node concept="3oM_SD" id="7x730000008" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="7x730000009" role="1PaTwD">
+              <property role="3oM_SC" value="der" />
+            </node>
+            <node concept="3oM_SD" id="7x730000010" role="1PaTwD">
+              <property role="3oM_SC" value="Konditionspflege:" />
+            </node>
+            <node concept="3oM_SD" id="7x730000011" role="1PaTwD">
+              <property role="3oM_SC" value="leert" />
+            </node>
+            <node concept="3oM_SD" id="7x730000012" role="1PaTwD">
+              <property role="3oM_SC" value="betragJeEinheit/einheit" />
+            </node>
+            <node concept="3oM_SD" id="7x730000013" role="1PaTwD">
+              <property role="3oM_SC" value="(Startwert" />
+            </node>
+            <node concept="3oM_SD" id="7x730000014" role="1PaTwD">
+              <property role="3oM_SC" value="0.0)" />
+            </node>
+            <node concept="3oM_SD" id="7x730000015" role="1PaTwD">
+              <property role="3oM_SC" value="für" />
+            </node>
+            <node concept="3oM_SD" id="7x730000016" role="1PaTwD">
+              <property role="3oM_SC" value="PROZENT," />
+            </node>
+            <node concept="3oM_SD" id="7x730000017" role="1PaTwD">
+              <property role="3oM_SC" value="sonst" />
+            </node>
+            <node concept="3oM_SD" id="7x730000018" role="1PaTwD">
+              <property role="3oM_SC" value="ck_kondition_satz." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7x730000001" role="3cqZAp">
+          <node concept="2OqwBi" id="7x730000002" role="3clFbG">
+            <node concept="37vLTw" id="7x730000003" role="2Oq$k0">
+              <ref role="3cqZAo" node="7x330000475" resolve="kondition" />
+            </node>
+            <node concept="liA8E" id="7x730000004" role="2OqNvi">
+              <ref role="37wK5l" to="uyeg:1SEqE6yO4uW" resolve="passeAnBerechnungsartAn" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="7x330000499" role="3cqZAp">
           <node concept="3y3z36" id="7x330000500" role="3clFbw">
             <node concept="37vLTw" id="7x330000501" role="3uHU7B">
