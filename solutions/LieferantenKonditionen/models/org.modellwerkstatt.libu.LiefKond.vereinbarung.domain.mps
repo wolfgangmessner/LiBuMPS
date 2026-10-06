@@ -3094,6 +3094,20 @@
       </node>
       <node concept="3Tm1VV" id="c_HYpdEfXs" role="1B3o_S" />
       <node concept="3clFbS" id="c_HYpdEfXt" role="3clF47">
+        <node concept="3cpWs8" id="7vmd0000023" role="3cqZAp">
+          <node concept="3cpWsn" id="7vmd0000024" role="3cpWs9">
+            <property role="TrG5h" value="mandant" />
+            <node concept="2XvVpB" id="7vmd0000025" role="1tU5fm">
+              <ref role="3$lB4D" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+            </node>
+            <node concept="2XvMaL" id="7vmd0000026" role="33vP2m">
+              <ref role="2XvMaQ" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+              <node concept="2vefiz" id="7vmd0000027" role="h55Ek">
+                <ref role="2vefiw" to="hg40:c_HYpdFSt9" resolve="ITALIEN" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="c_HYpdEfYN" role="3cqZAp">
           <node concept="3QLR3s" id="c_HYpdEfYD" role="3clFbG">
             <node concept="3clFbS" id="c_HYpdEfYE" role="Hy8HI">
@@ -3839,8 +3853,8 @@
                   <node concept="3oM_SD" id="c_HYpdEg6L" role="1PaTwD">
                     <property role="3oM_SC" value="=" />
                   </node>
-                  <node concept="3oM_SD" id="c_HYpdEg6M" role="1PaTwD">
-                    <property role="3oM_SC" value="2" />
+                  <node concept="3DwW_1" id="7vmd0000028" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vmd0000024" resolve="mandant" />
                   </node>
                 </node>
               </node>
@@ -4447,6 +4461,20 @@
       </node>
       <node concept="3Tm1VV" id="1SEqE6yFsFN" role="1B3o_S" />
       <node concept="3clFbS" id="1SEqE6yFsFO" role="3clF47">
+        <node concept="3cpWs8" id="7vmd0000029" role="3cqZAp">
+          <node concept="3cpWsn" id="7vmd0000030" role="3cpWs9">
+            <property role="TrG5h" value="mandant" />
+            <node concept="2XvVpB" id="7vmd0000031" role="1tU5fm">
+              <ref role="3$lB4D" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+            </node>
+            <node concept="2XvMaL" id="7vmd0000032" role="33vP2m">
+              <ref role="2XvMaQ" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+              <node concept="2vefiz" id="7vmd0000033" role="h55Ek">
+                <ref role="2vefiw" to="hg40:c_HYpdFSt9" resolve="ITALIEN" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1SEqE6yFu1g" role="3cqZAp">
           <node concept="3QLR3s" id="1SEqE6yFu16" role="3clFbG">
             <node concept="3clFbS" id="1SEqE6yFu17" role="Hy8HI">
@@ -6711,8 +6739,8 @@
                   <node concept="3oM_SD" id="1SEqE6yFur$" role="1PaTwD">
                     <property role="3oM_SC" value="=" />
                   </node>
-                  <node concept="3oM_SD" id="1SEqE6yFur_" role="1PaTwD">
-                    <property role="3oM_SC" value="2" />
+                  <node concept="3DwW_1" id="7vmd0000034" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vmd0000030" resolve="mandant" />
                   </node>
                 </node>
                 <node concept="1PaTwC" id="1SEqE6yFurA" role="3QOC2y">
@@ -6891,75 +6919,27 @@
                   </node>
                 </node>
               </node>
-              <node concept="1hGRod" id="1SEqE6yFxF0" role="3cqZAp">
-                <node concept="37vLTw" id="7vdm0000055" role="1hGRoe">
-                  <ref role="3cqZAo" node="1SEqE6yFtNP" resolve="zyklus" />
-                </node>
-                <node concept="1hGRo7" id="7vdm0000056" role="1hGRoH">
-                  <node concept="2vefiz" id="7vdm0000057" role="1nDVRH">
-                    <ref role="2vefiw" node="1SEqE6yBNJX" resolve="Jahr" />
+              <node concept="3clFbJ" id="7vmd0000001" role="3cqZAp">
+                <node concept="3y3z36" id="7vmd0000002" role="3clFbw">
+                  <node concept="37vLTw" id="7vmd0000003" role="3uHU7B">
+                    <ref role="3cqZAo" node="1SEqE6yFtNP" resolve="zyklus" />
                   </node>
-                  <node concept="3clFbS" id="7vdm0000058" role="1hGRo0">
-                    <node concept="3QODVd" id="7vdm0000059" role="3cqZAp">
-                      <node concept="1PaTwC" id="7vdm0000060" role="3QOC2y">
-                        <node concept="3oM_SD" id="7vdm0000061" role="1PaTwD">
-                          <property role="3oM_SC" value="AND" />
-                        </node>
-                        <node concept="3oM_SD" id="7vdm0000062" role="1PaTwD">
-                          <property role="3oM_SC" value="k.zyklus" />
-                        </node>
-                        <node concept="3oM_SD" id="7vdm0000063" role="1PaTwD">
-                          <property role="3oM_SC" value="=" />
-                        </node>
-                        <node concept="3oM_SD" id="7vdm0000064" role="1PaTwD">
-                          <property role="3oM_SC" value="'JAHR'" />
-                        </node>
+                  <node concept="10Nm6u" id="7vmd0000004" role="3uHU7w" />
+                </node>
+                <node concept="3clFbS" id="7vmd0000005" role="3clFbx">
+                  <node concept="3QODVd" id="7vmd0000006" role="3cqZAp">
+                    <node concept="1PaTwC" id="7vmd0000007" role="3QOC2y">
+                      <node concept="3oM_SD" id="7vmd0000008" role="1PaTwD">
+                        <property role="3oM_SC" value="AND" />
                       </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="1hGRo7" id="7vdm0000065" role="1hGRoH">
-                  <node concept="2vefiz" id="7vdm0000066" role="1nDVRH">
-                    <ref role="2vefiw" node="1SEqE6yBNTA" resolve="Quartal" />
-                  </node>
-                  <node concept="3clFbS" id="7vdm0000067" role="1hGRo0">
-                    <node concept="3QODVd" id="7vdm0000068" role="3cqZAp">
-                      <node concept="1PaTwC" id="7vdm0000069" role="3QOC2y">
-                        <node concept="3oM_SD" id="7vdm0000070" role="1PaTwD">
-                          <property role="3oM_SC" value="AND" />
-                        </node>
-                        <node concept="3oM_SD" id="7vdm0000071" role="1PaTwD">
-                          <property role="3oM_SC" value="k.zyklus" />
-                        </node>
-                        <node concept="3oM_SD" id="7vdm0000072" role="1PaTwD">
-                          <property role="3oM_SC" value="=" />
-                        </node>
-                        <node concept="3oM_SD" id="7vdm0000073" role="1PaTwD">
-                          <property role="3oM_SC" value="'QUARTAL'" />
-                        </node>
+                      <node concept="3oM_SD" id="7vmd0000009" role="1PaTwD">
+                        <property role="3oM_SC" value="k.zyklus" />
                       </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="1hGRo7" id="7vdm0000074" role="1hGRoH">
-                  <node concept="2vefiz" id="7vdm0000075" role="1nDVRH">
-                    <ref role="2vefiw" node="1SEqE6yBNWi" resolve="Monat" />
-                  </node>
-                  <node concept="3clFbS" id="7vdm0000076" role="1hGRo0">
-                    <node concept="3QODVd" id="7vdm0000077" role="3cqZAp">
-                      <node concept="1PaTwC" id="7vdm0000078" role="3QOC2y">
-                        <node concept="3oM_SD" id="7vdm0000079" role="1PaTwD">
-                          <property role="3oM_SC" value="AND" />
-                        </node>
-                        <node concept="3oM_SD" id="7vdm0000080" role="1PaTwD">
-                          <property role="3oM_SC" value="k.zyklus" />
-                        </node>
-                        <node concept="3oM_SD" id="7vdm0000081" role="1PaTwD">
-                          <property role="3oM_SC" value="=" />
-                        </node>
-                        <node concept="3oM_SD" id="7vdm0000082" role="1PaTwD">
-                          <property role="3oM_SC" value="'MONAT'" />
-                        </node>
+                      <node concept="3oM_SD" id="7vmd0000010" role="1PaTwD">
+                        <property role="3oM_SC" value="=" />
+                      </node>
+                      <node concept="3DwW_1" id="7vmd0000011" role="1PaTwD">
+                        <ref role="3DSHjQ" node="1SEqE6yFtNP" resolve="zyklus" />
                       </node>
                     </node>
                   </node>
@@ -7088,6 +7068,20 @@
       </node>
       <node concept="3Tm1VV" id="1SEqE6yFE7H" role="1B3o_S" />
       <node concept="3clFbS" id="1SEqE6yFE7I" role="3clF47">
+        <node concept="3cpWs8" id="7vmd0000035" role="3cqZAp">
+          <node concept="3cpWsn" id="7vmd0000036" role="3cpWs9">
+            <property role="TrG5h" value="mandant" />
+            <node concept="2XvVpB" id="7vmd0000037" role="1tU5fm">
+              <ref role="3$lB4D" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+            </node>
+            <node concept="2XvMaL" id="7vmd0000038" role="33vP2m">
+              <ref role="2XvMaQ" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+              <node concept="2vefiz" id="7vmd0000039" role="h55Ek">
+                <ref role="2vefiw" to="hg40:c_HYpdFSt9" resolve="ITALIEN" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1SEqE6yFFEw" role="3cqZAp">
           <node concept="2OqwBi" id="1SEqE6yFHYB" role="3clFbG">
             <node concept="3QLR3s" id="1SEqE6yFFEm" role="2Oq$k0">
@@ -8154,8 +8148,8 @@
                     <node concept="3oM_SD" id="7vdm0000443" role="1PaTwD">
                       <property role="3oM_SC" value="=" />
                     </node>
-                    <node concept="3oM_SD" id="7vdm0000444" role="1PaTwD">
-                      <property role="3oM_SC" value="2" />
+                    <node concept="3DwW_1" id="7vmd0000040" role="1PaTwD">
+                      <ref role="3DSHjQ" node="7vmd0000036" resolve="mandant" />
                     </node>
                   </node>
                   <node concept="1PaTwC" id="7vdm0000445" role="3QOC2y">
@@ -8185,75 +8179,27 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1hGRod" id="7vdm0000454" role="3cqZAp">
-                  <node concept="37vLTw" id="7vdm0000455" role="1hGRoe">
-                    <ref role="3cqZAo" node="1SEqE6yFFp8" resolve="zyklus" />
-                  </node>
-                  <node concept="1hGRo7" id="7vdm0000456" role="1hGRoH">
-                    <node concept="2vefiz" id="7vdm0000457" role="1nDVRH">
-                      <ref role="2vefiw" node="1SEqE6yBNJX" resolve="Jahr" />
+                <node concept="3clFbJ" id="7vmd0000012" role="3cqZAp">
+                  <node concept="3y3z36" id="7vmd0000013" role="3clFbw">
+                    <node concept="37vLTw" id="7vmd0000014" role="3uHU7B">
+                      <ref role="3cqZAo" node="1SEqE6yFFp8" resolve="zyklus" />
                     </node>
-                    <node concept="3clFbS" id="7vdm0000458" role="1hGRo0">
-                      <node concept="3QODVd" id="7vdm0000459" role="3cqZAp">
-                        <node concept="1PaTwC" id="7vdm0000460" role="3QOC2y">
-                          <node concept="3oM_SD" id="7vdm0000461" role="1PaTwD">
-                            <property role="3oM_SC" value="AND" />
-                          </node>
-                          <node concept="3oM_SD" id="7vdm0000462" role="1PaTwD">
-                            <property role="3oM_SC" value="k.zyklus" />
-                          </node>
-                          <node concept="3oM_SD" id="7vdm0000463" role="1PaTwD">
-                            <property role="3oM_SC" value="=" />
-                          </node>
-                          <node concept="3oM_SD" id="7vdm0000464" role="1PaTwD">
-                            <property role="3oM_SC" value="'JAHR'" />
-                          </node>
+                    <node concept="10Nm6u" id="7vmd0000015" role="3uHU7w" />
+                  </node>
+                  <node concept="3clFbS" id="7vmd0000016" role="3clFbx">
+                    <node concept="3QODVd" id="7vmd0000017" role="3cqZAp">
+                      <node concept="1PaTwC" id="7vmd0000018" role="3QOC2y">
+                        <node concept="3oM_SD" id="7vmd0000019" role="1PaTwD">
+                          <property role="3oM_SC" value="AND" />
                         </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="1hGRo7" id="7vdm0000465" role="1hGRoH">
-                    <node concept="2vefiz" id="7vdm0000466" role="1nDVRH">
-                      <ref role="2vefiw" node="1SEqE6yBNTA" resolve="Quartal" />
-                    </node>
-                    <node concept="3clFbS" id="7vdm0000467" role="1hGRo0">
-                      <node concept="3QODVd" id="7vdm0000468" role="3cqZAp">
-                        <node concept="1PaTwC" id="7vdm0000469" role="3QOC2y">
-                          <node concept="3oM_SD" id="7vdm0000470" role="1PaTwD">
-                            <property role="3oM_SC" value="AND" />
-                          </node>
-                          <node concept="3oM_SD" id="7vdm0000471" role="1PaTwD">
-                            <property role="3oM_SC" value="k.zyklus" />
-                          </node>
-                          <node concept="3oM_SD" id="7vdm0000472" role="1PaTwD">
-                            <property role="3oM_SC" value="=" />
-                          </node>
-                          <node concept="3oM_SD" id="7vdm0000473" role="1PaTwD">
-                            <property role="3oM_SC" value="'QUARTAL'" />
-                          </node>
+                        <node concept="3oM_SD" id="7vmd0000020" role="1PaTwD">
+                          <property role="3oM_SC" value="k.zyklus" />
                         </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="1hGRo7" id="7vdm0000474" role="1hGRoH">
-                    <node concept="2vefiz" id="7vdm0000475" role="1nDVRH">
-                      <ref role="2vefiw" node="1SEqE6yBNWi" resolve="Monat" />
-                    </node>
-                    <node concept="3clFbS" id="7vdm0000476" role="1hGRo0">
-                      <node concept="3QODVd" id="7vdm0000477" role="3cqZAp">
-                        <node concept="1PaTwC" id="7vdm0000478" role="3QOC2y">
-                          <node concept="3oM_SD" id="7vdm0000479" role="1PaTwD">
-                            <property role="3oM_SC" value="AND" />
-                          </node>
-                          <node concept="3oM_SD" id="7vdm0000480" role="1PaTwD">
-                            <property role="3oM_SC" value="k.zyklus" />
-                          </node>
-                          <node concept="3oM_SD" id="7vdm0000481" role="1PaTwD">
-                            <property role="3oM_SC" value="=" />
-                          </node>
-                          <node concept="3oM_SD" id="7vdm0000482" role="1PaTwD">
-                            <property role="3oM_SC" value="'MONAT'" />
-                          </node>
+                        <node concept="3oM_SD" id="7vmd0000021" role="1PaTwD">
+                          <property role="3oM_SC" value="=" />
+                        </node>
+                        <node concept="3DwW_1" id="7vmd0000022" role="1PaTwD">
+                          <ref role="3DSHjQ" node="1SEqE6yFFp8" resolve="zyklus" />
                         </node>
                       </node>
                     </node>
@@ -10367,6 +10313,20 @@
       </node>
       <node concept="3Tm1VV" id="6L7N33PZuL" role="1B3o_S" />
       <node concept="3clFbS" id="6L7N33PZuM" role="3clF47">
+        <node concept="3cpWs8" id="7vmd0000041" role="3cqZAp">
+          <node concept="3cpWsn" id="7vmd0000042" role="3cpWs9">
+            <property role="TrG5h" value="mandant" />
+            <node concept="2XvVpB" id="7vmd0000043" role="1tU5fm">
+              <ref role="3$lB4D" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+            </node>
+            <node concept="2XvMaL" id="7vmd0000044" role="33vP2m">
+              <ref role="2XvMaQ" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+              <node concept="2vefiz" id="7vmd0000045" role="h55Ek">
+                <ref role="2vefiw" to="hg40:c_HYpdFSt9" resolve="ITALIEN" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="6L7N33Q7HG" role="3cqZAp">
           <node concept="3QLR3s" id="6L7N33Q7Hy" role="3clFbG">
             <node concept="3clFbS" id="6L7N33Q7Hz" role="Hy8HI">
@@ -11002,8 +10962,8 @@
                   <node concept="3oM_SD" id="6L7N33Q8UW" role="1PaTwD">
                     <property role="3oM_SC" value="=" />
                   </node>
-                  <node concept="3oM_SD" id="6L7N33Q8UX" role="1PaTwD">
-                    <property role="3oM_SC" value="2" />
+                  <node concept="3DwW_1" id="7vmd0000046" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vmd0000042" resolve="mandant" />
                   </node>
                 </node>
                 <node concept="1PaTwC" id="6L7N33Q8UY" role="3QOC2y">
@@ -12329,6 +12289,20 @@
       </node>
       <node concept="3Tm1VV" id="1SEqE6yQ9Wd" role="1B3o_S" />
       <node concept="3clFbS" id="1SEqE6yQ9We" role="3clF47">
+        <node concept="3cpWs8" id="7vmd0000047" role="3cqZAp">
+          <node concept="3cpWsn" id="7vmd0000048" role="3cpWs9">
+            <property role="TrG5h" value="mandant" />
+            <node concept="2XvVpB" id="7vmd0000049" role="1tU5fm">
+              <ref role="3$lB4D" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+            </node>
+            <node concept="2XvMaL" id="7vmd0000050" role="33vP2m">
+              <ref role="2XvMaQ" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+              <node concept="2vefiz" id="7vmd0000051" role="h55Ek">
+                <ref role="2vefiw" to="hg40:c_HYpdFSt9" resolve="ITALIEN" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1SEqE6yQaEN" role="3cqZAp">
           <node concept="2OqwBi" id="1SEqE6yQcXo" role="3clFbG">
             <node concept="3QLR3s" id="1SEqE6yQaED" role="2Oq$k0">
@@ -12414,8 +12388,8 @@
                     <node concept="3oM_SD" id="1SEqE6yQFiT" role="1PaTwD">
                       <property role="3oM_SC" value="=" />
                     </node>
-                    <node concept="3oM_SD" id="1SEqE6yQFiU" role="1PaTwD">
-                      <property role="3oM_SC" value="2" />
+                    <node concept="3DwW_1" id="7vmd0000052" role="1PaTwD">
+                      <ref role="3DSHjQ" node="7vmd0000048" resolve="mandant" />
                     </node>
                   </node>
                   <node concept="1PaTwC" id="1SEqE6yQFiV" role="3QOC2y">

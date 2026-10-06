@@ -2219,7 +2219,7 @@
       </node>
     </node>
     <node concept="2YYyHn" id="6DuqmNw7OKg" role="3ap3dX" />
-    <node concept="2ti3YI" id="6DuqmNw7ONh" role="2ticAe">
+    <node concept="2ticAD" id="6DuqmNw7ONh" role="2ticAe">
       <node concept="1G1AcV" id="6DuqmNw7OOn" role="2TIb5R">
         <ref role="3ymtqE" to="hg40:c_HYpdFPv6" resolve="KreditorenManagement" />
       </node>
