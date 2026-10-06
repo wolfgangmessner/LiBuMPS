@@ -14,6 +14,7 @@
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
+    <import index="j9bs" ref="r:bc1aa817-c898-4c87-9387-605f3f16a2a2(org.modellwerkstatt.libu.LiefKond.test.basics)" />
   </imports>
   <registry>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
@@ -154,6 +155,10 @@
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="5196923997523085572" name="org.modellwerkstatt.objectflow.structure.SessionOperationAdd" flags="ng" index="l3yvj">
+        <child id="594565203028725343" name="message" index="3y5pYT" />
+        <child id="3364325080894064531" name="operationCall" index="_4bL5" />
+      </concept>
       <concept id="7919209473516657581" name="org.modellwerkstatt.objectflow.structure.StatusElementReference" flags="ng" index="2vefiz">
         <reference id="7919209473516657582" name="statusElement" index="2vefiw" />
       </concept>
@@ -1800,132 +1805,36 @@
                 </node>
               </node>
             </node>
-            <node concept="3SKdUt" id="7x330000605" role="3cqZAp">
-              <node concept="1PaTwC" id="7x330000606" role="1aUNEU">
-                <node concept="3oM_SD" id="7x330000607" role="1PaTwD">
-                  <property role="3oM_SC" value="TODO" />
-                </node>
-                <node concept="3oM_SD" id="7x330000608" role="1PaTwD">
-                  <property role="3oM_SC" value="MPS:" />
-                </node>
-                <node concept="3oM_SD" id="7x330000609" role="1PaTwD">
-                  <property role="3oM_SC" value="laut" />
-                </node>
-                <node concept="3oM_SD" id="7x330000610" role="1PaTwD">
-                  <property role="3oM_SC" value="moai" />
-                </node>
-                <node concept="3oM_SD" id="7x330000611" role="1PaTwD">
-                  <property role="3oM_SC" value="als" />
-                </node>
-                <node concept="3oM_SD" id="7x330000612" role="1PaTwD">
-                  <property role="3oM_SC" value="„session" />
-                </node>
-                <node concept="3oM_SD" id="7x330000613" role="1PaTwD">
-                  <property role="3oM_SC" value="operation" />
-                </node>
-                <node concept="3oM_SD" id="7x330000614" role="1PaTwD">
-                  <property role="3oM_SC" value="add" />
-                </node>
-                <node concept="3oM_SD" id="7x330000615" role="1PaTwD">
-                  <property role="3oM_SC" value="#" />
-                </node>
-                <node concept="3oM_SD" id="7x330000616" role="1PaTwD">
-                  <property role="3oM_SC" value="SortimentR.checkinSortiment(sortiment)“" />
-                </node>
-                <node concept="3oM_SD" id="7x330000617" role="1PaTwD">
-                  <property role="3oM_SC" value="registrieren." />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7x330000618" role="3cqZAp">
-              <node concept="1odsa" id="7x330000619" role="3clFbG">
+            <node concept="l3yvj" id="7x430000001" role="3cqZAp">
+              <node concept="1odsa" id="7x430000002" role="_4bL5">
                 <ref role="1ods_" to="uyeg:1pSXis7wzC" resolve="SortimentR" />
                 <ref role="37wK5l" to="uyeg:7vsm0006214" resolve="checkinSortiment" />
-                <node concept="37vLTw" id="7x330000620" role="37wK5m">
-                  <ref role="3cqZAo" node="7x330000505" />
+                <node concept="37vLTw" id="7x430000003" role="37wK5m">
+                  <ref role="3cqZAo" node="7x330000505" resolve="sortiment" />
                 </node>
+              </node>
+              <node concept="Xl_RD" id="7x430000004" role="3y5pYT">
+                <property role="Xl_RC" value="Testdaten Sortiment" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="7x330000621" role="3cqZAp">
-          <node concept="1PaTwC" id="7x330000622" role="1aUNEU">
-            <node concept="3oM_SD" id="7x330000623" role="1PaTwD">
-              <property role="3oM_SC" value="TODO" />
-            </node>
-            <node concept="3oM_SD" id="7x330000624" role="1PaTwD">
-              <property role="3oM_SC" value="MPS:" />
-            </node>
-            <node concept="3oM_SD" id="7x330000625" role="1PaTwD">
-              <property role="3oM_SC" value="laut" />
-            </node>
-            <node concept="3oM_SD" id="7x330000626" role="1PaTwD">
-              <property role="3oM_SC" value="moai" />
-            </node>
-            <node concept="3oM_SD" id="7x330000627" role="1PaTwD">
-              <property role="3oM_SC" value="als" />
-            </node>
-            <node concept="3oM_SD" id="7x330000628" role="1PaTwD">
-              <property role="3oM_SC" value="„session" />
-            </node>
-            <node concept="3oM_SD" id="7x330000629" role="1PaTwD">
-              <property role="3oM_SC" value="operation" />
-            </node>
-            <node concept="3oM_SD" id="7x330000630" role="1PaTwD">
-              <property role="3oM_SC" value="add" />
-            </node>
-            <node concept="3oM_SD" id="7x330000631" role="1PaTwD">
-              <property role="3oM_SC" value="#" />
-            </node>
-            <node concept="3oM_SD" id="7x330000632" role="1PaTwD">
-              <property role="3oM_SC" value="VereinbarungR.checkinVereinbarung(vereinbarung)“" />
-            </node>
-            <node concept="3oM_SD" id="7x330000633" role="1PaTwD">
-              <property role="3oM_SC" value="registrieren." />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7x330000634" role="3cqZAp">
-          <node concept="1odsa" id="7x330000635" role="3clFbG">
+        <node concept="l3yvj" id="7x430000005" role="3cqZAp">
+          <node concept="1odsa" id="7x430000006" role="_4bL5">
             <ref role="1ods_" to="uyeg:c_HYpdEeiQ" resolve="VereinbarungR" />
             <ref role="37wK5l" to="uyeg:c_HYpdEfkg" resolve="checkinVereinbarung" />
-            <node concept="37vLTw" id="7x330000636" role="37wK5m">
-              <ref role="3cqZAo" node="7x330000433" />
+            <node concept="37vLTw" id="7x430000007" role="37wK5m">
+              <ref role="3cqZAo" node="7x330000433" resolve="vereinbarung" />
             </node>
           </node>
+          <node concept="Xl_RD" id="7x430000008" role="3y5pYT">
+            <property role="Xl_RC" value="Testdaten Vereinbarung" />
+          </node>
         </node>
-        <node concept="3SKdUt" id="7x330000637" role="3cqZAp">
-          <node concept="1PaTwC" id="7x330000638" role="1aUNEU">
-            <node concept="3oM_SD" id="7x330000639" role="1PaTwD">
-              <property role="3oM_SC" value="TODO" />
-            </node>
-            <node concept="3oM_SD" id="7x330000640" role="1PaTwD">
-              <property role="3oM_SC" value="MPS:" />
-            </node>
-            <node concept="3oM_SD" id="7x330000641" role="1PaTwD">
-              <property role="3oM_SC" value="#CS.COMMIT();" />
-            </node>
-            <node concept="3oM_SD" id="7x330000642" role="1PaTwD">
-              <property role="3oM_SC" value="(moai-Testkonvention," />
-            </node>
-            <node concept="3oM_SD" id="7x330000643" role="1PaTwD">
-              <property role="3oM_SC" value="Service" />
-            </node>
-            <node concept="3oM_SD" id="7x330000644" role="1PaTwD">
-              <property role="3oM_SC" value="CS" />
-            </node>
-            <node concept="3oM_SD" id="7x330000645" role="1PaTwD">
-              <property role="3oM_SC" value="in" />
-            </node>
-            <node concept="3oM_SD" id="7x330000646" role="1PaTwD">
-              <property role="3oM_SC" value="test.basics" />
-            </node>
-            <node concept="3oM_SD" id="7x330000647" role="1PaTwD">
-              <property role="3oM_SC" value="fehlt" />
-            </node>
-            <node concept="3oM_SD" id="7x330000648" role="1PaTwD">
-              <property role="3oM_SC" value="noch)" />
-            </node>
+        <node concept="3clFbF" id="7x430000009" role="3cqZAp">
+          <node concept="1odsa" id="7x430000010" role="3clFbG">
+            <ref role="1ods_" to="j9bs:4HE8M78rbUl" resolve="CS" />
+            <ref role="37wK5l" to="j9bs:4HE8M78rhgY" resolve="COMMIT" />
           </node>
         </node>
         <node concept="3cpWs6" id="7x330000649" role="3cqZAp">
@@ -2006,53 +1915,28 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7x330000679" role="3cqZAp">
-          <node concept="1odsa" id="7x330000680" role="3clFbG">
+        <node concept="l3yvj" id="7x430000011" role="3cqZAp">
+          <node concept="1odsa" id="7x430000012" role="_4bL5">
             <ref role="1ods_" node="7x330000001" resolve="VereinbarungTestR" />
             <ref role="37wK5l" node="7x330000289" resolve="legeAusschlussregelAn" />
-            <node concept="37vLTw" id="7x330000681" role="37wK5m">
-              <ref role="3cqZAo" node="7x330000652" />
+            <node concept="37vLTw" id="7x430000013" role="37wK5m">
+              <ref role="3cqZAo" node="7x330000652" resolve="artikelNr" />
             </node>
-            <node concept="37vLTw" id="7x330000682" role="37wK5m">
-              <ref role="3cqZAo" node="7x330000654" />
+            <node concept="37vLTw" id="7x430000014" role="37wK5m">
+              <ref role="3cqZAo" node="7x330000654" resolve="grund" />
             </node>
-            <node concept="37vLTw" id="7x330000683" role="37wK5m">
-              <ref role="3cqZAo" node="7x330000656" />
+            <node concept="37vLTw" id="7x430000015" role="37wK5m">
+              <ref role="3cqZAo" node="7x330000656" resolve="tag" />
             </node>
           </node>
+          <node concept="Xl_RD" id="7x430000016" role="3y5pYT">
+            <property role="Xl_RC" value="Testdaten Ausschlussregel" />
+          </node>
         </node>
-        <node concept="3SKdUt" id="7x330000684" role="3cqZAp">
-          <node concept="1PaTwC" id="7x330000685" role="1aUNEU">
-            <node concept="3oM_SD" id="7x330000686" role="1PaTwD">
-              <property role="3oM_SC" value="TODO" />
-            </node>
-            <node concept="3oM_SD" id="7x330000687" role="1PaTwD">
-              <property role="3oM_SC" value="MPS:" />
-            </node>
-            <node concept="3oM_SD" id="7x330000688" role="1PaTwD">
-              <property role="3oM_SC" value="#CS.COMMIT();" />
-            </node>
-            <node concept="3oM_SD" id="7x330000689" role="1PaTwD">
-              <property role="3oM_SC" value="(moai-Testkonvention," />
-            </node>
-            <node concept="3oM_SD" id="7x330000690" role="1PaTwD">
-              <property role="3oM_SC" value="Service" />
-            </node>
-            <node concept="3oM_SD" id="7x330000691" role="1PaTwD">
-              <property role="3oM_SC" value="CS" />
-            </node>
-            <node concept="3oM_SD" id="7x330000692" role="1PaTwD">
-              <property role="3oM_SC" value="in" />
-            </node>
-            <node concept="3oM_SD" id="7x330000693" role="1PaTwD">
-              <property role="3oM_SC" value="test.basics" />
-            </node>
-            <node concept="3oM_SD" id="7x330000694" role="1PaTwD">
-              <property role="3oM_SC" value="fehlt" />
-            </node>
-            <node concept="3oM_SD" id="7x330000695" role="1PaTwD">
-              <property role="3oM_SC" value="noch)" />
-            </node>
+        <node concept="3clFbF" id="7x430000017" role="3cqZAp">
+          <node concept="1odsa" id="7x430000018" role="3clFbG">
+            <ref role="1ods_" to="j9bs:4HE8M78rbUl" resolve="CS" />
+            <ref role="37wK5l" to="j9bs:4HE8M78rhgY" resolve="COMMIT" />
           </node>
         </node>
       </node>
@@ -2151,7 +2035,10 @@
               <node concept="3cmrfG" id="7x330000730" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
-              <node concept="3er55J" id="7x330000731" role="2f8TIa" />
+              <node concept="1odsa" id="7x430000019" role="2f8TIa">
+                <ref role="1ods_" to="j9bs:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="j9bs:4HE8M78rchD" resolve="CREATE" />
+              </node>
             </node>
           </node>
         </node>
@@ -2446,7 +2333,10 @@
               <node concept="37vLTw" id="7x330000849" role="37wK5m">
                 <ref role="3cqZAo" node="7x330000832" />
               </node>
-              <node concept="3er55J" id="7x330000850" role="2f8TIa" />
+              <node concept="1odsa" id="7x430000020" role="2f8TIa">
+                <ref role="1ods_" to="j9bs:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="j9bs:4HE8M78rchD" resolve="CREATE" />
+              </node>
             </node>
           </node>
         </node>
@@ -2687,7 +2577,10 @@
               <node concept="37vLTw" id="7x330000944" role="37wK5m">
                 <ref role="3cqZAo" node="7x330000932" />
               </node>
-              <node concept="3er55J" id="7x330000945" role="2f8TIa" />
+              <node concept="1odsa" id="7x430000021" role="2f8TIa">
+                <ref role="1ods_" to="j9bs:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="j9bs:4HE8M78rchD" resolve="CREATE" />
+              </node>
             </node>
           </node>
         </node>
@@ -2900,7 +2793,10 @@
               <node concept="3cmrfG" id="7x330001028" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
-              <node concept="3er55J" id="7x330001029" role="2f8TIa" />
+              <node concept="1odsa" id="7x430000022" role="2f8TIa">
+                <ref role="1ods_" to="j9bs:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="j9bs:4HE8M78rchD" resolve="CREATE" />
+              </node>
             </node>
           </node>
         </node>
@@ -2939,7 +2835,10 @@
             <node concept="37vLTw" id="7x330001044" role="37wK5m">
               <ref role="3cqZAo" node="7x330000994" />
             </node>
-            <node concept="3er55J" id="7x330001045" role="2f8TIa" />
+            <node concept="1odsa" id="7x430000023" role="2f8TIa">
+              <ref role="1ods_" to="j9bs:4HE8M78rbUl" resolve="CS" />
+              <ref role="37wK5l" to="j9bs:4HE8M78rchD" resolve="CREATE" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="7x330001046" role="3cqZAp">
@@ -3324,7 +3223,10 @@
               <node concept="3cmrfG" id="7x330001190" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
-              <node concept="3er55J" id="7x330001191" role="2f8TIa" />
+              <node concept="1odsa" id="7x430000024" role="2f8TIa">
+                <ref role="1ods_" to="j9bs:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="j9bs:4HE8M78rchD" resolve="CREATE" />
+              </node>
             </node>
           </node>
         </node>
