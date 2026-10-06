@@ -61,6 +61,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
@@ -1373,6 +1374,7 @@
         </node>
         <node concept="3cpWs8" id="7x330000432" role="3cqZAp">
           <node concept="3cpWsn" id="7x330000433" role="3cpWs9">
+            <property role="3TUv4t" value="true" />
             <property role="TrG5h" value="vereinbarung" />
             <node concept="3uibUv" id="7x330000434" role="1tU5fm">
               <ref role="3uigEE" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
@@ -1551,6 +1553,7 @@
           <node concept="3clFbS" id="7x330000503" role="3clFbx">
             <node concept="3cpWs8" id="7x330000504" role="3cqZAp">
               <node concept="3cpWsn" id="7x330000505" role="3cpWs9">
+                <property role="3TUv4t" value="true" />
                 <property role="TrG5h" value="sortiment" />
                 <node concept="3uibUv" id="7x330000506" role="1tU5fm">
                   <ref role="3uigEE" to="uyeg:1pSXiqMvTO" resolve="Sortiment" />
@@ -1915,18 +1918,50 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="7x530000001" role="3cqZAp">
+          <node concept="3cpWsn" id="7x530000002" role="3cpWs9">
+            <property role="TrG5h" value="artikel" />
+            <property role="3TUv4t" value="true" />
+            <node concept="10Oyi0" id="7x530000003" role="1tU5fm" />
+            <node concept="37vLTw" id="7x530000004" role="33vP2m">
+              <ref role="3cqZAo" node="7x330000652" resolve="artikelNr" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7x530000005" role="3cqZAp">
+          <node concept="3cpWsn" id="7x530000006" role="3cpWs9">
+            <property role="TrG5h" value="regelGrund" />
+            <property role="3TUv4t" value="true" />
+            <node concept="17QB3L" id="7x530000007" role="1tU5fm" />
+            <node concept="37vLTw" id="7x530000008" role="33vP2m">
+              <ref role="3cqZAo" node="7x330000654" resolve="grund" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7x530000009" role="3cqZAp">
+          <node concept="3cpWsn" id="7x530000010" role="3cpWs9">
+            <property role="TrG5h" value="regelTag" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="7x530000011" role="1tU5fm">
+              <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
+            </node>
+            <node concept="37vLTw" id="7x530000012" role="33vP2m">
+              <ref role="3cqZAo" node="7x330000656" resolve="tag" />
+            </node>
+          </node>
+        </node>
         <node concept="l3yvj" id="7x430000011" role="3cqZAp">
           <node concept="1odsa" id="7x430000012" role="_4bL5">
             <ref role="1ods_" node="7x330000001" resolve="VereinbarungTestR" />
             <ref role="37wK5l" node="7x330000289" resolve="legeAusschlussregelAn" />
-            <node concept="37vLTw" id="7x430000013" role="37wK5m">
-              <ref role="3cqZAo" node="7x330000652" resolve="artikelNr" />
+            <node concept="37vLTw" id="7x530000013" role="37wK5m">
+              <ref role="3cqZAo" node="7x530000002" resolve="artikel" />
             </node>
-            <node concept="37vLTw" id="7x430000014" role="37wK5m">
-              <ref role="3cqZAo" node="7x330000654" resolve="grund" />
+            <node concept="37vLTw" id="7x530000014" role="37wK5m">
+              <ref role="3cqZAo" node="7x530000006" resolve="regelGrund" />
             </node>
-            <node concept="37vLTw" id="7x430000015" role="37wK5m">
-              <ref role="3cqZAo" node="7x330000656" resolve="tag" />
+            <node concept="37vLTw" id="7x530000015" role="37wK5m">
+              <ref role="3cqZAo" node="7x530000010" resolve="regelTag" />
             </node>
           </node>
           <node concept="Xl_RD" id="7x430000016" role="3y5pYT">
