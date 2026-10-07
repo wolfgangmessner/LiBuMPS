@@ -151,6 +151,9 @@
     <node concept="33WYYh" id="7auc0000001" role="2N77jT">
       <ref role="2_Hrw8" to="ntlu:7auu0000063" resolve="Ausschlussregeln suchen" />
     </node>
+    <node concept="33WYYh" id="7bwm0000001" role="2N77jT">
+      <ref role="2_Hrw8" to="svfv:7bwu0000088" resolve="Bewertungslücken prüfen" />
+    </node>
     <node concept="2$ntO6" id="6L7N34eCEk" role="2$nsuY">
       <node concept="33WYYh" id="6L7N34eCEl" role="2$ntUL">
         <ref role="2_Hrw8" to="9evg:c_HYpdFTKG" resolve="Vereinbarungen suchen" />
@@ -204,6 +207,17 @@
       </node>
       <node concept="276gdk" id="zKoHWaci2M" role="2$ntZF">
         <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="BereichAusschlussregel" />
+      </node>
+    </node>
+    <node concept="2$ntO6" id="7bwm0000002" role="2$nsuY">
+      <node concept="33WYYh" id="7bwm0000003" role="2$ntUL">
+        <ref role="2_Hrw8" to="svfv:7bwu0000088" resolve="Bewertungslücken prüfen" />
+      </node>
+      <node concept="Xl_RD" id="7bwm0000004" role="2$ntWM">
+        <property role="Xl_RC" value="Bewertungslücken" />
+      </node>
+      <node concept="276gdk" id="7bwm0000005" role="2$ntZF">
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
     <node concept="2MWAvL" id="c_HYpdEwW$" role="2A_d42">
