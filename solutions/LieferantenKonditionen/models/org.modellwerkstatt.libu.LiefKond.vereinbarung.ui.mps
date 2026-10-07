@@ -3734,7 +3734,7 @@
                     <ref role="3cqZAo" node="6DuqmNvzFyu" resolve="rueckwirkend" />
                   </node>
                   <node concept="ic4WF" id="6DuqmNvzFGz" role="icr7_">
-                    <property role="ic4Xk" value="Für bis zu %d bereits bewertete Wareneingänge des Lieferanten wirkt die Kondition erst nach deren Neubewertung (UC-008). Sie erscheinen in der Prüfliste der Bewertungslücken (UC-011)." />
+                    <property role="ic4Xk" value="Für bis zu %d bereits bewertete Wareneingänge des Lieferanten wirkt die Kondition erst nach deren Neubewertung (UC-008). Sie erscheinen in der Prüfliste der Bewertungslücken (UC-011). (UC-002 BR-008)" />
                   </node>
                 </node>
               </node>
@@ -4637,7 +4637,7 @@
                     <ref role="3cqZAo" node="5VOHcF41m2R" resolve="rueckwirkden" />
                   </node>
                   <node concept="ic4WF" id="5VOHcF41mf9" role="icr7_">
-                    <property role="ic4Xk" value="Für bis zu %d bereits bewertete Wareneingänge wirkt die Änderung erst nach deren Neubewertung (UC-008)." />
+                    <property role="ic4Xk" value="Für bis zu %d bereits bewertete Wareneingänge wirkt die Änderung erst nach deren Neubewertung (UC-008). (UC-002 BR-008)" />
                   </node>
                 </node>
               </node>
@@ -6089,7 +6089,7 @@
                     <ref role="3cqZAo" node="5VOHcF41EA_" resolve="rueckwirkend" />
                   </node>
                   <node concept="ic4WF" id="5VOHcF41ENu" role="icr7_">
-                    <property role="ic4Xk" value="Für bis zu %d bereits bewertete Wareneingänge ab dem Stichtag gilt die neue Vergütung erst nach deren Neubewertung (UC-008)." />
+                    <property role="ic4Xk" value="Für bis zu %d bereits bewertete Wareneingänge ab dem Stichtag gilt die neue Vergütung erst nach deren Neubewertung (UC-008). (UC-002 BR-008)" />
                   </node>
                 </node>
               </node>
@@ -8653,7 +8653,7 @@
                   <node concept="lgADV" id="7vub0000398" role="mlgNH">
                     <node concept="35AVbj" id="7vub0000399" role="lgxf9">
                       <node concept="ic4WF" id="7vub0000400" role="icr7_">
-                        <property role="ic4Xk" value="Der Lieferant fehlt." />
+                        <property role="ic4Xk" value="Der Lieferant fehlt. (UC-014 BR-001)" />
                       </node>
                     </node>
                   </node>
@@ -8678,7 +8678,7 @@
                   <node concept="lgADV" id="7vub0000409" role="mlgNH">
                     <node concept="35AVbj" id="7vub0000410" role="lgxf9">
                       <node concept="ic4WF" id="7vub0000411" role="icr7_">
-                        <property role="ic4Xk" value="Lieferant %d ist im Parteienstamm des Warenbuchs nicht als Lieferant (LI) geführt." />
+                        <property role="ic4Xk" value="Lieferant %d ist im Parteienstamm des Warenbuchs nicht als Lieferant (LI) geführt. (UC-014 BR-001)" />
                       </node>
                       <node concept="2OqwBi" id="7vub0000412" role="35Gt3$">
                         <node concept="3urNR4" id="7vub0000413" role="2Oq$k0">
@@ -8709,7 +8709,7 @@
                   <node concept="lgADV" id="7vub0000423" role="mlgNH">
                     <node concept="35AVbj" id="7vub0000424" role="lgxf9">
                       <node concept="ic4WF" id="7vub0000425" role="icr7_">
-                        <property role="ic4Xk" value="Die Bezeichnung fehlt." />
+                        <property role="ic4Xk" value="Die Bezeichnung fehlt. (UC-014 BR-001)" />
                       </node>
                     </node>
                   </node>
