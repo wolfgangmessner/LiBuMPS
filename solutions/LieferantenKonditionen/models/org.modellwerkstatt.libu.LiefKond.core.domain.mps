@@ -476,6 +476,113 @@
         </node>
       </node>
     </node>
+    <node concept="il5_x" id="7uil0000001" role="2kzhMJ">
+      <property role="TrG5h" value="OeffnenEnter" />
+      <node concept="2kzhL4" id="7uil0000002" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NSX/ENTER" />
+        <node concept="Xl_RD" id="7uil0000003" role="il5_5">
+          <property role="Xl_RC" value="Öffnen" />
+        </node>
+        <node concept="10M0yZ" id="7uil0000004" role="il5$o">
+          <ref role="3cqZAo" node="4HlXVUYdTP$" resolve="ICON_EDIT" />
+          <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7uil0000005" role="2kzhMJ">
+      <property role="TrG5h" value="Aendern" />
+      <node concept="2kzhL4" id="7uil0000006" role="2kzgdm">
+        <node concept="Xl_RD" id="7uil0000007" role="il5_5">
+          <property role="Xl_RC" value="Ändern" />
+        </node>
+        <node concept="10M0yZ" id="7uil0000008" role="il5$o">
+          <ref role="3cqZAo" node="4HlXVUYdTP$" resolve="ICON_EDIT" />
+          <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7uil0000009" role="2kzhMJ">
+      <property role="TrG5h" value="AendernEnter" />
+      <node concept="2kzhL4" id="7uil0000010" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NSX/ENTER" />
+        <node concept="Xl_RD" id="7uil0000011" role="il5_5">
+          <property role="Xl_RC" value="Ändern" />
+        </node>
+        <node concept="10M0yZ" id="7uil0000012" role="il5$o">
+          <ref role="3cqZAo" node="4HlXVUYdTP$" resolve="ICON_EDIT" />
+          <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7uil0000013" role="2kzhMJ">
+      <property role="TrG5h" value="GueltigkeitAendernEnter" />
+      <node concept="2kzhL4" id="7uil0000014" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NSX/ENTER" />
+        <node concept="Xl_RD" id="7uil0000015" role="il5_5">
+          <property role="Xl_RC" value="Gültigkeit ändern" />
+        </node>
+        <node concept="10M0yZ" id="7uil0000016" role="il5$o">
+          <ref role="3cqZAo" node="4HlXVUYdTP$" resolve="ICON_EDIT" />
+          <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7uil0000017" role="2kzhMJ">
+      <property role="TrG5h" value="GrundAendern" />
+      <node concept="2kzhL4" id="7uil0000018" role="2kzgdm">
+        <node concept="Xl_RD" id="7uil0000019" role="il5_5">
+          <property role="Xl_RC" value="Grund ändern" />
+        </node>
+        <node concept="10M0yZ" id="7uil0000020" role="il5$o">
+          <ref role="3cqZAo" node="4HlXVUYdTP$" resolve="ICON_EDIT" />
+          <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7uil0000021" role="2kzhMJ">
+      <property role="TrG5h" value="BezeichnungAendern" />
+      <node concept="2kzhL4" id="7uil0000022" role="2kzgdm">
+        <node concept="Xl_RD" id="7uil0000023" role="il5_5">
+          <property role="Xl_RC" value="Bezeichnung ändern" />
+        </node>
+        <node concept="10M0yZ" id="7uil0000024" role="il5$o">
+          <ref role="3cqZAo" node="4HlXVUYdTP$" resolve="ICON_EDIT" />
+          <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7uil0000025" role="2kzhMJ">
+      <property role="TrG5h" value="NachfolgerAnlegen" />
+      <node concept="2kzhL4" id="7uil0000026" role="2kzgdm">
+        <node concept="Xl_RD" id="7uil0000027" role="il5_5">
+          <property role="Xl_RC" value="Nachfolger anlegen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7uil0000028" role="2kzhMJ">
+      <property role="TrG5h" value="Beenden" />
+      <node concept="2kzhL4" id="7uil0000029" role="2kzgdm">
+        <node concept="Xl_RD" id="7uil0000030" role="il5_5">
+          <property role="Xl_RC" value="Beenden" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7uil0000031" role="2kzhMJ">
+      <property role="TrG5h" value="Ersetzen" />
+      <node concept="2kzhL4" id="7uil0000032" role="2kzgdm">
+        <node concept="Xl_RD" id="7uil0000033" role="il5_5">
+          <property role="Xl_RC" value="Ersetzen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7uil0000034" role="2kzhMJ">
+      <property role="TrG5h" value="Entfernen" />
+      <node concept="2kzhL4" id="7uil0000035" role="2kzgdm">
+        <node concept="Xl_RD" id="7uil0000036" role="il5_5">
+          <property role="Xl_RC" value="Entfernen" />
+        </node>
+      </node>
+    </node>
     <node concept="2kDv1q" id="c_HYpdFlw9" role="2kDvpj">
       <property role="TrG5h" value="RICH" />
     </node>
