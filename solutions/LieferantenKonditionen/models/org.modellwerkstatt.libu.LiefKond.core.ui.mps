@@ -158,7 +158,7 @@
         <property role="Xl_RC" value="Vereinbarungen" />
       </node>
       <node concept="276gdk" id="zKoHWacglo" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="MenuBlue" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
       </node>
     </node>
     <node concept="2$ntO6" id="6DuqmNw0LEV" role="2$nsuY">
@@ -169,7 +169,7 @@
         <property role="Xl_RC" value="Gültige Konditionen" />
       </node>
       <node concept="276gdk" id="zKoHWacgnM" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSy_" resolve="MenuDeepPurple" />
+        <ref role="276gdn" to="hg40:59sqMMqSSy_" resolve="BereichKondition" />
       </node>
     </node>
     <node concept="2$ntO6" id="1pSXiqN9qJ" role="2$nsuY">
@@ -180,7 +180,7 @@
         <property role="Xl_RC" value="Sortimente" />
       </node>
       <node concept="276gdk" id="zKoHWacgpI" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="MenuPurple" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
       </node>
     </node>
     <node concept="2$ntO6" id="6DuqmNw0M5$" role="2$nsuY">
@@ -191,7 +191,7 @@
         <property role="Xl_RC" value="Belegart-Regeln" />
       </node>
       <node concept="276gdk" id="zKoHWaci1k" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="MenuRed" />
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichBelegartregel" />
       </node>
     </node>
     <node concept="2$ntO6" id="7auc0000002" role="2$nsuY">
@@ -202,7 +202,7 @@
         <property role="Xl_RC" value="Nicht konditionsrelevante Artikel" />
       </node>
       <node concept="276gdk" id="zKoHWaci2M" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="MenuGreen" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="BereichAusschlussregel" />
       </node>
     </node>
     <node concept="2MWAvL" id="c_HYpdEwW$" role="2A_d42">
