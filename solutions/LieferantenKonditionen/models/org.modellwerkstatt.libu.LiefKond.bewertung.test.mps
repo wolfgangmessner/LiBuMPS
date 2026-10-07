@@ -209,6 +209,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
     </language>
     <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" name="org.modellwerkstatt.manmap">
+      <concept id="7925018510949439419" name="org.modellwerkstatt.manmap.structure.InsertSaveOption" flags="ng" index="2Mswnz" />
       <concept id="8172309840348950202" name="org.modellwerkstatt.manmap.structure.INeedsClassMapper" flags="ngI" index="P14SU">
         <reference id="8172309840348950203" name="entityMapping" index="P14SV" />
       </concept>
@@ -216,6 +217,7 @@
         <property id="8796175910513646269" name="repoMethodType" index="2a4t7v" />
       </concept>
       <concept id="8172309840348863378" name="org.modellwerkstatt.manmap.structure.SaveWithMap" flags="ng" index="P1rGi">
+        <child id="312461953123217536" name="options" index="2HVurX" />
         <child id="8172309840348863385" name="expression" index="P1rGp" />
       </concept>
       <concept id="1810748140037527703" name="org.modellwerkstatt.manmap.structure.C2SqlWordVarReference" flags="ng" index="3DwW_1">
@@ -856,6 +858,7 @@
           <node concept="37vLTw" id="7bwt0000235" role="P1rGp">
             <ref role="3cqZAo" node="7bwt0000215" resolve="beleg" />
           </node>
+          <node concept="2Mswnz" id="7bwx0000001" role="2HVurX" />
         </node>
         <node concept="2Gpval" id="7bwt0000236" role="3cqZAp">
           <node concept="2GrKxI" id="7bwt0000237" role="2Gsz3X">
@@ -875,6 +878,7 @@
               <node concept="2GrUjf" id="7bwt0000243" role="P1rGp">
                 <ref role="2Gs0qQ" node="7bwt0000237" resolve="p" />
               </node>
+              <node concept="2Mswnz" id="7bwx0000002" role="2HVurX" />
             </node>
           </node>
         </node>
@@ -896,6 +900,7 @@
               <node concept="2GrUjf" id="7bwt0000251" role="P1rGp">
                 <ref role="2Gs0qQ" node="7bwt0000245" resolve="a" />
               </node>
+              <node concept="2Mswnz" id="7bwx0000003" role="2HVurX" />
             </node>
           </node>
         </node>
