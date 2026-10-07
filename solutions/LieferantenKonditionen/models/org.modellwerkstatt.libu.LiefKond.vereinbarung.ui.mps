@@ -353,7 +353,6 @@
       </concept>
       <concept id="3887124829266131198" name="org.modellwerkstatt.dataux.structure.MenuAction" flags="ng" index="33WYYh" />
       <concept id="6605183703250411792" name="org.modellwerkstatt.dataux.structure.PickerDOption" flags="ng" index="1fQJa5" />
-      <concept id="8995390878293522713" name="org.modellwerkstatt.dataux.structure.DummyDelegate" flags="ng" index="1wFRl1" />
       <concept id="5337297293525625533" name="org.modellwerkstatt.dataux.structure.IOptionallyNamed" flags="ngI" index="1Nb$$x">
         <property id="5337297293525625539" name="isNamed" index="1Nb$_v" />
       </concept>
@@ -3016,12 +3015,6 @@
         <ref role="1Tjo7l" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
         <node concept="2U5nhG" id="1SEqE6z0$Oz" role="2TFpq_" />
         <node concept="2U5nhG" id="6L7N34cM8L" role="2TFpq_" />
-        <node concept="2TG9WX" id="1SEqE6z0$OE" role="3OfFNq">
-          <node concept="3Oe$u_" id="1SEqE6z0$OF" role="3Oe2NS">
-            <ref role="3O0p26" to="uyeg:c_HYpdEe1v" />
-          </node>
-        </node>
-        <node concept="1wFRl1" id="6L7N34cMb3" role="3OfFNq" />
         <node concept="2TG9WW" id="1SEqE6z0$OG" role="3OfFNq">
           <node concept="3Oe$u_" id="7vua0000052" role="3Oe2NS">
             <ref role="3O0p26" to="uyeg:c_HYpdEe1I" resolve="lieferant" />
@@ -3033,6 +3026,11 @@
             <node concept="3Oe$u_" id="7vua0000055" role="P8WsX">
               <ref role="3O0p26" to="k2it:1SEqE6yDXfj" resolve="name" />
             </node>
+          </node>
+        </node>
+        <node concept="2TG9WX" id="1SEqE6z0$OE" role="3OfFNq">
+          <node concept="3Oe$u_" id="1SEqE6z0$OF" role="3Oe2NS">
+            <ref role="3O0p26" to="uyeg:c_HYpdEe1v" />
           </node>
         </node>
         <node concept="3Oe2Ik" id="1SEqE6z0$OK" role="3OfFNq">
@@ -3068,10 +3066,10 @@
         <node concept="3Oe2Ik" id="1SEqE6z86vB" role="3OfFNq">
           <node concept="3O0p8O" id="1SEqE6z86vC" role="3Oe2NS">
             <node concept="2THnN3" id="1SEqE6z86vD" role="3O0p8V">
-              <ref role="2THnOx" to="hg40:c_HYpdEech" />
+              <ref role="2THnOx" to="hg40:c_HYpdEech" resolve="erstelltVon" />
             </node>
             <node concept="3Oe$u_" id="1SEqE6z86vE" role="3O0p8X">
-              <ref role="3O0p26" to="uyeg:1SEqE6z7kZ8" />
+              <ref role="3O0p26" to="uyeg:1SEqE6z7kZ8" resolve="audit" />
             </node>
           </node>
         </node>

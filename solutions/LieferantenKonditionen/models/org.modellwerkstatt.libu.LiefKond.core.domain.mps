@@ -9,7 +9,6 @@
   </languages>
   <imports>
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -34,7 +33,6 @@
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
-      <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -476,6 +474,14 @@
         </node>
       </node>
     </node>
+    <node concept="il5_x" id="47ZW9dx6PfI" role="2kzhMJ">
+      <property role="TrG5h" value="Aendern" />
+      <node concept="2kzhL4" id="47ZW9dx6PfJ" role="2kzgdm">
+        <node concept="Xl_RD" id="47ZW9dx6PfK" role="il5_5">
+          <property role="Xl_RC" value="Ändern" />
+        </node>
+      </node>
+    </node>
     <node concept="il5_x" id="7uil0000001" role="2kzhMJ">
       <property role="TrG5h" value="OeffnenEnter" />
       <node concept="2kzhL4" id="7uil0000002" role="2kzgdm">
@@ -484,18 +490,6 @@
           <property role="Xl_RC" value="Öffnen" />
         </node>
         <node concept="10M0yZ" id="7uil0000004" role="il5$o">
-          <ref role="3cqZAo" node="4HlXVUYdTP$" resolve="ICON_EDIT" />
-          <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
-        </node>
-      </node>
-    </node>
-    <node concept="il5_x" id="7uil0000005" role="2kzhMJ">
-      <property role="TrG5h" value="Aendern" />
-      <node concept="2kzhL4" id="7uil0000006" role="2kzgdm">
-        <node concept="Xl_RD" id="7uil0000007" role="il5_5">
-          <property role="Xl_RC" value="Ändern" />
-        </node>
-        <node concept="10M0yZ" id="7uil0000008" role="il5$o">
           <ref role="3cqZAo" node="4HlXVUYdTP$" resolve="ICON_EDIT" />
           <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
         </node>
