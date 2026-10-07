@@ -197,6 +197,7 @@
       </concept>
       <concept id="7192042020163999178" name="org.modellwerkstatt.objectflow.structure.Command" flags="ng" index="3ugp7m">
         <property id="7912134052599426179" name="newCommandType" index="19I623" />
+        <property id="1001479520354727786" name="newWindowTitleType" index="1ptSWV" />
         <property id="96922280160231604" name="defaultHotkey" index="3uBtrS" />
         <child id="1243073729492713846" name="permissionNew" index="2ticAe" />
         <child id="3748648354049763742" name="titleAddOn" index="IYfpf" />
@@ -473,6 +474,7 @@
   <node concept="3ugp7m" id="7auu0000063">
     <property role="TrG5h" value="Ausschlussregeln suchen" />
     <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
+    <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <node concept="2ticAD" id="7auu0000064" role="2ticAe">
       <node concept="1G1AcV" id="7auu0000065" role="2TIb5R">
         <ref role="3ymtqE" to="hg40:c_HYpdFPv6" resolve="KreditorenManagement" />
