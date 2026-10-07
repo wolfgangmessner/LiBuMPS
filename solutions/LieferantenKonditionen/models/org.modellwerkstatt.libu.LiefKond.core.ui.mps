@@ -12,6 +12,7 @@
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
+    <import index="q8au" ref="r:55056d43-a6a3-4e26-996e-7a2b88e9b3ec(org.modellwerkstatt.libu.LiefKond.ausschlussregel.ui)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -142,6 +143,9 @@
     <node concept="33WYYh" id="6DuqmNw0L2q" role="2N77jT">
       <ref role="2_Hrw8" to="h0p1:6DuqmNw0JgU" resolve="Belegart-Regel anlegen" />
     </node>
+    <node concept="33WYYh" id="7auc0000001" role="2N77jT">
+      <ref role="2_Hrw8" to="q8au:7auu0000063" resolve="Ausschlussregeln suchen" />
+    </node>
     <node concept="2$ntO6" id="6L7N34eCEk" role="2$nsuY">
       <node concept="33WYYh" id="6L7N34eCEl" role="2$ntUL">
         <ref role="2_Hrw8" to="9evg:c_HYpdFTKG" resolve="Vereinbarungen suchen" />
@@ -172,6 +176,14 @@
       </node>
       <node concept="Xl_RD" id="6DuqmNw0MaC" role="2$ntWM">
         <property role="Xl_RC" value="Belegart-Regeln" />
+      </node>
+    </node>
+    <node concept="2$ntO6" id="7auc0000002" role="2$nsuY">
+      <node concept="33WYYh" id="7auc0000003" role="2$ntUL">
+        <ref role="2_Hrw8" to="q8au:7auu0000063" resolve="Ausschlussregeln suchen" />
+      </node>
+      <node concept="Xl_RD" id="7auc0000004" role="2$ntWM">
+        <property role="Xl_RC" value="Nicht konditionsrelevante Artikel" />
       </node>
     </node>
     <node concept="2MWAvL" id="c_HYpdEwW$" role="2A_d42">
