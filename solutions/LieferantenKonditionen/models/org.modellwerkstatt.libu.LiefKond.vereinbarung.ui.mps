@@ -818,7 +818,7 @@
     <ref role="1Tjo7l" node="c_HYpdFU2K" resolve="VereinbarungSuche" />
     <node concept="UTR7Y" id="zKoHWa6OpZ" role="UTRd0">
       <node concept="276gdk" id="zKoHWa6Ow1" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="MenuBlue" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
       </node>
     </node>
     <node concept="2U5qGN" id="c_HYpdG7Cf" role="21u2x1">
@@ -869,7 +869,7 @@
         <node concept="fOGPe" id="c_HYpdHcYG" role="fOGQ8">
           <node concept="33WYYh" id="c_HYpdGTJI" role="fOGQ8">
             <ref role="2_Hrw8" node="c_HYpdGT7m" resolve="VereinbarungOeffnen" />
-            <ref role="3uz5Vf" to="hg40:zKoHW9QBsS" resolve="VereinabrungOeffnen" />
+            <ref role="3uz5Vf" to="hg40:zKoHW9QBsS" resolve="Oeffnen" />
             <node concept="2OqwBi" id="c_HYpdGVz7" role="2_HrWp">
               <node concept="2IFXgM" id="c_HYpdGVz8" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
@@ -884,7 +884,7 @@
           </node>
           <node concept="33WYYh" id="c_HYpdGTU5" role="fOGQ8">
             <ref role="2_Hrw8" node="c_HYpdGThd" resolve="VereinbarungLoeschen" />
-            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="VereinabrungLoeschnen" />
+            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="Loeschen" />
             <node concept="2OqwBi" id="c_HYpdGVCo" role="2_HrWp">
               <node concept="2IFXgM" id="c_HYpdGVCp" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
@@ -2932,7 +2932,7 @@
     </node>
     <node concept="UTR7Y" id="zKoHWahEhT" role="UTRd0">
       <node concept="276gdk" id="zKoHWahEj5" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSy_" resolve="MenuDeepPurple" />
+        <ref role="276gdn" to="hg40:59sqMMqSSy_" resolve="BereichKondition" />
       </node>
     </node>
   </node>
@@ -2984,6 +2984,11 @@
           <ref role="3O0p26" to="uyeg:c_HYpdEe2E" resolve="gueltigBis" />
         </node>
         <node concept="1fQJa5" id="1SEqE6z0vBe" role="PoUSh" />
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7uiv0000001" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000002" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
       </node>
     </node>
   </node>
@@ -3115,6 +3120,7 @@
           </node>
           <node concept="33WYYh" id="64Z6K0hRPU8" role="fOGQ8">
             <ref role="2_Hrw8" node="64Z6K0hRPFp" resolve="Kondition löschen" />
+            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="Loeschen" />
           </node>
         </node>
         <node concept="PoUSf" id="6L7N347Vyw" role="PoUSn">
@@ -3200,7 +3206,7 @@
     </node>
     <node concept="UTR7Y" id="zKoHWa1pDK" role="UTRd0">
       <node concept="276gdk" id="zKoHWa1pIt" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="MenuGreen" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
       </node>
     </node>
   </node>
@@ -3293,6 +3299,11 @@
         <node concept="3Oe$u_" id="1SEqE6z0_z1" role="3Oe2NS">
           <ref role="3O0p26" to="uyeg:c_HYpdEe2c" resolve="externeReferenz" />
         </node>
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7uiv0000003" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000004" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
       </node>
     </node>
   </node>
@@ -3410,6 +3421,11 @@
         <node concept="1fQJa5" id="7vua0000074" role="PoUSh" />
       </node>
       <node concept="2U5nhG" id="1SEqE6z0AHn" role="2TFpq_" />
+    </node>
+    <node concept="UTR7Y" id="7uiv0000005" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000006" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
+      </node>
     </node>
   </node>
   <node concept="3ugp7m" id="1SEqE6z0Be6">
@@ -3560,6 +3576,11 @@
       </node>
       <node concept="2U5nhG" id="1SEqE6z0CRC" role="2TFpq_" />
     </node>
+    <node concept="UTR7Y" id="7uiv0000007" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000008" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="1SEqE6z4k_W">
     <property role="TrG5h" value="VereinbarungLoeschenPP" />
@@ -3604,6 +3625,11 @@
         </node>
       </node>
       <node concept="PoU6y" id="1SEqE6z4kMs" role="PoUSn" />
+    </node>
+    <node concept="UTR7Y" id="7uiv0000009" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000010" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
+      </node>
     </node>
   </node>
   <node concept="3ugp7m" id="64Z6K0hRPax">
@@ -7151,6 +7177,11 @@
       <node concept="2U5nhT" id="5VOHcF3WLkv" role="2U5niL" />
       <node concept="2U5nhT" id="5VOHcF3WLlV" role="2U5niL" />
     </node>
+    <node concept="UTR7Y" id="7uiv0000011" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000012" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="5VOHcF41k57">
     <property role="TrG5h" value="KonditionsbezeichnungAendernPP" />
@@ -7165,6 +7196,11 @@
         <node concept="3Oe$u_" id="5VOHcF41k5r" role="3Oe2NS">
           <ref role="3O0p26" to="uyeg:c_HYpdEe9E" resolve="bezeichnung" />
         </node>
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7uiv0000013" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000014" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
       </node>
     </node>
   </node>
@@ -7188,6 +7224,11 @@
           <ref role="3O0p26" to="uyeg:c_HYpdEebN" resolve="gueltigBis" />
         </node>
         <node concept="1fQJa5" id="7vua0000524" role="PoUSh" />
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7uiv0000015" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000016" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
       </node>
     </node>
   </node>
@@ -7237,6 +7278,11 @@
         </node>
       </node>
       <node concept="PoU6y" id="5VOHcF42oO6" role="PoUSn" />
+    </node>
+    <node concept="UTR7Y" id="7uiv0000017" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000018" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
+      </node>
     </node>
   </node>
   <node concept="1YeyE5" id="5VOHcF41wCG">
@@ -7322,6 +7368,11 @@
         <node concept="1fQJa5" id="7vua0000525" role="PoUSh" />
       </node>
     </node>
+    <node concept="UTR7Y" id="7uiv0000019" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000020" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="5VOHcF41O9U">
     <property role="TrG5h" value="KonditionLoeschenPP" />
@@ -7378,6 +7429,11 @@
         </node>
       </node>
       <node concept="PoU6y" id="6HrJs_lK$Xq" role="PoUSn" />
+    </node>
+    <node concept="UTR7Y" id="7uiv0000021" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000022" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
+      </node>
     </node>
   </node>
   <node concept="3ugp7m" id="1pSXiqMx21">
@@ -7844,9 +7900,22 @@
             <property role="PiFy3" value="8" />
           </node>
         </node>
+        <node concept="33WYYh" id="7vub0000155" role="fOGQ8">
+          <ref role="2_Hrw8" node="7vub0000353" resolve="Sortiment anlegen" />
+          <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
+          <node concept="2OqwBi" id="7xe30000067" role="2_HrWp">
+            <node concept="2IFXgM" id="7xe30000068" role="2Oq$k0">
+              <ref role="2IFZ7r" node="1pSXiqMxbU" resolve="SortimentSuche" />
+            </node>
+            <node concept="liA8E" id="7xe30000069" role="2OqNvi">
+              <ref role="37wK5l" node="7xe30000014" resolve="lieferantNr" />
+            </node>
+          </node>
+        </node>
         <node concept="fOGPe" id="7vub0000143" role="fOGQ8">
           <node concept="33WYYh" id="7vub0000144" role="fOGQ8">
             <ref role="2_Hrw8" node="1pSXis7vWc" resolve="Sortiment öffnen" />
+            <ref role="3uz5Vf" to="hg40:zKoHW9QBsS" resolve="Oeffnen" />
             <node concept="2OqwBi" id="7vub0000145" role="2_HrWp">
               <node concept="2IFXgM" id="7vub0000146" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:1pSXiqMxDl" resolve="SortimentInfo" />
@@ -7858,6 +7927,7 @@
           </node>
           <node concept="33WYYh" id="7vub0000148" role="fOGQ8">
             <ref role="2_Hrw8" node="7vub0000610" resolve="Sortiment löschen" />
+            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="Loeschen" />
             <node concept="2OqwBi" id="7vub0000149" role="2_HrWp">
               <node concept="2IFXgM" id="7vub0000150" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:1pSXiqMxDl" resolve="SortimentInfo" />
@@ -7872,18 +7942,9 @@
       <node concept="2U5nhT" id="7vub0000152" role="2U5niL" />
       <node concept="2U5nhz" id="7vub0000153" role="2U5niL" />
     </node>
-    <node concept="fOGPe" id="7vub0000154" role="fOGQ8">
-      <node concept="33WYYh" id="7vub0000155" role="fOGQ8">
-        <ref role="2_Hrw8" node="7vub0000353" resolve="Sortiment anlegen" />
-        <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
-        <node concept="2OqwBi" id="7xe30000067" role="2_HrWp">
-          <node concept="2IFXgM" id="7xe30000068" role="2Oq$k0">
-            <ref role="2IFZ7r" node="1pSXiqMxbU" resolve="SortimentSuche" />
-          </node>
-          <node concept="liA8E" id="7xe30000069" role="2OqNvi">
-            <ref role="37wK5l" node="7xe30000014" resolve="lieferantNr" />
-          </node>
-        </node>
+    <node concept="UTR7Y" id="7uiv0000023" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000024" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
       </node>
     </node>
   </node>
@@ -8476,6 +8537,10 @@
             <property role="PiFy3" value="12" />
           </node>
         </node>
+        <node concept="33WYYh" id="7vub0000352" role="fOGQ8">
+          <ref role="2_Hrw8" node="7vub0000690" resolve="Sortimentszeile anlegen" />
+          <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
+        </node>
         <node concept="fOGPe" id="7vub0000321" role="fOGQ8">
           <node concept="33WYYh" id="7vub0000322" role="fOGQ8">
             <ref role="2_Hrw8" node="7vub0000959" resolve="Sortimentszeile ändern" />
@@ -8557,8 +8622,10 @@
       <node concept="33WYYh" id="7vub0000351" role="fOGQ8">
         <ref role="2_Hrw8" node="7vub0000554" resolve="Sortimentsbeschreibung ändern" />
       </node>
-      <node concept="33WYYh" id="7vub0000352" role="fOGQ8">
-        <ref role="2_Hrw8" node="7vub0000690" resolve="Sortimentszeile anlegen" />
+    </node>
+    <node concept="UTR7Y" id="7uiv0000025" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000026" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
       </node>
     </node>
   </node>
@@ -9383,6 +9450,11 @@
         </node>
       </node>
     </node>
+    <node concept="UTR7Y" id="7uiv0000027" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000028" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="7vub0000595">
     <property role="TrG5h" value="SortimentsbeschreibungPP" />
@@ -9407,6 +9479,11 @@
         </node>
       </node>
     </node>
+    <node concept="UTR7Y" id="7uiv0000029" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000030" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="7vub0000603">
     <property role="TrG5h" value="SortimentHinweisPP" />
@@ -9426,6 +9503,11 @@
         </node>
       </node>
       <node concept="PoU6y" id="7vub0000609" role="PoUSn" />
+    </node>
+    <node concept="UTR7Y" id="7uiv0000031" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000032" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
+      </node>
     </node>
   </node>
   <node concept="3ugp7m" id="7vub0000610">
@@ -9743,6 +9825,11 @@
       </node>
       <node concept="2U5nhT" id="7vub0000688" role="2U5niL" />
       <node concept="2U5nhB" id="7vub0000689" role="2U5niL" />
+    </node>
+    <node concept="UTR7Y" id="7uiv0000033" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000034" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
+      </node>
     </node>
   </node>
   <node concept="3ugp7m" id="7vub0000690">
@@ -12396,6 +12483,11 @@
         <node concept="1fQJa5" id="7vub0001757" role="PoUSh" />
       </node>
     </node>
+    <node concept="UTR7Y" id="7uiv0000035" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000036" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="7vub0001758">
     <property role="TrG5h" value="SortimentszeileBeendenPP" />
@@ -12437,6 +12529,11 @@
         <node concept="1fQJa5" id="7vub0001775" role="PoUSh" />
       </node>
     </node>
+    <node concept="UTR7Y" id="7uiv0000037" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000038" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="7vub0001776">
     <property role="TrG5h" value="ZeilenErsatzPP" />
@@ -12458,6 +12555,11 @@
           <ref role="3O0p26" node="7vub0001318" resolve="stichtag" />
         </node>
         <node concept="1fQJa5" id="7vub0001784" role="PoUSh" />
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7uiv0000039" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000040" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
       </node>
     </node>
   </node>
@@ -12496,6 +12598,11 @@
         </node>
       </node>
       <node concept="PoU6y" id="7vub0001798" role="PoUSn" />
+    </node>
+    <node concept="UTR7Y" id="7uiv0000041" role="UTRd0">
+      <node concept="276gdk" id="7uiv0000042" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
+      </node>
     </node>
   </node>
 </model>
