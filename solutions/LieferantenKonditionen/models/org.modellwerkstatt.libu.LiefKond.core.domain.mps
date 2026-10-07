@@ -441,6 +441,10 @@
         <node concept="Xl_RD" id="5VOHcF41OrS" role="il5_5">
           <property role="Xl_RC" value="Löschen" />
         </node>
+        <node concept="10M0yZ" id="zKoHWaD2TB" role="il5$o">
+          <ref role="3cqZAo" node="4HlXVUXOleG" resolve="ICON_DELETE" />
+          <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
+        </node>
       </node>
     </node>
     <node concept="il5_x" id="6DuqmNvzQAF" role="2kzhMJ">
@@ -468,18 +472,6 @@
         </node>
         <node concept="10M0yZ" id="zKoHWaD2Qd" role="il5$o">
           <ref role="3cqZAo" node="4HlXVUYdTP$" resolve="ICON_EDIT" />
-          <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
-        </node>
-      </node>
-    </node>
-    <node concept="il5_x" id="zKoHW9QBQX" role="2kzhMJ">
-      <property role="TrG5h" value="Loeschen" />
-      <node concept="2kzhL4" id="zKoHW9QBQY" role="2kzgdm">
-        <node concept="Xl_RD" id="zKoHW9QBQZ" role="il5_5">
-          <property role="Xl_RC" value="Löschen" />
-        </node>
-        <node concept="10M0yZ" id="zKoHWaD2TB" role="il5$o">
-          <ref role="3cqZAo" node="4HlXVUXOleG" resolve="ICON_DELETE" />
           <ref role="1PxDUh" node="$arjoT88Li" resolve="Fx8IconDefaults" />
         </node>
       </node>

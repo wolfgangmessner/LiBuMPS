@@ -885,7 +885,7 @@
           </node>
           <node concept="33WYYh" id="7auu0000220" role="fOGQ8">
             <ref role="2_Hrw8" node="7auu0001265" resolve="Ausschlussregel löschen" />
-            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="Loeschen" />
+            <ref role="3uz5Vf" to="hg40:5VOHcF41OrQ" resolve="Loeschen" />
             <node concept="2OqwBi" id="7auu0000221" role="2_HrWp">
               <node concept="2IFXgM" id="7auu0000222" role="2Oq$k0">
                 <ref role="2IFZ7r" to="5art:7aus0000789" resolve="AusschlussregelInfo" />

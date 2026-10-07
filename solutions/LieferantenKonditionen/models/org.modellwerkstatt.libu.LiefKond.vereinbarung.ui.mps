@@ -884,7 +884,7 @@
           </node>
           <node concept="33WYYh" id="c_HYpdGTU5" role="fOGQ8">
             <ref role="2_Hrw8" node="c_HYpdGThd" resolve="VereinbarungLoeschen" />
-            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="Loeschen" />
+            <ref role="3uz5Vf" to="hg40:5VOHcF41OrQ" resolve="Loeschen" />
             <node concept="2OqwBi" id="c_HYpdGVCo" role="2_HrWp">
               <node concept="2IFXgM" id="c_HYpdGVCp" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
@@ -3120,7 +3120,7 @@
           </node>
           <node concept="33WYYh" id="64Z6K0hRPU8" role="fOGQ8">
             <ref role="2_Hrw8" node="64Z6K0hRPFp" resolve="Kondition löschen" />
-            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="Loeschen" />
+            <ref role="3uz5Vf" to="hg40:5VOHcF41OrQ" resolve="Loeschen" />
           </node>
         </node>
         <node concept="PoUSf" id="6L7N347Vyw" role="PoUSn">
@@ -7927,7 +7927,7 @@
           </node>
           <node concept="33WYYh" id="7vub0000148" role="fOGQ8">
             <ref role="2_Hrw8" node="7vub0000610" resolve="Sortiment löschen" />
-            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="Loeschen" />
+            <ref role="3uz5Vf" to="hg40:5VOHcF41OrQ" resolve="Loeschen" />
             <node concept="2OqwBi" id="7vub0000149" role="2_HrWp">
               <node concept="2IFXgM" id="7vub0000150" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:1pSXiqMxDl" resolve="SortimentInfo" />
