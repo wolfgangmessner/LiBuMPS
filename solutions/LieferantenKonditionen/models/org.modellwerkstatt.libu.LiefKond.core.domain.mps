@@ -311,7 +311,7 @@
       <property role="27cpiu" value="#d32f2f" />
     </node>
     <node concept="27cpit" id="59sqMMqSSyq" role="27c1lO">
-      <property role="TrG5h" value="BereichReserve1" />
+      <property role="TrG5h" value="BereichBewertung" />
       <property role="27cpiu" value="#c2185b" />
     </node>
     <node concept="27cpit" id="59sqMMqSSyv" role="27c1lO">
