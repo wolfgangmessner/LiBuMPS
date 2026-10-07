@@ -16,6 +16,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -261,6 +264,17 @@
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
     </language>
     <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" name="org.modellwerkstatt.manmap">
+      <concept id="1810748140025176330" name="org.modellwerkstatt.manmap.structure.C2SqlBlock" flags="ng" index="3QLR3s">
+        <property id="2190195849782008629" name="sqlType" index="1KFVyK" />
+        <child id="2252697316673436459" name="statements" index="Hy8HI" />
+      </concept>
+      <concept id="4421815423107469587" name="org.modellwerkstatt.manmap.structure.Repository" flags="ig" index="DXQ2w" />
+      <concept id="4421815423107469588" name="org.modellwerkstatt.manmap.structure.RepositoryInstanceMethodDeclaration" flags="ig" index="DXQ2B">
+        <property id="8796175910513646269" name="repoMethodType" index="2a4t7v" />
+      </concept>
+      <concept id="1810748140026040091" name="org.modellwerkstatt.manmap.structure.C2SqlText" flags="ng" index="3QODVd">
+        <child id="1810748140026040692" name="lines" index="3QOC2y" />
+      </concept>
       <concept id="774207833082557389" name="org.modellwerkstatt.manmap.structure.KeyOption" flags="ng" index="jyRCx" />
       <concept id="774207833082557394" name="org.modellwerkstatt.manmap.structure.AutoidOption" flags="ng" index="jyRCY">
         <child id="774207833082557396" name="sequenceName" index="jyRCS" />
@@ -1246,6 +1260,71 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="4HE8M78sIco" role="1B3o_S" />
+    <node concept="2vDG_T" id="7td10000032" role="jymVt">
+      <property role="TrG5h" value="entferneTestdaten" />
+      <node concept="3cqZAl" id="7td10000033" role="3clF45" />
+      <node concept="3Tm1VV" id="7td10000034" role="1B3o_S" />
+      <node concept="3clFbS" id="7td10000035" role="3clF47">
+        <node concept="3SKdUt" id="7td10000036" role="3cqZAp">
+          <node concept="1PaTwC" id="7td10000037" role="1aUNEU">
+            <node concept="3oM_SD" id="7td10000038" role="1PaTwD">
+              <property role="3oM_SC" value="Aufruf" />
+            </node>
+            <node concept="3oM_SD" id="7td10000039" role="1PaTwD">
+              <property role="3oM_SC" value="am" />
+            </node>
+            <node concept="3oM_SD" id="7td10000040" role="1PaTwD">
+              <property role="3oM_SC" value="Anfang" />
+            </node>
+            <node concept="3oM_SD" id="7td10000041" role="1PaTwD">
+              <property role="3oM_SC" value="jeder" />
+            </node>
+            <node concept="3oM_SD" id="7td10000042" role="1PaTwD">
+              <property role="3oM_SC" value="Suite" />
+            </node>
+            <node concept="3oM_SD" id="7td10000043" role="1PaTwD">
+              <property role="3oM_SC" value="mit" />
+            </node>
+            <node concept="3oM_SD" id="7td10000044" role="1PaTwD">
+              <property role="3oM_SC" value="eigener" />
+            </node>
+            <node concept="3oM_SD" id="7td10000045" role="1PaTwD">
+              <property role="3oM_SC" value="Session" />
+            </node>
+            <node concept="3oM_SD" id="7td10000046" role="1PaTwD">
+              <property role="3oM_SC" value="(#+" />
+            </node>
+            <node concept="3oM_SD" id="7td10000047" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="7td10000048" role="1PaTwD">
+              <property role="3oM_SC" value="#CS.CREATE())," />
+            </node>
+            <node concept="3oM_SD" id="7td10000049" role="1PaTwD">
+              <property role="3oM_SC" value="danach" />
+            </node>
+            <node concept="3oM_SD" id="7td10000050" role="1PaTwD">
+              <property role="3oM_SC" value="festgeschrieben." />
+            </node>
+          </node>
+        </node>
+        <node concept="l3yvj" id="7td10000051" role="3cqZAp">
+          <node concept="1odsa" id="7td10000052" role="_4bL5">
+            <ref role="1ods_" node="7td10000001" resolve="TestdatenR" />
+            <ref role="37wK5l" node="7td10000003" resolve="entferneTestdaten" />
+          </node>
+          <node concept="Xl_RD" id="7td10000053" role="3y5pYT">
+            <property role="Xl_RC" value="Testdaten früherer Läufe entfernen" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="7td10000054" role="3cqZAp">
+          <node concept="1odsa" id="7td10000055" role="3clFbG">
+            <ref role="1ods_" node="4HE8M78rbUl" resolve="CS" />
+            <ref role="37wK5l" node="4HE8M78rhgY" resolve="COMMIT" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2WPaUQ" id="4HE8M78sLHt">
     <property role="TrG5h" value="TemplateTest" />
@@ -1276,6 +1355,85 @@
             </node>
             <node concept="2S8uIT" id="4HE8M78yI_M" role="2OqNvi">
               <ref role="2S8YL0" to="uyeg:c_HYpdEe1X" resolve="bezeichnung" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="DXQ2w" id="7td10000001">
+    <property role="TrG5h" value="TestdatenR" />
+    <node concept="3Tm1VV" id="7td10000002" role="1B3o_S" />
+    <node concept="DXQ2B" id="7td10000003" role="jymVt">
+      <property role="TrG5h" value="entferneTestdaten" />
+      <property role="2a4t7v" value="3PtsrckEx4q/CHECKIN" />
+      <node concept="3cqZAl" id="7td10000004" role="3clF45" />
+      <node concept="3Tm1VV" id="7td10000005" role="1B3o_S" />
+      <node concept="3clFbS" id="7td10000006" role="3clF47">
+        <node concept="3SKdUt" id="7td10000007" role="3cqZAp">
+          <node concept="1PaTwC" id="7td10000008" role="1aUNEU">
+            <node concept="3oM_SD" id="7td10000009" role="1PaTwD">
+              <property role="3oM_SC" value="Testdaten" />
+            </node>
+            <node concept="3oM_SD" id="7td10000010" role="1PaTwD">
+              <property role="3oM_SC" value="aller" />
+            </node>
+            <node concept="3oM_SD" id="7td10000011" role="1PaTwD">
+              <property role="3oM_SC" value="Suiten" />
+            </node>
+            <node concept="3oM_SD" id="7td10000012" role="1PaTwD">
+              <property role="3oM_SC" value="entfernen:" />
+            </node>
+            <node concept="3oM_SD" id="7td10000013" role="1PaTwD">
+              <property role="3oM_SC" value="PKG_LK_TESTDATEN.Entferne" />
+            </node>
+            <node concept="3oM_SD" id="7td10000014" role="1PaTwD">
+              <property role="3oM_SC" value="(LIBU" />
+            </node>
+            <node concept="3oM_SD" id="7td10000015" role="1PaTwD">
+              <property role="3oM_SC" value="db/test," />
+            </node>
+            <node concept="3oM_SD" id="7td10000016" role="1PaTwD">
+              <property role="3oM_SC" value="nur" />
+            </node>
+            <node concept="3oM_SD" id="7td10000017" role="1PaTwD">
+              <property role="3oM_SC" value="Testumgebung);" />
+            </node>
+            <node concept="3oM_SD" id="7td10000018" role="1PaTwD">
+              <property role="3oM_SC" value="committet" />
+            </node>
+            <node concept="3oM_SD" id="7td10000019" role="1PaTwD">
+              <property role="3oM_SC" value="nicht." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7td10000020" role="3cqZAp">
+          <node concept="3QLR3s" id="7td10000021" role="3clFbG">
+            <property role="1KFVyK" value="1T_8SlIMDDe/STATEMENT" />
+            <node concept="3clFbS" id="7td10000022" role="Hy8HI">
+              <node concept="3QODVd" id="7td10000023" role="3cqZAp">
+                <node concept="1PaTwC" id="7td10000024" role="3QOC2y">
+                  <node concept="3oM_SD" id="7td10000025" role="1PaTwD">
+                    <property role="3oM_SC" value="BEGIN" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7td10000026" role="3QOC2y">
+                  <node concept="3oM_SD" id="7td10000027" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7td10000028" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7td10000029" role="1PaTwD">
+                    <property role="3oM_SC" value="PKG_LK_TESTDATEN.Entferne;" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7td10000030" role="3QOC2y">
+                  <node concept="3oM_SD" id="7td10000031" role="1PaTwD">
+                    <property role="3oM_SC" value="END;" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
