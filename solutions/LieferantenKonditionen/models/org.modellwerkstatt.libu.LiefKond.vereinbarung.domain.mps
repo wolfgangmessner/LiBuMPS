@@ -2294,6 +2294,9 @@
             <node concept="3oM_SD" id="1SEqE6yO7Oa" role="1PaTwD">
               <property role="3oM_SC" value="meldet" />
             </node>
+            <node concept="3oM_SD" id="7wbr0000001" role="1PaTwD">
+              <property role="3oM_SC" value="UC-002" />
+            </node>
             <node concept="3oM_SD" id="1SEqE6yO7Ob" role="1PaTwD">
               <property role="3oM_SC" value="BR-001" />
             </node>
@@ -2808,6 +2811,9 @@
             <node concept="3oM_SD" id="1SEqE6yDHtj" role="1PaTwD">
               <property role="3oM_SC" value="/" />
             </node>
+            <node concept="3oM_SD" id="7wbr0000002" role="1PaTwD">
+              <property role="3oM_SC" value="UC-002" />
+            </node>
             <node concept="3oM_SD" id="1SEqE6yDHtk" role="1PaTwD">
               <property role="3oM_SC" value="A10" />
             </node>
@@ -3110,6 +3116,9 @@
       </node>
       <node concept="20vkWO" id="7wuc0000010" role="3b_Q0">
         <node concept="1PaTwC" id="7wuc0000011" role="13z7HO">
+          <node concept="3oM_SD" id="7wbr0000003" role="1PaTwD">
+            <property role="3oM_SC" value="UC-002" />
+          </node>
           <node concept="3oM_SD" id="7wuc0000012" role="1PaTwD">
             <property role="3oM_SC" value="BR-003:" />
           </node>
@@ -5499,6 +5508,9 @@
         </node>
         <node concept="3SKdUt" id="7x030000254" role="3cqZAp">
           <node concept="1PaTwC" id="7x030000255" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000004" role="1PaTwD">
+              <property role="3oM_SC" value="UC-003" />
+            </node>
             <node concept="3oM_SD" id="7x030000256" role="1PaTwD">
               <property role="3oM_SC" value="A4/BR-003:" />
             </node>
@@ -5635,7 +5647,10 @@
               <property role="3oM_SC" value="Ausschlussregeln" />
             </node>
             <node concept="3oM_SD" id="7x030000303" role="1PaTwD">
-              <property role="3oM_SC" value="(A8)" />
+              <property role="3oM_SC" value="(UC-003" />
+            </node>
+            <node concept="3oM_SD" id="7wbr0000005" role="1PaTwD">
+              <property role="3oM_SC" value="A8)" />
             </node>
             <node concept="3oM_SD" id="7x030000304" role="1PaTwD">
               <property role="3oM_SC" value="wertet" />
@@ -8774,7 +8789,10 @@
                         <property role="3oM_SC" value="Artikelstamm" />
                       </node>
                       <node concept="3oM_SD" id="7x030001377" role="1PaTwD">
-                        <property role="3oM_SC" value="(BR-003," />
+                        <property role="3oM_SC" value="(UC-003" />
+                      </node>
+                      <node concept="3oM_SD" id="7wbr0000006" role="1PaTwD">
+                        <property role="3oM_SC" value="BR-003," />
                       </node>
                       <node concept="3oM_SD" id="7x030001378" role="1PaTwD">
                         <property role="3oM_SC" value="BR-006)" />
@@ -17726,7 +17744,10 @@
                     <property role="3oM_SC" value="Artikelstamm" />
                   </node>
                   <node concept="3oM_SD" id="7x030004340" role="1PaTwD">
-                    <property role="3oM_SC" value="(BR-003," />
+                    <property role="3oM_SC" value="(UC-003" />
+                  </node>
+                  <node concept="3oM_SD" id="7wbr0000007" role="1PaTwD">
+                    <property role="3oM_SC" value="BR-003," />
                   </node>
                   <node concept="3oM_SD" id="7x030004341" role="1PaTwD">
                     <property role="3oM_SC" value="BR-006)" />
@@ -21839,6 +21860,9 @@
         </node>
         <node concept="3SKdUt" id="7x130000217" role="3cqZAp">
           <node concept="1PaTwC" id="7x130000218" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000008" role="1PaTwD">
+              <property role="3oM_SC" value="UC-003" />
+            </node>
             <node concept="3oM_SD" id="7x130000219" role="1PaTwD">
               <property role="3oM_SC" value="A8/BR-007:" />
             </node>
@@ -22033,6 +22057,9 @@
         </node>
         <node concept="3SKdUt" id="7x130000294" role="3cqZAp">
           <node concept="1PaTwC" id="7x130000295" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000009" role="1PaTwD">
+              <property role="3oM_SC" value="UC-003" />
+            </node>
             <node concept="3oM_SD" id="7x130000296" role="1PaTwD">
               <property role="3oM_SC" value="A9:" />
             </node>
@@ -22293,6 +22320,9 @@
           <node concept="3clFbS" id="7x130000051" role="3clFbx">
             <node concept="3SKdUt" id="7x130000052" role="3cqZAp">
               <node concept="1PaTwC" id="7x130000053" role="1aUNEU">
+                <node concept="3oM_SD" id="7wbr0000010" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-003" />
+                </node>
                 <node concept="3oM_SD" id="7x130000054" role="1PaTwD">
                   <property role="3oM_SC" value="A8/BR-007:" />
                 </node>
@@ -24190,6 +24220,9 @@
             </node>
             <node concept="3oM_SD" id="7wud0000842" role="1PaTwD">
               <property role="3oM_SC" value="(Annahme" />
+            </node>
+            <node concept="3oM_SD" id="7wbr0000011" role="1PaTwD">
+              <property role="3oM_SC" value="UC-002" />
             </node>
             <node concept="3oM_SD" id="7wud0000843" role="1PaTwD">
               <property role="3oM_SC" value="BR-005)." />
@@ -33195,6 +33228,9 @@
         <node concept="3oM_SD" id="1SEqE6yRRuv" role="1PaTwD">
           <property role="3oM_SC" value="//" />
         </node>
+        <node concept="3oM_SD" id="7wbr0000012" role="1PaTwD">
+          <property role="3oM_SC" value="UC-002" />
+        </node>
         <node concept="3oM_SD" id="1SEqE6yRRsx" role="1PaTwD">
           <property role="3oM_SC" value="BR-001" />
         </node>
@@ -33235,6 +33271,9 @@
         </node>
         <node concept="3oM_SD" id="1SEqE6yRRsK" role="1PaTwD">
           <property role="3oM_SC" value="2–6," />
+        </node>
+        <node concept="3oM_SD" id="7wbr0000013" role="1PaTwD">
+          <property role="3oM_SC" value="UC-002" />
         </node>
         <node concept="3oM_SD" id="1SEqE6yRRsL" role="1PaTwD">
           <property role="3oM_SC" value="A8," />
@@ -33327,7 +33366,10 @@
           <property role="3oM_SC" value="wird" />
         </node>
         <node concept="3oM_SD" id="1SEqE6yRRtm" role="1PaTwD">
-          <property role="3oM_SC" value="(A11:" />
+          <property role="3oM_SC" value="(UC-002" />
+        </node>
+        <node concept="3oM_SD" id="7wbr0000014" role="1PaTwD">
+          <property role="3oM_SC" value="A11:" />
         </node>
         <node concept="3oM_SD" id="1SEqE6yRRtn" role="1PaTwD">
           <property role="3oM_SC" value="der" />
@@ -33436,6 +33478,9 @@
         </node>
         <node concept="3SKdUt" id="7wue0000001" role="3cqZAp">
           <node concept="1PaTwC" id="7wue0000002" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000015" role="1PaTwD">
+              <property role="3oM_SC" value="UC-002" />
+            </node>
             <node concept="3oM_SD" id="7wue0000003" role="1PaTwD">
               <property role="3oM_SC" value="BR-003" />
             </node>
@@ -33659,6 +33704,9 @@
         <node concept="3clFbH" id="6L7N33YL55" role="3cqZAp" />
         <node concept="3SKdUt" id="1SEqE6yRRAU" role="3cqZAp">
           <node concept="1PaTwC" id="1SEqE6yRRAV" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000016" role="1PaTwD">
+              <property role="3oM_SC" value="UC-002" />
+            </node>
             <node concept="3oM_SD" id="1SEqE6yRRAX" role="1PaTwD">
               <property role="3oM_SC" value="BR-005" />
             </node>
@@ -33812,6 +33860,9 @@
                 </node>
                 <node concept="3oM_SD" id="7wue0000129" role="1PaTwD">
                   <property role="3oM_SC" value="bei" />
+                </node>
+                <node concept="3oM_SD" id="7wbr0000017" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-002" />
                 </node>
                 <node concept="3oM_SD" id="7wue0000130" role="1PaTwD">
                   <property role="3oM_SC" value="A11)" />
@@ -34008,6 +34059,9 @@
           <node concept="3clFbS" id="1SEqE6yV8Wk" role="Hy8HH">
             <node concept="3SKdUt" id="1SEqE6yRRBV" role="3cqZAp">
               <node concept="1PaTwC" id="1SEqE6yRRBW" role="1aUNEU">
+                <node concept="3oM_SD" id="7wbr0000018" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-002" />
+                </node>
                 <node concept="3oM_SD" id="1SEqE6yRRBY" role="1PaTwD">
                   <property role="3oM_SC" value="BR-001:" />
                 </node>
@@ -34123,6 +34177,9 @@
             <node concept="3clFbH" id="1SEqE6yWhiL" role="3cqZAp" />
             <node concept="3SKdUt" id="1SEqE6yRRC7" role="3cqZAp">
               <node concept="1PaTwC" id="1SEqE6yRRC8" role="1aUNEU">
+                <node concept="3oM_SD" id="7wbr0000019" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-002" />
+                </node>
                 <node concept="3oM_SD" id="1SEqE6yRRCa" role="1PaTwD">
                   <property role="3oM_SC" value="BR-002:" />
                 </node>
@@ -34176,6 +34233,9 @@
             <node concept="3clFbH" id="1SEqE6yWj_b" role="3cqZAp" />
             <node concept="3SKdUt" id="7wue0000144" role="3cqZAp">
               <node concept="1PaTwC" id="7wue0000145" role="1aUNEU">
+                <node concept="3oM_SD" id="7wbr0000020" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-002" />
+                </node>
                 <node concept="3oM_SD" id="7wue0000146" role="1PaTwD">
                   <property role="3oM_SC" value="BR-003" />
                 </node>
@@ -34231,6 +34291,9 @@
             </node>
             <node concept="3SKdUt" id="1SEqE6yRRCR" role="3cqZAp">
               <node concept="1PaTwC" id="1SEqE6yRRCS" role="1aUNEU">
+                <node concept="3oM_SD" id="7wbr0000021" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-002" />
+                </node>
                 <node concept="3oM_SD" id="1SEqE6yRRCU" role="1PaTwD">
                   <property role="3oM_SC" value="BR-004:" />
                 </node>
@@ -34382,6 +34445,9 @@
             </node>
             <node concept="3SKdUt" id="1SEqE6yRRDd" role="3cqZAp">
               <node concept="1PaTwC" id="1SEqE6yRRDe" role="1aUNEU">
+                <node concept="3oM_SD" id="7wbr0000022" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-002" />
+                </node>
                 <node concept="3oM_SD" id="1SEqE6yRRDg" role="1PaTwD">
                   <property role="3oM_SC" value="BR-005" />
                 </node>
@@ -34468,6 +34534,9 @@
       <node concept="3clFbS" id="7wue0000171" role="3clF47">
         <node concept="3SKdUt" id="7wue0000172" role="3cqZAp">
           <node concept="1PaTwC" id="7wue0000173" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000023" role="1PaTwD">
+              <property role="3oM_SC" value="UC-002" />
+            </node>
             <node concept="3oM_SD" id="7wue0000174" role="1PaTwD">
               <property role="3oM_SC" value="BR-005" />
             </node>
@@ -35302,6 +35371,9 @@
       <node concept="3clFbS" id="7wue0000289" role="3clF47">
         <node concept="3SKdUt" id="7wue0000290" role="3cqZAp">
           <node concept="1PaTwC" id="7wue0000291" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000024" role="1PaTwD">
+              <property role="3oM_SC" value="UC-002" />
+            </node>
             <node concept="3oM_SD" id="7wue0000292" role="1PaTwD">
               <property role="3oM_SC" value="A16" />
             </node>
@@ -36708,6 +36780,9 @@
             </node>
             <node concept="3oM_SD" id="7wue0000526" role="1PaTwD">
               <property role="3oM_SC" value="—" />
+            </node>
+            <node concept="3oM_SD" id="7wbr0000025" role="1PaTwD">
+              <property role="3oM_SC" value="UC-002" />
             </node>
             <node concept="3oM_SD" id="7wue0000527" role="1PaTwD">
               <property role="3oM_SC" value="BR-003" />
@@ -39384,7 +39459,10 @@
               <property role="3oM_SC" value="Sortimentsregel" />
             </node>
             <node concept="3oM_SD" id="7vsm0000356" role="1PaTwD">
-              <property role="3oM_SC" value="(BR-007)," />
+              <property role="3oM_SC" value="(UC-014" />
+            </node>
+            <node concept="3oM_SD" id="7wbr0000026" role="1PaTwD">
+              <property role="3oM_SC" value="BR-007)," />
             </node>
             <node concept="3oM_SD" id="7vsm0000357" role="1PaTwD">
               <property role="3oM_SC" value="muss" />
@@ -42307,6 +42385,9 @@
       <node concept="3clFbS" id="7vsm0002805" role="3clF47">
         <node concept="3SKdUt" id="7vsm0002806" role="3cqZAp">
           <node concept="1PaTwC" id="7vsm0002807" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000027" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
+            </node>
             <node concept="3oM_SD" id="7vsm0002808" role="1PaTwD">
               <property role="3oM_SC" value="BR-006:" />
             </node>
@@ -44406,6 +44487,9 @@
       <node concept="3clFbS" id="7vsm0002993" role="3clF47">
         <node concept="3SKdUt" id="7vsm0002994" role="3cqZAp">
           <node concept="1PaTwC" id="7vsm0002995" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000028" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
+            </node>
             <node concept="3oM_SD" id="7vsm0002996" role="1PaTwD">
               <property role="3oM_SC" value="BR-008" />
             </node>
@@ -47498,6 +47582,9 @@
                   </node>
                   <node concept="3oM_SD" id="7vsm0004046" role="1PaTwD">
                     <property role="3oM_SC" value="nach" />
+                  </node>
+                  <node concept="3oM_SD" id="7wbr0000029" role="1PaTwD">
+                    <property role="3oM_SC" value="UC-014" />
                   </node>
                   <node concept="3oM_SD" id="7vsm0004047" role="1PaTwD">
                     <property role="3oM_SC" value="BR-007;" />
@@ -52869,6 +52956,9 @@
         <node concept="3oM_SD" id="7vsm0001727" role="1PaTwD">
           <property role="3oM_SC" value="1," />
         </node>
+        <node concept="3oM_SD" id="7wbr0000030" role="1PaTwD">
+          <property role="3oM_SC" value="UC-014" />
+        </node>
         <node concept="3oM_SD" id="7vsm0001728" role="1PaTwD">
           <property role="3oM_SC" value="A6," />
         </node>
@@ -53161,7 +53251,10 @@
           <property role="3oM_SC" value="verwendet" />
         </node>
         <node concept="3oM_SD" id="7vsm0001853" role="1PaTwD">
-          <property role="3oM_SC" value="(A7" />
+          <property role="3oM_SC" value="(UC-014" />
+        </node>
+        <node concept="3oM_SD" id="7wbr0000031" role="1PaTwD">
+          <property role="3oM_SC" value="A7" />
         </node>
         <node concept="3oM_SD" id="7vsm0001854" role="1PaTwD">
           <property role="3oM_SC" value="Schritt" />
@@ -53472,7 +53565,10 @@
           <property role="3oM_SC" value="Überschneidungsprüfung" />
         </node>
         <node concept="3oM_SD" id="7vsm0001987" role="1PaTwD">
-          <property role="3oM_SC" value="(BR-008," />
+          <property role="3oM_SC" value="(UC-014" />
+        </node>
+        <node concept="3oM_SD" id="7wbr0000032" role="1PaTwD">
+          <property role="3oM_SC" value="BR-008," />
         </node>
         <node concept="3oM_SD" id="7vsm0001988" role="1PaTwD">
           <property role="3oM_SC" value="A9):" />
@@ -53554,6 +53650,9 @@
             </node>
             <node concept="3oM_SD" id="7vsm0005796" role="1PaTwD">
               <property role="3oM_SC" value="für" />
+            </node>
+            <node concept="3oM_SD" id="7wbr0000033" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
             </node>
             <node concept="3oM_SD" id="7vsm0005797" role="1PaTwD">
               <property role="3oM_SC" value="BR-009." />
@@ -54416,6 +54515,9 @@
         </node>
         <node concept="3SKdUt" id="7vsm0006163" role="3cqZAp">
           <node concept="1PaTwC" id="7vsm0006164" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000034" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
+            </node>
             <node concept="3oM_SD" id="7vsm0006165" role="1PaTwD">
               <property role="3oM_SC" value="BR-009:" />
             </node>
@@ -54694,6 +54796,9 @@
       <node concept="3clFbS" id="7vsm0006269" role="3clF47">
         <node concept="3SKdUt" id="7vsm0006270" role="3cqZAp">
           <node concept="1PaTwC" id="7vsm0006271" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000035" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
+            </node>
             <node concept="3oM_SD" id="7vsm0006272" role="1PaTwD">
               <property role="3oM_SC" value="A14" />
             </node>
@@ -54778,7 +54883,10 @@
           <property role="3oM_SC" value="Gültigkeit" />
         </node>
         <node concept="3oM_SD" id="7vsm0000695" role="1PaTwD">
-          <property role="3oM_SC" value="(BR-004," />
+          <property role="3oM_SC" value="(UC-014" />
+        </node>
+        <node concept="3oM_SD" id="7wbr0000036" role="1PaTwD">
+          <property role="3oM_SC" value="BR-004," />
         </node>
         <node concept="3oM_SD" id="7vsm0000696" role="1PaTwD">
           <property role="3oM_SC" value="BR-009)." />
@@ -56101,6 +56209,9 @@
         </node>
         <node concept="3SKdUt" id="7vsm0006608" role="3cqZAp">
           <node concept="1PaTwC" id="7vsm0006609" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000037" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
+            </node>
             <node concept="3oM_SD" id="7vsm0006610" role="1PaTwD">
               <property role="3oM_SC" value="BR-009" />
             </node>
@@ -56389,6 +56500,9 @@
             </node>
             <node concept="3SKdUt" id="7vsm0006729" role="3cqZAp">
               <node concept="1PaTwC" id="7vsm0006730" role="1aUNEU">
+                <node concept="3oM_SD" id="7wbr0000038" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-014" />
+                </node>
                 <node concept="3oM_SD" id="7vsm0006731" role="1PaTwD">
                   <property role="3oM_SC" value="BR-003" />
                 </node>
@@ -56475,6 +56589,9 @@
             </node>
             <node concept="3SKdUt" id="7vsm0006765" role="3cqZAp">
               <node concept="1PaTwC" id="7vsm0006766" role="1aUNEU">
+                <node concept="3oM_SD" id="7wbr0000039" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-014" />
+                </node>
                 <node concept="3oM_SD" id="7vsm0006767" role="1PaTwD">
                   <property role="3oM_SC" value="BR-009" />
                 </node>
@@ -56600,6 +56717,9 @@
         </node>
         <node concept="3SKdUt" id="7vsm0006813" role="3cqZAp">
           <node concept="1PaTwC" id="7vsm0006814" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000040" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
+            </node>
             <node concept="3oM_SD" id="7vsm0006815" role="1PaTwD">
               <property role="3oM_SC" value="BR-004:" />
             </node>
@@ -56641,6 +56761,9 @@
         </node>
         <node concept="3SKdUt" id="7vsm0006829" role="3cqZAp">
           <node concept="1PaTwC" id="7vsm0006830" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000041" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
+            </node>
             <node concept="3oM_SD" id="7vsm0006831" role="1PaTwD">
               <property role="3oM_SC" value="BR-008:" />
             </node>
@@ -57352,6 +57475,9 @@
         </node>
         <node concept="3SKdUt" id="7vsm0007129" role="3cqZAp">
           <node concept="1PaTwC" id="7vsm0007130" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000042" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
+            </node>
             <node concept="3oM_SD" id="7vsm0007131" role="1PaTwD">
               <property role="3oM_SC" value="BR-005" />
             </node>
@@ -57506,6 +57632,9 @@
         </node>
         <node concept="3SKdUt" id="7vsm0007190" role="3cqZAp">
           <node concept="1PaTwC" id="7vsm0007191" role="1aUNEU">
+            <node concept="3oM_SD" id="7wbr0000043" role="1PaTwD">
+              <property role="3oM_SC" value="UC-014" />
+            </node>
             <node concept="3oM_SD" id="7vsm0007192" role="1PaTwD">
               <property role="3oM_SC" value="A13" />
             </node>

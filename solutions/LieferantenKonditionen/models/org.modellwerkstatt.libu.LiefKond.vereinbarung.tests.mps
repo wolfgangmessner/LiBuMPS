@@ -2104,7 +2104,7 @@
     <property role="TrG5h" value="Gültige Konditionen einsehen (UC-003)" />
     <ref role="2WPtWl" to="anru:5E0k43hHz10" resolve="ConfigTest" />
     <node concept="3yPF9F" id="7x330000697" role="3yMuLx">
-      <property role="TrG5h" value="Hauptszenario: Kondition mit Sortiment und dessen Zeilen (A9)" />
+      <property role="TrG5h" value="Hauptszenario: Kondition mit Sortiment und dessen Zeilen (UC-003 A9)" />
       <node concept="3cqZAl" id="7x330000698" role="3clF45" />
       <node concept="3clFbS" id="7x330000699" role="3clF47">
         <node concept="3cpWs8" id="7x330000700" role="3cqZAp">
@@ -2376,7 +2376,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="7x330000806" role="3yMuLx">
-      <property role="TrG5h" value="A4: Unterwarengruppe nur teilweise im Sortiment" />
+      <property role="TrG5h" value="UC-003 A4: Unterwarengruppe nur teilweise im Sortiment" />
       <node concept="3cqZAl" id="7x330000807" role="3clF45" />
       <node concept="3clFbS" id="7x330000808" role="3clF47">
         <node concept="3cpWs8" id="7x330000809" role="3cqZAp">
@@ -2633,7 +2633,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="7x330000906" role="3yMuLx">
-      <property role="TrG5h" value="A4: im Sortiment ausgeschlossener Artikel greift nicht" />
+      <property role="TrG5h" value="UC-003 A4: im Sortiment ausgeschlossener Artikel greift nicht" />
       <node concept="3cqZAl" id="7x330000907" role="3clF45" />
       <node concept="3clFbS" id="7x330000908" role="3clF47">
         <node concept="3cpWs8" id="7x330000909" role="3cqZAp">
@@ -2957,7 +2957,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="7x330000990" role="3yMuLx">
-      <property role="TrG5h" value="A8: ausgenommener Artikel, Kondition nicht wirksam" />
+      <property role="TrG5h" value="UC-003 A8: ausgenommener Artikel, Kondition nicht wirksam" />
       <node concept="3cqZAl" id="7x330000991" role="3clF45" />
       <node concept="3clFbS" id="7x330000992" role="3clF47">
         <node concept="3cpWs8" id="7x330000993" role="3cqZAp">
@@ -3225,7 +3225,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="7x330001093" role="3yMuLx">
-      <property role="TrG5h" value="A2: unbekannter Lieferant wird abgewiesen" />
+      <property role="TrG5h" value="UC-003 A2: unbekannter Lieferant wird abgewiesen" />
       <node concept="3cqZAl" id="7x330001094" role="3clF45" />
       <node concept="3clFbS" id="7x330001095" role="3clF47">
         <node concept="3cpWs8" id="7x330001096" role="3cqZAp">
@@ -3320,7 +3320,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="7x330001127" role="3yMuLx">
-      <property role="TrG5h" value="A4: nur eine Einschränkung zulässig" />
+      <property role="TrG5h" value="UC-003 A4: nur eine Einschränkung zulässig" />
       <node concept="3cqZAl" id="7x330001128" role="3clF45" />
       <node concept="3clFbS" id="7x330001129" role="3clF47">
         <node concept="3cpWs8" id="7x330001130" role="3cqZAp">
