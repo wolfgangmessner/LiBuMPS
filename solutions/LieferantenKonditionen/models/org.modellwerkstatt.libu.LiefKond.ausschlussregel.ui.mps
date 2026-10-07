@@ -14,6 +14,9 @@
   </imports>
   <registry>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
+      <concept id="186921216802513445" name="org.modellwerkstatt.dataux.structure.ColorPpOption" flags="ng" index="UTR7Y">
+        <child id="4862154259448213895" name="color" index="26Uuoe" />
+      </concept>
       <concept id="465568541573490183" name="org.modellwerkstatt.dataux.structure.IHasFormOptions" flags="ngI" index="PoUSo">
         <child id="465568541573490184" name="options" index="PoUSn" />
       </concept>
@@ -40,6 +43,7 @@
       <concept id="465568541577313928" name="org.modellwerkstatt.dataux.structure.DisabledDOption" flags="ng" index="Pevqn" />
       <concept id="7834248083556629545" name="org.modellwerkstatt.dataux.structure.Table" flags="ng" index="2U5qGQ" />
       <concept id="9014591971156139020" name="org.modellwerkstatt.dataux.structure.PagePane" flags="ng" index="2mKXYI">
+        <child id="186921216802513051" name="options" index="UTRd0" />
         <child id="2954183761501582907" name="uxChild" index="21u2x1" />
       </concept>
       <concept id="465568541577797267" name="org.modellwerkstatt.dataux.structure.RefDelegateScopeProps" flags="ng" index="P8lqc">
@@ -90,6 +94,9 @@
       </concept>
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="4862154259428332765" name="org.modellwerkstatt.objectflow.structure.ColorReference" flags="ng" index="276gdk">
+        <reference id="4862154259428332766" name="theColor" index="276gdn" />
+      </concept>
       <concept id="7192042020164640426" name="org.modellwerkstatt.objectflow.structure.Container" flags="ng" index="3ulXEQ">
         <child id="7192042020164640432" name="variable" index="3ulXEG" />
         <child id="7192042020164640429" name="parameter" index="3ulXEL" />
@@ -838,6 +845,10 @@
             <property role="PiFy3" value="12" />
           </node>
         </node>
+        <node concept="33WYYh" id="7auu0000227" role="fOGQ8">
+          <ref role="2_Hrw8" node="7auu0000228" resolve="Ausschlussregel anlegen" />
+          <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
+        </node>
         <node concept="fOGPe" id="7auu0000207" role="fOGQ8">
           <node concept="33WYYh" id="7auu0000208" role="fOGQ8">
             <ref role="2_Hrw8" node="7auu0000924" resolve="Gültigkeit der Ausschlussregel ändern" />
@@ -874,6 +885,7 @@
           </node>
           <node concept="33WYYh" id="7auu0000220" role="fOGQ8">
             <ref role="2_Hrw8" node="7auu0001265" resolve="Ausschlussregel löschen" />
+            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="Loeschen" />
             <node concept="2OqwBi" id="7auu0000221" role="2_HrWp">
               <node concept="2IFXgM" id="7auu0000222" role="2Oq$k0">
                 <ref role="2IFZ7r" to="5art:7aus0000789" resolve="AusschlussregelInfo" />
@@ -888,10 +900,9 @@
       <node concept="2U5nhT" id="7auu0000224" role="2U5niL" />
       <node concept="2U5nhz" id="7auu0000225" role="2U5niL" />
     </node>
-    <node concept="fOGPe" id="7auu0000226" role="fOGQ8">
-      <node concept="33WYYh" id="7auu0000227" role="fOGQ8">
-        <ref role="2_Hrw8" node="7auu0000228" resolve="Ausschlussregel anlegen" />
-        <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
+    <node concept="UTR7Y" id="7uia0000001" role="UTRd0">
+      <node concept="276gdk" id="7uia0000002" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="BereichAusschlussregel" />
       </node>
     </node>
   </node>
@@ -4087,6 +4098,11 @@
         <node concept="1fQJa5" id="7auu0001431" role="PoUSh" />
       </node>
     </node>
+    <node concept="UTR7Y" id="7uia0000003" role="UTRd0">
+      <node concept="276gdk" id="7uia0000004" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="BereichAusschlussregel" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="7auu0001432">
     <property role="TrG5h" value="AusschlussregelGueltigkeitPP" />
@@ -4131,6 +4147,11 @@
           <ref role="3O0p26" to="5art:7aus0000686" resolve="istAngewendet" />
         </node>
         <node concept="Pevqn" id="7auu0001452" role="PoUSh" />
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7uia0000005" role="UTRd0">
+      <node concept="276gdk" id="7uia0000006" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="BereichAusschlussregel" />
       </node>
     </node>
   </node>
@@ -4178,6 +4199,11 @@
         <node concept="Pevqn" id="7auu0001472" role="PoUSh" />
       </node>
     </node>
+    <node concept="UTR7Y" id="7uia0000007" role="UTRd0">
+      <node concept="276gdk" id="7uia0000008" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="BereichAusschlussregel" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="7auu0001473">
     <property role="TrG5h" value="AusschlussregelLoeschenPP" />
@@ -4219,6 +4245,11 @@
       </node>
       <node concept="PoU6y" id="7auu0001494" role="PoUSn" />
     </node>
+    <node concept="UTR7Y" id="7uia0000009" role="UTRd0">
+      <node concept="276gdk" id="7uia0000010" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="BereichAusschlussregel" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="7auu0001495">
     <property role="TrG5h" value="AusschlussHinweisPP" />
@@ -4237,6 +4268,11 @@
         </node>
       </node>
       <node concept="PoU6y" id="7auu0001501" role="PoUSn" />
+    </node>
+    <node concept="UTR7Y" id="7uia0000011" role="UTRd0">
+      <node concept="276gdk" id="7uia0000012" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="BereichAusschlussregel" />
+      </node>
     </node>
   </node>
 </model>
