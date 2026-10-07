@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="6wp2" ref="r:b5e8b95d-b735-4ca8-95d8-aa66efde5d95(org.modellwerkstatt.libu.LiefKond.belegartregel.domain)" />
+    <import index="hg40" ref="r:dcc1c0ca-ab44-4898-906e-e8b4a9d7f836(org.modellwerkstatt.libu.LiefKond.core.domain)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -72,6 +73,9 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="4862154259428332765" name="org.modellwerkstatt.objectflow.structure.ColorReference" flags="ng" index="276gdk">
+        <reference id="4862154259428332766" name="theColor" index="276gdn" />
+      </concept>
       <concept id="6525155817176738379" name="org.modellwerkstatt.objectflow.structure.PageInitConceptFunc" flags="ig" index="20qEzJ" />
       <concept id="6525155817176754757" name="org.modellwerkstatt.objectflow.structure.CommandVoidStatementList" flags="ig" index="20qIzx" />
       <concept id="3887124829264538773" name="org.modellwerkstatt.objectflow.structure.PagePaneActionProviderLink" flags="ng" index="3063JU">
@@ -104,7 +108,11 @@
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.DTO" flags="ig" index="1YeyE5" />
     </language>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
+      <concept id="186921216802513445" name="org.modellwerkstatt.dataux.structure.ColorPpOption" flags="ng" index="UTR7Y">
+        <child id="4862154259448213895" name="color" index="26Uuoe" />
+      </concept>
       <concept id="9014591971156139020" name="org.modellwerkstatt.dataux.structure.PagePane" flags="ng" index="2mKXYI">
+        <child id="186921216802513051" name="options" index="UTRd0" />
         <child id="2954183761501582907" name="uxChild" index="21u2x1" />
       </concept>
       <concept id="465568541575437347" name="org.modellwerkstatt.dataux.structure.IHasDelegates" flags="ngI" index="PhlgW">
@@ -263,6 +271,11 @@
         <node concept="3Oe$u_" id="6DuqmNw0KGz" role="3Oe2NS">
           <ref role="3O0p26" to="6wp2:6DuqmNw0JW5" resolve="istVerwendet" />
         </node>
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7uib0000001" role="UTRd0">
+      <node concept="276gdk" id="7uib0000002" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichBelegartregel" />
       </node>
     </node>
   </node>
