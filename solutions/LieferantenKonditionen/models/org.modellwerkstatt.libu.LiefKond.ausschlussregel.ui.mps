@@ -852,6 +852,7 @@
         <node concept="fOGPe" id="7auu0000207" role="fOGQ8">
           <node concept="33WYYh" id="7auu0000208" role="fOGQ8">
             <ref role="2_Hrw8" node="7auu0000924" resolve="Gültigkeit der Ausschlussregel ändern" />
+            <ref role="3uz5Vf" to="hg40:7uil0000013" resolve="GueltigkeitAendernEnter" />
             <node concept="2OqwBi" id="7auu0000209" role="2_HrWp">
               <node concept="2IFXgM" id="7auu0000210" role="2Oq$k0">
                 <ref role="2IFZ7r" to="5art:7aus0000789" resolve="AusschlussregelInfo" />
@@ -863,6 +864,7 @@
           </node>
           <node concept="33WYYh" id="7auu0000212" role="fOGQ8">
             <ref role="2_Hrw8" node="7auu0001132" resolve="Grund der Ausschlussregel ändern" />
+            <ref role="3uz5Vf" to="hg40:7uil0000017" resolve="GrundAendern" />
             <node concept="2OqwBi" id="7auu0000213" role="2_HrWp">
               <node concept="2IFXgM" id="7auu0000214" role="2Oq$k0">
                 <ref role="2IFZ7r" to="5art:7aus0000789" resolve="AusschlussregelInfo" />
@@ -874,6 +876,7 @@
           </node>
           <node concept="33WYYh" id="7auu0000216" role="fOGQ8">
             <ref role="2_Hrw8" node="7auu0000559" resolve="Ausschlussregel ändern" />
+            <ref role="3uz5Vf" to="hg40:7uil0000005" resolve="Aendern" />
             <node concept="2OqwBi" id="7auu0000217" role="2_HrWp">
               <node concept="2IFXgM" id="7auu0000218" role="2Oq$k0">
                 <ref role="2IFZ7r" to="5art:7aus0000789" resolve="AusschlussregelInfo" />
