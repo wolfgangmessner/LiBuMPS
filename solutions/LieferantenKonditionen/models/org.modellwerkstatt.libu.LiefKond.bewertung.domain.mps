@@ -334,7 +334,16 @@
           <property role="Xl_RC" value="nicht prüfbar" />
         </node>
       </node>
-      <node concept="1TNdZI" id="7bw30000001" role="1TMXFZ" />
+      <node concept="2XvgOc" id="7bw40000001" role="2XvgO2">
+        <property role="TrG5h" value="Summe" />
+        <property role="2XvgOS" value="SUMME" />
+        <node concept="Xl_RD" id="7bw40000002" role="3RLGe5">
+          <property role="Xl_RC" value="Summe" />
+        </node>
+        <node concept="Xl_RD" id="7bw40000003" role="3RLGhM">
+          <property role="Xl_RC" value="Summe" />
+        </node>
+      </node>
     </node>
     <node concept="1bOX9e" id="7bwd0000046" role="TxmiU">
       <property role="2RkwnN" value="lieferantNr" />
@@ -1988,26 +1997,101 @@
                   </node>
                 </node>
                 <node concept="1PaTwC" id="7bwd0000724" role="3QOC2y">
-                  <node concept="3oM_SD" id="7bwd0000725" role="1PaTwD">
+                  <node concept="3oM_SD" id="7bw40000004" role="1PaTwD">
                     <property role="3oM_SC" value="" />
                   </node>
-                  <node concept="3oM_SD" id="7bwd0000726" role="1PaTwD">
+                  <node concept="3oM_SD" id="7bw40000005" role="1PaTwD">
                     <property role="3oM_SC" value="" />
                   </node>
-                  <node concept="3oM_SD" id="7bwd0000727" role="1PaTwD">
+                  <node concept="3oM_SD" id="7bw40000006" role="1PaTwD">
                     <property role="3oM_SC" value="" />
                   </node>
-                  <node concept="3oM_SD" id="7bwd0000728" role="1PaTwD">
+                  <node concept="3oM_SD" id="7bw40000007" role="1PaTwD">
                     <property role="3oM_SC" value="" />
                   </node>
-                  <node concept="3oM_SD" id="7bwd0000729" role="1PaTwD">
+                  <node concept="3oM_SD" id="7bw40000008" role="1PaTwD">
                     <property role="3oM_SC" value="" />
                   </node>
-                  <node concept="3oM_SD" id="7bwd0000730" role="1PaTwD">
+                  <node concept="3oM_SD" id="7bw40000009" role="1PaTwD">
                     <property role="3oM_SC" value="," />
                   </node>
-                  <node concept="3oM_SD" id="7bwd0000731" role="1PaTwD">
+                  <node concept="3oM_SD" id="7bw40000010" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000011" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000012" role="1PaTwD">
+                    <property role="3oM_SC" value="GROUPING(l.beleg_id)" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000013" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000014" role="1PaTwD">
+                    <property role="3oM_SC" value="1" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000015" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000016" role="1PaTwD">
+                    <property role="3oM_SC" value="'SUMME'" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000017" role="1PaTwD">
+                    <property role="3oM_SC" value="ELSE" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000018" role="1PaTwD">
                     <property role="3oM_SC" value="l.art" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000019" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000020" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000021" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000022" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000023" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000024" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000025" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000026" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000027" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000028" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000029" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000030" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000031" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000032" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000033" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000034" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7bw40000035" role="1PaTwD">
+                    <property role="3oM_SC" value="art" />
                   </node>
                 </node>
                 <node concept="1PaTwC" id="7bwd0000732" role="3QOC2y">
