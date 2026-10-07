@@ -22806,6 +22806,9 @@
                       <node concept="3oM_SD" id="6L7N33PRX9" role="1PaTwD">
                         <property role="3oM_SC" value="COUNT(*)" />
                       </node>
+                      <node concept="3oM_SD" id="7fca0000001" role="1PaTwD">
+                        <property role="3oM_SC" value="anz" />
+                      </node>
                     </node>
                     <node concept="1PaTwC" id="6L7N33PRXa" role="3QOC2y">
                       <node concept="3oM_SD" id="6L7N33PRXb" role="1PaTwD">
@@ -23017,9 +23020,9 @@
                           <ref role="3cqZAo" node="6L7N33PRYm" resolve="row" />
                         </node>
                         <node concept="liA8E" id="6L7N33PRYk" role="2OqNvi">
-                          <ref role="37wK5l" to="w7gk:3NdPOdNGJWi" resolve="getAsInteger" />
-                          <node concept="3cmrfG" id="6L7N33PRYl" role="37wK5m">
-                            <property role="3cmrfH" value="1" />
+                          <ref role="37wK5l" to="w7gk:7ng6PyBXpah" resolve="getAsInteger" />
+                          <node concept="Xl_RD" id="7fca0000002" role="37wK5m">
+                            <property role="Xl_RC" value="anz" />
                           </node>
                         </node>
                       </node>
@@ -23076,6 +23079,9 @@
                       </node>
                       <node concept="3oM_SD" id="1SEqE6yQB$N" role="1PaTwD">
                         <property role="3oM_SC" value="COUNT(*)" />
+                      </node>
+                      <node concept="3oM_SD" id="7fca0000003" role="1PaTwD">
+                        <property role="3oM_SC" value="anz" />
                       </node>
                     </node>
                     <node concept="1PaTwC" id="1SEqE6yQB$O" role="3QOC2y">
@@ -23200,9 +23206,9 @@
                           <ref role="3cqZAo" node="1SEqE6yQgh5" resolve="row" />
                         </node>
                         <node concept="liA8E" id="1SEqE6yQgh3" role="2OqNvi">
-                          <ref role="37wK5l" to="w7gk:3NdPOdNGJWi" resolve="getAsInteger" />
-                          <node concept="3cmrfG" id="1SEqE6yQgh4" role="37wK5m">
-                            <property role="3cmrfH" value="1" />
+                          <ref role="37wK5l" to="w7gk:7ng6PyBXpah" resolve="getAsInteger" />
+                          <node concept="Xl_RD" id="7fca0000004" role="37wK5m">
+                            <property role="Xl_RC" value="anz" />
                           </node>
                         </node>
                       </node>
@@ -23249,6 +23255,9 @@
                     </node>
                     <node concept="3oM_SD" id="1SEqE6yQDQD" role="1PaTwD">
                       <property role="3oM_SC" value="bb.beleg_id)" />
+                    </node>
+                    <node concept="3oM_SD" id="7fca0000005" role="1PaTwD">
+                      <property role="3oM_SC" value="anz" />
                     </node>
                   </node>
                   <node concept="1PaTwC" id="1SEqE6yQDQE" role="3QOC2y">
@@ -23561,9 +23570,9 @@
                         <ref role="3cqZAo" node="1SEqE6yQfbm" resolve="row" />
                       </node>
                       <node concept="liA8E" id="1SEqE6yQfbk" role="2OqNvi">
-                        <ref role="37wK5l" to="w7gk:3NdPOdNGJWi" resolve="getAsInteger" />
-                        <node concept="3cmrfG" id="1SEqE6yQfbl" role="37wK5m">
-                          <property role="3cmrfH" value="1" />
+                        <ref role="37wK5l" to="w7gk:7ng6PyBXpah" resolve="getAsInteger" />
+                        <node concept="Xl_RD" id="7fca0000006" role="37wK5m">
+                          <property role="Xl_RC" value="anz" />
                         </node>
                       </node>
                     </node>
@@ -23625,6 +23634,9 @@
                     </node>
                     <node concept="3oM_SD" id="1SEqE6yQFiw" role="1PaTwD">
                       <property role="3oM_SC" value="COUNT(*)" />
+                    </node>
+                    <node concept="3oM_SD" id="7fca0000007" role="1PaTwD">
+                      <property role="3oM_SC" value="anz" />
                     </node>
                   </node>
                   <node concept="1PaTwC" id="1SEqE6yQFix" role="3QOC2y">
@@ -23923,9 +23935,9 @@
                         <ref role="3cqZAo" node="1SEqE6yQaEL" resolve="row" />
                       </node>
                       <node concept="liA8E" id="1SEqE6yQbyc" role="2OqNvi">
-                        <ref role="37wK5l" to="w7gk:3NdPOdNGJWi" resolve="getAsInteger" />
-                        <node concept="3cmrfG" id="1SEqE6yQbPL" role="37wK5m">
-                          <property role="3cmrfH" value="1" />
+                        <ref role="37wK5l" to="w7gk:7ng6PyBXpah" resolve="getAsInteger" />
+                        <node concept="Xl_RD" id="7fca0000008" role="37wK5m">
+                          <property role="Xl_RC" value="anz" />
                         </node>
                       </node>
                     </node>
