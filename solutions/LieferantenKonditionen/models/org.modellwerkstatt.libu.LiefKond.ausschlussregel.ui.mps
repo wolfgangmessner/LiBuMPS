@@ -4191,37 +4191,31 @@
         <node concept="3Oe$u_" id="7auu0001477" role="3Oe2NS">
           <ref role="3O0p26" to="5art:7aus0000573" resolve="bezug" />
         </node>
-        <node concept="Pevqn" id="7auu0001478" role="PoUSh" />
       </node>
       <node concept="3Oe2Ik" id="7auu0001479" role="3OfFNq">
         <node concept="3Oe$u_" id="7auu0001480" role="3Oe2NS">
           <ref role="3O0p26" to="5art:7aus0000676" resolve="bezugText" />
         </node>
-        <node concept="Pevqn" id="7auu0001481" role="PoUSh" />
       </node>
       <node concept="3Oe2Ik" id="7auu0001482" role="3OfFNq">
         <node concept="3Oe$u_" id="7auu0001483" role="3Oe2NS">
           <ref role="3O0p26" to="5art:7aus0000609" resolve="grund" />
         </node>
-        <node concept="Pevqn" id="7auu0001484" role="PoUSh" />
       </node>
       <node concept="2TG9WU" id="7auu0001485" role="3OfFNq">
         <node concept="3Oe$u_" id="7auu0001486" role="3Oe2NS">
           <ref role="3O0p26" to="5art:7aus0000628" resolve="gueltigVon" />
         </node>
-        <node concept="Pevqn" id="7auu0001487" role="PoUSh" />
       </node>
       <node concept="2TG9WU" id="7auu0001488" role="3OfFNq">
         <node concept="3Oe$u_" id="7auu0001489" role="3Oe2NS">
           <ref role="3O0p26" to="5art:7aus0000637" resolve="gueltigBis" />
         </node>
-        <node concept="Pevqn" id="7auu0001490" role="PoUSh" />
       </node>
       <node concept="2TG9WX" id="7auu0001491" role="3OfFNq">
         <node concept="3Oe$u_" id="7auu0001492" role="3Oe2NS">
           <ref role="3O0p26" to="5art:7aus0000686" resolve="istAngewendet" />
         </node>
-        <node concept="Pevqn" id="7auu0001493" role="PoUSh" />
       </node>
       <node concept="PoU6y" id="7auu0001494" role="PoUSn" />
     </node>
