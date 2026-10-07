@@ -869,7 +869,7 @@
         <node concept="fOGPe" id="c_HYpdHcYG" role="fOGQ8">
           <node concept="33WYYh" id="c_HYpdGTJI" role="fOGQ8">
             <ref role="2_Hrw8" node="c_HYpdGT7m" resolve="VereinbarungOeffnen" />
-            <ref role="3uz5Vf" to="hg40:zKoHW9QBsS" resolve="Oeffnen" />
+            <ref role="3uz5Vf" to="hg40:7uil0000001" resolve="OeffnenEnter" />
             <node concept="2OqwBi" id="c_HYpdGVz7" role="2_HrWp">
               <node concept="2IFXgM" id="c_HYpdGVz8" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
@@ -3108,15 +3108,18 @@
         <node concept="fOGPe" id="64Z6K0hROSo" role="fOGQ8">
           <node concept="33WYYh" id="64Z6K0hRPO1" role="fOGQ8">
             <ref role="2_Hrw8" node="64Z6K0hRPkH" resolve="Kondidtionsbezeichnung ändern" />
+            <ref role="3uz5Vf" to="hg40:7uil0000021" resolve="BezeichnungAendern" />
           </node>
           <node concept="33WYYh" id="64Z6K0hRPPl" role="fOGQ8">
             <ref role="2_Hrw8" node="64Z6K0hRPv7" resolve="Berechnung ändern" />
           </node>
           <node concept="33WYYh" id="64Z6K0hRPQE" role="fOGQ8">
             <ref role="2_Hrw8" node="64Z6K0hRPxt" resolve="Konditionsgültigkeit ändern" />
+            <ref role="3uz5Vf" to="hg40:7uil0000013" resolve="GueltigkeitAendernEnter" />
           </node>
           <node concept="33WYYh" id="64Z6K0hRPSI" role="fOGQ8">
             <ref role="2_Hrw8" node="64Z6K0hRP$v" resolve="Nachfolgekondition anlegen" />
+            <ref role="3uz5Vf" to="hg40:7uil0000025" resolve="NachfolgerAnlegen" />
           </node>
           <node concept="33WYYh" id="64Z6K0hRPU8" role="fOGQ8">
             <ref role="2_Hrw8" node="64Z6K0hRPFp" resolve="Kondition löschen" />
@@ -7915,7 +7918,7 @@
         <node concept="fOGPe" id="7vub0000143" role="fOGQ8">
           <node concept="33WYYh" id="7vub0000144" role="fOGQ8">
             <ref role="2_Hrw8" node="1pSXis7vWc" resolve="Sortiment öffnen" />
-            <ref role="3uz5Vf" to="hg40:zKoHW9QBsS" resolve="Oeffnen" />
+            <ref role="3uz5Vf" to="hg40:7uil0000001" resolve="OeffnenEnter" />
             <node concept="2OqwBi" id="7vub0000145" role="2_HrWp">
               <node concept="2IFXgM" id="7vub0000146" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:1pSXiqMxDl" resolve="SortimentInfo" />
@@ -8544,15 +8547,19 @@
         <node concept="fOGPe" id="7vub0000321" role="fOGQ8">
           <node concept="33WYYh" id="7vub0000322" role="fOGQ8">
             <ref role="2_Hrw8" node="7vub0000959" resolve="Sortimentszeile ändern" />
+            <ref role="3uz5Vf" to="hg40:7uil0000009" resolve="AendernEnter" />
           </node>
           <node concept="33WYYh" id="7vub0000323" role="fOGQ8">
             <ref role="2_Hrw8" node="7vub0001260" resolve="Sortimentszeile beenden" />
+            <ref role="3uz5Vf" to="hg40:7uil0000028" resolve="Beenden" />
           </node>
           <node concept="33WYYh" id="7vub0000324" role="fOGQ8">
             <ref role="2_Hrw8" node="7vub0001330" resolve="Sortimentszeile ersetzen" />
+            <ref role="3uz5Vf" to="hg40:7uil0000031" resolve="Ersetzen" />
           </node>
           <node concept="33WYYh" id="7vub0000325" role="fOGQ8">
             <ref role="2_Hrw8" node="7vub0001682" resolve="Sortimentszeile entfernen" />
+            <ref role="3uz5Vf" to="hg40:7uil0000034" resolve="Entfernen" />
           </node>
         </node>
       </node>
