@@ -335,7 +335,7 @@
       <property role="27cpiu" value="#388e3c" />
     </node>
     <node concept="27cpit" id="59sqMMqSSz7" role="27c1lO">
-      <property role="TrG5h" value="BereichReserve3" />
+      <property role="TrG5h" value="BereichAbrechnung" />
       <property role="27cpiu" value="#f57c00" />
     </node>
     <node concept="il5_x" id="1SEqE6yDQxw" role="2kzhMJ">
