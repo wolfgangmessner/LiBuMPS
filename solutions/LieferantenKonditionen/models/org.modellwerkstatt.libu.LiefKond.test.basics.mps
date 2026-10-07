@@ -1152,7 +1152,10 @@
                 <node concept="2ShNRf" id="4HE8M78rivZ" role="YScLw">
                   <node concept="1pGfFk" id="4HE8M78rn1i" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="7bwy0000001" role="37wK5m">
+                      <ref role="3cqZAo" node="4HE8M78rhFG" resolve="e" />
+                    </node>
                   </node>
                 </node>
               </node>
