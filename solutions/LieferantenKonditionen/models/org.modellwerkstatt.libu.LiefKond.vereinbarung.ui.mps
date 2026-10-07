@@ -16,16 +16,6 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
-      <concept id="5862977038373003187" name="jetbrains.mps.baseLanguage.structure.LocalPropertyReference" flags="nn" index="338YkY">
-        <reference id="5862977038373003188" name="property" index="338YkT" />
-      </concept>
-      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
-        <child id="1068581517676" name="expression" index="3cqZAk" />
-      </concept>
-      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
-        <child id="1079359253376" name="expression" index="1eOMHV" />
-      </concept>
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
@@ -67,6 +57,9 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="5862977038373003187" name="jetbrains.mps.baseLanguage.structure.LocalPropertyReference" flags="nn" index="338YkY">
+        <reference id="5862977038373003188" name="property" index="338YkT" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -84,6 +77,7 @@
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -103,6 +97,9 @@
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
@@ -148,9 +145,6 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
-      <concept id="4678401045862675371" name="org.modellwerkstatt.objectflow.structure.CommandCreationInfo" flags="ng" index="27Aftt">
-        <child id="4678401045862675827" name="msg" index="27Af65" />
-      </concept>
       <concept id="6525155817176738379" name="org.modellwerkstatt.objectflow.structure.PageInitConceptFunc" flags="ig" index="20qEzJ" />
       <concept id="6525155817176754757" name="org.modellwerkstatt.objectflow.structure.CommandVoidStatementList" flags="ig" index="20qIzx" />
       <concept id="6525155817177697680" name="org.modellwerkstatt.objectflow.structure.OFXDocumentation" flags="ng" index="20vkWO">
@@ -158,6 +152,12 @@
       </concept>
       <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
         <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
+      </concept>
+      <concept id="4862154259428332765" name="org.modellwerkstatt.objectflow.structure.ColorReference" flags="ng" index="276gdk">
+        <reference id="4862154259428332766" name="theColor" index="276gdn" />
+      </concept>
+      <concept id="4678401045862675371" name="org.modellwerkstatt.objectflow.structure.CommandCreationInfo" flags="ng" index="27Aftt">
+        <child id="4678401045862675827" name="msg" index="27Af65" />
       </concept>
       <concept id="1410680821326658964" name="org.modellwerkstatt.objectflow.structure.BPMetaReference" flags="ng" index="2dcwcJ">
         <reference id="1410680821326658966" name="businessProperty" index="2dcwcH" />
@@ -242,10 +242,10 @@
         <child id="6946435056110446066" name="exp" index="1mFxgj" />
       </concept>
       <concept id="7192042020163999178" name="org.modellwerkstatt.objectflow.structure.Command" flags="ng" index="3ugp7m">
-        <child id="4678401045862677843" name="commandCreationInformation" index="27AfA_" />
         <property id="7912134052599426179" name="newCommandType" index="19I623" />
         <property id="1001479520354727786" name="newWindowTitleType" index="1ptSWV" />
         <property id="96922280160231604" name="defaultHotkey" index="3uBtrS" />
+        <child id="4678401045862677843" name="commandCreationInformation" index="27AfA_" />
         <child id="1243073729492713846" name="permissionNew" index="2ticAe" />
         <child id="3748648354049763742" name="titleAddOn" index="IYfpf" />
         <child id="1881524139085993257" name="okConclusionStatements" index="10_T4l" />
@@ -293,13 +293,13 @@
       </concept>
     </language>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
-      <concept id="465568541573497275" name="org.modellwerkstatt.dataux.structure.SelectFirstFOption" flags="ng" index="PoWA$" />
       <concept id="1750699687529771353" name="org.modellwerkstatt.dataux.structure.MenuSub" flags="ng" index="fOGPe" />
       <concept id="1750699687529771422" name="org.modellwerkstatt.dataux.structure.IHasMenu" flags="ngI" index="fOGQ9">
         <child id="1750699687529771423" name="menuItems" index="fOGQ8" />
       </concept>
       <concept id="9014591971156139020" name="org.modellwerkstatt.dataux.structure.PagePane" flags="ng" index="2mKXYI">
         <child id="2954183761501582907" name="uxChild" index="21u2x1" />
+        <child id="186921216802513051" name="options" index="UTRd0" />
       </concept>
       <concept id="465568541577797267" name="org.modellwerkstatt.dataux.structure.RefDelegateScopeProps" flags="ng" index="P8lqc">
         <child id="465568541577695010" name="paths" index="P8WsX" />
@@ -323,6 +323,7 @@
       <concept id="465568541573490183" name="org.modellwerkstatt.dataux.structure.IHasFormOptions" flags="ngI" index="PoUSo">
         <child id="465568541573490184" name="options" index="PoUSn" />
       </concept>
+      <concept id="465568541573497275" name="org.modellwerkstatt.dataux.structure.SelectFirstFOption" flags="ng" index="PoWA$" />
       <concept id="3899779351686566801" name="org.modellwerkstatt.dataux.structure.DateTimeDelegate" flags="ng" index="2TG9WT" />
       <concept id="3899779351686566802" name="org.modellwerkstatt.dataux.structure.LocalDateDelegate" flags="ng" index="2TG9WU" />
       <concept id="3899779351686566804" name="org.modellwerkstatt.dataux.structure.ReferenceDelegate" flags="ng" index="2TG9WW">
@@ -347,6 +348,9 @@
         <child id="3899779351686896141" name="colWeights" index="2TFpq_" />
       </concept>
       <concept id="7834248083556629545" name="org.modellwerkstatt.dataux.structure.Table" flags="ng" index="2U5qGQ" />
+      <concept id="186921216802513445" name="org.modellwerkstatt.dataux.structure.ColorPpOption" flags="ng" index="UTR7Y">
+        <child id="4862154259448213895" name="color" index="26Uuoe" />
+      </concept>
       <concept id="3887124829266131198" name="org.modellwerkstatt.dataux.structure.MenuAction" flags="ng" index="33WYYh" />
       <concept id="6605183703250411792" name="org.modellwerkstatt.dataux.structure.PickerDOption" flags="ng" index="1fQJa5" />
       <concept id="8995390878293522713" name="org.modellwerkstatt.dataux.structure.DummyDelegate" flags="ng" index="1wFRl1" />
@@ -364,7 +368,7 @@
       <concept id="1469414169489720306" name="org.modellwerkstatt.dataux.structure.StringDelegate" flags="ng" index="3Oe2Ik" />
       <concept id="1469414169489720305" name="org.modellwerkstatt.dataux.structure.BigDecimalDelegate" flags="ng" index="3Oe2In" />
       <concept id="1469414169489720277" name="org.modellwerkstatt.dataux.structure.IntegerDelegate" flags="ng" index="3Oe2IN" />
-      <concept id="1469414169489846211" name="org.modellwerkstatt.dataux.structure.LocalPropertyReference" flags="ng" index="3Oe$u_">
+      <concept id="1469414169489846211" name="org.modellwerkstatt.dataux.structure.DuxLocalPropertyReference" flags="ng" index="3Oe$u_">
         <reference id="1469414169490356448" name="property" index="3O0p26" />
       </concept>
       <concept id="1469414169489626296" name="org.modellwerkstatt.dataux.structure.BaseDelegate" flags="ng" index="3OfFNu">
@@ -414,7 +418,6 @@
       </concept>
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
-      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
@@ -813,6 +816,11 @@
     <property role="1Nb$_v" value="true" />
     <property role="3GE5qa" value="VereinbarungenSuchen" />
     <ref role="1Tjo7l" node="c_HYpdFU2K" resolve="VereinbarungSuche" />
+    <node concept="UTR7Y" id="zKoHWa6OpZ" role="UTRd0">
+      <node concept="276gdk" id="zKoHWa6Ow1" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="MenuBlue" />
+      </node>
+    </node>
     <node concept="2U5qGN" id="c_HYpdG7Cf" role="21u2x1">
       <property role="TrG5h" value="#" />
       <node concept="2U5nhG" id="c_HYpdG7Cg" role="2U5niJ" />
@@ -854,9 +862,14 @@
         <property role="TrG5h" value="#" />
         <ref role="1Tjo7l" node="c_HYpdFU2K" resolve="VereinbarungSuche" />
         <ref role="1Tjo6F" node="c_HYpdFUGf" />
+        <node concept="33WYYh" id="7vua0000008" role="fOGQ8">
+          <ref role="2_Hrw8" node="c_HYpdGVJf" resolve="Vereinbarung anlegen" />
+          <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
+        </node>
         <node concept="fOGPe" id="c_HYpdHcYG" role="fOGQ8">
           <node concept="33WYYh" id="c_HYpdGTJI" role="fOGQ8">
             <ref role="2_Hrw8" node="c_HYpdGT7m" resolve="VereinbarungOeffnen" />
+            <ref role="3uz5Vf" to="hg40:zKoHW9QBsS" resolve="VereinabrungOeffnen" />
             <node concept="2OqwBi" id="c_HYpdGVz7" role="2_HrWp">
               <node concept="2IFXgM" id="c_HYpdGVz8" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
@@ -871,6 +884,7 @@
           </node>
           <node concept="33WYYh" id="c_HYpdGTU5" role="fOGQ8">
             <ref role="2_Hrw8" node="c_HYpdGThd" resolve="VereinbarungLoeschen" />
+            <ref role="3uz5Vf" to="hg40:zKoHW9QBQX" resolve="VereinabrungLoeschnen" />
             <node concept="2OqwBi" id="c_HYpdGVCo" role="2_HrWp">
               <node concept="2IFXgM" id="c_HYpdGVCp" role="2Oq$k0">
                 <ref role="2IFZ7r" to="uyeg:c_HYpdFVTy" resolve="VereinbarungInfo" />
@@ -953,12 +967,6 @@
       </node>
       <node concept="2U5nhT" id="c_HYpdG8l1" role="2U5niL" />
       <node concept="2U5nhG" id="c_HYpdG8p6" role="2U5niL" />
-    </node>
-    <node concept="fOGPe" id="7vua0000007" role="fOGQ8">
-      <node concept="33WYYh" id="7vua0000008" role="fOGQ8">
-        <ref role="2_Hrw8" node="c_HYpdGVJf" resolve="Vereinbarung anlegen" />
-        <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
-      </node>
     </node>
   </node>
   <node concept="3ugp7m" id="c_HYpdGT7m">
@@ -2922,6 +2930,11 @@
         <ref role="2_Hrw8" node="c_HYpdFTKG" resolve="Vereinbarungen suchen" />
       </node>
     </node>
+    <node concept="UTR7Y" id="zKoHWahEhT" role="UTRd0">
+      <node concept="276gdk" id="zKoHWahEj5" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSy_" resolve="MenuDeepPurple" />
+      </node>
+    </node>
   </node>
   <node concept="2mKXYI" id="1SEqE6z0mlf">
     <property role="TrG5h" value="VereinbarungErfassenPP" />
@@ -2988,9 +3001,6 @@
       </node>
       <node concept="33WYYh" id="1SEqE6z0D63" role="fOGQ8">
         <ref role="2_Hrw8" node="1SEqE6z0Be6" resolve="Lieferant korrigieren" />
-      </node>
-      <node concept="33WYYh" id="7vua0000056" role="fOGQ8">
-        <ref role="2_Hrw8" node="64Z6K0hRPax" resolve="Kondition anlegen" />
       </node>
     </node>
     <node concept="2U5qGN" id="6L7N347VtY" role="21u2x1">
@@ -3086,6 +3096,10 @@
         <property role="TrG5h" value="#" />
         <ref role="1Tjo7l" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
         <ref role="1Tjo6F" to="uyeg:6L7N33Nh83" />
+        <node concept="33WYYh" id="7vua0000056" role="fOGQ8">
+          <ref role="2_Hrw8" node="64Z6K0hRPax" resolve="Kondition anlegen" />
+          <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
+        </node>
         <node concept="fOGPe" id="64Z6K0hROSo" role="fOGQ8">
           <node concept="33WYYh" id="64Z6K0hRPO1" role="fOGQ8">
             <ref role="2_Hrw8" node="64Z6K0hRPkH" resolve="Kondidtionsbezeichnung ändern" />
@@ -3183,6 +3197,11 @@
       </node>
       <node concept="2U5nhT" id="6L7N347VTk" role="2U5niL" />
       <node concept="2U5nhG" id="6L7N347Vyz" role="2U5niL" />
+    </node>
+    <node concept="UTR7Y" id="zKoHWa1pDK" role="UTRd0">
+      <node concept="276gdk" id="zKoHWa1pIt" role="26Uuoe">
+        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="MenuGreen" />
+      </node>
     </node>
   </node>
   <node concept="3ugp7m" id="1SEqE6z0_56">
