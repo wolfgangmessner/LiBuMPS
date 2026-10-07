@@ -2849,6 +2849,37 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="7yk10000001" role="jymVt">
+      <property role="TrG5h" value="lieferantNr" />
+      <node concept="10Oyi0" id="7yk10000002" role="3clF45" />
+      <node concept="3Tm1VV" id="7yk10000003" role="1B3o_S" />
+      <node concept="3clFbS" id="7yk10000004" role="3clF47">
+        <node concept="3cpWs6" id="7yk10000005" role="3cqZAp">
+          <node concept="3K4zz7" id="7yk10000006" role="3cqZAk">
+            <node concept="2OqwBi" id="7yk10000007" role="3K4Cdx">
+              <node concept="2OqwBi" id="7yk10000008" role="2Oq$k0">
+                <node concept="Xjq3P" id="7yk10000009" role="2Oq$k0" />
+                <node concept="WNRgn" id="7yk10000010" role="2OqNvi">
+                  <ref role="WNRgg" node="6L7N33MMLf" resolve="vereinbarung" />
+                </node>
+              </node>
+              <node concept="1Poggp" id="7yk10000011" role="2OqNvi" />
+            </node>
+            <node concept="3cmrfG" id="7yk10000012" role="3K4E3e">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="7yk10000013" role="3K4GZi">
+              <node concept="338YkY" id="7yk10000014" role="2Oq$k0">
+                <ref role="338YkT" node="6L7N33MMLf" resolve="vereinbarung" />
+              </node>
+              <node concept="liA8E" id="7yk10000015" role="2OqNvi">
+                <ref role="37wK5l" node="7vdm0000012" resolve="lieferantNr" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1bOX9e" id="c_HYpdEe9c" role="TxmiU">
       <property role="2RkwnN" value="id" />
       <node concept="3Tm1VV" id="c_HYpdEe9i" role="1B3o_S" />
