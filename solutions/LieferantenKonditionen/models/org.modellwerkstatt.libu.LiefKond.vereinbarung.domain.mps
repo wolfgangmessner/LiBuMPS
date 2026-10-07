@@ -21549,7 +21549,7 @@
               <node concept="lgADV" id="7x130000465" role="mlgNH">
                 <node concept="35AVbj" id="7x130000466" role="lgxf9">
                   <node concept="ic4WF" id="7x130000467" role="icr7_">
-                    <property role="ic4Xk" value="Bitte einen Stichtag angeben." />
+                    <property role="ic4Xk" value="Bitte einen Stichtag angeben. (UC-003 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -21566,7 +21566,7 @@
               <node concept="lgADV" id="7x130000472" role="mlgNH">
                 <node concept="35AVbj" id="7x130000473" role="lgxf9">
                   <node concept="ic4WF" id="7x130000474" role="icr7_">
-                    <property role="ic4Xk" value="Bitte nur eine Einschränkung angeben: Hauptwarengruppe, Unterwarengruppe oder Artikel." />
+                    <property role="ic4Xk" value="Bitte nur eine Einschränkung angeben: Hauptwarengruppe, Unterwarengruppe oder Artikel. (UC-003 BR-003)" />
                   </node>
                 </node>
               </node>
@@ -21578,7 +21578,7 @@
               <node concept="lgADV" id="7x130000477" role="mlgNH">
                 <node concept="35AVbj" id="7x130000478" role="lgxf9">
                   <node concept="ic4WF" id="7x130000479" role="icr7_">
-                    <property role="ic4Xk" value="Der Lieferant %d ist im Warenbuch nicht als Lieferant geführt." />
+                    <property role="ic4Xk" value="Der Lieferant %d ist im Warenbuch nicht als Lieferant geführt. (UC-003 A2)" />
                   </node>
                   <node concept="37vLTw" id="7x130000480" role="35Gt3$">
                     <ref role="3cqZAo" node="7x130000362" />
@@ -21593,7 +21593,7 @@
               <node concept="lgADV" id="7x130000483" role="mlgNH">
                 <node concept="35AVbj" id="7x130000484" role="lgxf9">
                   <node concept="ic4WF" id="7x130000485" role="icr7_">
-                    <property role="ic4Xk" value="Die Hauptwarengruppe %d gibt es im Warenbuch nicht." />
+                    <property role="ic4Xk" value="Die Hauptwarengruppe %d gibt es im Warenbuch nicht. (UC-003 A4)" />
                   </node>
                   <node concept="37vLTw" id="7x130000486" role="35Gt3$">
                     <ref role="3cqZAo" node="7x130000366" />
@@ -21608,7 +21608,7 @@
               <node concept="lgADV" id="7x130000489" role="mlgNH">
                 <node concept="35AVbj" id="7x130000490" role="lgxf9">
                   <node concept="ic4WF" id="7x130000491" role="icr7_">
-                    <property role="ic4Xk" value="Die Unterwarengruppe %d gibt es im Warenbuch nicht." />
+                    <property role="ic4Xk" value="Die Unterwarengruppe %d gibt es im Warenbuch nicht. (UC-003 A4)" />
                   </node>
                   <node concept="37vLTw" id="7x130000492" role="35Gt3$">
                     <ref role="3cqZAo" node="7x130000368" />
@@ -21623,7 +21623,7 @@
               <node concept="lgADV" id="7x130000495" role="mlgNH">
                 <node concept="35AVbj" id="7x130000496" role="lgxf9">
                   <node concept="ic4WF" id="7x130000497" role="icr7_">
-                    <property role="ic4Xk" value="Den Artikel %d gibt es im Artikelstamm des Warenbuchs nicht." />
+                    <property role="ic4Xk" value="Den Artikel %d gibt es im Artikelstamm des Warenbuchs nicht. (UC-003 A4)" />
                   </node>
                   <node concept="37vLTw" id="7x130000498" role="35Gt3$">
                     <ref role="3cqZAo" node="7x130000370" />
@@ -34095,7 +34095,7 @@
               <node concept="lgADV" id="1SEqE6yVtlu" role="mlgNH">
                 <node concept="35AVbj" id="1SEqE6yVtlv" role="lgxf9">
                   <node concept="ic4WF" id="1SEqE6yVtlw" role="icr7_">
-                    <property role="ic4Xk" value="Die Bezeichnung fehlt." />
+                    <property role="ic4Xk" value="Die Bezeichnung fehlt. (UC-002 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -34129,7 +34129,7 @@
               <node concept="lgADV" id="1SEqE6yVLBh" role="mlgNH">
                 <node concept="35AVbj" id="1SEqE6yVLBi" role="lgxf9">
                   <node concept="ic4WF" id="1SEqE6yVLBj" role="icr7_">
-                    <property role="ic4Xk" value="Die Berechnungsart fehlt." />
+                    <property role="ic4Xk" value="Die Berechnungsart fehlt. (UC-002 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -34149,7 +34149,7 @@
               <node concept="lgADV" id="1SEqE6yVWkT" role="mlgNH">
                 <node concept="35AVbj" id="1SEqE6yVWkU" role="lgxf9">
                   <node concept="ic4WF" id="1SEqE6yVWkV" role="icr7_">
-                    <property role="ic4Xk" value="Der Abrechnungszyklus fehlt." />
+                    <property role="ic4Xk" value="Der Abrechnungszyklus fehlt. (UC-002 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -34169,7 +34169,7 @@
               <node concept="lgADV" id="1SEqE6yW7Ek" role="mlgNH">
                 <node concept="35AVbj" id="1SEqE6yW7El" role="lgxf9">
                   <node concept="ic4WF" id="1SEqE6yW7Em" role="icr7_">
-                    <property role="ic4Xk" value="Der erste Gültigkeitstag fehlt." />
+                    <property role="ic4Xk" value="Der erste Gültigkeitstag fehlt. (UC-002 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -34222,7 +34222,7 @@
               <node concept="lgADV" id="1SEqE6yWps7" role="mlgNH">
                 <node concept="35AVbj" id="7vdm0000548" role="lgxf9">
                   <node concept="ic4WF" id="7vdm0000549" role="icr7_">
-                    <property role="ic4Xk" value="%s" />
+                    <property role="ic4Xk" value="%s (UC-002 BR-002)" />
                   </node>
                   <node concept="37vLTw" id="7vdm0000550" role="35Gt3$">
                     <ref role="3cqZAo" node="1SEqE6yRRAE" resolve="verstossBerechnung" />
@@ -34281,7 +34281,7 @@
               <node concept="lgADV" id="7wue0000160" role="mlgNH">
                 <node concept="35AVbj" id="7wue0000161" role="lgxf9">
                   <node concept="ic4WF" id="7wue0000162" role="icr7_">
-                    <property role="ic4Xk" value="%s" />
+                    <property role="ic4Xk" value="%s (UC-002 BR-003)" />
                   </node>
                   <node concept="37vLTw" id="7wue0000163" role="35Gt3$">
                     <ref role="3cqZAo" node="7wue0000074" resolve="sortimentFehler" />
@@ -34389,7 +34389,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="1SEqE6yWOVn" role="icr7_">
-                    <property role="ic4Xk" value="Der letzte Gültigkeitstag %ld liegt vor dem ersten %ld." />
+                    <property role="ic4Xk" value="Der letzte Gültigkeitstag %ld liegt vor dem ersten %ld. (UC-002 BR-004)" />
                   </node>
                 </node>
               </node>
@@ -34438,7 +34438,7 @@
                     <ref role="3cqZAo" node="1SEqE6yRRAI" resolve="vereinbarungsZeitraum" />
                   </node>
                   <node concept="ic4WF" id="1SEqE6yXbVh" role="icr7_">
-                    <property role="ic4Xk" value="Die Kondition muss innerhalb der Vereinbarung gelten (%s)." />
+                    <property role="ic4Xk" value="Die Kondition muss innerhalb der Vereinbarung gelten (%s). (UC-002 BR-004)" />
                   </node>
                 </node>
               </node>
@@ -34503,7 +34503,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="1SEqE6yXLyk" role="icr7_">
-                    <property role="ic4Xk" value="Die Kondition überschneidet sich: %s. Bitte ein anderes Sortiment wählen, den Zeitraum einschränken oder zuerst die andere Kondition beenden. Ein Sortiment lässt sich auch in der Sortimentspflege abgrenzen, z. B. mit einer ausschließenden Zeile." />
+                    <property role="ic4Xk" value="Die Kondition überschneidet sich: %s. Bitte ein anderes Sortiment wählen, den Zeitraum einschränken oder zuerst die andere Kondition beenden. Ein Sortiment lässt sich auch in der Sortimentspflege abgrenzen, z. B. mit einer ausschließenden Zeile. (UC-002 BR-005)" />
                   </node>
                 </node>
               </node>
@@ -34895,7 +34895,7 @@
           <node concept="lgADV" id="1SEqE6yT7g4" role="mlgNH">
             <node concept="35AVbj" id="1SEqE6yT7g5" role="lgxf9">
               <node concept="ic4WF" id="1SEqE6yT7g6" role="icr7_">
-                <property role="ic4Xk" value="Die Kondition wurde bereits in Bewertungen verwendet. Berechnungsart, Satz, Zyklus, Sortiment und Beginn sind nicht mehr änderbar. Bitte eine Nachfolgekondition ab dem gewünschten Stichtag anlegen. Soll sich nur der Inhalt des Sortiments ändern, das Sortiment in der Sortimentspflege ändern (Zeile beenden oder ab einem Stichtag ersetzen)." />
+                <property role="ic4Xk" value="Die Kondition wurde bereits in Bewertungen verwendet. Berechnungsart, Satz, Zyklus, Sortiment und Beginn sind nicht mehr änderbar. Bitte eine Nachfolgekondition ab dem gewünschten Stichtag anlegen. Soll sich nur der Inhalt des Sortiments ändern, das Sortiment in der Sortimentspflege ändern (Zeile beenden oder ab einem Stichtag ersetzen). (UC-002 BR-006)" />
               </node>
             </node>
           </node>
@@ -34955,7 +34955,7 @@
           <node concept="lgADV" id="1SEqE6yTdpY" role="mlgNH">
             <node concept="35AVbj" id="1SEqE6yTdpZ" role="lgxf9">
               <node concept="ic4WF" id="1SEqE6yTdq0" role="icr7_">
-                <property role="ic4Xk" value="Die Kondition wurde bereits in Bewertungen verwendet und kann nicht gelöscht werden. Bitte stattdessen die Gültigkeit beenden (letzter Gültigkeitstag)." />
+                <property role="ic4Xk" value="Die Kondition wurde bereits in Bewertungen verwendet und kann nicht gelöscht werden. Bitte stattdessen die Gültigkeit beenden (letzter Gültigkeitstag). (UC-002 BR-007)" />
               </node>
             </node>
           </node>
@@ -35007,7 +35007,7 @@
               <node concept="lgADV" id="1SEqE6yToLi" role="mlgNH">
                 <node concept="35AVbj" id="1SEqE6yToLj" role="lgxf9">
                   <node concept="ic4WF" id="1SEqE6yToLk" role="icr7_">
-                    <property role="ic4Xk" value="Der Stichtag fehlt." />
+                    <property role="ic4Xk" value="Der Stichtag fehlt. (UC-002 A11)" />
                   </node>
                 </node>
               </node>
@@ -35048,7 +35048,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="1SEqE6yTsMv" role="icr7_">
-                    <property role="ic4Xk" value="Der Stichtag muss nach dem Beginn der bisherigen Kondition (%ld) liegen. Beginnt die neue Vergütung schon am selben Tag, bitte die Kondition direkt ändern (falls unverwendet) oder löschen und neu anlegen." />
+                    <property role="ic4Xk" value="Der Stichtag muss nach dem Beginn der bisherigen Kondition (%ld) liegen. Beginnt die neue Vergütung schon am selben Tag, bitte die Kondition direkt ändern (falls unverwendet) oder löschen und neu anlegen. (UC-002 A11)" />
                   </node>
                 </node>
               </node>
@@ -35104,7 +35104,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="1SEqE6yTBBt" role="icr7_">
-                    <property role="ic4Xk" value="Der Stichtag liegt nach dem Ende der bisherigen Kondition (%ld)." />
+                    <property role="ic4Xk" value="Der Stichtag liegt nach dem Ende der bisherigen Kondition (%ld). (UC-002 A11)" />
                   </node>
                 </node>
               </node>
@@ -35714,7 +35714,7 @@
                 <node concept="TSZUe" id="7wue0000420" role="2OqNvi">
                   <node concept="35AVbj" id="7wue0000421" role="25WWJ7">
                     <node concept="ic4WF" id="7wue0000422" role="icr7_">
-                      <property role="ic4Xk" value="Wegen des Sortiments „%s“ greift die Kondition an diesen Tagen für keinen Artikel: %s." />
+                      <property role="ic4Xk" value="Wegen des Sortiments „%s“ greift die Kondition an diesen Tagen für keinen Artikel: %s. (UC-002 A16)" />
                     </node>
                     <node concept="2OqwBi" id="7wue0000423" role="35Gt3$">
                       <node concept="37vLTw" id="7wue0000424" role="2Oq$k0">
@@ -36292,7 +36292,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="6L7N342H$p" role="icr7_">
-                    <property role="ic4Xk" value="Mandant %stdb ist nicht zulässig — in Ausbaustufe 1 nur Italien (2)." />
+                    <property role="ic4Xk" value="Mandant %stdb ist nicht zulässig — in Ausbaustufe 1 nur Italien (2). (UC-001 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -36312,7 +36312,7 @@
               <node concept="lgADV" id="6L7N342Nyi" role="mlgNH">
                 <node concept="35AVbj" id="6L7N342Nyj" role="lgxf9">
                   <node concept="ic4WF" id="6L7N342Nyk" role="icr7_">
-                    <property role="ic4Xk" value="Der Lieferant fehlt." />
+                    <property role="ic4Xk" value="Der Lieferant fehlt. (UC-001 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -36335,7 +36335,7 @@
               <node concept="lgADV" id="6L7N342OHH" role="mlgNH">
                 <node concept="35AVbj" id="6L7N342OHI" role="lgxf9">
                   <node concept="ic4WF" id="6L7N342OHJ" role="icr7_">
-                    <property role="ic4Xk" value="Die Bezeichnung fehlt." />
+                    <property role="ic4Xk" value="Die Bezeichnung fehlt. (UC-001 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -36355,7 +36355,7 @@
               <node concept="lgADV" id="6L7N342PRh" role="mlgNH">
                 <node concept="35AVbj" id="6L7N342PRi" role="lgxf9">
                   <node concept="ic4WF" id="6L7N342PRj" role="icr7_">
-                    <property role="ic4Xk" value="Der erste Gültigkeitstag fehlt." />
+                    <property role="ic4Xk" value="Der erste Gültigkeitstag fehlt. (UC-001 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -36388,7 +36388,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="6L7N342PRo" role="icr7_">
-                    <property role="ic4Xk" value="Lieferant %d ist im Parteienstamm des Warenbuchs nicht als Lieferant (LI) geführt." />
+                    <property role="ic4Xk" value="Lieferant %d ist im Parteienstamm des Warenbuchs nicht als Lieferant (LI) geführt. (UC-001 BR-002)" />
                   </node>
                 </node>
               </node>
@@ -36434,7 +36434,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="6L7N342Q7T" role="icr7_">
-                    <property role="ic4Xk" value="Der letzte Gültigkeitstag %ld liegt vor dem ersten %ld." />
+                    <property role="ic4Xk" value="Der letzte Gültigkeitstag %ld liegt vor dem ersten %ld. (UC-001 BR-003)" />
                   </node>
                 </node>
               </node>
@@ -36513,7 +36513,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="6L7N342Q7Y" role="icr7_">
-                    <property role="ic4Xk" value="Konditionen liegen außerhalb des Zeitraums der Vereinbarung: %s. Bitte deren Gültigkeit anpassen." />
+                    <property role="ic4Xk" value="Konditionen liegen außerhalb des Zeitraums der Vereinbarung: %s. Bitte deren Gültigkeit anpassen. (UC-001 BR-004)" />
                   </node>
                 </node>
               </node>
@@ -36538,7 +36538,7 @@
                     </node>
                   </node>
                   <node concept="ic4WF" id="6L7N342Q83" role="icr7_">
-                    <property role="ic4Xk" value="Konditionen überschneiden sich: %s. Bitte für diese Konditionen einen letzten Gültigkeitstag setzen, ein anderes Sortiment wählen, den Zeitraum einschränken oder die andere Kondition beenden." />
+                    <property role="ic4Xk" value="Konditionen überschneiden sich: %s. Bitte für diese Konditionen einen letzten Gültigkeitstag setzen, ein anderes Sortiment wählen, den Zeitraum einschränken oder die andere Kondition beenden. (UC-001 BR-010)" />
                   </node>
                 </node>
               </node>
@@ -36553,7 +36553,7 @@
               <node concept="lgADV" id="7xa30000067" role="mlgNH">
                 <node concept="35AVbj" id="7xa30000068" role="lgxf9">
                   <node concept="ic4WF" id="7xa30000069" role="icr7_">
-                    <property role="ic4Xk" value="Konditionen verwenden ein Sortiment eines anderen Lieferanten: %s. Bitte auf ein Sortiment des Lieferanten %d oder auf kein Sortiment umstellen." />
+                    <property role="ic4Xk" value="Konditionen verwenden ein Sortiment eines anderen Lieferanten: %s. Bitte auf ein Sortiment des Lieferanten %d oder auf kein Sortiment umstellen. (UC-001 BR-011)" />
                   </node>
                   <node concept="2OqwBi" id="7xa30000070" role="35Gt3$">
                     <node concept="2OqwBi" id="7xa30000071" role="2Oq$k0">
@@ -36653,7 +36653,7 @@
           <node concept="lgADV" id="6L7N345CFv" role="mlgNH">
             <node concept="35AVbj" id="6L7N345CFw" role="lgxf9">
               <node concept="ic4WF" id="6L7N345CFx" role="icr7_">
-                <property role="ic4Xk" value="Der Lieferant ist nicht mehr änderbar: Konditionen dieser Vereinbarung wurden bereits in Bewertungen verwendet. Vereinbarung beenden und für den richtigen Lieferanten neu anlegen." />
+                <property role="ic4Xk" value="Der Lieferant ist nicht mehr änderbar: Konditionen dieser Vereinbarung wurden bereits in Bewertungen verwendet. Vereinbarung beenden und für den richtigen Lieferanten neu anlegen. (UC-001 BR-005)" />
               </node>
             </node>
           </node>
@@ -36690,7 +36690,7 @@
                 <node concept="34oBXx" id="6L7N345WrO" role="2OqNvi" />
               </node>
               <node concept="ic4WF" id="6L7N345HEo" role="icr7_">
-                <property role="ic4Xk" value="Die Vereinbarung hat noch %d Kondition(en) und kann nicht gelöscht werden. Bitte stattdessen die Gültigkeit beenden (letzter Gültigkeitstag)." />
+                <property role="ic4Xk" value="Die Vereinbarung hat noch %d Kondition(en) und kann nicht gelöscht werden. Bitte stattdessen die Gültigkeit beenden (letzter Gültigkeitstag). (UC-001 BR-006)" />
               </node>
             </node>
           </node>
@@ -56395,7 +56395,7 @@
                     <node concept="TSZUe" id="7vsm0006686" role="2OqNvi">
                       <node concept="35AVbj" id="7vsm0006687" role="25WWJ7">
                         <node concept="ic4WF" id="7vsm0006688" role="icr7_">
-                          <property role="ic4Xk" value="%s: Richtung, Bezug und erster Gültigkeitstag sind Pflicht." />
+                          <property role="ic4Xk" value="%s: Richtung, Bezug und erster Gültigkeitstag sind Pflicht. (UC-014 BR-002)" />
                         </node>
                         <node concept="37vLTw" id="7vsm0006689" role="35Gt3$">
                           <ref role="3cqZAo" node="7vsm0006655" resolve="name" />
@@ -56437,7 +56437,7 @@
                     <node concept="TSZUe" id="7vsm0006705" role="2OqNvi">
                       <node concept="35AVbj" id="7vsm0006706" role="25WWJ7">
                         <node concept="ic4WF" id="7vsm0006707" role="icr7_">
-                          <property role="ic4Xk" value="%s: %s" />
+                          <property role="ic4Xk" value="%s: %s (UC-014 BR-002)" />
                         </node>
                         <node concept="37vLTw" id="7vsm0006708" role="35Gt3$">
                           <ref role="3cqZAo" node="7vsm0006655" resolve="name" />
@@ -56471,7 +56471,7 @@
                     <node concept="TSZUe" id="7vsm0006719" role="2OqNvi">
                       <node concept="35AVbj" id="7vsm0006720" role="25WWJ7">
                         <node concept="ic4WF" id="7vsm0006721" role="icr7_">
-                          <property role="ic4Xk" value="%s: Der letzte Gültigkeitstag %ld liegt vor dem ersten %ld." />
+                          <property role="ic4Xk" value="%s: Der letzte Gültigkeitstag %ld liegt vor dem ersten %ld. (UC-014 BR-004)" />
                         </node>
                         <node concept="37vLTw" id="7vsm0006722" role="35Gt3$">
                           <ref role="3cqZAo" node="7vsm0006655" resolve="name" />
@@ -56574,7 +56574,7 @@
                         <node concept="TSZUe" id="7vsm0006761" role="2OqNvi">
                           <node concept="35AVbj" id="7vsm0006762" role="25WWJ7">
                             <node concept="ic4WF" id="7vsm0006763" role="icr7_">
-                              <property role="ic4Xk" value="%s: ist im Stamm des Warenbuchs nicht vorhanden." />
+                              <property role="ic4Xk" value="%s: ist im Stamm des Warenbuchs nicht vorhanden. (UC-014 BR-003)" />
                             </node>
                             <node concept="37vLTw" id="7vsm0006764" role="35Gt3$">
                               <ref role="3cqZAo" node="7vsm0006655" resolve="name" />
@@ -56653,7 +56653,7 @@
                     <node concept="TSZUe" id="7vsm0006789" role="2OqNvi">
                       <node concept="35AVbj" id="7vsm0006790" role="25WWJ7">
                         <node concept="ic4WF" id="7vsm0006791" role="icr7_">
-                          <property role="ic4Xk" value="%s: Das Sortiment ist bereits verwendet. Richtung, Bezug, Wert und erster Gültigkeitstag sind nicht mehr änderbar. Bitte die Zeile beenden oder ab einem Stichtag ersetzen." />
+                          <property role="ic4Xk" value="%s: Das Sortiment ist bereits verwendet. Richtung, Bezug, Wert und erster Gültigkeitstag sind nicht mehr änderbar. Bitte die Zeile beenden oder ab einem Stichtag ersetzen. (UC-014 BR-009)" />
                         </node>
                         <node concept="37vLTw" id="7vsm0006792" role="35Gt3$">
                           <ref role="3cqZAo" node="7vsm0006655" resolve="name" />
@@ -56692,7 +56692,7 @@
                     <node concept="TSZUe" id="7vsm0006805" role="2OqNvi">
                       <node concept="35AVbj" id="7vsm0006806" role="25WWJ7">
                         <node concept="ic4WF" id="7vsm0006807" role="icr7_">
-                          <property role="ic4Xk" value="Zeile %s: Das Sortiment ist bereits verwendet, Zeilen werden nicht mehr gelöscht. Bitte die Zeile beenden." />
+                          <property role="ic4Xk" value="Zeile %s: Das Sortiment ist bereits verwendet, Zeilen werden nicht mehr gelöscht. Bitte die Zeile beenden. (UC-014 BR-009)" />
                         </node>
                         <node concept="2OqwBi" id="7vsm0006808" role="35Gt3$">
                           <node concept="2OqwBi" id="7vsm0006809" role="2Oq$k0">
@@ -56955,7 +56955,7 @@
               <node concept="lgADV" id="7vsm0006905" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0006906" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0006907" role="icr7_">
-                    <property role="ic4Xk" value="Mandant %stdb ist nicht zulässig — in Ausbaustufe 1 nur Italien (2)." />
+                    <property role="ic4Xk" value="Mandant %stdb ist nicht zulässig — in Ausbaustufe 1 nur Italien (2). (UC-014 BR-001)" />
                   </node>
                   <node concept="2OqwBi" id="7vsm0006908" role="35Gt3$">
                     <node concept="37vLTw" id="7vsm0006909" role="2Oq$k0">
@@ -56983,7 +56983,7 @@
               <node concept="lgADV" id="7vsm0006917" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0006918" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0006919" role="icr7_">
-                    <property role="ic4Xk" value="Der Lieferant fehlt." />
+                    <property role="ic4Xk" value="Der Lieferant fehlt. (UC-014 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -57008,7 +57008,7 @@
               <node concept="lgADV" id="7vsm0006928" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0006929" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0006930" role="icr7_">
-                    <property role="ic4Xk" value="Lieferant %d ist im Parteienstamm des Warenbuchs nicht als Lieferant (LI) geführt." />
+                    <property role="ic4Xk" value="Lieferant %d ist im Parteienstamm des Warenbuchs nicht als Lieferant (LI) geführt. (UC-014 BR-001)" />
                   </node>
                   <node concept="2OqwBi" id="7vsm0006931" role="35Gt3$">
                     <node concept="37vLTw" id="7vsm0006932" role="2Oq$k0">
@@ -57034,7 +57034,7 @@
               <node concept="lgADV" id="7vsm0006940" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0006941" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0006942" role="icr7_">
-                    <property role="ic4Xk" value="Die Bezeichnung fehlt." />
+                    <property role="ic4Xk" value="Die Bezeichnung fehlt. (UC-014 BR-001)" />
                   </node>
                 </node>
               </node>
@@ -57049,7 +57049,7 @@
               <node concept="lgADV" id="7vsm0006947" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0006948" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0006949" role="icr7_">
-                    <property role="ic4Xk" value="Der Lieferant hat bereits das Sortiment %s. Bitte eine andere Bezeichnung wählen oder das vorhandene Sortiment öffnen." />
+                    <property role="ic4Xk" value="Der Lieferant hat bereits das Sortiment %s. Bitte eine andere Bezeichnung wählen oder das vorhandene Sortiment öffnen. (UC-014 BR-006)" />
                   </node>
                   <node concept="37vLTw" id="7vsm0006950" role="35Gt3$">
                     <ref role="3cqZAo" node="7vsm0006593" resolve="gleichnamigText" />
@@ -57092,7 +57092,7 @@
               <node concept="lgADV" id="7vsm0006966" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0006967" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0006968" role="icr7_">
-                    <property role="ic4Xk" value="Dieselbe Regel gilt mehrfach zugleich: %s. Bitte die Zeiträume korrigieren oder die Zeilen zusammenfassen." />
+                    <property role="ic4Xk" value="Dieselbe Regel gilt mehrfach zugleich: %s. Bitte die Zeiträume korrigieren oder die Zeilen zusammenfassen. (UC-014 BR-004)" />
                   </node>
                   <node concept="2OqwBi" id="7vsm0006969" role="35Gt3$">
                     <node concept="37vLTw" id="7vsm0006970" role="2Oq$k0">
@@ -57119,7 +57119,7 @@
               <node concept="lgADV" id="7vsm0006977" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0006978" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0006979" role="icr7_">
-                    <property role="ic4Xk" value="Ein Sortiment ohne einschließende Zeile umfasst keinen Artikel. Bitte eine einschließende Zeile ergänzen, z. B. „alle Artikel“." />
+                    <property role="ic4Xk" value="Ein Sortiment ohne einschließende Zeile umfasst keinen Artikel. Bitte eine einschließende Zeile ergänzen, z. B. „alle Artikel“. (UC-014 BR-005)" />
                   </node>
                 </node>
               </node>
@@ -57134,7 +57134,7 @@
               <node concept="lgADV" id="7vsm0006984" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0006985" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0006986" role="icr7_">
-                    <property role="ic4Xk" value="Durch die Änderung überschneiden sich Konditionen: %s. Bitte die Zeilen einschränken, z. B. mit einer ausschließenden Zeile, oder zuerst eine der Konditionen beenden." />
+                    <property role="ic4Xk" value="Durch die Änderung überschneiden sich Konditionen: %s. Bitte die Zeilen einschränken, z. B. mit einer ausschließenden Zeile, oder zuerst eine der Konditionen beenden. (UC-014 BR-008)" />
                   </node>
                   <node concept="2OqwBi" id="7vsm0006987" role="35Gt3$">
                     <node concept="2OqwBi" id="7vsm0006988" role="2Oq$k0">
@@ -57233,7 +57233,7 @@
           <node concept="lgADV" id="7vsm0007025" role="mlgNH">
             <node concept="35AVbj" id="7vsm0007026" role="lgxf9">
               <node concept="ic4WF" id="7vsm0007027" role="icr7_">
-                <property role="ic4Xk" value="Das Sortiment ist bereits verwendet. Die Zeile %s wird nicht mehr geändert oder gelöscht. Bitte die Zeile beenden oder ab einem Stichtag ersetzen." />
+                <property role="ic4Xk" value="Das Sortiment ist bereits verwendet. Die Zeile %s wird nicht mehr geändert oder gelöscht. Bitte die Zeile beenden oder ab einem Stichtag ersetzen. (UC-014 BR-009)" />
               </node>
               <node concept="2OqwBi" id="7vsm0007028" role="35Gt3$">
                 <node concept="2OqwBi" id="7vsm0007029" role="2Oq$k0">
@@ -57282,7 +57282,7 @@
               <node concept="lgADV" id="7vsm0007047" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0007048" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0007049" role="icr7_">
-                    <property role="ic4Xk" value="Der Stichtag fehlt." />
+                    <property role="ic4Xk" value="Der Stichtag fehlt. (UC-014 A11)" />
                   </node>
                 </node>
               </node>
@@ -57315,7 +57315,7 @@
               <node concept="lgADV" id="7vsm0007061" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0007062" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0007063" role="icr7_">
-                    <property role="ic4Xk" value="Der Stichtag muss nach dem ersten Gültigkeitstag %ld der bisherigen Zeile liegen." />
+                    <property role="ic4Xk" value="Der Stichtag muss nach dem ersten Gültigkeitstag %ld der bisherigen Zeile liegen. (UC-014 A11)" />
                   </node>
                   <node concept="2OqwBi" id="7vsm0007064" role="35Gt3$">
                     <node concept="37vLTw" id="7vsm0007065" role="2Oq$k0">
@@ -57371,7 +57371,7 @@
               <node concept="lgADV" id="7vsm0007085" role="mlgNH">
                 <node concept="35AVbj" id="7vsm0007086" role="lgxf9">
                   <node concept="ic4WF" id="7vsm0007087" role="icr7_">
-                    <property role="ic4Xk" value="Der Stichtag liegt nach dem letzten Gültigkeitstag %ld der bisherigen Zeile." />
+                    <property role="ic4Xk" value="Der Stichtag liegt nach dem letzten Gültigkeitstag %ld der bisherigen Zeile. (UC-014 A11)" />
                   </node>
                   <node concept="2OqwBi" id="7vsm0007088" role="35Gt3$">
                     <node concept="37vLTw" id="7vsm0007089" role="2Oq$k0">
@@ -57580,7 +57580,7 @@
                     <node concept="TSZUe" id="7vsm0007170" role="2OqNvi">
                       <node concept="35AVbj" id="7vsm0007171" role="25WWJ7">
                         <node concept="ic4WF" id="7vsm0007172" role="icr7_">
-                          <property role="ic4Xk" value="Kondition %s greift ohne einschließende Zeile für keinen Artikel: %s." />
+                          <property role="ic4Xk" value="Kondition %s greift ohne einschließende Zeile für keinen Artikel: %s. (UC-014 BR-005)" />
                         </node>
                         <node concept="2OqwBi" id="7vsm0007173" role="35Gt3$">
                           <node concept="2GrUjf" id="7vsm0007174" role="2Oq$k0">
@@ -57900,7 +57900,7 @@
                     <node concept="TSZUe" id="7vsm0007305" role="2OqNvi">
                       <node concept="35AVbj" id="7vsm0007306" role="25WWJ7">
                         <node concept="ic4WF" id="7vsm0007307" role="icr7_">
-                          <property role="ic4Xk" value="Die Änderung wirkt ab %ld zurück. Für bis zu %d bereits bewertete Wareneingänge des Lieferanten bleiben die Konditionsbeträge bis zur Neubewertung bzw. Nachbewertung (UC-008) unverändert. Betroffene Konditionen: %s." />
+                          <property role="ic4Xk" value="Die Änderung wirkt ab %ld zurück. Für bis zu %d bereits bewertete Wareneingänge des Lieferanten bleiben die Konditionsbeträge bis zur Neubewertung bzw. Nachbewertung (UC-008) unverändert. Betroffene Konditionen: %s. (UC-014 BR-011)" />
                         </node>
                         <node concept="2OqwBi" id="7vsm0007308" role="35Gt3$">
                           <node concept="37vLTw" id="7vsm0007309" role="2Oq$k0">
@@ -58001,7 +58001,7 @@
           <node concept="lgADV" id="7vsm0007346" role="mlgNH">
             <node concept="35AVbj" id="7vsm0007347" role="lgxf9">
               <node concept="ic4WF" id="7vsm0007348" role="icr7_">
-                <property role="ic4Xk" value="Das Sortiment ist %d Kondition(en) zugeordnet und kann nicht gelöscht werden: %s. Bitte die Konditionen auf ein anderes oder kein Sortiment umstellen bzw. beenden." />
+                <property role="ic4Xk" value="Das Sortiment ist %d Kondition(en) zugeordnet und kann nicht gelöscht werden: %s. Bitte die Konditionen auf ein anderes oder kein Sortiment umstellen bzw. beenden. (UC-014 BR-010)" />
               </node>
               <node concept="2OqwBi" id="7vsm0007349" role="35Gt3$">
                 <node concept="37vLTw" id="7vsm0007350" role="2Oq$k0">
