@@ -193,6 +193,7 @@
       <concept id="7192042020163999178" name="org.modellwerkstatt.objectflow.structure.Command" flags="ng" index="3ugp7m">
         <child id="1881524139085993257" name="okConclusionStatements" index="10_T4l" />
         <property id="7912134052599426179" name="newCommandType" index="19I623" />
+        <property id="1001479520354727786" name="newWindowTitleType" index="1ptSWV" />
         <child id="4678401045862677843" name="commandCreationInformation" index="27AfA_" />
         <child id="1243073729492713846" name="permissionNew" index="2ticAe" />
         <child id="7192042020164064743" name="pages" index="3ug97V" />
@@ -647,6 +648,7 @@
   <node concept="3ugp7m" id="7fdu0000144">
     <property role="TrG5h" value="Forderungen ausstellen" />
     <property role="19I623" value="6Rdz00$tuDr/GRAPH_OWNER_CMD" />
+    <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
     <node concept="2ticAD" id="7fdu0000145" role="2ticAe">
       <node concept="1G1AcV" id="7fdu0000146" role="2TIb5R">
         <ref role="3ymtqE" to="hg40:c_HYpdFPv6" resolve="KreditorenManagement" />
