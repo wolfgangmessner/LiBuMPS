@@ -9,10 +9,11 @@
     <import index="752l" ref="r:bc1aa817-c898-4c87-9387-605f3f16a2a2(org.modellwerkstatt.libu.LiefKond.test.basics)" />
     <import index="h0p1" ref="r:46ddb3ce-809a-4f3b-a08a-26aa6b0e9c9a(org.modellwerkstatt.libu.LiefKond.belegartregel.ui)" />
     <import index="anru" ref="r:cebad6b6-0377-4a76-b190-8df1969353eb(org.modellwerkstatt.libu.LiefKond.core.config)" />
+    <import index="ntlu" ref="r:55056d43-a6a3-4e26-996e-7a2b88e9b3ec(org.modellwerkstatt.libu.LiefKond.ausschlussregel.ui)" />
+    <import index="hg40" ref="r:dcc1c0ca-ab44-4898-906e-e8b4a9d7f836(org.modellwerkstatt.libu.LiefKond.core.domain)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
-    <import index="q8au" ref="r:55056d43-a6a3-4e26-996e-7a2b88e9b3ec(org.modellwerkstatt.libu.LiefKond.ausschlussregel.ui)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -83,9 +84,11 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="4862154259428332765" name="org.modellwerkstatt.objectflow.structure.ColorReference" flags="ng" index="276gdk">
+        <reference id="4862154259428332766" name="theColor" index="276gdn" />
+      </concept>
       <concept id="3875131616719432922" name="org.modellwerkstatt.objectflow.structure.CommandCallBasis" flags="ng" index="2_HltQ">
         <reference id="3875131616719438756" name="command" index="2_Hrw8" />
-        <child id="3875131616719439029" name="actualArgument" index="2_HrWp" />
       </concept>
       <concept id="4779674245164262437" name="org.modellwerkstatt.objectflow.structure.UserEnvironmentParameter" flags="ng" index="2Rjrh3" />
     </language>
@@ -93,6 +96,7 @@
       <concept id="2781909770750560564" name="org.modellwerkstatt.dataux.structure.AppTile" flags="ng" index="2$ntO6">
         <child id="2781909770750560899" name="action" index="2$ntUL" />
         <child id="2781909770750561024" name="tileLabel" index="2$ntWM" />
+        <child id="2781909770750561241" name="tileColor" index="2$ntZF" />
       </concept>
       <concept id="3226612376922221452" name="org.modellwerkstatt.dataux.structure.IModule" flags="ngI" index="2A_d5g">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
@@ -144,7 +148,7 @@
       <ref role="2_Hrw8" to="h0p1:6DuqmNw0JgU" resolve="Belegart-Regel anlegen" />
     </node>
     <node concept="33WYYh" id="7auc0000001" role="2N77jT">
-      <ref role="2_Hrw8" to="q8au:7auu0000063" resolve="Ausschlussregeln suchen" />
+      <ref role="2_Hrw8" to="ntlu:7auu0000063" resolve="Ausschlussregeln suchen" />
     </node>
     <node concept="2$ntO6" id="6L7N34eCEk" role="2$nsuY">
       <node concept="33WYYh" id="6L7N34eCEl" role="2$ntUL">
@@ -152,6 +156,9 @@
       </node>
       <node concept="Xl_RD" id="6L7N34eCJ8" role="2$ntWM">
         <property role="Xl_RC" value="Vereinbarungen" />
+      </node>
+      <node concept="276gdk" id="zKoHWacglo" role="2$ntZF">
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="MenuBlue" />
       </node>
     </node>
     <node concept="2$ntO6" id="6DuqmNw0LEV" role="2$nsuY">
@@ -161,6 +168,9 @@
       <node concept="Xl_RD" id="6DuqmNw0LKJ" role="2$ntWM">
         <property role="Xl_RC" value="Gültige Konditionen" />
       </node>
+      <node concept="276gdk" id="zKoHWacgnM" role="2$ntZF">
+        <ref role="276gdn" to="hg40:59sqMMqSSy_" resolve="MenuDeepPurple" />
+      </node>
     </node>
     <node concept="2$ntO6" id="1pSXiqN9qJ" role="2$nsuY">
       <node concept="33WYYh" id="1pSXiqN9qK" role="2$ntUL">
@@ -168,6 +178,9 @@
       </node>
       <node concept="Xl_RD" id="1pSXiqN9v5" role="2$ntWM">
         <property role="Xl_RC" value="Sortimente" />
+      </node>
+      <node concept="276gdk" id="zKoHWacgpI" role="2$ntZF">
+        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="MenuPurple" />
       </node>
     </node>
     <node concept="2$ntO6" id="6DuqmNw0M5$" role="2$nsuY">
@@ -177,13 +190,19 @@
       <node concept="Xl_RD" id="6DuqmNw0MaC" role="2$ntWM">
         <property role="Xl_RC" value="Belegart-Regeln" />
       </node>
+      <node concept="276gdk" id="zKoHWaci1k" role="2$ntZF">
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="MenuRed" />
+      </node>
     </node>
     <node concept="2$ntO6" id="7auc0000002" role="2$nsuY">
       <node concept="33WYYh" id="7auc0000003" role="2$ntUL">
-        <ref role="2_Hrw8" to="q8au:7auu0000063" resolve="Ausschlussregeln suchen" />
+        <ref role="2_Hrw8" to="ntlu:7auu0000063" resolve="Ausschlussregeln suchen" />
       </node>
       <node concept="Xl_RD" id="7auc0000004" role="2$ntWM">
         <property role="Xl_RC" value="Nicht konditionsrelevante Artikel" />
+      </node>
+      <node concept="276gdk" id="zKoHWaci2M" role="2$ntZF">
+        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="MenuGreen" />
       </node>
     </node>
     <node concept="2MWAvL" id="c_HYpdEwW$" role="2A_d42">
