@@ -12,9 +12,12 @@
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.runtime/)" />
     <import index="uyeg" ref="r:5ad24a95-c9f4-4fb1-9ab9-386086903dec(org.modellwerkstatt.libu.LiefKond.vereinbarung.domain)" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
+    <import index="725o" ref="r:0a501fbc-9a06-44bc-86ca-eabd0c234011(org.modellwerkstatt.libu.LiefKond.forderungen.domain)" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
   </imports>
   <registry>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
+      <concept id="8995390878293522713" name="org.modellwerkstatt.dataux.structure.DummyDelegate" flags="ng" index="1wFRl1" />
       <concept id="7834248083556639606" name="org.modellwerkstatt.dataux.structure.TwoWeight" flags="ng" index="2U5nhD" />
       <concept id="7834248083556639608" name="org.modellwerkstatt.dataux.structure.ThreeWeight" flags="ng" index="2U5nhB" />
       <concept id="465568541575437347" name="org.modellwerkstatt.dataux.structure.IHasDelegates" flags="ngI" index="PhlgW">
@@ -88,6 +91,11 @@
       </concept>
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="594565203027877250" name="org.modellwerkstatt.objectflow.structure.Session" flags="ng" index="3y28L$" />
+      <concept id="1881524139085552751" name="org.modellwerkstatt.objectflow.structure.DoneCommand" flags="ng" index="10Adxj" />
+      <concept id="4678401045862675371" name="org.modellwerkstatt.objectflow.structure.CommandCreationInfo" flags="ng" index="27Aftt">
+        <child id="4678401045862675827" name="msg" index="27Af65" />
+      </concept>
       <concept id="5697903518443819930" name="org.modellwerkstatt.objectflow.structure.IPermissionReference" flags="ngI" index="3ymtql">
         <reference id="5697903518443819941" name="evaluatePermission" index="3ymtqE" />
       </concept>
@@ -181,10 +189,10 @@
         <child id="5788629615597607704" name="condition" index="mlgNJ" />
       </concept>
       <concept id="7192042020163999178" name="org.modellwerkstatt.objectflow.structure.Command" flags="ng" index="3ugp7m">
+        <child id="4678401045862677843" name="commandCreationInformation" index="27AfA_" />
         <property id="1001479520354727786" name="newWindowTitleType" index="1ptSWV" />
         <child id="1881524139085993257" name="okConclusionStatements" index="10_T4l" />
         <property id="7912134052599426179" name="newCommandType" index="19I623" />
-        <property id="1001479520354727786" name="newWindowTitleType" index="1ptSWV" />
         <child id="1243073729492713846" name="permissionNew" index="2ticAe" />
         <child id="8697556949200789131" name="options" index="3ap3dX" />
         <child id="7192042020164064743" name="pages" index="3ug97V" />
@@ -201,6 +209,17 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
+        <child id="1154032183016" name="body" index="2LFqv$" />
+      </concept>
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -325,6 +344,14 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
+        <child id="1153944424730" name="inputSequence" index="2GsD0m" />
+        <child id="1153944400369" name="variable" index="2Gsz3X" />
+      </concept>
+      <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
+        <reference id="1153944258490" name="variable" index="2Gs0qQ" />
+      </concept>
+      <concept id="1153944193378" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" flags="nr" index="2GrKxI" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
@@ -5392,6 +5419,1757 @@
     <node concept="UTR7Y" id="7abu0001235" role="UTRd0">
       <node concept="276gdk" id="7abu0001236" role="26Uuoe">
         <ref role="276gdn" to="hg40:59sqMMqSSz7" resolve="BereichAbrechnung" />
+      </node>
+    </node>
+  </node>
+  <node concept="1YeyE5" id="7nbu0000001">
+    <property role="TrG5h" value="NachbewertungAuswahl" />
+    <node concept="3Tm1VV" id="7nbu0000002" role="1B3o_S" />
+    <node concept="20vkWO" id="7nbu0000003" role="1qkbct">
+      <node concept="1PaTwC" id="7nbu0000004" role="13z7HO">
+        <node concept="3oM_SD" id="7nbu0000005" role="1PaTwD">
+          <property role="3oM_SC" value="Auswahl" />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000006" role="1PaTwD">
+          <property role="3oM_SC" value="und" />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000007" role="1PaTwD">
+          <property role="3oM_SC" value="Vorschau" />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000008" role="1PaTwD">
+          <property role="3oM_SC" value="des" />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000009" role="1PaTwD">
+          <property role="3oM_SC" value="Commands" />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000010" role="1PaTwD">
+          <property role="3oM_SC" value="'Wareneingänge" />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000011" role="1PaTwD">
+          <property role="3oM_SC" value="nachbewerten'" />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000012" role="1PaTwD">
+          <property role="3oM_SC" value="(UC-008" />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000013" role="1PaTwD">
+          <property role="3oM_SC" value="Schritte" />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000014" role="1PaTwD">
+          <property role="3oM_SC" value="1," />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000015" role="1PaTwD">
+          <property role="3oM_SC" value="5," />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000016" role="1PaTwD">
+          <property role="3oM_SC" value="7," />
+        </node>
+        <node concept="3oM_SD" id="7nbu0000017" role="1PaTwD">
+          <property role="3oM_SC" value="10)." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7nbu0000018" role="jymVt">
+      <node concept="3cqZAl" id="7nbu0000019" role="3clF45" />
+      <node concept="3Tm1VV" id="7nbu0000020" role="1B3o_S" />
+      <node concept="3clFbS" id="7nbu0000021" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="7nbu0000022" role="jymVt">
+      <property role="TrG5h" value="lieferantNr" />
+      <node concept="10Oyi0" id="7nbu0000023" role="3clF45" />
+      <node concept="3Tm1VV" id="7nbu0000024" role="1B3o_S" />
+      <node concept="3clFbS" id="7nbu0000025" role="3clF47">
+        <node concept="3cpWs6" id="7nbu0000026" role="3cqZAp">
+          <node concept="3K4zz7" id="7nbu0000027" role="3cqZAk">
+            <node concept="3clFbC" id="7nbu0000028" role="3K4Cdx">
+              <node concept="338YkY" id="7nbu0000029" role="3uHU7B">
+                <ref role="338YkT" node="7nbu0000035" resolve="lieferant" />
+              </node>
+              <node concept="10Nm6u" id="7nbu0000030" role="3uHU7w" />
+            </node>
+            <node concept="3cmrfG" id="7nbu0000031" role="3K4E3e">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="7nbu0000032" role="3K4GZi">
+              <node concept="338YkY" id="7nbu0000033" role="2Oq$k0">
+                <ref role="338YkT" node="7nbu0000035" resolve="lieferant" />
+              </node>
+              <node concept="2S8uIT" id="7nbu0000034" role="2OqNvi">
+                <ref role="2S8YL0" to="k2it:1SEqE6yDXf4" resolve="lieferantNr" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7nbu0000035" role="TxmiU">
+      <property role="2RkwnN" value="lieferant" />
+      <node concept="3Tm1VV" id="7nbu0000036" role="1B3o_S" />
+      <node concept="2RoN1w" id="7nbu0000037" role="2RnVtd">
+        <node concept="3wEZqW" id="7nbu0000038" role="3wFrgM" />
+        <node concept="3xqBd$" id="7nbu0000039" role="3xrYvX">
+          <node concept="3Tm1VV" id="7nbu0000040" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7nbu0000041" role="2RkE6I">
+        <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="Lieferant" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000042" role="2CNmdP">
+        <property role="Xl_RC" value="Lieferant" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000043" role="2CNmdL">
+        <property role="Xl_RC" value="Lieferant" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7nbu0000044" role="TxmiU">
+      <property role="2RkwnN" value="von" />
+      <node concept="3Tm1VV" id="7nbu0000045" role="1B3o_S" />
+      <node concept="2RoN1w" id="7nbu0000046" role="2RnVtd">
+        <node concept="3wEZqW" id="7nbu0000047" role="3wFrgM" />
+        <node concept="3xqBd$" id="7nbu0000048" role="3xrYvX">
+          <node concept="3Tm1VV" id="7nbu0000049" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7nbu0000050" role="2RkE6I">
+        <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000051" role="2CNmdP">
+        <property role="Xl_RC" value="Leistungszeitraum von" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000052" role="2CNmdL">
+        <property role="Xl_RC" value="Leistungszeitraum von" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7nbu0000053" role="TxmiU">
+      <property role="2RkwnN" value="bis" />
+      <node concept="3Tm1VV" id="7nbu0000054" role="1B3o_S" />
+      <node concept="2RoN1w" id="7nbu0000055" role="2RnVtd">
+        <node concept="3wEZqW" id="7nbu0000056" role="3wFrgM" />
+        <node concept="3xqBd$" id="7nbu0000057" role="3xrYvX">
+          <node concept="3Tm1VV" id="7nbu0000058" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7nbu0000059" role="2RkE6I">
+        <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000060" role="2CNmdP">
+        <property role="Xl_RC" value="Leistungszeitraum bis" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000061" role="2CNmdL">
+        <property role="Xl_RC" value="Leistungszeitraum bis" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7nbu0000062" role="TxmiU">
+      <property role="2RkwnN" value="hinweis" />
+      <node concept="3Tm1VV" id="7nbu0000063" role="1B3o_S" />
+      <node concept="2RoN1w" id="7nbu0000064" role="2RnVtd">
+        <node concept="3wEZqW" id="7nbu0000065" role="3wFrgM" />
+        <node concept="3xqBd$" id="7nbu0000066" role="3xrYvX">
+          <node concept="3Tm1VV" id="7nbu0000067" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7nbu0000068" role="2RkE6I" />
+      <node concept="Xl_RD" id="7nbu0000069" role="2CNmdP">
+        <property role="Xl_RC" value="Hinweis" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000070" role="2CNmdL">
+        <property role="Xl_RC" value="Hinweis" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7nbu0000071" role="TxmiU">
+      <property role="2RkwnN" value="positionen" />
+      <node concept="3Tm1VV" id="7nbu0000072" role="1B3o_S" />
+      <node concept="2RoN1w" id="7nbu0000073" role="2RnVtd">
+        <node concept="3wEZqW" id="7nbu0000074" role="3wFrgM" />
+        <node concept="3xqBd$" id="7nbu0000075" role="3xrYvX">
+          <node concept="3Tm1VV" id="7nbu0000076" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="7nbu0000077" role="2RkE6I">
+        <node concept="3uibUv" id="7nbu0000078" role="_ZDj9">
+          <ref role="3uigEE" to="7ahv:7nbd0000001" resolve="Nachbewertungsposition" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="7nbu0000079" role="2CNmdP">
+        <property role="Xl_RC" value="Differenzen" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000080" role="2CNmdL">
+        <property role="Xl_RC" value="Differenzen" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7nbu0000081" role="TxmiU">
+      <property role="2RkwnN" value="ausgelassene" />
+      <node concept="3Tm1VV" id="7nbu0000082" role="1B3o_S" />
+      <node concept="2RoN1w" id="7nbu0000083" role="2RnVtd">
+        <node concept="3wEZqW" id="7nbu0000084" role="3wFrgM" />
+        <node concept="3xqBd$" id="7nbu0000085" role="3xrYvX">
+          <node concept="3Tm1VV" id="7nbu0000086" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="7nbu0000087" role="2RkE6I">
+        <node concept="3uibUv" id="7nbu0000088" role="_ZDj9">
+          <ref role="3uigEE" to="7ahv:7nbd0000162" resolve="AusgelassenerWareneingang" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="7nbu0000089" role="2CNmdP">
+        <property role="Xl_RC" value="Ausgelassene Wareneingänge" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000090" role="2CNmdL">
+        <property role="Xl_RC" value="Ausgelassene Wareneingänge" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7nbu0000091" role="TxmiU">
+      <property role="2RkwnN" value="anzahlKorrekturen" />
+      <node concept="3Tm1VV" id="7nbu0000092" role="1B3o_S" />
+      <node concept="2RoN1w" id="7nbu0000093" role="2RnVtd">
+        <node concept="3wEZqW" id="7nbu0000094" role="3wFrgM" />
+        <node concept="3xqBd$" id="7nbu0000095" role="3xrYvX">
+          <node concept="3Tm1VV" id="7nbu0000096" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7nbu0000097" role="2RkE6I" />
+      <node concept="Xl_RD" id="7nbu0000098" role="2CNmdP">
+        <property role="Xl_RC" value="Forderungskorrekturen" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000099" role="2CNmdL">
+        <property role="Xl_RC" value="Forderungskorrekturen" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7nbu0000100" role="TxmiU">
+      <property role="2RkwnN" value="summeKorrekturen" />
+      <node concept="3Tm1VV" id="7nbu0000101" role="1B3o_S" />
+      <node concept="2RoN1w" id="7nbu0000102" role="2RnVtd">
+        <node concept="3wEZqW" id="7nbu0000103" role="3wFrgM" />
+        <node concept="3xqBd$" id="7nbu0000104" role="3xrYvX">
+          <node concept="3Tm1VV" id="7nbu0000105" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7nbu0000106" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000107" role="2CNmdP">
+        <property role="Xl_RC" value="Summe der Forderungskorrekturen" />
+      </node>
+      <node concept="Xl_RD" id="7nbu0000108" role="2CNmdL">
+        <property role="Xl_RC" value="Summe der Forderungskorrekturen" />
+      </node>
+    </node>
+  </node>
+  <node concept="3ugp7m" id="7nbu0000109">
+    <property role="TrG5h" value="Wareneingänge nachbewerten" />
+    <property role="19I623" value="6Rdz00$tuDr/GRAPH_OWNER_CMD" />
+    <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
+    <node concept="2ticAD" id="7nbu0000110" role="2ticAe">
+      <node concept="1G1AcV" id="7nbu0000111" role="2TIb5R">
+        <ref role="3ymtqE" to="hg40:c_HYpdFPv6" resolve="KreditorenManagement" />
+      </node>
+    </node>
+    <node concept="3ulXEM" id="7nbu0000112" role="3ulXEG">
+      <property role="TrG5h" value="auswahl" />
+      <node concept="3uibUv" id="7nbu0000113" role="1tU5fm">
+        <ref role="3uigEE" node="7nbu0000001" resolve="NachbewertungAuswahl" />
+      </node>
+    </node>
+    <node concept="3ulXEM" id="7nbu0000114" role="3ulXEG">
+      <property role="TrG5h" value="lieferanten" />
+      <node concept="_YKpA" id="7nbu0000115" role="1tU5fm">
+        <node concept="3uibUv" id="7nbu0000116" role="_ZDj9">
+          <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="Lieferant" />
+        </node>
+      </node>
+    </node>
+    <node concept="Xl_RD" id="7nbu0000117" role="IYfpf">
+      <property role="Xl_RC" value="Nachbewertung" />
+    </node>
+    <node concept="3ugp7q" id="7nbu0000118" role="3ug97V">
+      <property role="TrG5h" value="Auswahl" />
+      <ref role="3gcvY6" node="7nbu0000001" resolve="NachbewertungAuswahl" />
+      <node concept="3063JU" id="7nbu0000119" role="3063Jp">
+        <ref role="3063JT" node="7nbu0000587" resolve="NachbewertungAuswahlPP" />
+      </node>
+      <node concept="20qEzJ" id="7nbu0000120" role="10qiF$">
+        <node concept="3clFbS" id="7nbu0000121" role="2VODD2">
+          <node concept="3clFbF" id="7nbu0000122" role="3cqZAp">
+            <node concept="3urNR4" id="7nbu0000123" role="3clFbG">
+              <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="Xl_RD" id="7nbu0000124" role="1K0AWC">
+        <property role="Xl_RC" value="Wareneingänge nachbewerten — Lieferant und Leistungszeitraum" />
+      </node>
+      <node concept="10qiFn" id="7nbu0000125" role="10qiF9">
+        <ref role="2DFCCC" to="hg40:5VOHcF41Av5" resolve="Weiter" />
+        <node concept="20qIzx" id="7nbu0000126" role="10ot2L">
+          <node concept="3clFbS" id="7nbu0000127" role="2VODD2">
+            <node concept="3SKdUt" id="7nbu0000128" role="3cqZAp">
+              <node concept="1PaTwC" id="7nbu0000129" role="1aUNEU">
+                <node concept="3oM_SD" id="7nbu0000130" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-008" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000131" role="1PaTwD">
+                  <property role="3oM_SC" value="Schritte" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000132" role="1PaTwD">
+                  <property role="3oM_SC" value="1" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000133" role="1PaTwD">
+                  <property role="3oM_SC" value="bis" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000134" role="1PaTwD">
+                  <property role="3oM_SC" value="5:" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000135" role="1PaTwD">
+                  <property role="3oM_SC" value="Auswahl" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000136" role="1PaTwD">
+                  <property role="3oM_SC" value="prüfen" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000137" role="1PaTwD">
+                  <property role="3oM_SC" value="(BR-001)," />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000138" role="1PaTwD">
+                  <property role="3oM_SC" value="dann" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000139" role="1PaTwD">
+                  <property role="3oM_SC" value="Differenzen" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000140" role="1PaTwD">
+                  <property role="3oM_SC" value="und" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000141" role="1PaTwD">
+                  <property role="3oM_SC" value="ausgelassene" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000142" role="1PaTwD">
+                  <property role="3oM_SC" value="Wareneingänge" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000143" role="1PaTwD">
+                  <property role="3oM_SC" value="rechnen" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000144" role="1PaTwD">
+                  <property role="3oM_SC" value="(BR-006," />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000145" role="1PaTwD">
+                  <property role="3oM_SC" value="A8," />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000146" role="1PaTwD">
+                  <property role="3oM_SC" value="A9)." />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000147" role="1PaTwD">
+                  <property role="3oM_SC" value="Gespeichert" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000148" role="1PaTwD">
+                  <property role="3oM_SC" value="wird" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000149" role="1PaTwD">
+                  <property role="3oM_SC" value="nichts." />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nbu0000150" role="3cqZAp">
+              <node concept="1odsa" id="7nbu0000151" role="3clFbG">
+                <ref role="1ods_" to="7ahv:7nbd0001287" resolve="NachbewertungS" />
+                <ref role="37wK5l" to="7ahv:7nbd0001289" resolve="pruefeAuswahl" />
+                <node concept="2OqwBi" id="7nbu0000152" role="37wK5m">
+                  <node concept="3urNR4" id="7nbu0000153" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="liA8E" id="7nbu0000154" role="2OqNvi">
+                    <ref role="37wK5l" node="7nbu0000022" resolve="lieferantNr" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7nbu0000155" role="37wK5m">
+                  <node concept="3urNR4" id="7nbu0000156" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000157" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7nbu0000158" role="37wK5m">
+                  <node concept="3urNR4" id="7nbu0000159" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000160" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7nbu0000161" role="3cqZAp">
+              <node concept="1PaTwC" id="7nbu0000162" role="1aUNEU">
+                <node concept="3oM_SD" id="7nbu0000163" role="1PaTwD">
+                  <property role="3oM_SC" value="EXPENSIVE:" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000164" role="1PaTwD">
+                  <property role="3oM_SC" value="beide" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000165" role="1PaTwD">
+                  <property role="3oM_SC" value="Abfragen" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000166" role="1PaTwD">
+                  <property role="3oM_SC" value="rechnen" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000167" role="1PaTwD">
+                  <property role="3oM_SC" value="die" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000168" role="1PaTwD">
+                  <property role="3oM_SC" value="Nachbewertung" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000169" role="1PaTwD">
+                  <property role="3oM_SC" value="des" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000170" role="1PaTwD">
+                  <property role="3oM_SC" value="Zeitraums" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000171" role="1PaTwD">
+                  <property role="3oM_SC" value="(PKG_LK_BEWERTUNG.Nachbewertung)." />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nbu0000172" role="3cqZAp">
+              <node concept="37vLTI" id="7nbu0000173" role="3clFbG">
+                <node concept="2OqwBi" id="7nbu0000174" role="37vLTJ">
+                  <node concept="3urNR4" id="7nbu0000175" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000176" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000071" resolve="positionen" />
+                  </node>
+                </node>
+                <node concept="1odsa" id="7nbu0000177" role="37vLTx">
+                  <ref role="1ods_" to="7ahv:7nbd0000234" resolve="NachbewertungQ" />
+                  <ref role="37wK5l" to="7ahv:7nbd0000276" resolve="positionen" />
+                  <node concept="2OqwBi" id="7nbu0000178" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000179" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="liA8E" id="7nbu0000180" role="2OqNvi">
+                      <ref role="37wK5l" node="7nbu0000022" resolve="lieferantNr" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000181" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000182" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000183" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000184" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000185" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000186" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nbu0000187" role="3cqZAp">
+              <node concept="37vLTI" id="7nbu0000188" role="3clFbG">
+                <node concept="2OqwBi" id="7nbu0000189" role="37vLTJ">
+                  <node concept="3urNR4" id="7nbu0000190" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000191" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000081" resolve="ausgelassene" />
+                  </node>
+                </node>
+                <node concept="1odsa" id="7nbu0000192" role="37vLTx">
+                  <ref role="1ods_" to="7ahv:7nbd0000234" resolve="NachbewertungQ" />
+                  <ref role="37wK5l" to="7ahv:7nbd0001089" resolve="ausgelassene" />
+                  <node concept="2OqwBi" id="7nbu0000193" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000194" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="liA8E" id="7nbu0000195" role="2OqNvi">
+                      <ref role="37wK5l" node="7nbu0000022" resolve="lieferantNr" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000196" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000197" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000198" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000199" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000200" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000201" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nbu0000202" role="3cqZAp">
+              <node concept="37vLTI" id="7nbu0000203" role="3clFbG">
+                <node concept="2OqwBi" id="7nbu0000204" role="37vLTJ">
+                  <node concept="3urNR4" id="7nbu0000205" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000206" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000062" resolve="hinweis" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="7nbu0000207" role="37vLTx">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+            <node concept="mlg3r" id="7nbu0000208" role="3cqZAp">
+              <node concept="2OqwBi" id="7nbu0000209" role="mlgNJ">
+                <node concept="2OqwBi" id="7nbu0000210" role="2Oq$k0">
+                  <node concept="3urNR4" id="7nbu0000211" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000212" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000071" resolve="positionen" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="7nbu0000213" role="2OqNvi" />
+              </node>
+              <node concept="lgADV" id="7nbu0000214" role="mlgNH">
+                <node concept="35AVbj" id="7nbu0000215" role="lgxf9">
+                  <node concept="ic4WF" id="7nbu0000216" role="icr7_">
+                    <property role="ic4Xk" value="Für Lieferant %d gibt es im Leistungszeitraum %ld – %ld keine Differenz. (UC-008 A1)" />
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000217" role="35Gt3$">
+                    <node concept="3urNR4" id="7nbu0000218" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="liA8E" id="7nbu0000219" role="2OqNvi">
+                      <ref role="37wK5l" node="7nbu0000022" resolve="lieferantNr" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000220" role="35Gt3$">
+                    <node concept="3urNR4" id="7nbu0000221" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000222" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000223" role="35Gt3$">
+                    <node concept="3urNR4" id="7nbu0000224" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000225" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="10Adxa" id="7nbu0000226" role="3cqZAp">
+              <ref role="10Adxb" node="7nbu0000236" resolve="Vorschau" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="JX2Gw" id="7nbu0000227" role="JX2Go">
+        <node concept="3clFbS" id="7nbu0000228" role="2VODD2">
+          <node concept="3clFbF" id="7nbu0000229" role="3cqZAp">
+            <node concept="2OqwBi" id="7nbu0000230" role="3clFbG">
+              <node concept="2OqwBi" id="7nbu0000231" role="2Oq$k0">
+                <node concept="3urNR4" id="7nbu0000232" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                </node>
+                <node concept="2dcwcJ" id="7nbu0000233" role="2OqNvi">
+                  <ref role="2dcwcH" node="7nbu0000035" resolve="lieferant" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7nbu0000234" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:3_EaJyvi4d8" resolve="setScope" />
+                <node concept="3urNR4" id="7nbu0000235" role="37wK5m">
+                  <ref role="3cqZAo" node="7nbu0000114" resolve="lieferanten" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3ugp7q" id="7nbu0000236" role="3ug97V">
+      <property role="TrG5h" value="Vorschau" />
+      <ref role="3gcvY6" node="7nbu0000001" resolve="NachbewertungAuswahl" />
+      <node concept="3063JU" id="7nbu0000237" role="3063Jp">
+        <ref role="3063JT" node="7nbu0000605" resolve="NachbewertungVorschauPP" />
+      </node>
+      <node concept="20qEzJ" id="7nbu0000238" role="10qiF$">
+        <node concept="3clFbS" id="7nbu0000239" role="2VODD2">
+          <node concept="3clFbF" id="7nbu0000240" role="3cqZAp">
+            <node concept="3urNR4" id="7nbu0000241" role="3clFbG">
+              <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="35AVbj" id="7nbu0000242" role="1K0AWC">
+        <node concept="ic4WF" id="7nbu0000243" role="icr7_">
+          <property role="ic4Xk" value="Vorschau der Nachbewertung %ld – %ld" />
+        </node>
+        <node concept="2OqwBi" id="7nbu0000244" role="35Gt3$">
+          <node concept="3urNR4" id="7nbu0000245" role="2Oq$k0">
+            <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+          </node>
+          <node concept="2S8uIT" id="7nbu0000246" role="2OqNvi">
+            <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="7nbu0000247" role="35Gt3$">
+          <node concept="3urNR4" id="7nbu0000248" role="2Oq$k0">
+            <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+          </node>
+          <node concept="2S8uIT" id="7nbu0000249" role="2OqNvi">
+            <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+          </node>
+        </node>
+      </node>
+      <node concept="10qiFn" id="7nbu0000250" role="10qiF9">
+        <ref role="2DFCCC" to="hg40:5VOHcF41wrZ" resolve="Zurueck" />
+        <node concept="20qIzx" id="7nbu0000251" role="10ot2L">
+          <node concept="3clFbS" id="7nbu0000252" role="2VODD2">
+            <node concept="10Adxa" id="7nbu0000253" role="3cqZAp">
+              <ref role="10Adxb" node="7nbu0000118" resolve="Auswahl" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10qiFn" id="7nbu0000254" role="10qiF9">
+        <ref role="2DFCCC" to="hg40:6DuqmNwdwEq" resolve="Bestaetigen" />
+        <node concept="20qIzx" id="7nbu0000255" role="10ot2L">
+          <node concept="3clFbS" id="7nbu0000256" role="2VODD2">
+            <node concept="3SKdUt" id="7nbu0000257" role="3cqZAp">
+              <node concept="1PaTwC" id="7nbu0000258" role="1aUNEU">
+                <node concept="3oM_SD" id="7nbu0000259" role="1PaTwD">
+                  <property role="3oM_SC" value="UC-008" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000260" role="1PaTwD">
+                  <property role="3oM_SC" value="Schritte" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000261" role="1PaTwD">
+                  <property role="3oM_SC" value="6" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000262" role="1PaTwD">
+                  <property role="3oM_SC" value="und" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000263" role="1PaTwD">
+                  <property role="3oM_SC" value="7," />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000264" role="1PaTwD">
+                  <property role="3oM_SC" value="BR-007," />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000265" role="1PaTwD">
+                  <property role="3oM_SC" value="A3:" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000266" role="1PaTwD">
+                  <property role="3oM_SC" value="erneut" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000267" role="1PaTwD">
+                  <property role="3oM_SC" value="rechnen." />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000268" role="1PaTwD">
+                  <property role="3oM_SC" value="Hat" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000269" role="1PaTwD">
+                  <property role="3oM_SC" value="sich" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000270" role="1PaTwD">
+                  <property role="3oM_SC" value="die" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000271" role="1PaTwD">
+                  <property role="3oM_SC" value="Nachbewertung" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000272" role="1PaTwD">
+                  <property role="3oM_SC" value="seit" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000273" role="1PaTwD">
+                  <property role="3oM_SC" value="der" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000274" role="1PaTwD">
+                  <property role="3oM_SC" value="Vorschau" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000275" role="1PaTwD">
+                  <property role="3oM_SC" value="geändert," />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000276" role="1PaTwD">
+                  <property role="3oM_SC" value="die" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000277" role="1PaTwD">
+                  <property role="3oM_SC" value="neue" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000278" role="1PaTwD">
+                  <property role="3oM_SC" value="Vorschau" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000279" role="1PaTwD">
+                  <property role="3oM_SC" value="mit" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000280" role="1PaTwD">
+                  <property role="3oM_SC" value="Hinweis" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000281" role="1PaTwD">
+                  <property role="3oM_SC" value="zeigen;" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000282" role="1PaTwD">
+                  <property role="3oM_SC" value="sonst" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000283" role="1PaTwD">
+                  <property role="3oM_SC" value="bestätigen." />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7nbu0000284" role="3cqZAp">
+              <node concept="3cpWsn" id="7nbu0000285" role="3cpWs9">
+                <property role="TrG5h" value="vorher" />
+                <node concept="17QB3L" id="7nbu0000286" role="1tU5fm" />
+                <node concept="1odsa" id="7nbu0000287" role="33vP2m">
+                  <ref role="1ods_" to="7ahv:7nbd0001287" resolve="NachbewertungS" />
+                  <ref role="37wK5l" to="7ahv:7nbd0001358" resolve="signatur" />
+                  <node concept="2OqwBi" id="7nbu0000288" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000289" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000290" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000071" resolve="positionen" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7nbu0000291" role="3cqZAp">
+              <node concept="1PaTwC" id="7nbu0000292" role="1aUNEU">
+                <node concept="3oM_SD" id="7nbu0000293" role="1PaTwD">
+                  <property role="3oM_SC" value="EXPENSIVE:" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000294" role="1PaTwD">
+                  <property role="3oM_SC" value="rechnet" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000295" role="1PaTwD">
+                  <property role="3oM_SC" value="die" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000296" role="1PaTwD">
+                  <property role="3oM_SC" value="Nachbewertung" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000297" role="1PaTwD">
+                  <property role="3oM_SC" value="erneut" />
+                </node>
+                <node concept="3oM_SD" id="7nbu0000298" role="1PaTwD">
+                  <property role="3oM_SC" value="(PKG_LK_BEWERTUNG.Nachbewertung)." />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nbu0000299" role="3cqZAp">
+              <node concept="37vLTI" id="7nbu0000300" role="3clFbG">
+                <node concept="2OqwBi" id="7nbu0000301" role="37vLTJ">
+                  <node concept="3urNR4" id="7nbu0000302" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000303" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000071" resolve="positionen" />
+                  </node>
+                </node>
+                <node concept="1odsa" id="7nbu0000304" role="37vLTx">
+                  <ref role="1ods_" to="7ahv:7nbd0000234" resolve="NachbewertungQ" />
+                  <ref role="37wK5l" to="7ahv:7nbd0000276" resolve="positionen" />
+                  <node concept="2OqwBi" id="7nbu0000305" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000306" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="liA8E" id="7nbu0000307" role="2OqNvi">
+                      <ref role="37wK5l" node="7nbu0000022" resolve="lieferantNr" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000308" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000309" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000310" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000311" role="37wK5m">
+                    <node concept="3urNR4" id="7nbu0000312" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000313" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="mlg3r" id="7nbu0000314" role="3cqZAp">
+              <node concept="2OqwBi" id="7nbu0000315" role="mlgNJ">
+                <node concept="2OqwBi" id="7nbu0000316" role="2Oq$k0">
+                  <node concept="3urNR4" id="7nbu0000317" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000318" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000071" resolve="positionen" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="7nbu0000319" role="2OqNvi" />
+              </node>
+              <node concept="lgADV" id="7nbu0000320" role="mlgNH">
+                <node concept="35AVbj" id="7nbu0000321" role="lgxf9">
+                  <node concept="ic4WF" id="7nbu0000322" role="icr7_">
+                    <property role="ic4Xk" value="Für Lieferant %d gibt es im Leistungszeitraum %ld – %ld keine Differenz mehr. (UC-008 A1, A3)" />
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000323" role="35Gt3$">
+                    <node concept="3urNR4" id="7nbu0000324" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="liA8E" id="7nbu0000325" role="2OqNvi">
+                      <ref role="37wK5l" node="7nbu0000022" resolve="lieferantNr" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000326" role="35Gt3$">
+                    <node concept="3urNR4" id="7nbu0000327" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000328" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7nbu0000329" role="35Gt3$">
+                    <node concept="3urNR4" id="7nbu0000330" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000331" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="7nbu0000332" role="3cqZAp">
+              <node concept="3fqX7Q" id="7nbu0000333" role="3clFbw">
+                <node concept="1eOMI4" id="7nbu0000334" role="3fr31v">
+                  <node concept="17R0WA" id="7nbu0000335" role="1eOMHV">
+                    <node concept="1odsa" id="7nbu0000336" role="3uHU7B">
+                      <ref role="1ods_" to="7ahv:7nbd0001287" resolve="NachbewertungS" />
+                      <ref role="37wK5l" to="7ahv:7nbd0001358" resolve="signatur" />
+                      <node concept="2OqwBi" id="7nbu0000337" role="37wK5m">
+                        <node concept="3urNR4" id="7nbu0000338" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                        </node>
+                        <node concept="2S8uIT" id="7nbu0000339" role="2OqNvi">
+                          <ref role="2S8YL0" node="7nbu0000071" resolve="positionen" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="7nbu0000340" role="3uHU7w">
+                      <ref role="3cqZAo" node="7nbu0000285" resolve="vorher" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="7nbu0000341" role="3clFbx">
+                <node concept="3clFbF" id="7nbu0000342" role="3cqZAp">
+                  <node concept="37vLTI" id="7nbu0000343" role="3clFbG">
+                    <node concept="2OqwBi" id="7nbu0000344" role="37vLTJ">
+                      <node concept="3urNR4" id="7nbu0000345" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                      </node>
+                      <node concept="2S8uIT" id="7nbu0000346" role="2OqNvi">
+                        <ref role="2S8YL0" node="7nbu0000081" resolve="ausgelassene" />
+                      </node>
+                    </node>
+                    <node concept="1odsa" id="7nbu0000347" role="37vLTx">
+                      <ref role="1ods_" to="7ahv:7nbd0000234" resolve="NachbewertungQ" />
+                      <ref role="37wK5l" to="7ahv:7nbd0001089" resolve="ausgelassene" />
+                      <node concept="2OqwBi" id="7nbu0000348" role="37wK5m">
+                        <node concept="3urNR4" id="7nbu0000349" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                        </node>
+                        <node concept="liA8E" id="7nbu0000350" role="2OqNvi">
+                          <ref role="37wK5l" node="7nbu0000022" resolve="lieferantNr" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="7nbu0000351" role="37wK5m">
+                        <node concept="3urNR4" id="7nbu0000352" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                        </node>
+                        <node concept="2S8uIT" id="7nbu0000353" role="2OqNvi">
+                          <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="7nbu0000354" role="37wK5m">
+                        <node concept="3urNR4" id="7nbu0000355" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                        </node>
+                        <node concept="2S8uIT" id="7nbu0000356" role="2OqNvi">
+                          <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="7nbu0000357" role="3cqZAp">
+                  <node concept="37vLTI" id="7nbu0000358" role="3clFbG">
+                    <node concept="2OqwBi" id="7nbu0000359" role="37vLTJ">
+                      <node concept="3urNR4" id="7nbu0000360" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                      </node>
+                      <node concept="2S8uIT" id="7nbu0000361" role="2OqNvi">
+                        <ref role="2S8YL0" node="7nbu0000062" resolve="hinweis" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="7nbu0000362" role="37vLTx">
+                      <property role="Xl_RC" value="Die Nachbewertung hat sich seit der Vorschau geändert. Bitte die neue Vorschau prüfen und erneut bestätigen. (UC-008 A3)" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="10Adxa" id="7nbu0000363" role="3cqZAp">
+                  <ref role="10Adxb" node="7nbu0000236" resolve="Vorschau" />
+                </node>
+              </node>
+              <node concept="9aQIb" id="7nbu0000364" role="9aQIa">
+                <node concept="3clFbS" id="7nbu0000365" role="9aQI4">
+                  <node concept="10Adxj" id="7nbu0000366" role="3cqZAp" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="20qIzx" id="7nbu0000367" role="3umfm7">
+      <node concept="3clFbS" id="7nbu0000368" role="2VODD2">
+        <node concept="3SKdUt" id="7nbu0000369" role="3cqZAp">
+          <node concept="1PaTwC" id="7nbu0000370" role="1aUNEU">
+            <node concept="3oM_SD" id="7nbu0000371" role="1PaTwD">
+              <property role="3oM_SC" value="KONSISTENZGRENZE:" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000372" role="1PaTwD">
+              <property role="3oM_SC" value="ein" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000373" role="1PaTwD">
+              <property role="3oM_SC" value="Lauf" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000374" role="1PaTwD">
+              <property role="3oM_SC" value="je" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000375" role="1PaTwD">
+              <property role="3oM_SC" value="Lieferant" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000376" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000377" role="1PaTwD">
+              <property role="3oM_SC" value="Leistungszeitraum" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000378" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000379" role="1PaTwD">
+              <property role="3oM_SC" value="einem" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000380" role="1PaTwD">
+              <property role="3oM_SC" value="Commit" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000381" role="1PaTwD">
+              <property role="3oM_SC" value="(UC-008" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000382" role="1PaTwD">
+              <property role="3oM_SC" value="BR-007):" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000383" role="1PaTwD">
+              <property role="3oM_SC" value="Forderungskorrekturen" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000384" role="1PaTwD">
+              <property role="3oM_SC" value="mit" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000385" role="1PaTwD">
+              <property role="3oM_SC" value="Positionen," />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000386" role="1PaTwD">
+              <property role="3oM_SC" value="Storno-" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000387" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000388" role="1PaTwD">
+              <property role="3oM_SC" value="Nachbewertungsbeträge," />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000389" role="1PaTwD">
+              <property role="3oM_SC" value="fortgeschriebene" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000390" role="1PaTwD">
+              <property role="3oM_SC" value="Bewertungen." />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000391" role="1PaTwD">
+              <property role="3oM_SC" value="PKG_LK_BEWERTUNG.Nachbewerte" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000392" role="1PaTwD">
+              <property role="3oM_SC" value="sperrt" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000393" role="1PaTwD">
+              <property role="3oM_SC" value="den" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000394" role="1PaTwD">
+              <property role="3oM_SC" value="Lieferanten" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000395" role="1PaTwD">
+              <property role="3oM_SC" value="bis" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000396" role="1PaTwD">
+              <property role="3oM_SC" value="zum" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000397" role="1PaTwD">
+              <property role="3oM_SC" value="Commit" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000398" role="1PaTwD">
+              <property role="3oM_SC" value="(BR-013)." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7nbu0000399" role="3cqZAp">
+          <node concept="37vLTI" id="7nbu0000400" role="3clFbG">
+            <node concept="3urNR4" id="7nbu0000401" role="37vLTJ">
+              <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+            </node>
+            <node concept="2ShNRf" id="7nbu0000402" role="37vLTx">
+              <node concept="1pGfFk" id="7nbu0000403" role="2ShVmc">
+                <ref role="37wK5l" node="7nbu0000018" resolve="NachbewertungAuswahl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7nbu0000404" role="3cqZAp">
+          <node concept="1PaTwC" id="7nbu0000405" role="1aUNEU">
+            <node concept="3oM_SD" id="7nbu0000406" role="1PaTwD">
+              <property role="3oM_SC" value="UC-008" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000407" role="1PaTwD">
+              <property role="3oM_SC" value="Schritt" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000408" role="1PaTwD">
+              <property role="3oM_SC" value="1:" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000409" role="1PaTwD">
+              <property role="3oM_SC" value="Vorschlag" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000410" role="1PaTwD">
+              <property role="3oM_SC" value="Vormonat." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7nbu0000411" role="3cqZAp">
+          <node concept="37vLTI" id="7nbu0000412" role="3clFbG">
+            <node concept="2OqwBi" id="7nbu0000413" role="37vLTJ">
+              <node concept="3urNR4" id="7nbu0000414" role="2Oq$k0">
+                <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+              </node>
+              <node concept="2S8uIT" id="7nbu0000415" role="2OqNvi">
+                <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7nbu0000416" role="37vLTx">
+              <node concept="2OqwBi" id="7nbu0000417" role="2Oq$k0">
+                <node concept="1$4sJh" id="7nbu0000418" role="2Oq$k0">
+                  <property role="1$4sGW" value="0" />
+                  <property role="1$4sGZ" value="0" />
+                  <property role="1$4sGY" value="0" />
+                  <property role="1$4sGX" value="true" />
+                </node>
+                <node concept="liA8E" id="7nbu0000419" role="2OqNvi">
+                  <ref role="37wK5l" to="w08f:~LocalDate.withDayOfMonth(int)" resolve="withDayOfMonth" />
+                  <node concept="3cmrfG" id="7nbu0000420" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="7nbu0000421" role="2OqNvi">
+                <ref role="37wK5l" to="w08f:~LocalDate.minusDays(int)" resolve="minusDays" />
+                <node concept="3cmrfG" id="7nbu0000422" role="37wK5m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7nbu0000423" role="3cqZAp">
+          <node concept="37vLTI" id="7nbu0000424" role="3clFbG">
+            <node concept="2OqwBi" id="7nbu0000425" role="37vLTJ">
+              <node concept="3urNR4" id="7nbu0000426" role="2Oq$k0">
+                <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+              </node>
+              <node concept="2S8uIT" id="7nbu0000427" role="2OqNvi">
+                <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7nbu0000428" role="37vLTx">
+              <node concept="2OqwBi" id="7nbu0000429" role="2Oq$k0">
+                <node concept="3urNR4" id="7nbu0000430" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                </node>
+                <node concept="2S8uIT" id="7nbu0000431" role="2OqNvi">
+                  <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7nbu0000432" role="2OqNvi">
+                <ref role="37wK5l" to="w08f:~LocalDate.withDayOfMonth(int)" resolve="withDayOfMonth" />
+                <node concept="3cmrfG" id="7nbu0000433" role="37wK5m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7nbu0000434" role="3cqZAp">
+          <node concept="1PaTwC" id="7nbu0000435" role="1aUNEU">
+            <node concept="3oM_SD" id="7nbu0000436" role="1PaTwD">
+              <property role="3oM_SC" value="Auswahlliste" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000437" role="1PaTwD">
+              <property role="3oM_SC" value="des" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000438" role="1PaTwD">
+              <property role="3oM_SC" value="Lieferanten" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000439" role="1PaTwD">
+              <property role="3oM_SC" value="(Reference-Delegate)." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7nbu0000440" role="3cqZAp">
+          <node concept="37vLTI" id="7nbu0000441" role="3clFbG">
+            <node concept="3urNR4" id="7nbu0000442" role="37vLTJ">
+              <ref role="3cqZAo" node="7nbu0000114" resolve="lieferanten" />
+            </node>
+            <node concept="1odsa" id="7nbu0000443" role="37vLTx">
+              <ref role="1ods_" to="k2it:1SEqE6yDWUK" resolve="LieferantenQ" />
+              <ref role="37wK5l" to="k2it:1pSXir1B3t" resolve="alleLieferanten" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="20qIzx" id="7nbu0000444" role="10_T4l">
+      <node concept="3clFbS" id="7nbu0000445" role="2VODD2">
+        <node concept="3SKdUt" id="7nbu0000446" role="3cqZAp">
+          <node concept="1PaTwC" id="7nbu0000447" role="1aUNEU">
+            <node concept="3oM_SD" id="7nbu0000448" role="1PaTwD">
+              <property role="3oM_SC" value="EXPENSIVE:" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000449" role="1PaTwD">
+              <property role="3oM_SC" value="UC-008" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000450" role="1PaTwD">
+              <property role="3oM_SC" value="Schritte" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000451" role="1PaTwD">
+              <property role="3oM_SC" value="8" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000452" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000453" role="1PaTwD">
+              <property role="3oM_SC" value="9:" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000454" role="1PaTwD">
+              <property role="3oM_SC" value="Forderungskorrekturen" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000455" role="1PaTwD">
+              <property role="3oM_SC" value="aus" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000456" role="1PaTwD">
+              <property role="3oM_SC" value="den" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000457" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000458" role="1PaTwD">
+              <property role="3oM_SC" value="Schritt" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000459" role="1PaTwD">
+              <property role="3oM_SC" value="7" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000460" role="1PaTwD">
+              <property role="3oM_SC" value="neu" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000461" role="1PaTwD">
+              <property role="3oM_SC" value="gerechneten" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000462" role="1PaTwD">
+              <property role="3oM_SC" value="Differenzen" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000463" role="1PaTwD">
+              <property role="3oM_SC" value="bauen" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000464" role="1PaTwD">
+              <property role="3oM_SC" value="(BR-009)" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000465" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000466" role="1PaTwD">
+              <property role="3oM_SC" value="als" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000467" role="1PaTwD">
+              <property role="3oM_SC" value="Session-Operationen" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000468" role="1PaTwD">
+              <property role="3oM_SC" value="speichern," />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000469" role="1PaTwD">
+              <property role="3oM_SC" value="danach" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000470" role="1PaTwD">
+              <property role="3oM_SC" value="die" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000471" role="1PaTwD">
+              <property role="3oM_SC" value="Nachbewertung" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000472" role="1PaTwD">
+              <property role="3oM_SC" value="registrieren." />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000473" role="1PaTwD">
+              <property role="3oM_SC" value="PKG_LK_BEWERTUNG.Nachbewerte" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000474" role="1PaTwD">
+              <property role="3oM_SC" value="rechnet" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000475" role="1PaTwD">
+              <property role="3oM_SC" value="im" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000476" role="1PaTwD">
+              <property role="3oM_SC" value="Commit" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000477" role="1PaTwD">
+              <property role="3oM_SC" value="erneut" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000478" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000479" role="1PaTwD">
+              <property role="3oM_SC" value="prüft" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000480" role="1PaTwD">
+              <property role="3oM_SC" value="gegen" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000481" role="1PaTwD">
+              <property role="3oM_SC" value="die" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000482" role="1PaTwD">
+              <property role="3oM_SC" value="Korrekturen" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000483" role="1PaTwD">
+              <property role="3oM_SC" value="(BR-007," />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000484" role="1PaTwD">
+              <property role="3oM_SC" value="A3)." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7nbu0000485" role="3cqZAp">
+          <node concept="3cpWsn" id="7nbu0000486" role="3cpWs9">
+            <property role="TrG5h" value="heute" />
+            <node concept="3uibUv" id="7nbu0000487" role="1tU5fm">
+              <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
+            </node>
+            <node concept="1$4sJh" id="7nbu0000488" role="33vP2m">
+              <property role="1$4sGW" value="0" />
+              <property role="1$4sGZ" value="0" />
+              <property role="1$4sGY" value="0" />
+              <property role="1$4sGX" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7nbu0000489" role="3cqZAp">
+          <node concept="3cpWsn" id="7nbu0000490" role="3cpWs9">
+            <property role="TrG5h" value="korrekturen" />
+            <node concept="_YKpA" id="7nbu0000491" role="1tU5fm">
+              <node concept="3uibUv" id="7nbu0000492" role="_ZDj9">
+                <ref role="3uigEE" to="725o:7fdm0000001" resolve="Forderungsbeleg" />
+              </node>
+            </node>
+            <node concept="1odsa" id="7nbu0000493" role="33vP2m">
+              <ref role="1ods_" to="7ahv:7nbd0001287" resolve="NachbewertungS" />
+              <ref role="37wK5l" to="7ahv:7nbd0001406" resolve="erstelleKorrekturen" />
+              <node concept="2OqwBi" id="7nbu0000494" role="37wK5m">
+                <node concept="3urNR4" id="7nbu0000495" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                </node>
+                <node concept="liA8E" id="7nbu0000496" role="2OqNvi">
+                  <ref role="37wK5l" node="7nbu0000022" resolve="lieferantNr" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="7nbu0000497" role="37wK5m">
+                <ref role="3cqZAo" node="7nbu0000486" resolve="heute" />
+              </node>
+              <node concept="2OqwBi" id="7nbu0000498" role="37wK5m">
+                <node concept="3urNR4" id="7nbu0000499" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                </node>
+                <node concept="2S8uIT" id="7nbu0000500" role="2OqNvi">
+                  <ref role="2S8YL0" node="7nbu0000071" resolve="positionen" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="7nbu0000501" role="3cqZAp">
+          <node concept="2GrKxI" id="7nbu0000502" role="2Gsz3X">
+            <property role="TrG5h" value="k" />
+          </node>
+          <node concept="37vLTw" id="7nbu0000503" role="2GsD0m">
+            <ref role="3cqZAo" node="7nbu0000490" resolve="korrekturen" />
+          </node>
+          <node concept="3clFbS" id="7nbu0000504" role="2LFqv$">
+            <node concept="3clFbF" id="7nbu0000505" role="3cqZAp">
+              <node concept="2OqwBi" id="7nbu0000506" role="3clFbG">
+                <node concept="3y28L$" id="7nbu0000507" role="2Oq$k0" />
+                <node concept="liA8E" id="7nbu0000508" role="2OqNvi">
+                  <ref role="37wK5l" to="w7gk:6vtMBTngXqz" resolve="ensureInSession" />
+                  <node concept="2GrUjf" id="7nbu0000509" role="37wK5m">
+                    <ref role="2Gs0qQ" node="7nbu0000502" resolve="k" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2Gpval" id="7nbu0000510" role="3cqZAp">
+              <node concept="2GrKxI" id="7nbu0000511" role="2Gsz3X">
+                <property role="TrG5h" value="p" />
+              </node>
+              <node concept="2OqwBi" id="7nbu0000512" role="2GsD0m">
+                <node concept="2GrUjf" id="7nbu0000513" role="2Oq$k0">
+                  <ref role="2Gs0qQ" node="7nbu0000502" resolve="k" />
+                </node>
+                <node concept="2S8uIT" id="7nbu0000514" role="2OqNvi">
+                  <ref role="2S8YL0" to="725o:7fdm0000247" resolve="positionen" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="7nbu0000515" role="2LFqv$">
+                <node concept="3clFbF" id="7nbu0000516" role="3cqZAp">
+                  <node concept="2OqwBi" id="7nbu0000517" role="3clFbG">
+                    <node concept="3y28L$" id="7nbu0000518" role="2Oq$k0" />
+                    <node concept="liA8E" id="7nbu0000519" role="2OqNvi">
+                      <ref role="37wK5l" to="w7gk:6vtMBTngXqz" resolve="ensureInSession" />
+                      <node concept="2GrUjf" id="7nbu0000520" role="37wK5m">
+                        <ref role="2Gs0qQ" node="7nbu0000511" resolve="p" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nbu0000521" role="3cqZAp">
+              <node concept="1odsa" id="7nbu0000522" role="3clFbG">
+                <ref role="1ods_" to="725o:7fdm0001083" resolve="ForderungR" />
+                <ref role="37wK5l" to="725o:7nbf0000001" resolve="legeKorrekturAn" />
+                <node concept="2GrUjf" id="7nbu0000523" role="37wK5m">
+                  <ref role="2Gs0qQ" node="7nbu0000502" resolve="k" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nbu0000524" role="3cqZAp">
+              <node concept="37vLTI" id="7nbu0000525" role="3clFbG">
+                <node concept="2OqwBi" id="7nbu0000526" role="37vLTJ">
+                  <node concept="3urNR4" id="7nbu0000527" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000528" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000091" resolve="anzahlKorrekturen" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="7nbu0000529" role="37vLTx">
+                  <node concept="2OqwBi" id="7nbu0000530" role="3uHU7B">
+                    <node concept="3urNR4" id="7nbu0000531" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000532" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000091" resolve="anzahlKorrekturen" />
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="7nbu0000533" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nbu0000534" role="3cqZAp">
+              <node concept="37vLTI" id="7nbu0000535" role="3clFbG">
+                <node concept="2OqwBi" id="7nbu0000536" role="37vLTJ">
+                  <node concept="3urNR4" id="7nbu0000537" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                  </node>
+                  <node concept="2S8uIT" id="7nbu0000538" role="2OqNvi">
+                    <ref role="2S8YL0" node="7nbu0000100" resolve="summeKorrekturen" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7nbu0000539" role="37vLTx">
+                  <node concept="2OqwBi" id="7nbu0000540" role="2Oq$k0">
+                    <node concept="3urNR4" id="7nbu0000541" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+                    </node>
+                    <node concept="2S8uIT" id="7nbu0000542" role="2OqNvi">
+                      <ref role="2S8YL0" node="7nbu0000100" resolve="summeKorrekturen" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7nbu0000543" role="2OqNvi">
+                    <ref role="37wK5l" to="xlxw:~BigDecimal.add(java.math.BigDecimal)" resolve="add" />
+                    <node concept="2OqwBi" id="7nbu0000544" role="37wK5m">
+                      <node concept="2GrUjf" id="7nbu0000545" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="7nbu0000502" resolve="k" />
+                      </node>
+                      <node concept="2S8uIT" id="7nbu0000546" role="2OqNvi">
+                        <ref role="2S8YL0" to="725o:7fdm0000222" resolve="betrag" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7nbu0000547" role="3cqZAp">
+          <node concept="1PaTwC" id="7nbu0000548" role="1aUNEU">
+            <node concept="3oM_SD" id="7nbu0000549" role="1PaTwD">
+              <property role="3oM_SC" value="UC-008" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000550" role="1PaTwD">
+              <property role="3oM_SC" value="BR-007:" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000551" role="1PaTwD">
+              <property role="3oM_SC" value="nach" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000552" role="1PaTwD">
+              <property role="3oM_SC" value="den" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000553" role="1PaTwD">
+              <property role="3oM_SC" value="Korrekturen" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000554" role="1PaTwD">
+              <property role="3oM_SC" value="registriert," />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000555" role="1PaTwD">
+              <property role="3oM_SC" value="damit" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000556" role="1PaTwD">
+              <property role="3oM_SC" value="Nachbewerte" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000557" role="1PaTwD">
+              <property role="3oM_SC" value="deren" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000558" role="1PaTwD">
+              <property role="3oM_SC" value="Positionen" />
+            </node>
+            <node concept="3oM_SD" id="7nbu0000559" role="1PaTwD">
+              <property role="3oM_SC" value="findet." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7nbu0000560" role="3cqZAp">
+          <node concept="1odsa" id="7nbu0000561" role="3clFbG">
+            <ref role="1ods_" to="7ahv:7nbd0001199" resolve="NachbewertungR" />
+            <ref role="37wK5l" to="7ahv:7nbd0001201" resolve="nachbewerte" />
+            <node concept="2OqwBi" id="7nbu0000562" role="37wK5m">
+              <node concept="3urNR4" id="7nbu0000563" role="2Oq$k0">
+                <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+              </node>
+              <node concept="liA8E" id="7nbu0000564" role="2OqNvi">
+                <ref role="37wK5l" node="7nbu0000022" resolve="lieferantNr" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7nbu0000565" role="37wK5m">
+              <node concept="3urNR4" id="7nbu0000566" role="2Oq$k0">
+                <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+              </node>
+              <node concept="2S8uIT" id="7nbu0000567" role="2OqNvi">
+                <ref role="2S8YL0" node="7nbu0000044" resolve="von" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7nbu0000568" role="37wK5m">
+              <node concept="3urNR4" id="7nbu0000569" role="2Oq$k0">
+                <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+              </node>
+              <node concept="2S8uIT" id="7nbu0000570" role="2OqNvi">
+                <ref role="2S8YL0" node="7nbu0000053" resolve="bis" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="27Aftt" id="7nbu0000571" role="27AfA_">
+      <node concept="35AVbj" id="7nbu0000572" role="27Af65">
+        <node concept="ic4WF" id="7nbu0000573" role="icr7_">
+          <property role="ic4Xk" value="%d Wareneingänge nachbewertet, %d Forderungskorrekturen erstellt, Summe %bd. (UC-008 Schritt 10)" />
+        </node>
+        <node concept="2OqwBi" id="7nbu0000574" role="35Gt3$">
+          <node concept="2OqwBi" id="7nbu0000575" role="2Oq$k0">
+            <node concept="2OqwBi" id="7nbu0000576" role="2Oq$k0">
+              <node concept="3urNR4" id="7nbu0000577" role="2Oq$k0">
+                <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+              </node>
+              <node concept="2S8uIT" id="7nbu0000578" role="2OqNvi">
+                <ref role="2S8YL0" node="7nbu0000071" resolve="positionen" />
+              </node>
+            </node>
+            <node concept="1uHKPH" id="7nbu0000579" role="2OqNvi" />
+          </node>
+          <node concept="2S8uIT" id="7nbu0000580" role="2OqNvi">
+            <ref role="2S8YL0" to="7ahv:7nbd0000108" resolve="wareneingaengeGesamt" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="7nbu0000581" role="35Gt3$">
+          <node concept="3urNR4" id="7nbu0000582" role="2Oq$k0">
+            <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+          </node>
+          <node concept="2S8uIT" id="7nbu0000583" role="2OqNvi">
+            <ref role="2S8YL0" node="7nbu0000091" resolve="anzahlKorrekturen" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="7nbu0000584" role="35Gt3$">
+          <node concept="3urNR4" id="7nbu0000585" role="2Oq$k0">
+            <ref role="3cqZAo" node="7nbu0000112" resolve="auswahl" />
+          </node>
+          <node concept="2S8uIT" id="7nbu0000586" role="2OqNvi">
+            <ref role="2S8YL0" node="7nbu0000100" resolve="summeKorrekturen" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2mKXYI" id="7nbu0000587">
+    <property role="TrG5h" value="NachbewertungAuswahlPP" />
+    <property role="1Nb$_v" value="true" />
+    <ref role="1Tjo7l" node="7nbu0000001" resolve="NachbewertungAuswahl" />
+    <node concept="2U5qGO" id="7nbu0000588" role="21u2x1">
+      <property role="TrG5h" value="#" />
+      <ref role="1Tjo7l" node="7nbu0000001" resolve="NachbewertungAuswahl" />
+      <node concept="2U5nhG" id="7nbu0000589" role="2TFpq_" />
+      <node concept="2U5nhG" id="7nbu0000590" role="2TFpq_" />
+      <node concept="2TG9WW" id="7nbu0000591" role="3OfFNq">
+        <node concept="3Oe$u_" id="7nbu0000592" role="3Oe2NS">
+          <ref role="3O0p26" node="7nbu0000035" resolve="lieferant" />
+        </node>
+        <node concept="P8lqc" id="7nbu0000593" role="P8nnQ">
+          <node concept="3Oe$u_" id="7nbu0000594" role="P8WsX">
+            <ref role="3O0p26" to="k2it:1SEqE6yDXf4" resolve="lieferantNr" />
+          </node>
+          <node concept="3Oe$u_" id="7nbu0000595" role="P8WsX">
+            <ref role="3O0p26" to="k2it:1SEqE6yDXfj" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="1wFRl1" id="7nbu0000596" role="3OfFNq" />
+      <node concept="2TG9WU" id="7nbu0000597" role="3OfFNq">
+        <node concept="3Oe$u_" id="7nbu0000598" role="3Oe2NS">
+          <ref role="3O0p26" node="7nbu0000044" resolve="von" />
+        </node>
+        <node concept="1fQJa5" id="7nbu0000599" role="PoUSh" />
+      </node>
+      <node concept="2TG9WU" id="7nbu0000600" role="3OfFNq">
+        <node concept="3Oe$u_" id="7nbu0000601" role="3Oe2NS">
+          <ref role="3O0p26" node="7nbu0000053" resolve="bis" />
+        </node>
+        <node concept="1fQJa5" id="7nbu0000602" role="PoUSh" />
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7nbu0000603" role="UTRd0">
+      <node concept="276gdk" id="7nbu0000604" role="26Uuoe">
+        <ref role="276gdn" to="hg40:7nbc0000001" resolve="BereichNachbewertung" />
+      </node>
+    </node>
+  </node>
+  <node concept="2mKXYI" id="7nbu0000605">
+    <property role="TrG5h" value="NachbewertungVorschauPP" />
+    <property role="1Nb$_v" value="true" />
+    <ref role="1Tjo7l" node="7nbu0000001" resolve="NachbewertungAuswahl" />
+    <node concept="2U5qGN" id="7nbu0000606" role="21u2x1">
+      <property role="TrG5h" value="#" />
+      <node concept="2U5nhG" id="7nbu0000607" role="2U5niJ" />
+      <node concept="2U5qGO" id="7nbu0000608" role="21u2wS">
+        <property role="TrG5h" value="#" />
+        <ref role="1Tjo7l" node="7nbu0000001" resolve="NachbewertungAuswahl" />
+        <node concept="2U5nhG" id="7nbu0000609" role="2TFpq_" />
+        <node concept="2U5nhG" id="7nbu0000610" role="2TFpq_" />
+        <node concept="2TG9WW" id="7nbu0000611" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000612" role="3Oe2NS">
+            <ref role="3O0p26" node="7nbu0000035" resolve="lieferant" />
+          </node>
+          <node concept="P8lqc" id="7nbu0000613" role="P8nnQ">
+            <node concept="3Oe$u_" id="7nbu0000614" role="P8WsX">
+              <ref role="3O0p26" to="k2it:1SEqE6yDXf4" resolve="lieferantNr" />
+            </node>
+            <node concept="3Oe$u_" id="7nbu0000615" role="P8WsX">
+              <ref role="3O0p26" to="k2it:1SEqE6yDXfj" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3Oe2Ik" id="7nbu0000616" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000617" role="3Oe2NS">
+            <ref role="3O0p26" node="7nbu0000062" resolve="hinweis" />
+          </node>
+        </node>
+        <node concept="2TG9WU" id="7nbu0000618" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000619" role="3Oe2NS">
+            <ref role="3O0p26" node="7nbu0000044" resolve="von" />
+          </node>
+        </node>
+        <node concept="2TG9WU" id="7nbu0000620" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000621" role="3Oe2NS">
+            <ref role="3O0p26" node="7nbu0000053" resolve="bis" />
+          </node>
+        </node>
+        <node concept="PoU6y" id="7nbu0000622" role="PoUSn" />
+      </node>
+      <node concept="2U5qGQ" id="7nbu0000623" role="21u2wS">
+        <property role="TrG5h" value="#" />
+        <ref role="1Tjo7l" node="7nbu0000001" resolve="NachbewertungAuswahl" />
+        <ref role="1Tjo6F" node="7nbu0000071" resolve="positionen" />
+        <node concept="PoUSf" id="7nbu0000624" role="PoUSn">
+          <node concept="Xl_RD" id="7nbu0000625" role="PoUSc">
+            <property role="Xl_RC" value="Differenzen je Zyklus, Leistungsperiode und Artikel" />
+          </node>
+        </node>
+        <node concept="2TG9WX" id="7nbu0000626" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000627" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000045" resolve="zyklus" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000628" role="PoUSh">
+            <property role="PiFy3" value="8" />
+          </node>
+        </node>
+        <node concept="2TG9WU" id="7nbu0000629" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000630" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000054" resolve="periodeVon" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000631" role="PoUSh">
+            <property role="PiFy3" value="8" />
+          </node>
+        </node>
+        <node concept="2TG9WU" id="7nbu0000632" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000633" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000063" resolve="periodeBis" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000634" role="PoUSh">
+            <property role="PiFy3" value="8" />
+          </node>
+        </node>
+        <node concept="3Oe2IN" id="7nbu0000635" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000636" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000072" resolve="artikelNr" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000637" role="PoUSh">
+            <property role="PiFy3" value="7" />
+          </node>
+        </node>
+        <node concept="3Oe2Ik" id="7nbu0000638" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000639" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000081" resolve="artikelBezeichnung" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000640" role="PoUSh">
+            <property role="PiFy3" value="17" />
+          </node>
+        </node>
+        <node concept="3Oe2IN" id="7nbu0000641" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000642" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000090" resolve="konditionId" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000643" role="PoUSh">
+            <property role="PiFy3" value="7" />
+          </node>
+        </node>
+        <node concept="3Oe2IN" id="7nbu0000644" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000645" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000099" resolve="anzahlWareneingaenge" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000646" role="PoUSh">
+            <property role="PiFy3" value="8" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7nbu0000647" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000648" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000117" resolve="storno" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000649" role="PoUSh">
+            <property role="PiFy3" value="9" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7nbu0000650" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000651" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000126" resolve="nachbewertung" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000652" role="PoUSh">
+            <property role="PiFy3" value="9" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7nbu0000653" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000654" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000135" resolve="differenz" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000655" role="PoUSh">
+            <property role="PiFy3" value="9" />
+          </node>
+        </node>
+        <node concept="2TG9WX" id="7nbu0000656" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000657" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000144" resolve="forderungAusgestellt" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000658" role="PoUSh">
+            <property role="PiFy3" value="10" />
+          </node>
+        </node>
+      </node>
+      <node concept="2U5qGQ" id="7nbu0000659" role="21u2wS">
+        <property role="TrG5h" value="#" />
+        <ref role="1Tjo7l" node="7nbu0000001" resolve="NachbewertungAuswahl" />
+        <ref role="1Tjo6F" node="7nbu0000081" resolve="ausgelassene" />
+        <node concept="PoUSf" id="7nbu0000660" role="PoUSn">
+          <node concept="Xl_RD" id="7nbu0000661" role="PoUSc">
+            <property role="Xl_RC" value="Nicht nachbewertete Wareneingänge" />
+          </node>
+        </node>
+        <node concept="3Oe2Ik" id="7nbu0000662" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000663" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000198" resolve="belegNr" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000664" role="PoUSh">
+            <property role="PiFy3" value="12" />
+          </node>
+        </node>
+        <node concept="2TG9WU" id="7nbu0000665" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000666" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000207" resolve="stichtag" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000667" role="PoUSh">
+            <property role="PiFy3" value="10" />
+          </node>
+        </node>
+        <node concept="3Oe2Ik" id="7nbu0000668" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000669" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000216" resolve="art" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000670" role="PoUSh">
+            <property role="PiFy3" value="15" />
+          </node>
+        </node>
+        <node concept="3Oe2Ik" id="7nbu0000671" role="3OfFNq">
+          <node concept="3Oe$u_" id="7nbu0000672" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7nbd0000225" resolve="grund" />
+          </node>
+          <node concept="PnLzW" id="7nbu0000673" role="PoUSh">
+            <property role="PiFy3" value="63" />
+          </node>
+        </node>
+      </node>
+      <node concept="2U5nhT" id="7nbu0000674" role="2U5niL" />
+      <node concept="2U5nhB" id="7nbu0000675" role="2U5niL" />
+      <node concept="2U5nhD" id="7nbu0000676" role="2U5niL" />
+    </node>
+    <node concept="UTR7Y" id="7nbu0000677" role="UTRd0">
+      <node concept="276gdk" id="7nbu0000678" role="26Uuoe">
+        <ref role="276gdn" to="hg40:7nbc0000001" resolve="BereichNachbewertung" />
       </node>
     </node>
   </node>

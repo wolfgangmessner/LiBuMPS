@@ -3376,6 +3376,135 @@
         </node>
       </node>
     </node>
+    <node concept="DXQ2B" id="7nbf0000001" role="jymVt">
+      <property role="TrG5h" value="legeKorrekturAn" />
+      <property role="2a4t7v" value="3PtsrckEx4q/CHECKIN" />
+      <node concept="37vLTG" id="7nbf0000002" role="3clF46">
+        <property role="TrG5h" value="beleg" />
+        <node concept="3uibUv" id="7nbf0000003" role="1tU5fm">
+          <ref role="3uigEE" node="7fdm0000001" resolve="Forderungsbeleg" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7nbf0000004" role="3clF45" />
+      <node concept="3Tm1VV" id="7nbf0000005" role="1B3o_S" />
+      <node concept="3clFbS" id="7nbf0000006" role="3clF47">
+        <node concept="3SKdUt" id="7nbf0000007" role="3cqZAp">
+          <node concept="1PaTwC" id="7nbf0000008" role="1aUNEU">
+            <node concept="3oM_SD" id="7nbf0000009" role="1PaTwD">
+              <property role="3oM_SC" value="UC-008" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000010" role="1PaTwD">
+              <property role="3oM_SC" value="Schritt" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000011" role="1PaTwD">
+              <property role="3oM_SC" value="9:" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000012" role="1PaTwD">
+              <property role="3oM_SC" value="1." />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000013" role="1PaTwD">
+              <property role="3oM_SC" value="Beleg" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000014" role="1PaTwD">
+              <property role="3oM_SC" value="speichern" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000015" role="1PaTwD">
+              <property role="3oM_SC" value="(vergibt" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000016" role="1PaTwD">
+              <property role="3oM_SC" value="die" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000017" role="1PaTwD">
+              <property role="3oM_SC" value="Belegnummer)," />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000018" role="1PaTwD">
+              <property role="3oM_SC" value="2." />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000019" role="1PaTwD">
+              <property role="3oM_SC" value="Positionen" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000020" role="1PaTwD">
+              <property role="3oM_SC" value="speichern." />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000021" role="1PaTwD">
+              <property role="3oM_SC" value="Die" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000022" role="1PaTwD">
+              <property role="3oM_SC" value="Storno-" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000023" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000024" role="1PaTwD">
+              <property role="3oM_SC" value="Nachbewertungsbeträge" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000025" role="1PaTwD">
+              <property role="3oM_SC" value="verknüpft" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000026" role="1PaTwD">
+              <property role="3oM_SC" value="danach" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000027" role="1PaTwD">
+              <property role="3oM_SC" value="NachbewertungR.nachbewerte" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000028" role="1PaTwD">
+              <property role="3oM_SC" value="(PKG_LK_BEWERTUNG.Nachbewerte," />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000029" role="1PaTwD">
+              <property role="3oM_SC" value="UC-008" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000030" role="1PaTwD">
+              <property role="3oM_SC" value="BR-007)," />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000031" role="1PaTwD">
+              <property role="3oM_SC" value="registriert" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000032" role="1PaTwD">
+              <property role="3oM_SC" value="nach" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000033" role="1PaTwD">
+              <property role="3oM_SC" value="allen" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000034" role="1PaTwD">
+              <property role="3oM_SC" value="Korrekturen" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000035" role="1PaTwD">
+              <property role="3oM_SC" value="des" />
+            </node>
+            <node concept="3oM_SD" id="7nbf0000036" role="1PaTwD">
+              <property role="3oM_SC" value="Laufs." />
+            </node>
+          </node>
+        </node>
+        <node concept="P1rGi" id="7nbf0000037" role="3cqZAp">
+          <ref role="P14SV" node="7fdm0000350" resolve="MapForderungsbeleg" />
+          <node concept="37vLTw" id="7nbf0000038" role="P1rGp">
+            <ref role="3cqZAo" node="7nbf0000002" resolve="beleg" />
+          </node>
+        </node>
+        <node concept="2Gpval" id="7nbf0000039" role="3cqZAp">
+          <node concept="2GrKxI" id="7nbf0000040" role="2Gsz3X">
+            <property role="TrG5h" value="p" />
+          </node>
+          <node concept="2OqwBi" id="7nbf0000041" role="2GsD0m">
+            <node concept="37vLTw" id="7nbf0000042" role="2Oq$k0">
+              <ref role="3cqZAo" node="7nbf0000002" resolve="beleg" />
+            </node>
+            <node concept="2S8uIT" id="7nbf0000043" role="2OqNvi">
+              <ref role="2S8YL0" node="7fdm0000247" resolve="positionen" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="7nbf0000044" role="2LFqv$">
+            <node concept="P1rGi" id="7nbf0000045" role="3cqZAp">
+              <ref role="P14SV" node="7fdm0000384" resolve="MapForderungsposition" />
+              <node concept="2GrUjf" id="7nbf0000046" role="P1rGp">
+                <ref role="2Gs0qQ" node="7nbf0000040" resolve="p" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2EH5hC" id="7fdm0001190">
     <property role="TrG5h" value="ForderungS" />
