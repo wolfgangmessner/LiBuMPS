@@ -184,7 +184,6 @@
         <property id="1001479520354727786" name="newWindowTitleType" index="1ptSWV" />
         <child id="1881524139085993257" name="okConclusionStatements" index="10_T4l" />
         <property id="7912134052599426179" name="newCommandType" index="19I623" />
-        <property id="1001479520354727786" name="newWindowTitleType" index="1ptSWV" />
         <child id="1243073729492713846" name="permissionNew" index="2ticAe" />
         <child id="8697556949200789131" name="options" index="3ap3dX" />
         <child id="7192042020164064743" name="pages" index="3ug97V" />
