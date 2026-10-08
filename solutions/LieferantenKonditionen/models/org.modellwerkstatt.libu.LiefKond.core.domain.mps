@@ -342,6 +342,10 @@
       <property role="TrG5h" value="BereichNachbewertung" />
       <property role="27cpiu" value="#00796b" />
     </node>
+    <node concept="27cpit" id="7vkc0000001" role="27c1lO">
+      <property role="TrG5h" value="BereichVerrechnungskonto" />
+      <property role="27cpiu" value="#5d4037" />
+    </node>
     <node concept="il5_x" id="1SEqE6yDQxw" role="2kzhMJ">
       <property role="TrG5h" value="Anzeigen" />
       <node concept="2kzhL4" id="1SEqE6yDQxx" role="2kzgdm">
