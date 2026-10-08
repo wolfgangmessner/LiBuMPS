@@ -158,6 +158,9 @@
     <node concept="33WYYh" id="7bwm0000001" role="2N77jT">
       <ref role="2_Hrw8" to="svfv:7bwu0000088" resolve="Bewertungslücken prüfen" />
     </node>
+    <node concept="33WYYh" id="7nbx0000001" role="2N77jT">
+      <ref role="2_Hrw8" to="svfv:7nbu0000109" resolve="Wareneingänge nachbewerten" />
+    </node>
     <node concept="33WYYh" id="7fdx0000001" role="2N77jT">
       <ref role="2_Hrw8" to="yepx:7fdu0000144" resolve="Forderungen ausstellen" />
     </node>
@@ -236,6 +239,17 @@
       </node>
       <node concept="276gdk" id="7bwm0000005" role="2$ntZF">
         <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
+      </node>
+    </node>
+    <node concept="2$ntO6" id="7nbx0000002" role="2$nsuY">
+      <node concept="33WYYh" id="7nbx0000003" role="2$ntUL">
+        <ref role="2_Hrw8" to="svfv:7nbu0000109" resolve="Wareneingänge nachbewerten" />
+      </node>
+      <node concept="Xl_RD" id="7nbx0000004" role="2$ntWM">
+        <property role="Xl_RC" value="Nachbewertung" />
+      </node>
+      <node concept="276gdk" id="7nbx0000005" role="2$ntZF">
+        <ref role="276gdn" to="hg40:7nbc0000001" resolve="BereichNachbewertung" />
       </node>
     </node>
     <node concept="2$ntO6" id="7fdx0000002" role="2$nsuY">
