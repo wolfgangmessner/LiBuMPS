@@ -209,6 +209,7 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -7170,6 +7171,2318 @@
     <node concept="UTR7Y" id="7nbu0000677" role="UTRd0">
       <node concept="276gdk" id="7nbu0000678" role="26Uuoe">
         <ref role="276gdn" to="hg40:7nbc0000001" resolve="BereichNachbewertung" />
+      </node>
+    </node>
+  </node>
+  <node concept="1YeyE5" id="7vku0000001">
+    <property role="TrG5h" value="VerrechnungskontoSuche" />
+    <node concept="3Tm1VV" id="7vku0000002" role="1B3o_S" />
+    <node concept="20vkWO" id="7vku0000003" role="1qkbct">
+      <node concept="1PaTwC" id="7vku0000004" role="13z7HO">
+        <node concept="3oM_SD" id="7vku0000005" role="1PaTwD">
+          <property role="3oM_SC" value="Such-DTO" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000006" role="1PaTwD">
+          <property role="3oM_SC" value="des" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000007" role="1PaTwD">
+          <property role="3oM_SC" value="Abgleichs" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000008" role="1PaTwD">
+          <property role="3oM_SC" value="des" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000009" role="1PaTwD">
+          <property role="3oM_SC" value="Verrechnungskontos" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000010" role="1PaTwD">
+          <property role="3oM_SC" value="(UC-010" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000011" role="1PaTwD">
+          <property role="3oM_SC" value="Schritte" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000012" role="1PaTwD">
+          <property role="3oM_SC" value="2," />
+        </node>
+        <node concept="3oM_SD" id="7vku0000013" role="1PaTwD">
+          <property role="3oM_SC" value="3," />
+        </node>
+        <node concept="3oM_SD" id="7vku0000014" role="1PaTwD">
+          <property role="3oM_SC" value="7," />
+        </node>
+        <node concept="3oM_SD" id="7vku0000015" role="1PaTwD">
+          <property role="3oM_SC" value="BR-001," />
+        </node>
+        <node concept="3oM_SD" id="7vku0000016" role="1PaTwD">
+          <property role="3oM_SC" value="BR-007," />
+        </node>
+        <node concept="3oM_SD" id="7vku0000017" role="1PaTwD">
+          <property role="3oM_SC" value="A1," />
+        </node>
+        <node concept="3oM_SD" id="7vku0000018" role="1PaTwD">
+          <property role="3oM_SC" value="A2," />
+        </node>
+        <node concept="3oM_SD" id="7vku0000019" role="1PaTwD">
+          <property role="3oM_SC" value="A4," />
+        </node>
+        <node concept="3oM_SD" id="7vku0000020" role="1PaTwD">
+          <property role="3oM_SC" value="A5)." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7vku0000021" role="jymVt">
+      <node concept="3cqZAl" id="7vku0000022" role="3clF45" />
+      <node concept="3Tm1VV" id="7vku0000023" role="1B3o_S" />
+      <node concept="3clFbS" id="7vku0000024" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="7vku0000025" role="jymVt">
+      <property role="TrG5h" value="lieferantNr" />
+      <node concept="10Oyi0" id="7vku0000026" role="3clF45" />
+      <node concept="3Tm1VV" id="7vku0000027" role="1B3o_S" />
+      <node concept="3clFbS" id="7vku0000028" role="3clF47">
+        <node concept="3cpWs6" id="7vku0000029" role="3cqZAp">
+          <node concept="3K4zz7" id="7vku0000030" role="3cqZAk">
+            <node concept="3clFbC" id="7vku0000031" role="3K4Cdx">
+              <node concept="338YkY" id="7vku0000032" role="3uHU7B">
+                <ref role="338YkT" node="7vku0000065" resolve="lieferant" />
+              </node>
+              <node concept="10Nm6u" id="7vku0000033" role="3uHU7w" />
+            </node>
+            <node concept="3cmrfG" id="7vku0000034" role="3K4E3e">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="7vku0000035" role="3K4GZi">
+              <node concept="338YkY" id="7vku0000036" role="2Oq$k0">
+                <ref role="338YkT" node="7vku0000065" resolve="lieferant" />
+              </node>
+              <node concept="2S8uIT" id="7vku0000037" role="2OqNvi">
+                <ref role="2S8YL0" to="k2it:1SEqE6yDXf4" resolve="lieferantNr" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vku0000038" role="TxmiU">
+      <property role="2RkwnN" value="bilanzJahr" />
+      <node concept="3Tm1VV" id="7vku0000039" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000040" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000041" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000042" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000043" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vku0000044" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vku0000045" role="2CNmdP">
+        <property role="Xl_RC" value="Bilanzjahr" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000046" role="2CNmdL">
+        <property role="Xl_RC" value="Bilanzjahr" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vku0000047" role="TxmiU">
+      <property role="2RkwnN" value="bilanzMonat" />
+      <node concept="3Tm1VV" id="7vku0000048" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000049" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000050" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000051" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000052" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vku0000053" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vku0000054" role="2CNmdP">
+        <property role="Xl_RC" value="Bilanzmonat" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000055" role="2CNmdL">
+        <property role="Xl_RC" value="Bilanzmonat" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vku0000056" role="TxmiU">
+      <property role="2RkwnN" value="zyklus" />
+      <node concept="3Tm1VV" id="7vku0000057" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000058" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000059" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000060" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000061" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vku0000062" role="2RkE6I">
+        <ref role="3$lB4D" to="uyeg:1SEqE6yBNJW" resolve="Zyklus" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000063" role="2CNmdP">
+        <property role="Xl_RC" value="Zyklus (leer = alle)" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000064" role="2CNmdL">
+        <property role="Xl_RC" value="Zyklus (leer = alle)" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vku0000065" role="TxmiU">
+      <property role="2RkwnN" value="lieferant" />
+      <node concept="3Tm1VV" id="7vku0000066" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000067" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000068" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000069" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000070" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vku0000071" role="2RkE6I">
+        <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="Lieferant" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000072" role="2CNmdP">
+        <property role="Xl_RC" value="Lieferant (leer = alle)" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000073" role="2CNmdL">
+        <property role="Xl_RC" value="Lieferant (leer = alle)" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vku0000074" role="TxmiU">
+      <property role="2RkwnN" value="konsolidiertUm" />
+      <node concept="3Tm1VV" id="7vku0000075" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000076" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000077" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000078" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000079" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vku0000080" role="2RkE6I">
+        <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000081" role="2CNmdP">
+        <property role="Xl_RC" value="Konsolidiert um" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000082" role="2CNmdL">
+        <property role="Xl_RC" value="Konsolidiert um" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vku0000083" role="TxmiU">
+      <property role="2RkwnN" value="abgeschlossen" />
+      <node concept="3Tm1VV" id="7vku0000084" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000085" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000086" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000087" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000088" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vku0000089" role="2RkE6I">
+        <ref role="3$lB4D" to="hg40:c_HYpdFRT3" resolve="JaNein" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000090" role="2CNmdP">
+        <property role="Xl_RC" value="Bilanzmonat abgeschlossen" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000091" role="2CNmdL">
+        <property role="Xl_RC" value="Bilanzmonat abgeschlossen" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vku0000092" role="TxmiU">
+      <property role="2RkwnN" value="hinweis" />
+      <node concept="3Tm1VV" id="7vku0000093" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000094" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000095" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000096" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000097" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vku0000098" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vku0000099" role="2CNmdP">
+        <property role="Xl_RC" value="Hinweis" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000100" role="2CNmdL">
+        <property role="Xl_RC" value="Hinweis" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vku0000101" role="TxmiU">
+      <property role="2RkwnN" value="stand" />
+      <node concept="3Tm1VV" id="7vku0000102" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000103" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000104" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000105" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000106" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="7vku0000107" role="2RkE6I">
+        <node concept="3uibUv" id="7vku0000108" role="_ZDj9">
+          <ref role="3uigEE" to="7ahv:7vkd0000576" resolve="VerrechnungskontoStand" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="7vku0000109" role="2CNmdP">
+        <property role="Xl_RC" value="Stand der Konsolidierung" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000110" role="2CNmdL">
+        <property role="Xl_RC" value="Stand der Konsolidierung" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vku0000111" role="TxmiU">
+      <property role="2RkwnN" value="zeilen" />
+      <node concept="3Tm1VV" id="7vku0000112" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000113" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000114" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000115" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000116" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="7vku0000117" role="2RkE6I">
+        <node concept="3uibUv" id="7vku0000118" role="_ZDj9">
+          <ref role="3uigEE" to="7ahv:7vkd0000001" resolve="AbgleichZeile" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="7vku0000119" role="2CNmdP">
+        <property role="Xl_RC" value="Abgleich" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000120" role="2CNmdL">
+        <property role="Xl_RC" value="Abgleich" />
+      </node>
+    </node>
+  </node>
+  <node concept="1YeyE5" id="7vku0000121">
+    <property role="TrG5h" value="AbgleichLieferantAnsicht" />
+    <node concept="3Tm1VV" id="7vku0000122" role="1B3o_S" />
+    <node concept="20vkWO" id="7vku0000123" role="1qkbct">
+      <node concept="1PaTwC" id="7vku0000124" role="13z7HO">
+        <node concept="3oM_SD" id="7vku0000125" role="1PaTwD">
+          <property role="3oM_SC" value="Bewegung" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000126" role="1PaTwD">
+          <property role="3oM_SC" value="eines" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000127" role="1PaTwD">
+          <property role="3oM_SC" value="Lieferanten" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000128" role="1PaTwD">
+          <property role="3oM_SC" value="im" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000129" role="1PaTwD">
+          <property role="3oM_SC" value="Bilanzmonat" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000130" role="1PaTwD">
+          <property role="3oM_SC" value="je" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000131" role="1PaTwD">
+          <property role="3oM_SC" value="Herkunft" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000132" role="1PaTwD">
+          <property role="3oM_SC" value="(UC-010" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000133" role="1PaTwD">
+          <property role="3oM_SC" value="Schritt" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000134" role="1PaTwD">
+          <property role="3oM_SC" value="9)." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7vku0000135" role="jymVt">
+      <node concept="3cqZAl" id="7vku0000136" role="3clF45" />
+      <node concept="3Tm1VV" id="7vku0000137" role="1B3o_S" />
+      <node concept="3clFbS" id="7vku0000138" role="3clF47" />
+    </node>
+    <node concept="1bOX9e" id="7vku0000139" role="TxmiU">
+      <property role="2RkwnN" value="herkuenfte" />
+      <node concept="3Tm1VV" id="7vku0000140" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000141" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000142" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000143" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000144" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="7vku0000145" role="2RkE6I">
+        <node concept="3uibUv" id="7vku0000146" role="_ZDj9">
+          <ref role="3uigEE" to="7ahv:7vkd0000263" resolve="AbgleichHerkunft" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="7vku0000147" role="2CNmdP">
+        <property role="Xl_RC" value="Herkünfte" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000148" role="2CNmdL">
+        <property role="Xl_RC" value="Herkünfte" />
+      </node>
+    </node>
+  </node>
+  <node concept="1YeyE5" id="7vku0000149">
+    <property role="TrG5h" value="AbgleichBelegeAnsicht" />
+    <node concept="3Tm1VV" id="7vku0000150" role="1B3o_S" />
+    <node concept="20vkWO" id="7vku0000151" role="1qkbct">
+      <node concept="1PaTwC" id="7vku0000152" role="13z7HO">
+        <node concept="3oM_SD" id="7vku0000153" role="1PaTwD">
+          <property role="3oM_SC" value="Belege" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000154" role="1PaTwD">
+          <property role="3oM_SC" value="einer" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000155" role="1PaTwD">
+          <property role="3oM_SC" value="Herkunft" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000156" role="1PaTwD">
+          <property role="3oM_SC" value="mit" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000157" role="1PaTwD">
+          <property role="3oM_SC" value="Abweichung" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000158" role="1PaTwD">
+          <property role="3oM_SC" value="und" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000159" role="1PaTwD">
+          <property role="3oM_SC" value="Ursache" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000160" role="1PaTwD">
+          <property role="3oM_SC" value="(UC-010" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000161" role="1PaTwD">
+          <property role="3oM_SC" value="Schritt" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000162" role="1PaTwD">
+          <property role="3oM_SC" value="11)." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7vku0000163" role="jymVt">
+      <node concept="3cqZAl" id="7vku0000164" role="3clF45" />
+      <node concept="3Tm1VV" id="7vku0000165" role="1B3o_S" />
+      <node concept="3clFbS" id="7vku0000166" role="3clF47" />
+    </node>
+    <node concept="1bOX9e" id="7vku0000167" role="TxmiU">
+      <property role="2RkwnN" value="belege" />
+      <node concept="3Tm1VV" id="7vku0000168" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000169" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000170" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000171" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000172" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="7vku0000173" role="2RkE6I">
+        <node concept="3uibUv" id="7vku0000174" role="_ZDj9">
+          <ref role="3uigEE" to="7ahv:7vkd0000396" resolve="AbgleichBeleg" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="7vku0000175" role="2CNmdP">
+        <property role="Xl_RC" value="Belege" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000176" role="2CNmdL">
+        <property role="Xl_RC" value="Belege" />
+      </node>
+    </node>
+  </node>
+  <node concept="1YeyE5" id="7vku0000177">
+    <property role="TrG5h" value="WareneingangSpurAnsicht" />
+    <node concept="3Tm1VV" id="7vku0000178" role="1B3o_S" />
+    <node concept="20vkWO" id="7vku0000179" role="1qkbct">
+      <node concept="1PaTwC" id="7vku0000180" role="13z7HO">
+        <node concept="3oM_SD" id="7vku0000181" role="1PaTwD">
+          <property role="3oM_SC" value="Konditionsbeträge" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000182" role="1PaTwD">
+          <property role="3oM_SC" value="der" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000183" role="1PaTwD">
+          <property role="3oM_SC" value="Kalkulationsspur" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000184" role="1PaTwD">
+          <property role="3oM_SC" value="eines" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000185" role="1PaTwD">
+          <property role="3oM_SC" value="Wareneingangs" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000186" role="1PaTwD">
+          <property role="3oM_SC" value="(UC-010" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000187" role="1PaTwD">
+          <property role="3oM_SC" value="Schritt" />
+        </node>
+        <node concept="3oM_SD" id="7vku0000188" role="1PaTwD">
+          <property role="3oM_SC" value="12)." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7vku0000189" role="jymVt">
+      <node concept="3cqZAl" id="7vku0000190" role="3clF45" />
+      <node concept="3Tm1VV" id="7vku0000191" role="1B3o_S" />
+      <node concept="3clFbS" id="7vku0000192" role="3clF47" />
+    </node>
+    <node concept="1bOX9e" id="7vku0000193" role="TxmiU">
+      <property role="2RkwnN" value="betraege" />
+      <node concept="3Tm1VV" id="7vku0000194" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vku0000195" role="2RnVtd">
+        <node concept="3wEZqW" id="7vku0000196" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vku0000197" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vku0000198" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="7vku0000199" role="2RkE6I">
+        <node concept="3uibUv" id="7vku0000200" role="_ZDj9">
+          <ref role="3uigEE" to="7ahv:7abd0000585" resolve="KalkulationsBetrag" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="7vku0000201" role="2CNmdP">
+        <property role="Xl_RC" value="Konditionsbeträge" />
+      </node>
+      <node concept="Xl_RD" id="7vku0000202" role="2CNmdL">
+        <property role="Xl_RC" value="Konditionsbeträge" />
+      </node>
+    </node>
+  </node>
+  <node concept="3ugp7m" id="7vku0000203">
+    <property role="TrG5h" value="Verrechnungskonto abgleichen" />
+    <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
+    <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
+    <node concept="2ticAD" id="7vku0000204" role="2ticAe">
+      <node concept="1G1AcV" id="7vku0000205" role="2TIb5R">
+        <ref role="3ymtqE" to="hg40:c_HYpdFPv6" resolve="KreditorenManagement" />
+      </node>
+    </node>
+    <node concept="3ulXEM" id="7vku0000206" role="3ulXEG">
+      <property role="TrG5h" value="suche" />
+      <node concept="3uibUv" id="7vku0000207" role="1tU5fm">
+        <ref role="3uigEE" node="7vku0000001" resolve="VerrechnungskontoSuche" />
+      </node>
+    </node>
+    <node concept="3ulXEM" id="7vku0000208" role="3ulXEG">
+      <property role="TrG5h" value="letzter" />
+      <node concept="_YKpA" id="7vku0000209" role="1tU5fm">
+        <node concept="3uibUv" id="7vku0000210" role="_ZDj9">
+          <ref role="3uigEE" to="7ahv:7vkd0000576" resolve="VerrechnungskontoStand" />
+        </node>
+      </node>
+    </node>
+    <node concept="3ulXEM" id="7vku0000211" role="3ulXEG">
+      <property role="TrG5h" value="lieferanten" />
+      <node concept="_YKpA" id="7vku0000212" role="1tU5fm">
+        <node concept="3uibUv" id="7vku0000213" role="_ZDj9">
+          <ref role="3uigEE" to="k2it:1pSXirzlwB" resolve="Lieferant" />
+        </node>
+      </node>
+    </node>
+    <node concept="Xl_RD" id="7vku0000214" role="IYfpf">
+      <property role="Xl_RC" value="Verrechnungskonto" />
+    </node>
+    <node concept="3ugp7q" id="7vku0000215" role="3ug97V">
+      <property role="TrG5h" value="Abgleich" />
+      <ref role="3gcvY6" node="7vku0000001" />
+      <node concept="3063JU" id="7vku0000216" role="3063Jp">
+        <ref role="3063JT" node="7vku0000704" resolve="VerrechnungskontoPP" />
+      </node>
+      <node concept="20qEzJ" id="7vku0000217" role="10qiF$">
+        <node concept="3clFbS" id="7vku0000218" role="2VODD2">
+          <node concept="3SKdUt" id="7vku0000219" role="3cqZAp">
+            <node concept="1PaTwC" id="7vku0000220" role="1aUNEU">
+              <node concept="3oM_SD" id="7vku0000221" role="1PaTwD">
+                <property role="3oM_SC" value="UC-010" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000222" role="1PaTwD">
+                <property role="3oM_SC" value="Schritte" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000223" role="1PaTwD">
+                <property role="3oM_SC" value="4" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000224" role="1PaTwD">
+                <property role="3oM_SC" value="bis" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000225" role="1PaTwD">
+                <property role="3oM_SC" value="7," />
+              </node>
+              <node concept="3oM_SD" id="7vku0000226" role="1PaTwD">
+                <property role="3oM_SC" value="A1" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000227" role="1PaTwD">
+                <property role="3oM_SC" value="bis" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000228" role="1PaTwD">
+                <property role="3oM_SC" value="A7:" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000229" role="1PaTwD">
+                <property role="3oM_SC" value="Saldo" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000230" role="1PaTwD">
+                <property role="3oM_SC" value="und" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000231" role="1PaTwD">
+                <property role="3oM_SC" value="Bewegung" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000232" role="1PaTwD">
+                <property role="3oM_SC" value="je" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000233" role="1PaTwD">
+                <property role="3oM_SC" value="Lieferant" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000234" role="1PaTwD">
+                <property role="3oM_SC" value="und" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000235" role="1PaTwD">
+                <property role="3oM_SC" value="Zyklus" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000236" role="1PaTwD">
+                <property role="3oM_SC" value="aus" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000237" role="1PaTwD">
+                <property role="3oM_SC" value="PKG_LK_ABGLEICH," />
+              </node>
+              <node concept="3oM_SD" id="7vku0000238" role="1PaTwD">
+                <property role="3oM_SC" value="abweichende" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000239" role="1PaTwD">
+                <property role="3oM_SC" value="Zeilen" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000240" role="1PaTwD">
+                <property role="3oM_SC" value="zuerst," />
+              </node>
+              <node concept="3oM_SD" id="7vku0000241" role="1PaTwD">
+                <property role="3oM_SC" value="Summenzeile" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000242" role="1PaTwD">
+                <property role="3oM_SC" value="je" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000243" role="1PaTwD">
+                <property role="3oM_SC" value="Zyklus;" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000244" role="1PaTwD">
+                <property role="3oM_SC" value="dazu" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000245" role="1PaTwD">
+                <property role="3oM_SC" value="der" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000246" role="1PaTwD">
+                <property role="3oM_SC" value="Stand" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000247" role="1PaTwD">
+                <property role="3oM_SC" value="der" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000248" role="1PaTwD">
+                <property role="3oM_SC" value="Konsolidierung." />
+              </node>
+              <node concept="3oM_SD" id="7vku0000249" role="1PaTwD">
+                <property role="3oM_SC" value="Ist" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000250" role="1PaTwD">
+                <property role="3oM_SC" value="der" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000251" role="1PaTwD">
+                <property role="3oM_SC" value="Saldo" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000252" role="1PaTwD">
+                <property role="3oM_SC" value="des" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000253" role="1PaTwD">
+                <property role="3oM_SC" value="Warenbuchs" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000254" role="1PaTwD">
+                <property role="3oM_SC" value="nicht" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000255" role="1PaTwD">
+                <property role="3oM_SC" value="lesbar," />
+              </node>
+              <node concept="3oM_SD" id="7vku0000256" role="1PaTwD">
+                <property role="3oM_SC" value="bricht" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000257" role="1PaTwD">
+                <property role="3oM_SC" value="die" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000258" role="1PaTwD">
+                <property role="3oM_SC" value="Abfrage" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000259" role="1PaTwD">
+                <property role="3oM_SC" value="mit" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000260" role="1PaTwD">
+                <property role="3oM_SC" value="dem" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000261" role="1PaTwD">
+                <property role="3oM_SC" value="Grund" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000262" role="1PaTwD">
+                <property role="3oM_SC" value="ab" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000263" role="1PaTwD">
+                <property role="3oM_SC" value="und" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000264" role="1PaTwD">
+                <property role="3oM_SC" value="es" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000265" role="1PaTwD">
+                <property role="3oM_SC" value="gibt" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000266" role="1PaTwD">
+                <property role="3oM_SC" value="keinen" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000267" role="1PaTwD">
+                <property role="3oM_SC" value="Abgleich" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000268" role="1PaTwD">
+                <property role="3oM_SC" value="(A8)." />
+              </node>
+              <node concept="3oM_SD" id="7vku0000269" role="1PaTwD">
+                <property role="3oM_SC" value="Die" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000270" role="1PaTwD">
+                <property role="3oM_SC" value="Auswahl" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000271" role="1PaTwD">
+                <property role="3oM_SC" value="prüft" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000272" role="1PaTwD">
+                <property role="3oM_SC" value="die" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000273" role="1PaTwD">
+                <property role="3oM_SC" value="Conclusion" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000274" role="1PaTwD">
+                <property role="3oM_SC" value="(BR-001)." />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000275" role="3cqZAp">
+            <node concept="37vLTI" id="7vku0000276" role="3clFbG">
+              <node concept="2OqwBi" id="7vku0000277" role="37vLTJ">
+                <node concept="3urNR4" id="7vku0000278" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                </node>
+                <node concept="2S8uIT" id="7vku0000279" role="2OqNvi">
+                  <ref role="2S8YL0" node="7vku0000111" resolve="zeilen" />
+                </node>
+              </node>
+              <node concept="1odsa" id="7vku0000280" role="37vLTx">
+                <ref role="1ods_" to="7ahv:7vkd0000636" resolve="VerrechnungskontoQ" />
+                <ref role="37wK5l" to="7ahv:7vkd0000738" resolve="abgleich" />
+                <node concept="2OqwBi" id="7vku0000281" role="37wK5m">
+                  <node concept="3urNR4" id="7vku0000282" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000283" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000038" resolve="bilanzJahr" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7vku0000284" role="37wK5m">
+                  <node concept="3urNR4" id="7vku0000285" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000286" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000047" resolve="bilanzMonat" />
+                  </node>
+                </node>
+                <node concept="1odsa" id="7vku0000287" role="37wK5m">
+                  <ref role="1ods_" to="7ahv:7vkd0001962" resolve="VerrechnungskontoS" />
+                  <ref role="37wK5l" to="7ahv:7vkd0001964" resolve="zyklusWert" />
+                  <node concept="2OqwBi" id="7vku0000288" role="37wK5m">
+                    <node concept="3urNR4" id="7vku0000289" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                    </node>
+                    <node concept="2S8uIT" id="7vku0000290" role="2OqNvi">
+                      <ref role="2S8YL0" node="7vku0000056" resolve="zyklus" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7vku0000291" role="37wK5m">
+                  <node concept="3urNR4" id="7vku0000292" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="liA8E" id="7vku0000293" role="2OqNvi">
+                    <ref role="37wK5l" node="7vku0000025" resolve="lieferantNr" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000294" role="3cqZAp">
+            <node concept="37vLTI" id="7vku0000295" role="3clFbG">
+              <node concept="2OqwBi" id="7vku0000296" role="37vLTJ">
+                <node concept="3urNR4" id="7vku0000297" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                </node>
+                <node concept="2S8uIT" id="7vku0000298" role="2OqNvi">
+                  <ref role="2S8YL0" node="7vku0000101" resolve="stand" />
+                </node>
+              </node>
+              <node concept="1odsa" id="7vku0000299" role="37vLTx">
+                <ref role="1ods_" to="7ahv:7vkd0000636" resolve="VerrechnungskontoQ" />
+                <ref role="37wK5l" to="7ahv:7vkd0001761" resolve="stand" />
+                <node concept="2OqwBi" id="7vku0000300" role="37wK5m">
+                  <node concept="3urNR4" id="7vku0000301" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000302" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000038" resolve="bilanzJahr" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7vku0000303" role="37wK5m">
+                  <node concept="3urNR4" id="7vku0000304" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000305" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000047" resolve="bilanzMonat" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000306" role="3cqZAp">
+            <node concept="37vLTI" id="7vku0000307" role="3clFbG">
+              <node concept="2OqwBi" id="7vku0000308" role="37vLTJ">
+                <node concept="3urNR4" id="7vku0000309" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                </node>
+                <node concept="2S8uIT" id="7vku0000310" role="2OqNvi">
+                  <ref role="2S8YL0" node="7vku0000074" resolve="konsolidiertUm" />
+                </node>
+              </node>
+              <node concept="3K4zz7" id="7vku0000311" role="37vLTx">
+                <node concept="2OqwBi" id="7vku0000312" role="3K4Cdx">
+                  <node concept="2OqwBi" id="7vku0000313" role="2Oq$k0">
+                    <node concept="3urNR4" id="7vku0000314" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                    </node>
+                    <node concept="2S8uIT" id="7vku0000315" role="2OqNvi">
+                      <ref role="2S8YL0" node="7vku0000101" resolve="stand" />
+                    </node>
+                  </node>
+                  <node concept="1v1jN8" id="7vku0000316" role="2OqNvi" />
+                </node>
+                <node concept="10Nm6u" id="7vku0000317" role="3K4E3e" />
+                <node concept="2OqwBi" id="7vku0000318" role="3K4GZi">
+                  <node concept="2OqwBi" id="7vku0000319" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7vku0000320" role="2Oq$k0">
+                      <node concept="3urNR4" id="7vku0000321" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                      </node>
+                      <node concept="2S8uIT" id="7vku0000322" role="2OqNvi">
+                        <ref role="2S8YL0" node="7vku0000101" resolve="stand" />
+                      </node>
+                    </node>
+                    <node concept="1uHKPH" id="7vku0000323" role="2OqNvi" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000324" role="2OqNvi">
+                    <ref role="2S8YL0" to="7ahv:7vkd0000618" resolve="konsolidiertUm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000325" role="3cqZAp">
+            <node concept="37vLTI" id="7vku0000326" role="3clFbG">
+              <node concept="2OqwBi" id="7vku0000327" role="37vLTJ">
+                <node concept="3urNR4" id="7vku0000328" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                </node>
+                <node concept="2S8uIT" id="7vku0000329" role="2OqNvi">
+                  <ref role="2S8YL0" node="7vku0000083" resolve="abgeschlossen" />
+                </node>
+              </node>
+              <node concept="3K4zz7" id="7vku0000330" role="37vLTx">
+                <node concept="2OqwBi" id="7vku0000331" role="3K4Cdx">
+                  <node concept="2OqwBi" id="7vku0000332" role="2Oq$k0">
+                    <node concept="3urNR4" id="7vku0000333" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                    </node>
+                    <node concept="2S8uIT" id="7vku0000334" role="2OqNvi">
+                      <ref role="2S8YL0" node="7vku0000101" resolve="stand" />
+                    </node>
+                  </node>
+                  <node concept="1v1jN8" id="7vku0000335" role="2OqNvi" />
+                </node>
+                <node concept="10Nm6u" id="7vku0000336" role="3K4E3e" />
+                <node concept="2OqwBi" id="7vku0000337" role="3K4GZi">
+                  <node concept="2OqwBi" id="7vku0000338" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7vku0000339" role="2Oq$k0">
+                      <node concept="3urNR4" id="7vku0000340" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                      </node>
+                      <node concept="2S8uIT" id="7vku0000341" role="2OqNvi">
+                        <ref role="2S8YL0" node="7vku0000101" resolve="stand" />
+                      </node>
+                    </node>
+                    <node concept="1uHKPH" id="7vku0000342" role="2OqNvi" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000343" role="2OqNvi">
+                    <ref role="2S8YL0" to="7ahv:7vkd0000627" resolve="abgeschlossen" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000344" role="3cqZAp">
+            <node concept="37vLTI" id="7vku0000345" role="3clFbG">
+              <node concept="2OqwBi" id="7vku0000346" role="37vLTJ">
+                <node concept="3urNR4" id="7vku0000347" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                </node>
+                <node concept="2S8uIT" id="7vku0000348" role="2OqNvi">
+                  <ref role="2S8YL0" node="7vku0000092" resolve="hinweis" />
+                </node>
+              </node>
+              <node concept="1odsa" id="7vku0000349" role="37vLTx">
+                <ref role="1ods_" to="7ahv:7vkd0001962" resolve="VerrechnungskontoS" />
+                <ref role="37wK5l" to="7ahv:7vkd0002039" resolve="hinweis" />
+                <node concept="2OqwBi" id="7vku0000350" role="37wK5m">
+                  <node concept="3urNR4" id="7vku0000351" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000352" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000111" resolve="zeilen" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7vku0000353" role="37wK5m">
+                  <node concept="3urNR4" id="7vku0000354" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000355" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000101" resolve="stand" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000356" role="3cqZAp">
+            <node concept="3urNR4" id="7vku0000357" role="3clFbG">
+              <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="35AVbj" id="7vku0000358" role="1K0AWC">
+        <node concept="ic4WF" id="7vku0000359" role="icr7_">
+          <property role="ic4Xk" value="Verrechnungskonto, Bilanzmonat %d/%d" />
+        </node>
+        <node concept="2OqwBi" id="7vku0000360" role="35Gt3$">
+          <node concept="3urNR4" id="7vku0000361" role="2Oq$k0">
+            <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+          </node>
+          <node concept="2S8uIT" id="7vku0000362" role="2OqNvi">
+            <ref role="2S8YL0" node="7vku0000047" resolve="bilanzMonat" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="7vku0000363" role="35Gt3$">
+          <node concept="3urNR4" id="7vku0000364" role="2Oq$k0">
+            <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+          </node>
+          <node concept="2S8uIT" id="7vku0000365" role="2OqNvi">
+            <ref role="2S8YL0" node="7vku0000038" resolve="bilanzJahr" />
+          </node>
+        </node>
+      </node>
+      <node concept="10qiFn" id="7vku0000366" role="10qiF9">
+        <ref role="2DFCCC" to="hg40:5VOHcF3Tzhq" resolve="Aktualisieren" />
+        <node concept="20qIzx" id="7vku0000367" role="10ot2L">
+          <node concept="3clFbS" id="7vku0000368" role="2VODD2">
+            <node concept="3clFbF" id="7vku0000369" role="3cqZAp">
+              <node concept="1odsa" id="7vku0000370" role="3clFbG">
+                <ref role="1ods_" to="7ahv:7vkd0001962" resolve="VerrechnungskontoS" />
+                <ref role="37wK5l" to="7ahv:7vkd0002007" resolve="pruefeAuswahl" />
+                <node concept="2OqwBi" id="7vku0000371" role="37wK5m">
+                  <node concept="3urNR4" id="7vku0000372" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000373" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000038" resolve="bilanzJahr" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7vku0000374" role="37wK5m">
+                  <node concept="3urNR4" id="7vku0000375" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000376" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000047" resolve="bilanzMonat" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="10Adxa" id="7vku0000377" role="3cqZAp">
+              <ref role="10Adxb" node="7vku0000215" resolve="Abgleich" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="JX2Gw" id="7vku0000378" role="JX2Go">
+        <node concept="3clFbS" id="7vku0000379" role="2VODD2">
+          <node concept="3clFbF" id="7vku0000380" role="3cqZAp">
+            <node concept="2OqwBi" id="7vku0000381" role="3clFbG">
+              <node concept="2OqwBi" id="7vku0000382" role="2Oq$k0">
+                <node concept="3urNR4" id="7vku0000383" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                </node>
+                <node concept="2dcwcJ" id="7vku0000384" role="2OqNvi">
+                  <ref role="2dcwcH" node="7vku0000065" resolve="lieferant" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7vku0000385" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:3_EaJyvi4d8" resolve="setScope" />
+                <node concept="3urNR4" id="7vku0000386" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000211" resolve="lieferanten" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YYyHn" id="7vku0000387" role="3ap3dX" />
+    <node concept="20qIzx" id="7vku0000388" role="3umfm7">
+      <node concept="3clFbS" id="7vku0000389" role="2VODD2">
+        <node concept="3clFbF" id="7vku0000390" role="3cqZAp">
+          <node concept="37vLTI" id="7vku0000391" role="3clFbG">
+            <node concept="3urNR4" id="7vku0000392" role="37vLTJ">
+              <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+            </node>
+            <node concept="2ShNRf" id="7vku0000393" role="37vLTx">
+              <node concept="1pGfFk" id="7vku0000394" role="2ShVmc">
+                <ref role="37wK5l" node="7vku0000021" resolve="VerrechnungskontoSuche" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7vku0000395" role="3cqZAp">
+          <node concept="1PaTwC" id="7vku0000396" role="1aUNEU">
+            <node concept="3oM_SD" id="7vku0000397" role="1PaTwD">
+              <property role="3oM_SC" value="UC-010" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000398" role="1PaTwD">
+              <property role="3oM_SC" value="Schritt" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000399" role="1PaTwD">
+              <property role="3oM_SC" value="2," />
+            </node>
+            <node concept="3oM_SD" id="7vku0000400" role="1PaTwD">
+              <property role="3oM_SC" value="BR-007:" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000401" role="1PaTwD">
+              <property role="3oM_SC" value="Vorschlag" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000402" role="1PaTwD">
+              <property role="3oM_SC" value="ist" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000403" role="1PaTwD">
+              <property role="3oM_SC" value="der" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000404" role="1PaTwD">
+              <property role="3oM_SC" value="zuletzt" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000405" role="1PaTwD">
+              <property role="3oM_SC" value="konsolidierte" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000406" role="1PaTwD">
+              <property role="3oM_SC" value="Bilanzmonat;" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000407" role="1PaTwD">
+              <property role="3oM_SC" value="hat" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000408" role="1PaTwD">
+              <property role="3oM_SC" value="das" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000409" role="1PaTwD">
+              <property role="3oM_SC" value="Warenbuch" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000410" role="1PaTwD">
+              <property role="3oM_SC" value="noch" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000411" role="1PaTwD">
+              <property role="3oM_SC" value="nichts" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000412" role="1PaTwD">
+              <property role="3oM_SC" value="konsolidiert," />
+            </node>
+            <node concept="3oM_SD" id="7vku0000413" role="1PaTwD">
+              <property role="3oM_SC" value="der" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000414" role="1PaTwD">
+              <property role="3oM_SC" value="Vormonat." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7vku0000415" role="3cqZAp">
+          <node concept="37vLTI" id="7vku0000416" role="3clFbG">
+            <node concept="3urNR4" id="7vku0000417" role="37vLTJ">
+              <ref role="3cqZAo" node="7vku0000208" resolve="letzter" />
+            </node>
+            <node concept="1odsa" id="7vku0000418" role="37vLTx">
+              <ref role="1ods_" to="7ahv:7vkd0000636" resolve="VerrechnungskontoQ" />
+              <ref role="37wK5l" to="7ahv:7vkd0001843" resolve="letzterStand" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7vku0000419" role="3cqZAp">
+          <node concept="2OqwBi" id="7vku0000420" role="3clFbw">
+            <node concept="3urNR4" id="7vku0000421" role="2Oq$k0">
+              <ref role="3cqZAo" node="7vku0000208" resolve="letzter" />
+            </node>
+            <node concept="1v1jN8" id="7vku0000422" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="7vku0000423" role="3clFbx">
+            <node concept="3clFbF" id="7vku0000424" role="3cqZAp">
+              <node concept="37vLTI" id="7vku0000425" role="3clFbG">
+                <node concept="2OqwBi" id="7vku0000426" role="37vLTJ">
+                  <node concept="3urNR4" id="7vku0000427" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000428" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000038" resolve="bilanzJahr" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7vku0000429" role="37vLTx">
+                  <node concept="2OqwBi" id="7vku0000430" role="2Oq$k0">
+                    <node concept="1$4sJh" id="7vku0000431" role="2Oq$k0">
+                      <property role="1$4sGW" value="0" />
+                      <property role="1$4sGZ" value="0" />
+                      <property role="1$4sGY" value="0" />
+                      <property role="1$4sGX" value="true" />
+                    </node>
+                    <node concept="liA8E" id="7vku0000432" role="2OqNvi">
+                      <ref role="37wK5l" to="w08f:~LocalDate.minusMonths(int)" resolve="minusMonths" />
+                      <node concept="3cmrfG" id="7vku0000433" role="37wK5m">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7vku0000434" role="2OqNvi">
+                    <ref role="37wK5l" to="w08f:~LocalDate.getYear()" resolve="getYear" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7vku0000435" role="3cqZAp">
+              <node concept="37vLTI" id="7vku0000436" role="3clFbG">
+                <node concept="2OqwBi" id="7vku0000437" role="37vLTJ">
+                  <node concept="3urNR4" id="7vku0000438" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                  </node>
+                  <node concept="2S8uIT" id="7vku0000439" role="2OqNvi">
+                    <ref role="2S8YL0" node="7vku0000047" resolve="bilanzMonat" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7vku0000440" role="37vLTx">
+                  <node concept="2OqwBi" id="7vku0000441" role="2Oq$k0">
+                    <node concept="1$4sJh" id="7vku0000442" role="2Oq$k0">
+                      <property role="1$4sGW" value="0" />
+                      <property role="1$4sGZ" value="0" />
+                      <property role="1$4sGY" value="0" />
+                      <property role="1$4sGX" value="true" />
+                    </node>
+                    <node concept="liA8E" id="7vku0000443" role="2OqNvi">
+                      <ref role="37wK5l" to="w08f:~LocalDate.minusMonths(int)" resolve="minusMonths" />
+                      <node concept="3cmrfG" id="7vku0000444" role="37wK5m">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7vku0000445" role="2OqNvi">
+                    <ref role="37wK5l" to="w08f:~LocalDate.getMonthOfYear()" resolve="getMonthOfYear" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="7vku0000446" role="9aQIa">
+            <node concept="3clFbS" id="7vku0000447" role="9aQI4">
+              <node concept="3clFbF" id="7vku0000448" role="3cqZAp">
+                <node concept="37vLTI" id="7vku0000449" role="3clFbG">
+                  <node concept="2OqwBi" id="7vku0000450" role="37vLTJ">
+                    <node concept="3urNR4" id="7vku0000451" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                    </node>
+                    <node concept="2S8uIT" id="7vku0000452" role="2OqNvi">
+                      <ref role="2S8YL0" node="7vku0000038" resolve="bilanzJahr" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7vku0000453" role="37vLTx">
+                    <node concept="2OqwBi" id="7vku0000454" role="2Oq$k0">
+                      <node concept="3urNR4" id="7vku0000455" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7vku0000208" resolve="letzter" />
+                      </node>
+                      <node concept="1uHKPH" id="7vku0000456" role="2OqNvi" />
+                    </node>
+                    <node concept="2S8uIT" id="7vku0000457" role="2OqNvi">
+                      <ref role="2S8YL0" to="7ahv:7vkd0000600" resolve="bilanzJahr" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7vku0000458" role="3cqZAp">
+                <node concept="37vLTI" id="7vku0000459" role="3clFbG">
+                  <node concept="2OqwBi" id="7vku0000460" role="37vLTJ">
+                    <node concept="3urNR4" id="7vku0000461" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7vku0000206" resolve="suche" />
+                    </node>
+                    <node concept="2S8uIT" id="7vku0000462" role="2OqNvi">
+                      <ref role="2S8YL0" node="7vku0000047" resolve="bilanzMonat" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7vku0000463" role="37vLTx">
+                    <node concept="2OqwBi" id="7vku0000464" role="2Oq$k0">
+                      <node concept="3urNR4" id="7vku0000465" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7vku0000208" resolve="letzter" />
+                      </node>
+                      <node concept="1uHKPH" id="7vku0000466" role="2OqNvi" />
+                    </node>
+                    <node concept="2S8uIT" id="7vku0000467" role="2OqNvi">
+                      <ref role="2S8YL0" to="7ahv:7vkd0000609" resolve="bilanzMonat" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7vku0000468" role="3cqZAp">
+          <node concept="1PaTwC" id="7vku0000469" role="1aUNEU">
+            <node concept="3oM_SD" id="7vku0000470" role="1PaTwD">
+              <property role="3oM_SC" value="Auswahlliste" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000471" role="1PaTwD">
+              <property role="3oM_SC" value="des" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000472" role="1PaTwD">
+              <property role="3oM_SC" value="Lieferanten" />
+            </node>
+            <node concept="3oM_SD" id="7vku0000473" role="1PaTwD">
+              <property role="3oM_SC" value="(Reference-Delegate)." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7vku0000474" role="3cqZAp">
+          <node concept="37vLTI" id="7vku0000475" role="3clFbG">
+            <node concept="3urNR4" id="7vku0000476" role="37vLTJ">
+              <ref role="3cqZAo" node="7vku0000211" resolve="lieferanten" />
+            </node>
+            <node concept="1odsa" id="7vku0000477" role="37vLTx">
+              <ref role="1ods_" to="k2it:1SEqE6yDWUK" resolve="LieferantenQ" />
+              <ref role="37wK5l" to="k2it:1pSXir1B3t" resolve="alleLieferanten" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="20qIzx" id="7vku0000478" role="10_T4l">
+      <node concept="3clFbS" id="7vku0000479" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="3ugp7m" id="7vku0000480">
+    <property role="TrG5h" value="Bewegung des Lieferanten" />
+    <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
+    <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
+    <node concept="2ticAD" id="7vku0000481" role="2ticAe">
+      <node concept="1G1AcV" id="7vku0000482" role="2TIb5R">
+        <ref role="3ymtqE" to="hg40:c_HYpdFPv6" resolve="KreditorenManagement" />
+      </node>
+    </node>
+    <node concept="3ulXEN" id="7vku0000483" role="3ulXEL">
+      <property role="TrG5h" value="bilanzJahr" />
+      <node concept="10Oyi0" id="7vku0000484" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEN" id="7vku0000485" role="3ulXEL">
+      <property role="TrG5h" value="bilanzMonat" />
+      <node concept="10Oyi0" id="7vku0000486" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEN" id="7vku0000487" role="3ulXEL">
+      <property role="TrG5h" value="zyklus" />
+      <node concept="17QB3L" id="7vku0000488" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEN" id="7vku0000489" role="3ulXEL">
+      <property role="TrG5h" value="lieferantNr" />
+      <node concept="10Oyi0" id="7vku0000490" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEM" id="7vku0000491" role="3ulXEG">
+      <property role="TrG5h" value="ansicht" />
+      <node concept="3uibUv" id="7vku0000492" role="1tU5fm">
+        <ref role="3uigEE" node="7vku0000121" resolve="AbgleichLieferantAnsicht" />
+      </node>
+    </node>
+    <node concept="Xl_RD" id="7vku0000493" role="IYfpf">
+      <property role="Xl_RC" value="Bewegung" />
+    </node>
+    <node concept="3ugp7q" id="7vku0000494" role="3ug97V">
+      <property role="TrG5h" value="Herkuenfte" />
+      <ref role="3gcvY6" node="7vku0000121" />
+      <node concept="3063JU" id="7vku0000495" role="3063Jp">
+        <ref role="3063JT" node="7vku0000794" resolve="AbgleichLieferantPP" />
+      </node>
+      <node concept="20qEzJ" id="7vku0000496" role="10qiF$">
+        <node concept="3clFbS" id="7vku0000497" role="2VODD2">
+          <node concept="3SKdUt" id="7vku0000498" role="3cqZAp">
+            <node concept="1PaTwC" id="7vku0000499" role="1aUNEU">
+              <node concept="3oM_SD" id="7vku0000500" role="1PaTwD">
+                <property role="3oM_SC" value="UC-010" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000501" role="1PaTwD">
+                <property role="3oM_SC" value="Schritt" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000502" role="1PaTwD">
+                <property role="3oM_SC" value="9," />
+              </node>
+              <node concept="3oM_SD" id="7vku0000503" role="1PaTwD">
+                <property role="3oM_SC" value="BR-009:" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000504" role="1PaTwD">
+                <property role="3oM_SC" value="Bewegung" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000505" role="1PaTwD">
+                <property role="3oM_SC" value="im" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000506" role="1PaTwD">
+                <property role="3oM_SC" value="Bilanzmonat" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000507" role="1PaTwD">
+                <property role="3oM_SC" value="je" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000508" role="1PaTwD">
+                <property role="3oM_SC" value="Herkunft," />
+              </node>
+              <node concept="3oM_SD" id="7vku0000509" role="1PaTwD">
+                <property role="3oM_SC" value="Warenbuch" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000510" role="1PaTwD">
+                <property role="3oM_SC" value="und" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000511" role="1PaTwD">
+                <property role="3oM_SC" value="LIBU" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000512" role="1PaTwD">
+                <property role="3oM_SC" value="nebeneinander;" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000513" role="1PaTwD">
+                <property role="3oM_SC" value="Lieferant" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000514" role="1PaTwD">
+                <property role="3oM_SC" value="0" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000515" role="1PaTwD">
+                <property role="3oM_SC" value="=" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000516" role="1PaTwD">
+                <property role="3oM_SC" value="Buchungen" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000517" role="1PaTwD">
+                <property role="3oM_SC" value="ohne" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000518" role="1PaTwD">
+                <property role="3oM_SC" value="Lieferant" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000519" role="1PaTwD">
+                <property role="3oM_SC" value="(A6)." />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000520" role="3cqZAp">
+            <node concept="37vLTI" id="7vku0000521" role="3clFbG">
+              <node concept="2OqwBi" id="7vku0000522" role="37vLTJ">
+                <node concept="3urNR4" id="7vku0000523" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vku0000491" resolve="ansicht" />
+                </node>
+                <node concept="2S8uIT" id="7vku0000524" role="2OqNvi">
+                  <ref role="2S8YL0" node="7vku0000139" resolve="herkuenfte" />
+                </node>
+              </node>
+              <node concept="1odsa" id="7vku0000525" role="37vLTx">
+                <ref role="1ods_" to="7ahv:7vkd0000636" resolve="VerrechnungskontoQ" />
+                <ref role="37wK5l" to="7ahv:7vkd0001291" resolve="herkuenfte" />
+                <node concept="3urNQE" id="7vku0000526" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000483" resolve="bilanzJahr" />
+                </node>
+                <node concept="3urNQE" id="7vku0000527" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000485" resolve="bilanzMonat" />
+                </node>
+                <node concept="3urNQE" id="7vku0000528" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000487" resolve="zyklus" />
+                </node>
+                <node concept="3urNQE" id="7vku0000529" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000489" resolve="lieferantNr" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000530" role="3cqZAp">
+            <node concept="3urNR4" id="7vku0000531" role="3clFbG">
+              <ref role="3cqZAo" node="7vku0000491" resolve="ansicht" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="35AVbj" id="7vku0000532" role="1K0AWC">
+        <node concept="ic4WF" id="7vku0000533" role="icr7_">
+          <property role="ic4Xk" value="Bewegung von Lieferant %d im Bilanzmonat %d/%d, Zyklus %s" />
+        </node>
+        <node concept="3urNQE" id="7vku0000534" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000489" resolve="lieferantNr" />
+        </node>
+        <node concept="3urNQE" id="7vku0000535" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000485" resolve="bilanzMonat" />
+        </node>
+        <node concept="3urNQE" id="7vku0000536" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000483" resolve="bilanzJahr" />
+        </node>
+        <node concept="3urNQE" id="7vku0000537" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000487" resolve="zyklus" />
+        </node>
+      </node>
+      <node concept="10qiFn" id="7vku0000538" role="10qiF9">
+        <ref role="2DFCCC" to="hg40:5VOHcF3Tzhq" resolve="Aktualisieren" />
+        <node concept="20qIzx" id="7vku0000539" role="10ot2L">
+          <node concept="3clFbS" id="7vku0000540" role="2VODD2">
+            <node concept="10Adxa" id="7vku0000541" role="3cqZAp">
+              <ref role="10Adxb" node="7vku0000494" resolve="Herkuenfte" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YYyHn" id="7vku0000542" role="3ap3dX" />
+    <node concept="20qIzx" id="7vku0000543" role="3umfm7">
+      <node concept="3clFbS" id="7vku0000544" role="2VODD2">
+        <node concept="mlg3r" id="7vku0000545" role="3cqZAp">
+          <node concept="2d3UOw" id="7vku0000546" role="mlgNJ">
+            <node concept="3urNQE" id="7vku0000547" role="3uHU7B">
+              <ref role="3cqZAo" node="7vku0000489" resolve="lieferantNr" />
+            </node>
+            <node concept="3cmrfG" id="7vku0000548" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="lgADV" id="7vku0000549" role="mlgNH">
+            <node concept="35AVbj" id="7vku0000550" role="lgxf9">
+              <node concept="ic4WF" id="7vku0000551" role="icr7_">
+                <property role="ic4Xk" value="Bitte die Zeile eines Lieferanten oder die Zeile ohne Lieferant wählen, keine Summenzeile. (UC-010 Schritt 8)" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7vku0000552" role="3cqZAp">
+          <node concept="37vLTI" id="7vku0000553" role="3clFbG">
+            <node concept="3urNR4" id="7vku0000554" role="37vLTJ">
+              <ref role="3cqZAo" node="7vku0000491" resolve="ansicht" />
+            </node>
+            <node concept="2ShNRf" id="7vku0000555" role="37vLTx">
+              <node concept="1pGfFk" id="7vku0000556" role="2ShVmc">
+                <ref role="37wK5l" node="7vku0000135" resolve="AbgleichLieferantAnsicht" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="20qIzx" id="7vku0000557" role="10_T4l">
+      <node concept="3clFbS" id="7vku0000558" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="3ugp7m" id="7vku0000559">
+    <property role="TrG5h" value="Belege der Herkunft" />
+    <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
+    <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
+    <node concept="2ticAD" id="7vku0000560" role="2ticAe">
+      <node concept="1G1AcV" id="7vku0000561" role="2TIb5R">
+        <ref role="3ymtqE" to="hg40:c_HYpdFPv6" resolve="KreditorenManagement" />
+      </node>
+    </node>
+    <node concept="3ulXEN" id="7vku0000562" role="3ulXEL">
+      <property role="TrG5h" value="bilanzJahr" />
+      <node concept="10Oyi0" id="7vku0000563" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEN" id="7vku0000564" role="3ulXEL">
+      <property role="TrG5h" value="bilanzMonat" />
+      <node concept="10Oyi0" id="7vku0000565" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEN" id="7vku0000566" role="3ulXEL">
+      <property role="TrG5h" value="zyklus" />
+      <node concept="17QB3L" id="7vku0000567" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEN" id="7vku0000568" role="3ulXEL">
+      <property role="TrG5h" value="lieferantNr" />
+      <node concept="10Oyi0" id="7vku0000569" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEN" id="7vku0000570" role="3ulXEL">
+      <property role="TrG5h" value="herkunft" />
+      <node concept="17QB3L" id="7vku0000571" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEM" id="7vku0000572" role="3ulXEG">
+      <property role="TrG5h" value="ansicht" />
+      <node concept="3uibUv" id="7vku0000573" role="1tU5fm">
+        <ref role="3uigEE" node="7vku0000149" resolve="AbgleichBelegeAnsicht" />
+      </node>
+    </node>
+    <node concept="Xl_RD" id="7vku0000574" role="IYfpf">
+      <property role="Xl_RC" value="Belege" />
+    </node>
+    <node concept="3ugp7q" id="7vku0000575" role="3ug97V">
+      <property role="TrG5h" value="Belege" />
+      <ref role="3gcvY6" node="7vku0000149" />
+      <node concept="3063JU" id="7vku0000576" role="3063Jp">
+        <ref role="3063JT" node="7vku0000830" resolve="AbgleichBelegePP" />
+      </node>
+      <node concept="20qEzJ" id="7vku0000577" role="10qiF$">
+        <node concept="3clFbS" id="7vku0000578" role="2VODD2">
+          <node concept="3SKdUt" id="7vku0000579" role="3cqZAp">
+            <node concept="1PaTwC" id="7vku0000580" role="1aUNEU">
+              <node concept="3oM_SD" id="7vku0000581" role="1PaTwD">
+                <property role="3oM_SC" value="UC-010" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000582" role="1PaTwD">
+                <property role="3oM_SC" value="Schritt" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000583" role="1PaTwD">
+                <property role="3oM_SC" value="11," />
+              </node>
+              <node concept="3oM_SD" id="7vku0000584" role="1PaTwD">
+                <property role="3oM_SC" value="BR-010:" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000585" role="1PaTwD">
+                <property role="3oM_SC" value="Belege" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000586" role="1PaTwD">
+                <property role="3oM_SC" value="mit" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000587" role="1PaTwD">
+                <property role="3oM_SC" value="Abweichung" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000588" role="1PaTwD">
+                <property role="3oM_SC" value="und" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000589" role="1PaTwD">
+                <property role="3oM_SC" value="erkannter" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000590" role="1PaTwD">
+                <property role="3oM_SC" value="Ursache," />
+              </node>
+              <node concept="3oM_SD" id="7vku0000591" role="1PaTwD">
+                <property role="3oM_SC" value="der" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000592" role="1PaTwD">
+                <property role="3oM_SC" value="Rest" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000593" role="1PaTwD">
+                <property role="3oM_SC" value="als" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000594" role="1PaTwD">
+                <property role="3oM_SC" value="'nicht" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000595" role="1PaTwD">
+                <property role="3oM_SC" value="erklärt'." />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000596" role="3cqZAp">
+            <node concept="37vLTI" id="7vku0000597" role="3clFbG">
+              <node concept="2OqwBi" id="7vku0000598" role="37vLTJ">
+                <node concept="3urNR4" id="7vku0000599" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vku0000572" resolve="ansicht" />
+                </node>
+                <node concept="2S8uIT" id="7vku0000600" role="2OqNvi">
+                  <ref role="2S8YL0" node="7vku0000167" resolve="belege" />
+                </node>
+              </node>
+              <node concept="1odsa" id="7vku0000601" role="37vLTx">
+                <ref role="1ods_" to="7ahv:7vkd0000636" resolve="VerrechnungskontoQ" />
+                <ref role="37wK5l" to="7ahv:7vkd0001535" resolve="belege" />
+                <node concept="3urNQE" id="7vku0000602" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000562" resolve="bilanzJahr" />
+                </node>
+                <node concept="3urNQE" id="7vku0000603" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000564" resolve="bilanzMonat" />
+                </node>
+                <node concept="3urNQE" id="7vku0000604" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000566" resolve="zyklus" />
+                </node>
+                <node concept="3urNQE" id="7vku0000605" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000568" resolve="lieferantNr" />
+                </node>
+                <node concept="3urNQE" id="7vku0000606" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000570" resolve="herkunft" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000607" role="3cqZAp">
+            <node concept="3urNR4" id="7vku0000608" role="3clFbG">
+              <ref role="3cqZAo" node="7vku0000572" resolve="ansicht" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="35AVbj" id="7vku0000609" role="1K0AWC">
+        <node concept="ic4WF" id="7vku0000610" role="icr7_">
+          <property role="ic4Xk" value="Belege %s von Lieferant %d im Bilanzmonat %d/%d, Zyklus %s" />
+        </node>
+        <node concept="3urNQE" id="7vku0000611" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000570" resolve="herkunft" />
+        </node>
+        <node concept="3urNQE" id="7vku0000612" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000568" resolve="lieferantNr" />
+        </node>
+        <node concept="3urNQE" id="7vku0000613" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000564" resolve="bilanzMonat" />
+        </node>
+        <node concept="3urNQE" id="7vku0000614" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000562" resolve="bilanzJahr" />
+        </node>
+        <node concept="3urNQE" id="7vku0000615" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000566" resolve="zyklus" />
+        </node>
+      </node>
+      <node concept="10qiFn" id="7vku0000616" role="10qiF9">
+        <ref role="2DFCCC" to="hg40:5VOHcF3Tzhq" resolve="Aktualisieren" />
+        <node concept="20qIzx" id="7vku0000617" role="10ot2L">
+          <node concept="3clFbS" id="7vku0000618" role="2VODD2">
+            <node concept="10Adxa" id="7vku0000619" role="3cqZAp">
+              <ref role="10Adxb" node="7vku0000575" resolve="Belege" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YYyHn" id="7vku0000620" role="3ap3dX" />
+    <node concept="20qIzx" id="7vku0000621" role="3umfm7">
+      <node concept="3clFbS" id="7vku0000622" role="2VODD2">
+        <node concept="mlg3r" id="7vku0000623" role="3cqZAp">
+          <node concept="2OqwBi" id="7vku0000624" role="mlgNJ">
+            <node concept="2OqwBi" id="7vku0000625" role="2Oq$k0">
+              <node concept="3urNQE" id="7vku0000626" role="2Oq$k0">
+                <ref role="3cqZAo" node="7vku0000570" resolve="herkunft" />
+              </node>
+              <node concept="17S1cR" id="7vku0000627" role="2OqNvi" />
+            </node>
+            <node concept="17RvpY" id="7vku0000628" role="2OqNvi" />
+          </node>
+          <node concept="lgADV" id="7vku0000629" role="mlgNH">
+            <node concept="35AVbj" id="7vku0000630" role="lgxf9">
+              <node concept="ic4WF" id="7vku0000631" role="icr7_">
+                <property role="ic4Xk" value="Bitte eine Herkunft wählen. (UC-010 Schritt 10)" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7vku0000632" role="3cqZAp">
+          <node concept="37vLTI" id="7vku0000633" role="3clFbG">
+            <node concept="3urNR4" id="7vku0000634" role="37vLTJ">
+              <ref role="3cqZAo" node="7vku0000572" resolve="ansicht" />
+            </node>
+            <node concept="2ShNRf" id="7vku0000635" role="37vLTx">
+              <node concept="1pGfFk" id="7vku0000636" role="2ShVmc">
+                <ref role="37wK5l" node="7vku0000163" resolve="AbgleichBelegeAnsicht" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="20qIzx" id="7vku0000637" role="10_T4l">
+      <node concept="3clFbS" id="7vku0000638" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="3ugp7m" id="7vku0000639">
+    <property role="TrG5h" value="Kalkulationsspur des Wareneingangs" />
+    <property role="19I623" value="6Rdz00$tuDj/SEARCH_CMD" />
+    <property role="1ptSWV" value="R_Y55k$Btw/OVERWRITE" />
+    <node concept="2ticAD" id="7vku0000640" role="2ticAe">
+      <node concept="1G1AcV" id="7vku0000641" role="2TIb5R">
+        <ref role="3ymtqE" to="hg40:c_HYpdFPv6" resolve="KreditorenManagement" />
+      </node>
+    </node>
+    <node concept="3ulXEN" id="7vku0000642" role="3ulXEL">
+      <property role="TrG5h" value="wareneingangId" />
+      <node concept="17QB3L" id="7vku0000643" role="1tU5fm" />
+    </node>
+    <node concept="3ulXEM" id="7vku0000644" role="3ulXEG">
+      <property role="TrG5h" value="ansicht" />
+      <node concept="3uibUv" id="7vku0000645" role="1tU5fm">
+        <ref role="3uigEE" node="7vku0000177" resolve="WareneingangSpurAnsicht" />
+      </node>
+    </node>
+    <node concept="Xl_RD" id="7vku0000646" role="IYfpf">
+      <property role="Xl_RC" value="Kalkulationsspur" />
+    </node>
+    <node concept="3ugp7q" id="7vku0000647" role="3ug97V">
+      <property role="TrG5h" value="Spur" />
+      <ref role="3gcvY6" node="7vku0000177" />
+      <node concept="3063JU" id="7vku0000648" role="3063Jp">
+        <ref role="3063JT" node="7vku0000870" resolve="WareneingangSpurPP" />
+      </node>
+      <node concept="20qEzJ" id="7vku0000649" role="10qiF$">
+        <node concept="3clFbS" id="7vku0000650" role="2VODD2">
+          <node concept="3SKdUt" id="7vku0000651" role="3cqZAp">
+            <node concept="1PaTwC" id="7vku0000652" role="1aUNEU">
+              <node concept="3oM_SD" id="7vku0000653" role="1PaTwD">
+                <property role="3oM_SC" value="UC-010" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000654" role="1PaTwD">
+                <property role="3oM_SC" value="Schritt" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000655" role="1PaTwD">
+                <property role="3oM_SC" value="12" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000656" role="1PaTwD">
+                <property role="3oM_SC" value="(UC-009" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000657" role="1PaTwD">
+                <property role="3oM_SC" value="Schritt" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000658" role="1PaTwD">
+                <property role="3oM_SC" value="12," />
+              </node>
+              <node concept="3oM_SD" id="7vku0000659" role="1PaTwD">
+                <property role="3oM_SC" value="BR-007):" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000660" role="1PaTwD">
+                <property role="3oM_SC" value="alle" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000661" role="1PaTwD">
+                <property role="3oM_SC" value="Konditionsbeträge" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000662" role="1PaTwD">
+                <property role="3oM_SC" value="des" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000663" role="1PaTwD">
+                <property role="3oM_SC" value="Wareneingangs" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000664" role="1PaTwD">
+                <property role="3oM_SC" value="wie" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000665" role="1PaTwD">
+                <property role="3oM_SC" value="bei" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000666" role="1PaTwD">
+                <property role="3oM_SC" value="ihrer" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000667" role="1PaTwD">
+                <property role="3oM_SC" value="Entstehung" />
+              </node>
+              <node concept="3oM_SD" id="7vku0000668" role="1PaTwD">
+                <property role="3oM_SC" value="festgehalten." />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000669" role="3cqZAp">
+            <node concept="37vLTI" id="7vku0000670" role="3clFbG">
+              <node concept="2OqwBi" id="7vku0000671" role="37vLTJ">
+                <node concept="3urNR4" id="7vku0000672" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vku0000644" resolve="ansicht" />
+                </node>
+                <node concept="2S8uIT" id="7vku0000673" role="2OqNvi">
+                  <ref role="2S8YL0" node="7vku0000193" resolve="betraege" />
+                </node>
+              </node>
+              <node concept="1odsa" id="7vku0000674" role="37vLTx">
+                <ref role="1ods_" to="7ahv:7abd0001001" resolve="AbrechnungsgrundlageQ" />
+                <ref role="37wK5l" to="7ahv:7vkd0002147" resolve="kalkulationsspurDesWareneingangs" />
+                <node concept="3urNQE" id="7vku0000675" role="37wK5m">
+                  <ref role="3cqZAo" node="7vku0000642" resolve="wareneingangId" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7vku0000676" role="3cqZAp">
+            <node concept="3urNR4" id="7vku0000677" role="3clFbG">
+              <ref role="3cqZAo" node="7vku0000644" resolve="ansicht" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="35AVbj" id="7vku0000678" role="1K0AWC">
+        <node concept="ic4WF" id="7vku0000679" role="icr7_">
+          <property role="ic4Xk" value="Kalkulationsspur des Wareneingangs %s" />
+        </node>
+        <node concept="3urNQE" id="7vku0000680" role="35Gt3$">
+          <ref role="3cqZAo" node="7vku0000642" resolve="wareneingangId" />
+        </node>
+      </node>
+      <node concept="10qiFn" id="7vku0000681" role="10qiF9">
+        <ref role="2DFCCC" to="hg40:5VOHcF3Tzhq" resolve="Aktualisieren" />
+        <node concept="20qIzx" id="7vku0000682" role="10ot2L">
+          <node concept="3clFbS" id="7vku0000683" role="2VODD2">
+            <node concept="10Adxa" id="7vku0000684" role="3cqZAp">
+              <ref role="10Adxb" node="7vku0000647" resolve="Spur" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YYyHn" id="7vku0000685" role="3ap3dX" />
+    <node concept="20qIzx" id="7vku0000686" role="3umfm7">
+      <node concept="3clFbS" id="7vku0000687" role="2VODD2">
+        <node concept="mlg3r" id="7vku0000688" role="3cqZAp">
+          <node concept="2OqwBi" id="7vku0000689" role="mlgNJ">
+            <node concept="2OqwBi" id="7vku0000690" role="2Oq$k0">
+              <node concept="3urNQE" id="7vku0000691" role="2Oq$k0">
+                <ref role="3cqZAo" node="7vku0000642" resolve="wareneingangId" />
+              </node>
+              <node concept="17S1cR" id="7vku0000692" role="2OqNvi" />
+            </node>
+            <node concept="17RvpY" id="7vku0000693" role="2OqNvi" />
+          </node>
+          <node concept="lgADV" id="7vku0000694" role="mlgNH">
+            <node concept="35AVbj" id="7vku0000695" role="lgxf9">
+              <node concept="ic4WF" id="7vku0000696" role="icr7_">
+                <property role="ic4Xk" value="Bitte einen Wareneingang wählen; Forderungsbelege zeigt 'Forderung ansehen'. (UC-010 Schritt 12)" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7vku0000697" role="3cqZAp">
+          <node concept="37vLTI" id="7vku0000698" role="3clFbG">
+            <node concept="3urNR4" id="7vku0000699" role="37vLTJ">
+              <ref role="3cqZAo" node="7vku0000644" resolve="ansicht" />
+            </node>
+            <node concept="2ShNRf" id="7vku0000700" role="37vLTx">
+              <node concept="1pGfFk" id="7vku0000701" role="2ShVmc">
+                <ref role="37wK5l" node="7vku0000189" resolve="WareneingangSpurAnsicht" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="20qIzx" id="7vku0000702" role="10_T4l">
+      <node concept="3clFbS" id="7vku0000703" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="2mKXYI" id="7vku0000704">
+    <property role="TrG5h" value="VerrechnungskontoPP" />
+    <property role="1Nb$_v" value="true" />
+    <ref role="1Tjo7l" node="7vku0000001" resolve="VerrechnungskontoSuche" />
+    <node concept="2U5qGN" id="7vku0000705" role="21u2x1">
+      <property role="TrG5h" value="#" />
+      <node concept="2U5nhG" id="7vku0000706" role="2U5niJ" />
+      <node concept="2U5qGO" id="7vku0000707" role="21u2wS">
+        <property role="TrG5h" value="#" />
+        <ref role="1Tjo7l" node="7vku0000001" resolve="VerrechnungskontoSuche" />
+        <node concept="2U5nhG" id="7vku0000708" role="2TFpq_" />
+        <node concept="2U5nhG" id="7vku0000709" role="2TFpq_" />
+        <node concept="3Oe2IN" id="7vku0000710" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000711" role="3Oe2NS">
+            <ref role="3O0p26" node="7vku0000038" resolve="bilanzJahr" />
+          </node>
+        </node>
+        <node concept="3Oe2IN" id="7vku0000712" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000713" role="3Oe2NS">
+            <ref role="3O0p26" node="7vku0000047" resolve="bilanzMonat" />
+          </node>
+        </node>
+        <node concept="2TG9WX" id="7vku0000714" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000715" role="3Oe2NS">
+            <ref role="3O0p26" node="7vku0000056" resolve="zyklus" />
+          </node>
+          <node concept="P9Rn5" id="7vku0000716" role="PoUSh" />
+          <node concept="Pk6Vc" id="7vku0000717" role="PoUSh" />
+        </node>
+        <node concept="2TG9WW" id="7vku0000718" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000719" role="3Oe2NS">
+            <ref role="3O0p26" node="7vku0000065" resolve="lieferant" />
+          </node>
+          <node concept="P8lqc" id="7vku0000720" role="P8nnQ">
+            <node concept="3Oe$u_" id="7vku0000721" role="P8WsX">
+              <ref role="3O0p26" to="k2it:1SEqE6yDXf4" resolve="lieferantNr" />
+            </node>
+            <node concept="3Oe$u_" id="7vku0000722" role="P8WsX">
+              <ref role="3O0p26" to="k2it:1SEqE6yDXfj" resolve="name" />
+            </node>
+          </node>
+          <node concept="P9Rn5" id="7vku0000723" role="PoUSh" />
+          <node concept="Pk6Vc" id="7vku0000724" role="PoUSh" />
+        </node>
+        <node concept="2TG9WT" id="7vku0000725" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000726" role="3Oe2NS">
+            <ref role="3O0p26" node="7vku0000074" resolve="konsolidiertUm" />
+          </node>
+          <node concept="Pevqn" id="7vku0000727" role="PoUSh" />
+        </node>
+        <node concept="2TG9WX" id="7vku0000728" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000729" role="3Oe2NS">
+            <ref role="3O0p26" node="7vku0000083" resolve="abgeschlossen" />
+          </node>
+          <node concept="Pevqn" id="7vku0000730" role="PoUSh" />
+        </node>
+        <node concept="3Oe2Ik" id="7vku0000731" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000732" role="3Oe2NS">
+            <ref role="3O0p26" node="7vku0000092" resolve="hinweis" />
+          </node>
+          <node concept="Pevqn" id="7vku0000733" role="PoUSh" />
+        </node>
+      </node>
+      <node concept="2U5qGQ" id="7vku0000734" role="21u2wS">
+        <property role="TrG5h" value="#" />
+        <ref role="1Tjo7l" node="7vku0000001" resolve="VerrechnungskontoSuche" />
+        <ref role="1Tjo6F" node="7vku0000111" resolve="zeilen" />
+        <node concept="2TG9WX" id="7vku0000735" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000736" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000083" resolve="zyklus" />
+          </node>
+          <node concept="PnLzW" id="7vku0000737" role="PoUSh">
+            <property role="PiFy3" value="6" />
+          </node>
+        </node>
+        <node concept="3Oe2IN" id="7vku0000738" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000739" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000110" resolve="lieferantNr" />
+          </node>
+          <node concept="PnLzW" id="7vku0000740" role="PoUSh">
+            <property role="PiFy3" value="6" />
+          </node>
+        </node>
+        <node concept="3Oe2Ik" id="7vku0000741" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000742" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000119" resolve="lieferantName" />
+          </node>
+          <node concept="PnLzW" id="7vku0000743" role="PoUSh">
+            <property role="PiFy3" value="14" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7vku0000744" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000745" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000146" resolve="saldoWabu" />
+          </node>
+          <node concept="PnLzW" id="7vku0000746" role="PoUSh">
+            <property role="PiFy3" value="8" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7vku0000747" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000748" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000155" resolve="saldoLibu" />
+          </node>
+          <node concept="PnLzW" id="7vku0000749" role="PoUSh">
+            <property role="PiFy3" value="8" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7vku0000750" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000751" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000164" resolve="saldoDifferenz" />
+          </node>
+          <node concept="PnLzW" id="7vku0000752" role="PoUSh">
+            <property role="PiFy3" value="8" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7vku0000753" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000754" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000173" resolve="bewegungWabu" />
+          </node>
+          <node concept="PnLzW" id="7vku0000755" role="PoUSh">
+            <property role="PiFy3" value="7" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7vku0000756" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000757" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000182" resolve="bewegungLibu" />
+          </node>
+          <node concept="PnLzW" id="7vku0000758" role="PoUSh">
+            <property role="PiFy3" value="7" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7vku0000759" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000760" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000191" resolve="bewegungDifferenz" />
+          </node>
+          <node concept="PnLzW" id="7vku0000761" role="PoUSh">
+            <property role="PiFy3" value="7" />
+          </node>
+        </node>
+        <node concept="2TG9WX" id="7vku0000762" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000763" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000209" resolve="stimmt" />
+          </node>
+          <node concept="PnLzW" id="7vku0000764" role="PoUSh">
+            <property role="PiFy3" value="5" />
+          </node>
+        </node>
+        <node concept="3Oe2IN" id="7vku0000765" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000766" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000218" resolve="offeneUebergaben" />
+          </node>
+          <node concept="PnLzW" id="7vku0000767" role="PoUSh">
+            <property role="PiFy3" value="5" />
+          </node>
+        </node>
+        <node concept="3Oe2In" id="7vku0000768" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000769" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000200" resolve="nichtKonsolidiert" />
+          </node>
+          <node concept="PnLzW" id="7vku0000770" role="PoUSh">
+            <property role="PiFy3" value="6" />
+          </node>
+        </node>
+        <node concept="3Oe2Ik" id="7vku0000771" role="3OfFNq">
+          <node concept="3Oe$u_" id="7vku0000772" role="3Oe2NS">
+            <ref role="3O0p26" to="7ahv:7vkd0000236" resolve="hinweis" />
+          </node>
+          <node concept="PnLzW" id="7vku0000773" role="PoUSh">
+            <property role="PiFy3" value="9" />
+          </node>
+        </node>
+        <node concept="PoUSf" id="7vku0000774" role="PoUSn">
+          <node concept="Xl_RD" id="7vku0000775" role="PoUSc">
+            <property role="Xl_RC" value="Saldo des Verrechnungskontos je Lieferant und Zyklus" />
+          </node>
+        </node>
+        <node concept="fOGPe" id="7vku0000776" role="fOGQ8">
+          <node concept="33WYYh" id="7vku0000777" role="fOGQ8">
+            <ref role="2_Hrw8" node="7vku0000480" resolve="Bewegung des Lieferanten" />
+            <ref role="3uz5Vf" to="hg40:7uil0000001" resolve="OeffnenEnter" />
+            <node concept="2OqwBi" id="7vku0000778" role="2_HrWp">
+              <node concept="2IFXgM" id="7vku0000779" role="2Oq$k0">
+                <ref role="2IFZ7r" to="7ahv:7vkd0000001" resolve="AbgleichZeile" />
+              </node>
+              <node concept="2S8uIT" id="7vku0000780" role="2OqNvi">
+                <ref role="2S8YL0" to="7ahv:7vkd0000245" resolve="bilanzJahr" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7vku0000781" role="2_HrWp">
+              <node concept="2IFXgM" id="7vku0000782" role="2Oq$k0">
+                <ref role="2IFZ7r" to="7ahv:7vkd0000001" resolve="AbgleichZeile" />
+              </node>
+              <node concept="2S8uIT" id="7vku0000783" role="2OqNvi">
+                <ref role="2S8YL0" to="7ahv:7vkd0000254" resolve="bilanzMonat" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7vku0000784" role="2_HrWp">
+              <node concept="2IFXgM" id="7vku0000785" role="2Oq$k0">
+                <ref role="2IFZ7r" to="7ahv:7vkd0000001" resolve="AbgleichZeile" />
+              </node>
+              <node concept="2S8uIT" id="7vku0000786" role="2OqNvi">
+                <ref role="2S8YL0" to="7ahv:7vkd0000092" resolve="zyklusCode" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7vku0000787" role="2_HrWp">
+              <node concept="2IFXgM" id="7vku0000788" role="2Oq$k0">
+                <ref role="2IFZ7r" to="7ahv:7vkd0000001" resolve="AbgleichZeile" />
+              </node>
+              <node concept="2S8uIT" id="7vku0000789" role="2OqNvi">
+                <ref role="2S8YL0" to="7ahv:7vkd0000101" resolve="lieferantSchluessel" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2U5nhT" id="7vku0000790" role="2U5niL" />
+      <node concept="2U5nhz" id="7vku0000791" role="2U5niL" />
+    </node>
+    <node concept="UTR7Y" id="7vku0000792" role="UTRd0">
+      <node concept="276gdk" id="7vku0000793" role="26Uuoe">
+        <ref role="276gdn" to="hg40:7vkc0000001" resolve="BereichVerrechnungskonto" />
+      </node>
+    </node>
+  </node>
+  <node concept="2mKXYI" id="7vku0000794">
+    <property role="TrG5h" value="AbgleichLieferantPP" />
+    <property role="1Nb$_v" value="true" />
+    <ref role="1Tjo7l" node="7vku0000121" resolve="AbgleichLieferantAnsicht" />
+    <node concept="2U5qGQ" id="7vku0000795" role="21u2x1">
+      <property role="TrG5h" value="#" />
+      <ref role="1Tjo7l" node="7vku0000121" resolve="AbgleichLieferantAnsicht" />
+      <ref role="1Tjo6F" node="7vku0000139" resolve="herkuenfte" />
+      <node concept="2TG9WX" id="7vku0000796" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000797" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000306" resolve="herkunft" />
+        </node>
+        <node concept="PnLzW" id="7vku0000798" role="PoUSh">
+          <property role="PiFy3" value="24" />
+        </node>
+      </node>
+      <node concept="3Oe2In" id="7vku0000799" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000800" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000324" resolve="betragWabu" />
+        </node>
+        <node concept="PnLzW" id="7vku0000801" role="PoUSh">
+          <property role="PiFy3" value="19" />
+        </node>
+      </node>
+      <node concept="3Oe2In" id="7vku0000802" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000803" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000333" resolve="betragLibu" />
+        </node>
+        <node concept="PnLzW" id="7vku0000804" role="PoUSh">
+          <property role="PiFy3" value="19" />
+        </node>
+      </node>
+      <node concept="3Oe2In" id="7vku0000805" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000806" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000342" resolve="differenz" />
+        </node>
+        <node concept="PnLzW" id="7vku0000807" role="PoUSh">
+          <property role="PiFy3" value="19" />
+        </node>
+      </node>
+      <node concept="3Oe2In" id="7vku0000808" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000809" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000351" resolve="nichtKonsolidiert" />
+        </node>
+        <node concept="PnLzW" id="7vku0000810" role="PoUSh">
+          <property role="PiFy3" value="19" />
+        </node>
+      </node>
+      <node concept="fOGPe" id="7vku0000811" role="fOGQ8">
+        <node concept="33WYYh" id="7vku0000812" role="fOGQ8">
+          <ref role="2_Hrw8" node="7vku0000559" resolve="Belege der Herkunft" />
+          <ref role="3uz5Vf" to="hg40:7uil0000001" resolve="OeffnenEnter" />
+          <node concept="2OqwBi" id="7vku0000813" role="2_HrWp">
+            <node concept="2IFXgM" id="7vku0000814" role="2Oq$k0">
+              <ref role="2IFZ7r" to="7ahv:7vkd0000263" resolve="AbgleichHerkunft" />
+            </node>
+            <node concept="2S8uIT" id="7vku0000815" role="2OqNvi">
+              <ref role="2S8YL0" to="7ahv:7vkd0000360" resolve="bilanzJahr" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7vku0000816" role="2_HrWp">
+            <node concept="2IFXgM" id="7vku0000817" role="2Oq$k0">
+              <ref role="2IFZ7r" to="7ahv:7vkd0000263" resolve="AbgleichHerkunft" />
+            </node>
+            <node concept="2S8uIT" id="7vku0000818" role="2OqNvi">
+              <ref role="2S8YL0" to="7ahv:7vkd0000369" resolve="bilanzMonat" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7vku0000819" role="2_HrWp">
+            <node concept="2IFXgM" id="7vku0000820" role="2Oq$k0">
+              <ref role="2IFZ7r" to="7ahv:7vkd0000263" resolve="AbgleichHerkunft" />
+            </node>
+            <node concept="2S8uIT" id="7vku0000821" role="2OqNvi">
+              <ref role="2S8YL0" to="7ahv:7vkd0000378" resolve="zyklusCode" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7vku0000822" role="2_HrWp">
+            <node concept="2IFXgM" id="7vku0000823" role="2Oq$k0">
+              <ref role="2IFZ7r" to="7ahv:7vkd0000263" resolve="AbgleichHerkunft" />
+            </node>
+            <node concept="2S8uIT" id="7vku0000824" role="2OqNvi">
+              <ref role="2S8YL0" to="7ahv:7vkd0000387" resolve="lieferantNr" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7vku0000825" role="2_HrWp">
+            <node concept="2IFXgM" id="7vku0000826" role="2Oq$k0">
+              <ref role="2IFZ7r" to="7ahv:7vkd0000263" resolve="AbgleichHerkunft" />
+            </node>
+            <node concept="2S8uIT" id="7vku0000827" role="2OqNvi">
+              <ref role="2S8YL0" to="7ahv:7vkd0000315" resolve="herkunftCode" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7vku0000828" role="UTRd0">
+      <node concept="276gdk" id="7vku0000829" role="26Uuoe">
+        <ref role="276gdn" to="hg40:7vkc0000001" resolve="BereichVerrechnungskonto" />
+      </node>
+    </node>
+  </node>
+  <node concept="2mKXYI" id="7vku0000830">
+    <property role="TrG5h" value="AbgleichBelegePP" />
+    <property role="1Nb$_v" value="true" />
+    <ref role="1Tjo7l" node="7vku0000149" resolve="AbgleichBelegeAnsicht" />
+    <node concept="2U5qGQ" id="7vku0000831" role="21u2x1">
+      <property role="TrG5h" value="#" />
+      <ref role="1Tjo7l" node="7vku0000149" resolve="AbgleichBelegeAnsicht" />
+      <ref role="1Tjo6F" node="7vku0000167" resolve="belege" />
+      <node concept="3Oe2Ik" id="7vku0000832" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000833" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000513" resolve="belegNr" />
+        </node>
+        <node concept="PnLzW" id="7vku0000834" role="PoUSh">
+          <property role="PiFy3" value="11" />
+        </node>
+      </node>
+      <node concept="2TG9WU" id="7vku0000835" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000836" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000522" resolve="belegDatum" />
+        </node>
+        <node concept="PnLzW" id="7vku0000837" role="PoUSh">
+          <property role="PiFy3" value="8" />
+        </node>
+      </node>
+      <node concept="3Oe2Ik" id="7vku0000838" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000839" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000531" resolve="vorgangArt" />
+        </node>
+        <node concept="PnLzW" id="7vku0000840" role="PoUSh">
+          <property role="PiFy3" value="6" />
+        </node>
+      </node>
+      <node concept="3Oe2In" id="7vku0000841" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000842" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000540" resolve="betragWabu" />
+        </node>
+        <node concept="PnLzW" id="7vku0000843" role="PoUSh">
+          <property role="PiFy3" value="9" />
+        </node>
+      </node>
+      <node concept="3Oe2In" id="7vku0000844" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000845" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000549" resolve="betragLibu" />
+        </node>
+        <node concept="PnLzW" id="7vku0000846" role="PoUSh">
+          <property role="PiFy3" value="9" />
+        </node>
+      </node>
+      <node concept="3Oe2In" id="7vku0000847" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000848" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000558" resolve="differenz" />
+        </node>
+        <node concept="PnLzW" id="7vku0000849" role="PoUSh">
+          <property role="PiFy3" value="9" />
+        </node>
+      </node>
+      <node concept="2TG9WX" id="7vku0000850" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000851" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000468" resolve="ursache" />
+        </node>
+        <node concept="PnLzW" id="7vku0000852" role="PoUSh">
+          <property role="PiFy3" value="13" />
+        </node>
+      </node>
+      <node concept="3Oe2Ik" id="7vku0000853" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000854" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000504" resolve="wbBelegId" />
+        </node>
+        <node concept="PnLzW" id="7vku0000855" role="PoUSh">
+          <property role="PiFy3" value="8" />
+        </node>
+      </node>
+      <node concept="3Oe2Ik" id="7vku0000856" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000857" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7vkd0000567" resolve="hinweis" />
+        </node>
+        <node concept="PnLzW" id="7vku0000858" role="PoUSh">
+          <property role="PiFy3" value="25" />
+        </node>
+      </node>
+      <node concept="fOGPe" id="7vku0000859" role="fOGQ8">
+        <node concept="33WYYh" id="7vku0000860" role="fOGQ8">
+          <ref role="2_Hrw8" node="7vku0000639" resolve="Kalkulationsspur des Wareneingangs" />
+          <ref role="3uz5Vf" to="hg40:7uil0000001" resolve="OeffnenEnter" />
+          <node concept="2OqwBi" id="7vku0000861" role="2_HrWp">
+            <node concept="2IFXgM" id="7vku0000862" role="2Oq$k0">
+              <ref role="2IFZ7r" to="7ahv:7vkd0000396" resolve="AbgleichBeleg" />
+            </node>
+            <node concept="2S8uIT" id="7vku0000863" role="2OqNvi">
+              <ref role="2S8YL0" to="7ahv:7vkd0000486" resolve="wareneingangId" />
+            </node>
+          </node>
+        </node>
+        <node concept="33WYYh" id="7vku0000864" role="fOGQ8">
+          <ref role="2_Hrw8" node="7abu0000715" resolve="Forderung ansehen" />
+          <node concept="2OqwBi" id="7vku0000865" role="2_HrWp">
+            <node concept="2IFXgM" id="7vku0000866" role="2Oq$k0">
+              <ref role="2IFZ7r" to="7ahv:7vkd0000396" resolve="AbgleichBeleg" />
+            </node>
+            <node concept="2S8uIT" id="7vku0000867" role="2OqNvi">
+              <ref role="2S8YL0" to="7ahv:7vkd0000495" resolve="forderungNr" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7vku0000868" role="UTRd0">
+      <node concept="276gdk" id="7vku0000869" role="26Uuoe">
+        <ref role="276gdn" to="hg40:7vkc0000001" resolve="BereichVerrechnungskonto" />
+      </node>
+    </node>
+  </node>
+  <node concept="2mKXYI" id="7vku0000870">
+    <property role="TrG5h" value="WareneingangSpurPP" />
+    <property role="1Nb$_v" value="true" />
+    <ref role="1Tjo7l" node="7vku0000177" resolve="WareneingangSpurAnsicht" />
+    <node concept="2U5qGQ" id="7vku0000871" role="21u2x1">
+      <property role="TrG5h" value="#" />
+      <ref role="1Tjo7l" node="7vku0000177" resolve="WareneingangSpurAnsicht" />
+      <ref role="1Tjo6F" node="7vku0000193" resolve="betraege" />
+      <node concept="3Oe2Ik" id="7vku0000872" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000873" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000609" resolve="posId" />
+        </node>
+        <node concept="PnLzW" id="7vku0000874" role="PoUSh">
+          <property role="PiFy3" value="8" />
+        </node>
+      </node>
+      <node concept="3Oe2IN" id="7vku0000875" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000876" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000645" resolve="artikelNr" />
+        </node>
+        <node concept="PnLzW" id="7vku0000877" role="PoUSh">
+          <property role="PiFy3" value="6" />
+        </node>
+      </node>
+      <node concept="3Oe2Ik" id="7vku0000878" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000879" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000654" resolve="kondition" />
+        </node>
+        <node concept="PnLzW" id="7vku0000880" role="PoUSh">
+          <property role="PiFy3" value="16" />
+        </node>
+      </node>
+      <node concept="3Oe2Ik" id="7vku0000881" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000882" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000663" resolve="typ" />
+        </node>
+        <node concept="PnLzW" id="7vku0000883" role="PoUSh">
+          <property role="PiFy3" value="9" />
+        </node>
+      </node>
+      <node concept="3Oe2In" id="7vku0000884" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000885" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000708" resolve="betrag" />
+        </node>
+        <node concept="PnLzW" id="7vku0000886" role="PoUSh">
+          <property role="PiFy3" value="8" />
+        </node>
+      </node>
+      <node concept="2TG9WT" id="7vku0000887" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000888" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000717" resolve="entstandenUm" />
+        </node>
+        <node concept="PnLzW" id="7vku0000889" role="PoUSh">
+          <property role="PiFy3" value="10" />
+        </node>
+      </node>
+      <node concept="2TG9WU" id="7vku0000890" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000891" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000726" resolve="periodeVon" />
+        </node>
+        <node concept="PnLzW" id="7vku0000892" role="PoUSh">
+          <property role="PiFy3" value="7" />
+        </node>
+      </node>
+      <node concept="2TG9WU" id="7vku0000893" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000894" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000735" resolve="periodeBis" />
+        </node>
+        <node concept="PnLzW" id="7vku0000895" role="PoUSh">
+          <property role="PiFy3" value="7" />
+        </node>
+      </node>
+      <node concept="3Oe2Ik" id="7vku0000896" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000897" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000744" resolve="stand" />
+        </node>
+        <node concept="PnLzW" id="7vku0000898" role="PoUSh">
+          <property role="PiFy3" value="11" />
+        </node>
+      </node>
+      <node concept="3Oe2Ik" id="7vku0000899" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000900" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000762" resolve="korrektur" />
+        </node>
+        <node concept="PnLzW" id="7vku0000901" role="PoUSh">
+          <property role="PiFy3" value="8" />
+        </node>
+      </node>
+      <node concept="3Oe2Ik" id="7vku0000902" role="3OfFNq">
+        <node concept="3Oe$u_" id="7vku0000903" role="3Oe2NS">
+          <ref role="3O0p26" to="7ahv:7abd0000771" resolve="forderung" />
+        </node>
+        <node concept="PnLzW" id="7vku0000904" role="PoUSh">
+          <property role="PiFy3" value="8" />
+        </node>
+      </node>
+      <node concept="fOGPe" id="7vku0000905" role="fOGQ8">
+        <node concept="33WYYh" id="7vku0000906" role="fOGQ8">
+          <ref role="2_Hrw8" node="7abu0000647" resolve="Kalkulationsspur der Position" />
+          <ref role="3uz5Vf" to="hg40:7uil0000001" resolve="OeffnenEnter" />
+          <node concept="2OqwBi" id="7vku0000907" role="2_HrWp">
+            <node concept="2IFXgM" id="7vku0000908" role="2Oq$k0">
+              <ref role="2IFZ7r" to="7ahv:7abd0000585" resolve="KalkulationsBetrag" />
+            </node>
+            <node concept="2S8uIT" id="7vku0000909" role="2OqNvi">
+              <ref role="2S8YL0" to="7ahv:7abd0000609" resolve="posId" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7vku0000910" role="2_HrWp">
+            <node concept="2IFXgM" id="7vku0000911" role="2Oq$k0">
+              <ref role="2IFZ7r" to="7ahv:7abd0000585" resolve="KalkulationsBetrag" />
+            </node>
+            <node concept="2S8uIT" id="7vku0000912" role="2OqNvi">
+              <ref role="2S8YL0" to="7ahv:7abd0000618" resolve="konditionId" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="UTR7Y" id="7vku0000913" role="UTRd0">
+      <node concept="276gdk" id="7vku0000914" role="26Uuoe">
+        <ref role="276gdn" to="hg40:7vkc0000001" resolve="BereichVerrechnungskonto" />
       </node>
     </node>
   </node>

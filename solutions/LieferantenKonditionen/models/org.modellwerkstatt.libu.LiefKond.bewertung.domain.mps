@@ -16,6 +16,15 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
+        <child id="1206060619838" name="condition" index="3eO9$A" />
+        <child id="1206060644605" name="statementList" index="3eOfB_" />
+      </concept>
+      <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
+      <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -34,6 +43,8 @@
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1206060520071" name="elsifClauses" index="3eNLev" />
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -132,6 +143,7 @@
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -249,6 +261,12 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
+        <child id="1204796294226" name="closure" index="23t8la" />
+      </concept>
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
+      <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
@@ -16209,6 +16227,1572 @@
         </node>
       </node>
     </node>
+    <node concept="DXQ2B" id="7vkd0002147" role="jymVt">
+      <property role="TrG5h" value="kalkulationsspurDesWareneingangs" />
+      <node concept="37vLTG" id="7vkd0002148" role="3clF46">
+        <property role="TrG5h" value="belegId" />
+        <node concept="17QB3L" id="7vkd0002149" role="1tU5fm" />
+      </node>
+      <node concept="_YKpA" id="7vkd0002150" role="3clF45">
+        <node concept="3uibUv" id="7vkd0002151" role="_ZDj9">
+          <ref role="3uigEE" node="7abd0000585" resolve="KalkulationsBetrag" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7vkd0002152" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0002153" role="3clF47">
+        <node concept="3SKdUt" id="7vkd0002154" role="3cqZAp">
+          <node concept="1PaTwC" id="7vkd0002155" role="1aUNEU">
+            <node concept="3oM_SD" id="7vkd0002156" role="1PaTwD">
+              <property role="3oM_SC" value="UC-010" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002157" role="1PaTwD">
+              <property role="3oM_SC" value="Schritt" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002158" role="1PaTwD">
+              <property role="3oM_SC" value="12" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002159" role="1PaTwD">
+              <property role="3oM_SC" value="(wie" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002160" role="1PaTwD">
+              <property role="3oM_SC" value="UC-009" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002161" role="1PaTwD">
+              <property role="3oM_SC" value="Schritt" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002162" role="1PaTwD">
+              <property role="3oM_SC" value="12," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002163" role="1PaTwD">
+              <property role="3oM_SC" value="BR-007):" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002164" role="1PaTwD">
+              <property role="3oM_SC" value="alle" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002165" role="1PaTwD">
+              <property role="3oM_SC" value="Konditionsbeträge" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002166" role="1PaTwD">
+              <property role="3oM_SC" value="der" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002167" role="1PaTwD">
+              <property role="3oM_SC" value="Kalkulationsspur" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002168" role="1PaTwD">
+              <property role="3oM_SC" value="eines" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002169" role="1PaTwD">
+              <property role="3oM_SC" value="Wareneingangs," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002170" role="1PaTwD">
+              <property role="3oM_SC" value="wie" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002171" role="1PaTwD">
+              <property role="3oM_SC" value="bei" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002172" role="1PaTwD">
+              <property role="3oM_SC" value="ihrer" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002173" role="1PaTwD">
+              <property role="3oM_SC" value="Entstehung" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002174" role="1PaTwD">
+              <property role="3oM_SC" value="festgehalten," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002175" role="1PaTwD">
+              <property role="3oM_SC" value="mit" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002176" role="1PaTwD">
+              <property role="3oM_SC" value="Storno," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002177" role="1PaTwD">
+              <property role="3oM_SC" value="Forderungskorrektur" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002178" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002179" role="1PaTwD">
+              <property role="3oM_SC" value="Forderung." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7vkd0002180" role="3cqZAp">
+          <node concept="3cpWsn" id="7vkd0002181" role="3cpWs9">
+            <property role="TrG5h" value="mandant" />
+            <node concept="2XvVpB" id="7vkd0002182" role="1tU5fm">
+              <ref role="3$lB4D" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+            </node>
+            <node concept="2XvMaL" id="7vkd0002183" role="33vP2m">
+              <ref role="2XvMaQ" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+              <node concept="2vefiz" id="7vkd0002184" role="h55Ek">
+                <ref role="2vefiw" to="hg40:c_HYpdFSt9" resolve="ITALIEN" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7vkd0002185" role="3cqZAp">
+          <node concept="3QLR3s" id="7vkd0002186" role="3cqZAk">
+            <node concept="3clFbS" id="7vkd0002187" role="Hy8HI">
+              <node concept="3QODVd" id="7vkd0002188" role="3cqZAp">
+                <node concept="1PaTwC" id="7vkd0002189" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002190" role="1PaTwD">
+                    <property role="3oM_SC" value="SELECT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002191" role="1PaTwD">
+                    <property role="3oM_SC" value="TO_CHAR(s.artikel_pos_id)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002192" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002193" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002194" role="1PaTwD">
+                    <property role="3oM_SC" value="pos_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002195" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002196" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002197" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002198" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002199" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002200" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002201" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002202" role="1PaTwD">
+                    <property role="3oM_SC" value="s.kondition_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002203" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002204" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002205" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002206" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002207" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002208" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002209" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002210" role="1PaTwD">
+                    <property role="3oM_SC" value="b.beleg_nr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002211" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002212" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002213" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002214" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002215" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002216" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002217" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002218" role="1PaTwD">
+                    <property role="3oM_SC" value="b.beleg_datum" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002219" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002220" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002221" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002222" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002223" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002224" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002225" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002226" role="1PaTwD">
+                    <property role="3oM_SC" value="NVL(s.artikel_nr," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002227" role="1PaTwD">
+                    <property role="3oM_SC" value="0)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002228" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002229" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002230" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002231" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002232" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002233" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002234" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002235" role="1PaTwD">
+                    <property role="3oM_SC" value="artikel_nr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002236" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002237" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002238" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002239" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002240" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002241" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002242" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002243" role="1PaTwD">
+                    <property role="3oM_SC" value="k.bezeichnung" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002244" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002245" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002246" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002247" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002248" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002249" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002250" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002251" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002252" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002253" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002254" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002255" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002256" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002257" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002258" role="1PaTwD">
+                    <property role="3oM_SC" value="kondition" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002259" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002260" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002261" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002262" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002263" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002264" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002265" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002266" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002267" role="1PaTwD">
+                    <property role="3oM_SC" value="s.typ" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002268" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002269" role="1PaTwD">
+                    <property role="3oM_SC" value="'BEWERTUNG'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002270" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002271" role="1PaTwD">
+                    <property role="3oM_SC" value="'Bewertung'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002272" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002273" role="1PaTwD">
+                    <property role="3oM_SC" value="'STORNO'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002274" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002275" role="1PaTwD">
+                    <property role="3oM_SC" value="'Storno'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002276" role="1PaTwD">
+                    <property role="3oM_SC" value="ELSE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002277" role="1PaTwD">
+                    <property role="3oM_SC" value="'Nachbewertung'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002278" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002279" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002280" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002281" role="1PaTwD">
+                    <property role="3oM_SC" value="typ" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002282" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002283" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002284" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002285" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002286" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002287" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002288" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002289" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002290" role="1PaTwD">
+                    <property role="3oM_SC" value="s.berechnungsart" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002291" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002292" role="1PaTwD">
+                    <property role="3oM_SC" value="'PROZENT'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002293" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002294" role="1PaTwD">
+                    <property role="3oM_SC" value="'Prozent'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002295" role="1PaTwD">
+                    <property role="3oM_SC" value="ELSE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002296" role="1PaTwD">
+                    <property role="3oM_SC" value="'Menge'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002297" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002298" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002299" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002300" role="1PaTwD">
+                    <property role="3oM_SC" value="berechnungsart" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002301" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002302" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002303" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002304" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002305" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002306" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002307" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002308" role="1PaTwD">
+                    <property role="3oM_SC" value="s.satz" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002309" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002310" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002311" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002312" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002313" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002314" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002315" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002316" role="1PaTwD">
+                    <property role="3oM_SC" value="s.bemessungsgrundlage" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002317" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002318" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002319" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002320" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002321" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002322" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002323" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002324" role="1PaTwD">
+                    <property role="3oM_SC" value="s.betrag_ungerundet" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002325" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002326" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002327" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002328" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002329" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002330" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002331" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002332" role="1PaTwD">
+                    <property role="3oM_SC" value="s.betrag" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002333" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002334" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002335" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002336" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002337" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002338" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002339" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002340" role="1PaTwD">
+                    <property role="3oM_SC" value="s.entstanden_um" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002341" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002342" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002343" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002344" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002345" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002346" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002347" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002348" role="1PaTwD">
+                    <property role="3oM_SC" value="s.periode_von" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002349" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002350" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002351" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002352" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002353" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002354" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002355" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002356" role="1PaTwD">
+                    <property role="3oM_SC" value="s.periode_bis" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002357" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002358" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002359" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002360" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002361" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002362" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002363" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002364" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002365" role="1PaTwD">
+                    <property role="3oM_SC" value="s.stand" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002366" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002367" role="1PaTwD">
+                    <property role="3oM_SC" value="'ABGERECHNET'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002368" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002369" role="1PaTwD">
+                    <property role="3oM_SC" value="'abgerechnet'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002370" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002371" role="1PaTwD">
+                    <property role="3oM_SC" value="'ABRECHENBAR'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002372" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002373" role="1PaTwD">
+                    <property role="3oM_SC" value="'offen," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002374" role="1PaTwD">
+                    <property role="3oM_SC" value="abrechenbar'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002375" role="1PaTwD">
+                    <property role="3oM_SC" value="ELSE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002376" role="1PaTwD">
+                    <property role="3oM_SC" value="'offen," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002377" role="1PaTwD">
+                    <property role="3oM_SC" value="nicht" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002378" role="1PaTwD">
+                    <property role="3oM_SC" value="verbucht'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002379" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002380" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002381" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002382" role="1PaTwD">
+                    <property role="3oM_SC" value="stand" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002383" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002384" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002385" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002386" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002387" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002388" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002389" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002390" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002391" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002392" role="1PaTwD">
+                    <property role="3oM_SC" value="s.storniert_id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002393" role="1PaTwD">
+                    <property role="3oM_SC" value="IS" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002394" role="1PaTwD">
+                    <property role="3oM_SC" value="NOT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002395" role="1PaTwD">
+                    <property role="3oM_SC" value="NULL" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002396" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002397" role="1PaTwD">
+                    <property role="3oM_SC" value="'storniert" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002398" role="1PaTwD">
+                    <property role="3oM_SC" value="Betrag" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002399" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002400" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002401" role="1PaTwD">
+                    <property role="3oM_SC" value="s.storniert_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002402" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002403" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002404" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002405" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002406" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002407" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002408" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002409" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002410" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002411" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002412" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002413" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002414" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002415" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002416" role="1PaTwD">
+                    <property role="3oM_SC" value="st.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002417" role="1PaTwD">
+                    <property role="3oM_SC" value="IS" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002418" role="1PaTwD">
+                    <property role="3oM_SC" value="NOT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002419" role="1PaTwD">
+                    <property role="3oM_SC" value="NULL" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002420" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002421" role="1PaTwD">
+                    <property role="3oM_SC" value="'storniert" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002422" role="1PaTwD">
+                    <property role="3oM_SC" value="durch" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002423" role="1PaTwD">
+                    <property role="3oM_SC" value="Betrag" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002424" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002425" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002426" role="1PaTwD">
+                    <property role="3oM_SC" value="st.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002427" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002428" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002429" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002430" role="1PaTwD">
+                    <property role="3oM_SC" value="storno" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002431" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002432" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002433" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002434" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002435" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002436" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002437" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002438" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002439" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002440" role="1PaTwD">
+                    <property role="3oM_SC" value="kf.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002441" role="1PaTwD">
+                    <property role="3oM_SC" value="IS" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002442" role="1PaTwD">
+                    <property role="3oM_SC" value="NOT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002443" role="1PaTwD">
+                    <property role="3oM_SC" value="NULL" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002444" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002445" role="1PaTwD">
+                    <property role="3oM_SC" value="'Korrektur" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002446" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002447" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002448" role="1PaTwD">
+                    <property role="3oM_SC" value="kf.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002449" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002450" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002451" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002452" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002453" role="1PaTwD">
+                    <property role="3oM_SC" value="LOWER(kf.status)" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002454" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002455" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002456" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002457" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002458" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002459" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002460" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002461" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002462" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002463" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002464" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002465" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002466" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002467" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002468" role="1PaTwD">
+                    <property role="3oM_SC" value="NVL2(kf.wb_beleg_id," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002469" role="1PaTwD">
+                    <property role="3oM_SC" value="'," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002470" role="1PaTwD">
+                    <property role="3oM_SC" value="Warenbuch" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002471" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002472" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002473" role="1PaTwD">
+                    <property role="3oM_SC" value="kf.wb_beleg_id," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002474" role="1PaTwD">
+                    <property role="3oM_SC" value="'')" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002475" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002476" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002477" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002478" role="1PaTwD">
+                    <property role="3oM_SC" value="korrektur" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002479" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002480" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002481" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002482" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002483" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002484" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002485" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002486" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002487" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002488" role="1PaTwD">
+                    <property role="3oM_SC" value="ff.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002489" role="1PaTwD">
+                    <property role="3oM_SC" value="IS" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002490" role="1PaTwD">
+                    <property role="3oM_SC" value="NOT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002491" role="1PaTwD">
+                    <property role="3oM_SC" value="NULL" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002492" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002493" role="1PaTwD">
+                    <property role="3oM_SC" value="'Forderung" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002494" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002495" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002496" role="1PaTwD">
+                    <property role="3oM_SC" value="ff.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002497" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002498" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002499" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002500" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002501" role="1PaTwD">
+                    <property role="3oM_SC" value="LOWER(ff.status)" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002502" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002503" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002504" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002505" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002506" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002507" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002508" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002509" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002510" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002511" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002512" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002513" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002514" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002515" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002516" role="1PaTwD">
+                    <property role="3oM_SC" value="NVL2(ff.wb_beleg_id," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002517" role="1PaTwD">
+                    <property role="3oM_SC" value="'," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002518" role="1PaTwD">
+                    <property role="3oM_SC" value="Warenbuch" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002519" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002520" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002521" role="1PaTwD">
+                    <property role="3oM_SC" value="ff.wb_beleg_id," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002522" role="1PaTwD">
+                    <property role="3oM_SC" value="'')" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002523" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002524" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002525" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002526" role="1PaTwD">
+                    <property role="3oM_SC" value="forderung" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002527" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002528" role="1PaTwD">
+                    <property role="3oM_SC" value="FROM" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002529" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002530" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002531" role="1PaTwD">
+                    <property role="3oM_SC" value="lk_konditionsbetrag_stand_v" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002532" role="1PaTwD">
+                    <property role="3oM_SC" value="s" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002533" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002534" role="1PaTwD">
+                    <property role="3oM_SC" value="JOIN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002535" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002536" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002537" role="1PaTwD">
+                    <property role="3oM_SC" value="kondition" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002538" role="1PaTwD">
+                    <property role="3oM_SC" value="k" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002539" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002540" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002541" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002542" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002543" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002544" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002545" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002546" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002547" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002548" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002549" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002550" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002551" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002552" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002553" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002554" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002555" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002556" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002557" role="1PaTwD">
+                    <property role="3oM_SC" value="ON" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002558" role="1PaTwD">
+                    <property role="3oM_SC" value="k.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002559" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002560" role="1PaTwD">
+                    <property role="3oM_SC" value="s.kondition_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002561" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002562" role="1PaTwD">
+                    <property role="3oM_SC" value="LEFT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002563" role="1PaTwD">
+                    <property role="3oM_SC" value="JOIN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002564" role="1PaTwD">
+                    <property role="3oM_SC" value="wb_beleg" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002565" role="1PaTwD">
+                    <property role="3oM_SC" value="b" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002566" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002567" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002568" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002569" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002570" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002571" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002572" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002573" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002574" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002575" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002576" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002577" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002578" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002579" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002580" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002581" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002582" role="1PaTwD">
+                    <property role="3oM_SC" value="ON" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002583" role="1PaTwD">
+                    <property role="3oM_SC" value="b.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002584" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002585" role="1PaTwD">
+                    <property role="3oM_SC" value="s.beleg_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002586" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002587" role="1PaTwD">
+                    <property role="3oM_SC" value="LEFT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002588" role="1PaTwD">
+                    <property role="3oM_SC" value="JOIN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002589" role="1PaTwD">
+                    <property role="3oM_SC" value="konditionsbetrag" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002590" role="1PaTwD">
+                    <property role="3oM_SC" value="st" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002591" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002592" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002593" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002594" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002595" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002596" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002597" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002598" role="1PaTwD">
+                    <property role="3oM_SC" value="ON" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002599" role="1PaTwD">
+                    <property role="3oM_SC" value="st.storniert_id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002600" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002601" role="1PaTwD">
+                    <property role="3oM_SC" value="s.id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002602" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002603" role="1PaTwD">
+                    <property role="3oM_SC" value="LEFT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002604" role="1PaTwD">
+                    <property role="3oM_SC" value="JOIN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002605" role="1PaTwD">
+                    <property role="3oM_SC" value="forderungsposition" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002606" role="1PaTwD">
+                    <property role="3oM_SC" value="kp" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002607" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002608" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002609" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002610" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002611" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002612" role="1PaTwD">
+                    <property role="3oM_SC" value="ON" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002613" role="1PaTwD">
+                    <property role="3oM_SC" value="kp.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002614" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002615" role="1PaTwD">
+                    <property role="3oM_SC" value="s.korrektur_pos_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002616" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002617" role="1PaTwD">
+                    <property role="3oM_SC" value="LEFT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002618" role="1PaTwD">
+                    <property role="3oM_SC" value="JOIN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002619" role="1PaTwD">
+                    <property role="3oM_SC" value="forderungsbeleg" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002620" role="1PaTwD">
+                    <property role="3oM_SC" value="kf" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002621" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002622" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002623" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002624" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002625" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002626" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002627" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002628" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002629" role="1PaTwD">
+                    <property role="3oM_SC" value="ON" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002630" role="1PaTwD">
+                    <property role="3oM_SC" value="kf.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002631" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002632" role="1PaTwD">
+                    <property role="3oM_SC" value="kp.forderungsbeleg_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002633" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002634" role="1PaTwD">
+                    <property role="3oM_SC" value="LEFT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002635" role="1PaTwD">
+                    <property role="3oM_SC" value="JOIN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002636" role="1PaTwD">
+                    <property role="3oM_SC" value="forderungsposition" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002637" role="1PaTwD">
+                    <property role="3oM_SC" value="fp" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002638" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002639" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002640" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002641" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002642" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002643" role="1PaTwD">
+                    <property role="3oM_SC" value="ON" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002644" role="1PaTwD">
+                    <property role="3oM_SC" value="fp.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002645" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002646" role="1PaTwD">
+                    <property role="3oM_SC" value="s.forderung_pos_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002647" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002648" role="1PaTwD">
+                    <property role="3oM_SC" value="LEFT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002649" role="1PaTwD">
+                    <property role="3oM_SC" value="JOIN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002650" role="1PaTwD">
+                    <property role="3oM_SC" value="forderungsbeleg" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002651" role="1PaTwD">
+                    <property role="3oM_SC" value="ff" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002652" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002653" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002654" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002655" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002656" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002657" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002658" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002659" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002660" role="1PaTwD">
+                    <property role="3oM_SC" value="ON" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002661" role="1PaTwD">
+                    <property role="3oM_SC" value="ff.id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002662" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002663" role="1PaTwD">
+                    <property role="3oM_SC" value="fp.forderungsbeleg_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002664" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002665" role="1PaTwD">
+                    <property role="3oM_SC" value="WHERE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002666" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002667" role="1PaTwD">
+                    <property role="3oM_SC" value="s.mandant_nr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002668" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0002669" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0002181" resolve="mandant" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002670" role="1PaTwD">
+                    <property role="3oM_SC" value="AND" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002671" role="1PaTwD">
+                    <property role="3oM_SC" value="s.beleg_id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002672" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002673" role="1PaTwD">
+                    <property role="3oM_SC" value="TO_NUMBER(" />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0002674" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0002148" resolve="belegId" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002675" role="1PaTwD">
+                    <property role="3oM_SC" value=")" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0002676" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0002677" role="1PaTwD">
+                    <property role="3oM_SC" value="ORDER" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002678" role="1PaTwD">
+                    <property role="3oM_SC" value="BY" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002679" role="1PaTwD">
+                    <property role="3oM_SC" value="s.artikel_pos_id," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002680" role="1PaTwD">
+                    <property role="3oM_SC" value="s.kondition_id," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002681" role="1PaTwD">
+                    <property role="3oM_SC" value="s.entstanden_um," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0002682" role="1PaTwD">
+                    <property role="3oM_SC" value="s.id" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1pXOCm" id="7vkd0002683" role="FUZJ1">
+              <ref role="1pXOCo" node="7abd0001113" resolve="KalkulationsBetragNK" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="DXQ2B" id="7abd0004254" role="jymVt">
       <property role="TrG5h" value="forderung" />
       <node concept="37vLTG" id="7abd0004255" role="3clF46">
@@ -22736,6 +24320,5717 @@
         <node concept="3cpWs6" id="7nbd0001578" role="3cqZAp">
           <node concept="37vLTw" id="7nbd0001579" role="3cqZAk">
             <ref role="3cqZAo" node="7nbd0001468" resolve="belege" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1YeyE5" id="7vkd0000001">
+    <property role="TrG5h" value="AbgleichZeile" />
+    <node concept="3Tm1VV" id="7vkd0000002" role="1B3o_S" />
+    <node concept="20vkWO" id="7vkd0000003" role="1qkbct">
+      <node concept="1PaTwC" id="7vkd0000004" role="13z7HO">
+        <node concept="3oM_SD" id="7vkd0000005" role="1PaTwD">
+          <property role="3oM_SC" value="Zeile" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000006" role="1PaTwD">
+          <property role="3oM_SC" value="des" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000007" role="1PaTwD">
+          <property role="3oM_SC" value="Abgleichs" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000008" role="1PaTwD">
+          <property role="3oM_SC" value="des" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000009" role="1PaTwD">
+          <property role="3oM_SC" value="Verrechnungskontos" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000010" role="1PaTwD">
+          <property role="3oM_SC" value="je" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000011" role="1PaTwD">
+          <property role="3oM_SC" value="Lieferant" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000012" role="1PaTwD">
+          <property role="3oM_SC" value="und" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000013" role="1PaTwD">
+          <property role="3oM_SC" value="Zyklus," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000014" role="1PaTwD">
+          <property role="3oM_SC" value="je" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000015" role="1PaTwD">
+          <property role="3oM_SC" value="Zyklus" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000016" role="1PaTwD">
+          <property role="3oM_SC" value="eine" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000017" role="1PaTwD">
+          <property role="3oM_SC" value="Zeile" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000018" role="1PaTwD">
+          <property role="3oM_SC" value="ohne" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000019" role="1PaTwD">
+          <property role="3oM_SC" value="Lieferant" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000020" role="1PaTwD">
+          <property role="3oM_SC" value="(A6)" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000021" role="1PaTwD">
+          <property role="3oM_SC" value="und" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000022" role="1PaTwD">
+          <property role="3oM_SC" value="eine" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000023" role="1PaTwD">
+          <property role="3oM_SC" value="Summenzeile" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000024" role="1PaTwD">
+          <property role="3oM_SC" value="(UC-010" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000025" role="1PaTwD">
+          <property role="3oM_SC" value="Schritte" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000026" role="1PaTwD">
+          <property role="3oM_SC" value="6," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000027" role="1PaTwD">
+          <property role="3oM_SC" value="7," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000028" role="1PaTwD">
+          <property role="3oM_SC" value="BR-005," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000029" role="1PaTwD">
+          <property role="3oM_SC" value="BR-006," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000030" role="1PaTwD">
+          <property role="3oM_SC" value="A3," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000031" role="1PaTwD">
+          <property role="3oM_SC" value="A7);" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000032" role="1PaTwD">
+          <property role="3oM_SC" value="per" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000033" role="1PaTwD">
+          <property role="3oM_SC" value="SQL" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000034" role="1PaTwD">
+          <property role="3oM_SC" value="aus" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000035" role="1PaTwD">
+          <property role="3oM_SC" value="PKG_LK_ABGLEICH.Abgleich" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000036" role="1PaTwD">
+          <property role="3oM_SC" value="befüllt." />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000037" role="1PaTwD">
+          <property role="3oM_SC" value="lieferantSchluessel:" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000038" role="1PaTwD">
+          <property role="3oM_SC" value="-1" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000039" role="1PaTwD">
+          <property role="3oM_SC" value="Summe," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000040" role="1PaTwD">
+          <property role="3oM_SC" value="0" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000041" role="1PaTwD">
+          <property role="3oM_SC" value="ohne" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000042" role="1PaTwD">
+          <property role="3oM_SC" value="Lieferant," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000043" role="1PaTwD">
+          <property role="3oM_SC" value="sonst" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000044" role="1PaTwD">
+          <property role="3oM_SC" value="Lieferant" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000045" role="1PaTwD">
+          <property role="3oM_SC" value="(für" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000046" role="1PaTwD">
+          <property role="3oM_SC" value="den" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000047" role="1PaTwD">
+          <property role="3oM_SC" value="Drill-down)." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7vkd0000048" role="jymVt">
+      <node concept="3cqZAl" id="7vkd0000049" role="3clF45" />
+      <node concept="3Tm1VV" id="7vkd0000050" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0000051" role="3clF47" />
+    </node>
+    <node concept="2XvgOf" id="7vkd0000052" role="kV5ob">
+      <property role="TrG5h" value="AbgleichZeilenart" />
+      <node concept="2XvgOc" id="7vkd0000053" role="2XvgO2">
+        <property role="TrG5h" value="Lieferant" />
+        <property role="2XvgOS" value="LIEFERANT" />
+        <node concept="Xl_RD" id="7vkd0000054" role="3RLGe5">
+          <property role="Xl_RC" value="Lieferant" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000055" role="3RLGhM">
+          <property role="Xl_RC" value="Lieferant" />
+        </node>
+        <node concept="2_5uyX" id="7vkd0000056" role="2_RhUc" />
+      </node>
+      <node concept="2XvgOc" id="7vkd0000057" role="2XvgO2">
+        <property role="TrG5h" value="OhneLieferant" />
+        <property role="2XvgOS" value="OHNE_LIEFERANT" />
+        <node concept="Xl_RD" id="7vkd0000058" role="3RLGe5">
+          <property role="Xl_RC" value="ohne Lieferant" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000059" role="3RLGhM">
+          <property role="Xl_RC" value="ohne Lieferant" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000060" role="2XvgO2">
+        <property role="TrG5h" value="Summe" />
+        <property role="2XvgOS" value="SUMME" />
+        <node concept="Xl_RD" id="7vkd0000061" role="3RLGe5">
+          <property role="Xl_RC" value="Summe" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000062" role="3RLGhM">
+          <property role="Xl_RC" value="Summe" />
+        </node>
+      </node>
+    </node>
+    <node concept="2XvgOf" id="7vkd0000063" role="kV5ob">
+      <property role="TrG5h" value="AbgleichSeiten" />
+      <node concept="2XvgOc" id="7vkd0000064" role="2XvgO2">
+        <property role="TrG5h" value="Beide" />
+        <property role="2XvgOS" value="BEIDE" />
+        <node concept="Xl_RD" id="7vkd0000065" role="3RLGe5">
+          <property role="Xl_RC" value="beide Seiten" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000066" role="3RLGhM">
+          <property role="Xl_RC" value="beide Seiten" />
+        </node>
+        <node concept="2_5uyX" id="7vkd0000067" role="2_RhUc" />
+      </node>
+      <node concept="2XvgOc" id="7vkd0000068" role="2XvgO2">
+        <property role="TrG5h" value="NurWarenbuch" />
+        <property role="2XvgOS" value="WABU" />
+        <node concept="Xl_RD" id="7vkd0000069" role="3RLGe5">
+          <property role="Xl_RC" value="nur Warenbuch" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000070" role="3RLGhM">
+          <property role="Xl_RC" value="nur Warenbuch" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000071" role="2XvgO2">
+        <property role="TrG5h" value="NurLibu" />
+        <property role="2XvgOS" value="LIBU" />
+        <node concept="Xl_RD" id="7vkd0000072" role="3RLGe5">
+          <property role="Xl_RC" value="nur LIBU" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000073" role="3RLGhM">
+          <property role="Xl_RC" value="nur LIBU" />
+        </node>
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000074" role="TxmiU">
+      <property role="2RkwnN" value="zeilenart" />
+      <node concept="3Tm1VV" id="7vkd0000075" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000076" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000077" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000078" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000079" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vkd0000080" role="2RkE6I">
+        <ref role="3$lB4D" node="7vkd0000052" resolve="AbgleichZeilenart" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000081" role="2CNmdP">
+        <property role="Xl_RC" value="Zeile" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000082" role="2CNmdL">
+        <property role="Xl_RC" value="Zeile" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000083" role="TxmiU">
+      <property role="2RkwnN" value="zyklus" />
+      <node concept="3Tm1VV" id="7vkd0000084" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000085" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000086" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000087" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000088" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vkd0000089" role="2RkE6I">
+        <ref role="3$lB4D" to="uyeg:1SEqE6yBNJW" resolve="Zyklus" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000090" role="2CNmdP">
+        <property role="Xl_RC" value="Zyklus" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000091" role="2CNmdL">
+        <property role="Xl_RC" value="Zyklus" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000092" role="TxmiU">
+      <property role="2RkwnN" value="zyklusCode" />
+      <node concept="3Tm1VV" id="7vkd0000093" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000094" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000095" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000096" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000097" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000098" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000099" role="2CNmdP">
+        <property role="Xl_RC" value="Zyklus (Wert)" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000100" role="2CNmdL">
+        <property role="Xl_RC" value="Zyklus (Wert)" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000101" role="TxmiU">
+      <property role="2RkwnN" value="lieferantSchluessel" />
+      <node concept="3Tm1VV" id="7vkd0000102" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000103" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000104" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000105" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000106" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000107" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000108" role="2CNmdP">
+        <property role="Xl_RC" value="Auswahl" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000109" role="2CNmdL">
+        <property role="Xl_RC" value="Auswahl" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000110" role="TxmiU">
+      <property role="2RkwnN" value="lieferantNr" />
+      <node concept="3Tm1VV" id="7vkd0000111" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000112" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000113" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000114" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000115" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000116" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000117" role="2CNmdP">
+        <property role="Xl_RC" value="Lieferant" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000118" role="2CNmdL">
+        <property role="Xl_RC" value="Lieferant" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000119" role="TxmiU">
+      <property role="2RkwnN" value="lieferantName" />
+      <node concept="3Tm1VV" id="7vkd0000120" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000121" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000122" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000123" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000124" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000125" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000126" role="2CNmdP">
+        <property role="Xl_RC" value="Name" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000127" role="2CNmdL">
+        <property role="Xl_RC" value="Name" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000128" role="TxmiU">
+      <property role="2RkwnN" value="stammdaten" />
+      <node concept="3Tm1VV" id="7vkd0000129" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000130" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000131" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000132" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000133" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vkd0000134" role="2RkE6I">
+        <ref role="3$lB4D" to="hg40:c_HYpdFRT3" resolve="JaNein" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000135" role="2CNmdP">
+        <property role="Xl_RC" value="Im Parteistamm" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000136" role="2CNmdL">
+        <property role="Xl_RC" value="Im Parteistamm" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000137" role="TxmiU">
+      <property role="2RkwnN" value="seiten" />
+      <node concept="3Tm1VV" id="7vkd0000138" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000139" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000140" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000141" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000142" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vkd0000143" role="2RkE6I">
+        <ref role="3$lB4D" node="7vkd0000063" resolve="AbgleichSeiten" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000144" role="2CNmdP">
+        <property role="Xl_RC" value="Saldo vorhanden" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000145" role="2CNmdL">
+        <property role="Xl_RC" value="Saldo vorhanden" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000146" role="TxmiU">
+      <property role="2RkwnN" value="saldoWabu" />
+      <node concept="3Tm1VV" id="7vkd0000147" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000148" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000149" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000150" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000151" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000152" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000153" role="2CNmdP">
+        <property role="Xl_RC" value="Saldo Warenbuch" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000154" role="2CNmdL">
+        <property role="Xl_RC" value="Saldo Warenbuch" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000155" role="TxmiU">
+      <property role="2RkwnN" value="saldoLibu" />
+      <node concept="3Tm1VV" id="7vkd0000156" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000157" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000158" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000159" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000160" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000161" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000162" role="2CNmdP">
+        <property role="Xl_RC" value="Saldo LIBU" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000163" role="2CNmdL">
+        <property role="Xl_RC" value="Saldo LIBU" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000164" role="TxmiU">
+      <property role="2RkwnN" value="saldoDifferenz" />
+      <node concept="3Tm1VV" id="7vkd0000165" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000166" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000167" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000168" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000169" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000170" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000171" role="2CNmdP">
+        <property role="Xl_RC" value="Differenz Saldo" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000172" role="2CNmdL">
+        <property role="Xl_RC" value="Differenz Saldo" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000173" role="TxmiU">
+      <property role="2RkwnN" value="bewegungWabu" />
+      <node concept="3Tm1VV" id="7vkd0000174" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000175" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000176" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000177" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000178" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000179" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000180" role="2CNmdP">
+        <property role="Xl_RC" value="Bewegung Warenbuch" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000181" role="2CNmdL">
+        <property role="Xl_RC" value="Bewegung Warenbuch" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000182" role="TxmiU">
+      <property role="2RkwnN" value="bewegungLibu" />
+      <node concept="3Tm1VV" id="7vkd0000183" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000184" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000185" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000186" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000187" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000188" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000189" role="2CNmdP">
+        <property role="Xl_RC" value="Bewegung LIBU" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000190" role="2CNmdL">
+        <property role="Xl_RC" value="Bewegung LIBU" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000191" role="TxmiU">
+      <property role="2RkwnN" value="bewegungDifferenz" />
+      <node concept="3Tm1VV" id="7vkd0000192" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000193" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000194" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000195" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000196" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000197" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000198" role="2CNmdP">
+        <property role="Xl_RC" value="Differenz Bewegung" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000199" role="2CNmdL">
+        <property role="Xl_RC" value="Differenz Bewegung" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000200" role="TxmiU">
+      <property role="2RkwnN" value="nichtKonsolidiert" />
+      <node concept="3Tm1VV" id="7vkd0000201" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000202" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000203" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000204" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000205" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000206" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000207" role="2CNmdP">
+        <property role="Xl_RC" value="Noch nicht konsolidiert" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000208" role="2CNmdL">
+        <property role="Xl_RC" value="Noch nicht konsolidiert" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000209" role="TxmiU">
+      <property role="2RkwnN" value="stimmt" />
+      <node concept="3Tm1VV" id="7vkd0000210" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000211" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000212" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000213" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000214" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vkd0000215" role="2RkE6I">
+        <ref role="3$lB4D" to="hg40:c_HYpdFRT3" resolve="JaNein" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000216" role="2CNmdP">
+        <property role="Xl_RC" value="Stimmt" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000217" role="2CNmdL">
+        <property role="Xl_RC" value="Stimmt" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000218" role="TxmiU">
+      <property role="2RkwnN" value="offeneUebergaben" />
+      <node concept="3Tm1VV" id="7vkd0000219" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000220" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000221" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000222" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000223" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000224" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000225" role="2CNmdP">
+        <property role="Xl_RC" value="Offene Übergaben" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000226" role="2CNmdL">
+        <property role="Xl_RC" value="Offene Übergaben" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000227" role="TxmiU">
+      <property role="2RkwnN" value="offeneUeberfaellig" />
+      <node concept="3Tm1VV" id="7vkd0000228" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000229" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000230" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000231" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000232" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000233" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000234" role="2CNmdP">
+        <property role="Xl_RC" value="Davon überfällig" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000235" role="2CNmdL">
+        <property role="Xl_RC" value="Davon überfällig" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000236" role="TxmiU">
+      <property role="2RkwnN" value="hinweis" />
+      <node concept="3Tm1VV" id="7vkd0000237" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000238" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000239" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000240" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000241" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000242" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000243" role="2CNmdP">
+        <property role="Xl_RC" value="Hinweis" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000244" role="2CNmdL">
+        <property role="Xl_RC" value="Hinweis" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000245" role="TxmiU">
+      <property role="2RkwnN" value="bilanzJahr" />
+      <node concept="3Tm1VV" id="7vkd0000246" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000247" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000248" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000249" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000250" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000251" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000252" role="2CNmdP">
+        <property role="Xl_RC" value="Bilanzjahr" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000253" role="2CNmdL">
+        <property role="Xl_RC" value="Bilanzjahr" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000254" role="TxmiU">
+      <property role="2RkwnN" value="bilanzMonat" />
+      <node concept="3Tm1VV" id="7vkd0000255" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000256" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000257" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000258" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000259" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000260" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000261" role="2CNmdP">
+        <property role="Xl_RC" value="Bilanzmonat" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000262" role="2CNmdL">
+        <property role="Xl_RC" value="Bilanzmonat" />
+      </node>
+    </node>
+  </node>
+  <node concept="1YeyE5" id="7vkd0000263">
+    <property role="TrG5h" value="AbgleichHerkunft" />
+    <node concept="3Tm1VV" id="7vkd0000264" role="1B3o_S" />
+    <node concept="20vkWO" id="7vkd0000265" role="1qkbct">
+      <node concept="1PaTwC" id="7vkd0000266" role="13z7HO">
+        <node concept="3oM_SD" id="7vkd0000267" role="1PaTwD">
+          <property role="3oM_SC" value="Bewegung" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000268" role="1PaTwD">
+          <property role="3oM_SC" value="im" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000269" role="1PaTwD">
+          <property role="3oM_SC" value="Bilanzmonat" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000270" role="1PaTwD">
+          <property role="3oM_SC" value="je" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000271" role="1PaTwD">
+          <property role="3oM_SC" value="Herkunft," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000272" role="1PaTwD">
+          <property role="3oM_SC" value="Warenbuch" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000273" role="1PaTwD">
+          <property role="3oM_SC" value="und" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000274" role="1PaTwD">
+          <property role="3oM_SC" value="LIBU" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000275" role="1PaTwD">
+          <property role="3oM_SC" value="nebeneinander" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000276" role="1PaTwD">
+          <property role="3oM_SC" value="(UC-010" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000277" role="1PaTwD">
+          <property role="3oM_SC" value="Schritt" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000278" role="1PaTwD">
+          <property role="3oM_SC" value="9," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000279" role="1PaTwD">
+          <property role="3oM_SC" value="BR-009);" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000280" role="1PaTwD">
+          <property role="3oM_SC" value="per" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000281" role="1PaTwD">
+          <property role="3oM_SC" value="SQL" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000282" role="1PaTwD">
+          <property role="3oM_SC" value="aus" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000283" role="1PaTwD">
+          <property role="3oM_SC" value="PKG_LK_ABGLEICH.Herkuenfte" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000284" role="1PaTwD">
+          <property role="3oM_SC" value="befüllt." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7vkd0000285" role="jymVt">
+      <node concept="3cqZAl" id="7vkd0000286" role="3clF45" />
+      <node concept="3Tm1VV" id="7vkd0000287" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0000288" role="3clF47" />
+    </node>
+    <node concept="2XvgOf" id="7vkd0000289" role="kV5ob">
+      <property role="TrG5h" value="Herkunft" />
+      <node concept="2XvgOc" id="7vkd0000290" role="2XvgO2">
+        <property role="TrG5h" value="Wareneingang" />
+        <property role="2XvgOS" value="WARENEINGANG" />
+        <node concept="Xl_RD" id="7vkd0000291" role="3RLGe5">
+          <property role="Xl_RC" value="Wareneingänge" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000292" role="3RLGhM">
+          <property role="Xl_RC" value="Wareneingänge" />
+        </node>
+        <node concept="2_5uyX" id="7vkd0000293" role="2_RhUc" />
+      </node>
+      <node concept="2XvgOc" id="7vkd0000294" role="2XvgO2">
+        <property role="TrG5h" value="Korrektur" />
+        <property role="2XvgOS" value="KORREKTUR" />
+        <node concept="Xl_RD" id="7vkd0000295" role="3RLGe5">
+          <property role="Xl_RC" value="Forderungskorrekturen" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000296" role="3RLGhM">
+          <property role="Xl_RC" value="Forderungskorrekturen" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000297" role="2XvgO2">
+        <property role="TrG5h" value="Forderung" />
+        <property role="2XvgOS" value="FORDERUNG" />
+        <node concept="Xl_RD" id="7vkd0000298" role="3RLGe5">
+          <property role="Xl_RC" value="Forderungen" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000299" role="3RLGhM">
+          <property role="Xl_RC" value="Forderungen" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000300" role="2XvgO2">
+        <property role="TrG5h" value="Vortrag" />
+        <property role="2XvgOS" value="VORTRAG" />
+        <node concept="Xl_RD" id="7vkd0000301" role="3RLGe5">
+          <property role="Xl_RC" value="Vortrag" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000302" role="3RLGhM">
+          <property role="Xl_RC" value="Vortrag" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000303" role="2XvgO2">
+        <property role="TrG5h" value="Sonstige" />
+        <property role="2XvgOS" value="SONSTIGE" />
+        <node concept="Xl_RD" id="7vkd0000304" role="3RLGe5">
+          <property role="Xl_RC" value="sonstige Buchungen" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000305" role="3RLGhM">
+          <property role="Xl_RC" value="sonstige Buchungen" />
+        </node>
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000306" role="TxmiU">
+      <property role="2RkwnN" value="herkunft" />
+      <node concept="3Tm1VV" id="7vkd0000307" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000308" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000309" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000310" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000311" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vkd0000312" role="2RkE6I">
+        <ref role="3$lB4D" node="7vkd0000289" resolve="Herkunft" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000313" role="2CNmdP">
+        <property role="Xl_RC" value="Herkunft" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000314" role="2CNmdL">
+        <property role="Xl_RC" value="Herkunft" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000315" role="TxmiU">
+      <property role="2RkwnN" value="herkunftCode" />
+      <node concept="3Tm1VV" id="7vkd0000316" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000317" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000318" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000319" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000320" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000321" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000322" role="2CNmdP">
+        <property role="Xl_RC" value="Herkunft (Wert)" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000323" role="2CNmdL">
+        <property role="Xl_RC" value="Herkunft (Wert)" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000324" role="TxmiU">
+      <property role="2RkwnN" value="betragWabu" />
+      <node concept="3Tm1VV" id="7vkd0000325" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000326" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000327" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000328" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000329" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000330" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000331" role="2CNmdP">
+        <property role="Xl_RC" value="Warenbuch" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000332" role="2CNmdL">
+        <property role="Xl_RC" value="Warenbuch" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000333" role="TxmiU">
+      <property role="2RkwnN" value="betragLibu" />
+      <node concept="3Tm1VV" id="7vkd0000334" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000335" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000336" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000337" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000338" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000339" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000340" role="2CNmdP">
+        <property role="Xl_RC" value="LIBU" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000341" role="2CNmdL">
+        <property role="Xl_RC" value="LIBU" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000342" role="TxmiU">
+      <property role="2RkwnN" value="differenz" />
+      <node concept="3Tm1VV" id="7vkd0000343" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000344" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000345" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000346" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000347" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000348" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000349" role="2CNmdP">
+        <property role="Xl_RC" value="Differenz" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000350" role="2CNmdL">
+        <property role="Xl_RC" value="Differenz" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000351" role="TxmiU">
+      <property role="2RkwnN" value="nichtKonsolidiert" />
+      <node concept="3Tm1VV" id="7vkd0000352" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000353" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000354" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000355" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000356" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000357" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000358" role="2CNmdP">
+        <property role="Xl_RC" value="Noch nicht konsolidiert" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000359" role="2CNmdL">
+        <property role="Xl_RC" value="Noch nicht konsolidiert" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000360" role="TxmiU">
+      <property role="2RkwnN" value="bilanzJahr" />
+      <node concept="3Tm1VV" id="7vkd0000361" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000362" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000363" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000364" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000365" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000366" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000367" role="2CNmdP">
+        <property role="Xl_RC" value="Bilanzjahr" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000368" role="2CNmdL">
+        <property role="Xl_RC" value="Bilanzjahr" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000369" role="TxmiU">
+      <property role="2RkwnN" value="bilanzMonat" />
+      <node concept="3Tm1VV" id="7vkd0000370" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000371" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000372" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000373" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000374" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000375" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000376" role="2CNmdP">
+        <property role="Xl_RC" value="Bilanzmonat" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000377" role="2CNmdL">
+        <property role="Xl_RC" value="Bilanzmonat" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000378" role="TxmiU">
+      <property role="2RkwnN" value="zyklusCode" />
+      <node concept="3Tm1VV" id="7vkd0000379" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000380" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000381" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000382" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000383" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000384" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000385" role="2CNmdP">
+        <property role="Xl_RC" value="Zyklus" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000386" role="2CNmdL">
+        <property role="Xl_RC" value="Zyklus" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000387" role="TxmiU">
+      <property role="2RkwnN" value="lieferantNr" />
+      <node concept="3Tm1VV" id="7vkd0000388" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000389" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000390" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000391" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000392" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000393" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000394" role="2CNmdP">
+        <property role="Xl_RC" value="Lieferant" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000395" role="2CNmdL">
+        <property role="Xl_RC" value="Lieferant" />
+      </node>
+    </node>
+  </node>
+  <node concept="1YeyE5" id="7vkd0000396">
+    <property role="TrG5h" value="AbgleichBeleg" />
+    <node concept="3Tm1VV" id="7vkd0000397" role="1B3o_S" />
+    <node concept="20vkWO" id="7vkd0000398" role="1qkbct">
+      <node concept="1PaTwC" id="7vkd0000399" role="13z7HO">
+        <node concept="3oM_SD" id="7vkd0000400" role="1PaTwD">
+          <property role="3oM_SC" value="Beleg" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000401" role="1PaTwD">
+          <property role="3oM_SC" value="einer" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000402" role="1PaTwD">
+          <property role="3oM_SC" value="Herkunft" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000403" role="1PaTwD">
+          <property role="3oM_SC" value="mit" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000404" role="1PaTwD">
+          <property role="3oM_SC" value="Abweichung" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000405" role="1PaTwD">
+          <property role="3oM_SC" value="und" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000406" role="1PaTwD">
+          <property role="3oM_SC" value="Ursache" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000407" role="1PaTwD">
+          <property role="3oM_SC" value="(UC-010" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000408" role="1PaTwD">
+          <property role="3oM_SC" value="Schritt" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000409" role="1PaTwD">
+          <property role="3oM_SC" value="11," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000410" role="1PaTwD">
+          <property role="3oM_SC" value="BR-010);" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000411" role="1PaTwD">
+          <property role="3oM_SC" value="per" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000412" role="1PaTwD">
+          <property role="3oM_SC" value="SQL" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000413" role="1PaTwD">
+          <property role="3oM_SC" value="aus" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000414" role="1PaTwD">
+          <property role="3oM_SC" value="PKG_LK_ABGLEICH.Belege" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000415" role="1PaTwD">
+          <property role="3oM_SC" value="befüllt." />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000416" role="1PaTwD">
+          <property role="3oM_SC" value="wareneingangId" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000417" role="1PaTwD">
+          <property role="3oM_SC" value="nur" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000418" role="1PaTwD">
+          <property role="3oM_SC" value="bei" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000419" role="1PaTwD">
+          <property role="3oM_SC" value="Wareneingängen," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000420" role="1PaTwD">
+          <property role="3oM_SC" value="forderungNr" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000421" role="1PaTwD">
+          <property role="3oM_SC" value="nur" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000422" role="1PaTwD">
+          <property role="3oM_SC" value="bei" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000423" role="1PaTwD">
+          <property role="3oM_SC" value="Forderungsbelegen" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000424" role="1PaTwD">
+          <property role="3oM_SC" value="(Schritt" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000425" role="1PaTwD">
+          <property role="3oM_SC" value="12)." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7vkd0000426" role="jymVt">
+      <node concept="3cqZAl" id="7vkd0000427" role="3clF45" />
+      <node concept="3Tm1VV" id="7vkd0000428" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0000429" role="3clF47" />
+    </node>
+    <node concept="2XvgOf" id="7vkd0000430" role="kV5ob">
+      <property role="TrG5h" value="Ursache" />
+      <node concept="2XvgOc" id="7vkd0000431" role="2XvgO2">
+        <property role="TrG5h" value="UebergabeFehlt" />
+        <property role="2XvgOS" value="UEBERGABE_FEHLT" />
+        <node concept="Xl_RD" id="7vkd0000432" role="3RLGe5">
+          <property role="Xl_RC" value="Übergabe fehlt" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000433" role="3RLGhM">
+          <property role="Xl_RC" value="Übergabe fehlt" />
+        </node>
+        <node concept="2_5uyX" id="7vkd0000434" role="2_RhUc" />
+      </node>
+      <node concept="2XvgOc" id="7vkd0000435" role="2XvgO2">
+        <property role="TrG5h" value="UebergabeDoppelt" />
+        <property role="2XvgOS" value="UEBERGABE_DOPPELT" />
+        <node concept="Xl_RD" id="7vkd0000436" role="3RLGe5">
+          <property role="Xl_RC" value="Übergabe doppelt oder fremd" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000437" role="3RLGhM">
+          <property role="Xl_RC" value="Übergabe doppelt oder fremd" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000438" role="2XvgO2">
+        <property role="TrG5h" value="BetragAbweichend" />
+        <property role="2XvgOS" value="BETRAG_ABWEICHEND" />
+        <node concept="Xl_RD" id="7vkd0000439" role="3RLGe5">
+          <property role="Xl_RC" value="Betrag abweichend" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000440" role="3RLGhM">
+          <property role="Xl_RC" value="Betrag abweichend" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000441" role="2XvgO2">
+        <property role="TrG5h" value="NichtImportiert" />
+        <property role="2XvgOS" value="NICHT_IMPORTIERT" />
+        <node concept="Xl_RD" id="7vkd0000442" role="3RLGe5">
+          <property role="Xl_RC" value="Beleg nicht importiert" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000443" role="3RLGhM">
+          <property role="Xl_RC" value="Beleg nicht importiert" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000444" role="2XvgO2">
+        <property role="TrG5h" value="RueckmeldungFehlt" />
+        <property role="2XvgOS" value="RUECKMELDUNG_FEHLT" />
+        <node concept="Xl_RD" id="7vkd0000445" role="3RLGe5">
+          <property role="Xl_RC" value="Rückmeldung fehlt" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000446" role="3RLGhM">
+          <property role="Xl_RC" value="Rückmeldung fehlt" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000447" role="2XvgO2">
+        <property role="TrG5h" value="DoppeltImportiert" />
+        <property role="2XvgOS" value="DOPPELT_IMPORTIERT" />
+        <node concept="Xl_RD" id="7vkd0000448" role="3RLGe5">
+          <property role="Xl_RC" value="Beleg doppelt importiert" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000449" role="3RLGhM">
+          <property role="Xl_RC" value="Beleg doppelt importiert" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000450" role="2XvgO2">
+        <property role="TrG5h" value="FremdeBuchung" />
+        <property role="2XvgOS" value="FREMDE_BUCHUNG" />
+        <node concept="Xl_RD" id="7vkd0000451" role="3RLGe5">
+          <property role="Xl_RC" value="fremde Buchung" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000452" role="3RLGhM">
+          <property role="Xl_RC" value="fremde Buchung" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000453" role="2XvgO2">
+        <property role="TrG5h" value="NichtKonsolidiert" />
+        <property role="2XvgOS" value="NICHT_KONSOLIDIERT" />
+        <node concept="Xl_RD" id="7vkd0000454" role="3RLGe5">
+          <property role="Xl_RC" value="noch nicht konsolidiert" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000455" role="3RLGhM">
+          <property role="Xl_RC" value="noch nicht konsolidiert" />
+        </node>
+      </node>
+      <node concept="2XvgOc" id="7vkd0000456" role="2XvgO2">
+        <property role="TrG5h" value="NichtErklaert" />
+        <property role="2XvgOS" value="NICHT_ERKLAERT" />
+        <node concept="Xl_RD" id="7vkd0000457" role="3RLGe5">
+          <property role="Xl_RC" value="nicht erklärt" />
+        </node>
+        <node concept="Xl_RD" id="7vkd0000458" role="3RLGhM">
+          <property role="Xl_RC" value="nicht erklärt" />
+        </node>
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000459" role="TxmiU">
+      <property role="2RkwnN" value="herkunft" />
+      <node concept="3Tm1VV" id="7vkd0000460" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000461" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000462" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000463" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000464" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vkd0000465" role="2RkE6I">
+        <ref role="3$lB4D" node="7vkd0000289" resolve="Herkunft" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000466" role="2CNmdP">
+        <property role="Xl_RC" value="Herkunft" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000467" role="2CNmdL">
+        <property role="Xl_RC" value="Herkunft" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000468" role="TxmiU">
+      <property role="2RkwnN" value="ursache" />
+      <node concept="3Tm1VV" id="7vkd0000469" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000470" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000471" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000472" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000473" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vkd0000474" role="2RkE6I">
+        <ref role="3$lB4D" node="7vkd0000430" resolve="Ursache" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000475" role="2CNmdP">
+        <property role="Xl_RC" value="Ursache" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000476" role="2CNmdL">
+        <property role="Xl_RC" value="Ursache" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000477" role="TxmiU">
+      <property role="2RkwnN" value="belegId" />
+      <node concept="3Tm1VV" id="7vkd0000478" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000479" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000480" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000481" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000482" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000483" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000484" role="2CNmdP">
+        <property role="Xl_RC" value="Beleg-ID" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000485" role="2CNmdL">
+        <property role="Xl_RC" value="Beleg-ID" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000486" role="TxmiU">
+      <property role="2RkwnN" value="wareneingangId" />
+      <node concept="3Tm1VV" id="7vkd0000487" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000488" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000489" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000490" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000491" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000492" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000493" role="2CNmdP">
+        <property role="Xl_RC" value="Wareneingang-ID" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000494" role="2CNmdL">
+        <property role="Xl_RC" value="Wareneingang-ID" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000495" role="TxmiU">
+      <property role="2RkwnN" value="forderungNr" />
+      <node concept="3Tm1VV" id="7vkd0000496" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000497" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000498" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000499" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000500" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000501" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000502" role="2CNmdP">
+        <property role="Xl_RC" value="Forderungsbeleg" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000503" role="2CNmdL">
+        <property role="Xl_RC" value="Forderungsbeleg" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000504" role="TxmiU">
+      <property role="2RkwnN" value="wbBelegId" />
+      <node concept="3Tm1VV" id="7vkd0000505" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000506" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000507" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000508" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000509" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000510" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000511" role="2CNmdP">
+        <property role="Xl_RC" value="Beleg im Warenbuch" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000512" role="2CNmdL">
+        <property role="Xl_RC" value="Beleg im Warenbuch" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000513" role="TxmiU">
+      <property role="2RkwnN" value="belegNr" />
+      <node concept="3Tm1VV" id="7vkd0000514" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000515" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000516" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000517" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000518" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000519" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000520" role="2CNmdP">
+        <property role="Xl_RC" value="Beleg" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000521" role="2CNmdL">
+        <property role="Xl_RC" value="Beleg" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000522" role="TxmiU">
+      <property role="2RkwnN" value="belegDatum" />
+      <node concept="3Tm1VV" id="7vkd0000523" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000524" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000525" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000526" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000527" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000528" role="2RkE6I">
+        <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000529" role="2CNmdP">
+        <property role="Xl_RC" value="Belegdatum" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000530" role="2CNmdL">
+        <property role="Xl_RC" value="Belegdatum" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000531" role="TxmiU">
+      <property role="2RkwnN" value="vorgangArt" />
+      <node concept="3Tm1VV" id="7vkd0000532" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000533" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000534" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000535" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000536" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000537" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000538" role="2CNmdP">
+        <property role="Xl_RC" value="Vorgangsart" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000539" role="2CNmdL">
+        <property role="Xl_RC" value="Vorgangsart" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000540" role="TxmiU">
+      <property role="2RkwnN" value="betragWabu" />
+      <node concept="3Tm1VV" id="7vkd0000541" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000542" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000543" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000544" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000545" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000546" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000547" role="2CNmdP">
+        <property role="Xl_RC" value="Warenbuch" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000548" role="2CNmdL">
+        <property role="Xl_RC" value="Warenbuch" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000549" role="TxmiU">
+      <property role="2RkwnN" value="betragLibu" />
+      <node concept="3Tm1VV" id="7vkd0000550" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000551" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000552" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000553" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000554" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000555" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000556" role="2CNmdP">
+        <property role="Xl_RC" value="LIBU" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000557" role="2CNmdL">
+        <property role="Xl_RC" value="LIBU" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000558" role="TxmiU">
+      <property role="2RkwnN" value="differenz" />
+      <node concept="3Tm1VV" id="7vkd0000559" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000560" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000561" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000562" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000563" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000564" role="2RkE6I">
+        <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000565" role="2CNmdP">
+        <property role="Xl_RC" value="Differenz" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000566" role="2CNmdL">
+        <property role="Xl_RC" value="Differenz" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000567" role="TxmiU">
+      <property role="2RkwnN" value="hinweis" />
+      <node concept="3Tm1VV" id="7vkd0000568" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000569" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000570" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000571" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000572" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0000573" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000574" role="2CNmdP">
+        <property role="Xl_RC" value="Hinweis" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000575" role="2CNmdL">
+        <property role="Xl_RC" value="Hinweis" />
+      </node>
+    </node>
+  </node>
+  <node concept="1YeyE5" id="7vkd0000576">
+    <property role="TrG5h" value="VerrechnungskontoStand" />
+    <node concept="3Tm1VV" id="7vkd0000577" role="1B3o_S" />
+    <node concept="20vkWO" id="7vkd0000578" role="1qkbct">
+      <node concept="1PaTwC" id="7vkd0000579" role="13z7HO">
+        <node concept="3oM_SD" id="7vkd0000580" role="1PaTwD">
+          <property role="3oM_SC" value="Stand" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000581" role="1PaTwD">
+          <property role="3oM_SC" value="der" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000582" role="1PaTwD">
+          <property role="3oM_SC" value="Konsolidierung" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000583" role="1PaTwD">
+          <property role="3oM_SC" value="eines" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000584" role="1PaTwD">
+          <property role="3oM_SC" value="Bilanzmonats" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000585" role="1PaTwD">
+          <property role="3oM_SC" value="im" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000586" role="1PaTwD">
+          <property role="3oM_SC" value="Warenbuch" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000587" role="1PaTwD">
+          <property role="3oM_SC" value="(UC-010" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000588" role="1PaTwD">
+          <property role="3oM_SC" value="Schritt" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000589" role="1PaTwD">
+          <property role="3oM_SC" value="2," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000590" role="1PaTwD">
+          <property role="3oM_SC" value="BR-007," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000591" role="1PaTwD">
+          <property role="3oM_SC" value="A4," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000592" role="1PaTwD">
+          <property role="3oM_SC" value="A5)," />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000593" role="1PaTwD">
+          <property role="3oM_SC" value="per" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000594" role="1PaTwD">
+          <property role="3oM_SC" value="SQL" />
+        </node>
+        <node concept="3oM_SD" id="7vkd0000595" role="1PaTwD">
+          <property role="3oM_SC" value="befüllt." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7vkd0000596" role="jymVt">
+      <node concept="3cqZAl" id="7vkd0000597" role="3clF45" />
+      <node concept="3Tm1VV" id="7vkd0000598" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0000599" role="3clF47" />
+    </node>
+    <node concept="1bOX9e" id="7vkd0000600" role="TxmiU">
+      <property role="2RkwnN" value="bilanzJahr" />
+      <node concept="3Tm1VV" id="7vkd0000601" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000602" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000603" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000604" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000605" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000606" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000607" role="2CNmdP">
+        <property role="Xl_RC" value="Bilanzjahr" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000608" role="2CNmdL">
+        <property role="Xl_RC" value="Bilanzjahr" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000609" role="TxmiU">
+      <property role="2RkwnN" value="bilanzMonat" />
+      <node concept="3Tm1VV" id="7vkd0000610" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000611" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000612" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000613" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000614" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="7vkd0000615" role="2RkE6I" />
+      <node concept="Xl_RD" id="7vkd0000616" role="2CNmdP">
+        <property role="Xl_RC" value="Bilanzmonat" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000617" role="2CNmdL">
+        <property role="Xl_RC" value="Bilanzmonat" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000618" role="TxmiU">
+      <property role="2RkwnN" value="konsolidiertUm" />
+      <node concept="3Tm1VV" id="7vkd0000619" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000620" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000621" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000622" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000623" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7vkd0000624" role="2RkE6I">
+        <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000625" role="2CNmdP">
+        <property role="Xl_RC" value="Konsolidiert um" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000626" role="2CNmdL">
+        <property role="Xl_RC" value="Konsolidiert um" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="7vkd0000627" role="TxmiU">
+      <property role="2RkwnN" value="abgeschlossen" />
+      <node concept="3Tm1VV" id="7vkd0000628" role="1B3o_S" />
+      <node concept="2RoN1w" id="7vkd0000629" role="2RnVtd">
+        <node concept="3wEZqW" id="7vkd0000630" role="3wFrgM" />
+        <node concept="3xqBd$" id="7vkd0000631" role="3xrYvX">
+          <node concept="3Tm1VV" id="7vkd0000632" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="7vkd0000633" role="2RkE6I">
+        <ref role="3$lB4D" to="hg40:c_HYpdFRT3" resolve="JaNein" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000634" role="2CNmdP">
+        <property role="Xl_RC" value="Abgeschlossen" />
+      </node>
+      <node concept="Xl_RD" id="7vkd0000635" role="2CNmdL">
+        <property role="Xl_RC" value="Abgeschlossen" />
+      </node>
+    </node>
+  </node>
+  <node concept="DXQ2w" id="7vkd0000636">
+    <property role="TrG5h" value="VerrechnungskontoQ" />
+    <node concept="3Tm1VV" id="7vkd0000637" role="1B3o_S" />
+    <node concept="1o6$dd" id="7vkd0000638" role="jymVt">
+      <property role="TrG5h" value="AbgleichZeileNK" />
+      <ref role="1o6$9c" node="7vkd0000001" resolve="AbgleichZeile" />
+      <node concept="12nEzJ" id="7vkd0000639" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000074" resolve="zeilenart" />
+        <node concept="Xl_RD" id="7vkd0000640" role="12k7lF">
+          <property role="Xl_RC" value="ZEILENART" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000641" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000083" resolve="zyklus" />
+        <node concept="Xl_RD" id="7vkd0000642" role="12k7lF">
+          <property role="Xl_RC" value="ZYKLUS" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000643" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000092" resolve="zyklusCode" />
+        <node concept="Xl_RD" id="7vkd0000644" role="12k7lF">
+          <property role="Xl_RC" value="ZYKLUS_CODE" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000645" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000101" resolve="lieferantSchluessel" />
+        <node concept="Xl_RD" id="7vkd0000646" role="12k7lF">
+          <property role="Xl_RC" value="LIEFERANT_SCHLUESSEL" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000647" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000110" resolve="lieferantNr" />
+        <node concept="Xl_RD" id="7vkd0000648" role="12k7lF">
+          <property role="Xl_RC" value="LIEFERANT_NR" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000649" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000119" resolve="lieferantName" />
+        <node concept="Xl_RD" id="7vkd0000650" role="12k7lF">
+          <property role="Xl_RC" value="LIEFERANT_NAME" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000651" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000128" resolve="stammdaten" />
+        <node concept="Xl_RD" id="7vkd0000652" role="12k7lF">
+          <property role="Xl_RC" value="STAMMDATEN" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000653" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000137" resolve="seiten" />
+        <node concept="Xl_RD" id="7vkd0000654" role="12k7lF">
+          <property role="Xl_RC" value="SEITEN" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000655" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000146" resolve="saldoWabu" />
+        <node concept="Xl_RD" id="7vkd0000656" role="12k7lF">
+          <property role="Xl_RC" value="SALDO_WABU" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000657" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000155" resolve="saldoLibu" />
+        <node concept="Xl_RD" id="7vkd0000658" role="12k7lF">
+          <property role="Xl_RC" value="SALDO_LIBU" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000659" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000164" resolve="saldoDifferenz" />
+        <node concept="Xl_RD" id="7vkd0000660" role="12k7lF">
+          <property role="Xl_RC" value="SALDO_DIFFERENZ" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000661" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000173" resolve="bewegungWabu" />
+        <node concept="Xl_RD" id="7vkd0000662" role="12k7lF">
+          <property role="Xl_RC" value="BEWEGUNG_WABU" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000663" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000182" resolve="bewegungLibu" />
+        <node concept="Xl_RD" id="7vkd0000664" role="12k7lF">
+          <property role="Xl_RC" value="BEWEGUNG_LIBU" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000665" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000191" resolve="bewegungDifferenz" />
+        <node concept="Xl_RD" id="7vkd0000666" role="12k7lF">
+          <property role="Xl_RC" value="BEWEGUNG_DIFFERENZ" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000667" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000200" resolve="nichtKonsolidiert" />
+        <node concept="Xl_RD" id="7vkd0000668" role="12k7lF">
+          <property role="Xl_RC" value="NICHT_KONSOLIDIERT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000669" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000209" resolve="stimmt" />
+        <node concept="Xl_RD" id="7vkd0000670" role="12k7lF">
+          <property role="Xl_RC" value="STIMMT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000671" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000218" resolve="offeneUebergaben" />
+        <node concept="Xl_RD" id="7vkd0000672" role="12k7lF">
+          <property role="Xl_RC" value="OFFENE_UEBERGABEN" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000673" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000227" resolve="offeneUeberfaellig" />
+        <node concept="Xl_RD" id="7vkd0000674" role="12k7lF">
+          <property role="Xl_RC" value="OFFENE_UEBERFAELLIG" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000675" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000236" resolve="hinweis" />
+        <node concept="Xl_RD" id="7vkd0000676" role="12k7lF">
+          <property role="Xl_RC" value="HINWEIS" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000677" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000245" resolve="bilanzJahr" />
+        <node concept="Xl_RD" id="7vkd0000678" role="12k7lF">
+          <property role="Xl_RC" value="BILANZ_JAHR" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000679" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000254" resolve="bilanzMonat" />
+        <node concept="Xl_RD" id="7vkd0000680" role="12k7lF">
+          <property role="Xl_RC" value="BILANZ_MONAT" />
+        </node>
+      </node>
+    </node>
+    <node concept="1o6$dd" id="7vkd0000681" role="jymVt">
+      <property role="TrG5h" value="AbgleichHerkunftNK" />
+      <ref role="1o6$9c" node="7vkd0000263" resolve="AbgleichHerkunft" />
+      <node concept="12nEzJ" id="7vkd0000682" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000306" resolve="herkunft" />
+        <node concept="Xl_RD" id="7vkd0000683" role="12k7lF">
+          <property role="Xl_RC" value="HERKUNFT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000684" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000315" resolve="herkunftCode" />
+        <node concept="Xl_RD" id="7vkd0000685" role="12k7lF">
+          <property role="Xl_RC" value="HERKUNFT_CODE" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000686" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000324" resolve="betragWabu" />
+        <node concept="Xl_RD" id="7vkd0000687" role="12k7lF">
+          <property role="Xl_RC" value="BETRAG_WABU" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000688" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000333" resolve="betragLibu" />
+        <node concept="Xl_RD" id="7vkd0000689" role="12k7lF">
+          <property role="Xl_RC" value="BETRAG_LIBU" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000690" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000342" resolve="differenz" />
+        <node concept="Xl_RD" id="7vkd0000691" role="12k7lF">
+          <property role="Xl_RC" value="DIFFERENZ" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000692" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000351" resolve="nichtKonsolidiert" />
+        <node concept="Xl_RD" id="7vkd0000693" role="12k7lF">
+          <property role="Xl_RC" value="NICHT_KONSOLIDIERT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000694" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000360" resolve="bilanzJahr" />
+        <node concept="Xl_RD" id="7vkd0000695" role="12k7lF">
+          <property role="Xl_RC" value="BILANZ_JAHR" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000696" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000369" resolve="bilanzMonat" />
+        <node concept="Xl_RD" id="7vkd0000697" role="12k7lF">
+          <property role="Xl_RC" value="BILANZ_MONAT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000698" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000378" resolve="zyklusCode" />
+        <node concept="Xl_RD" id="7vkd0000699" role="12k7lF">
+          <property role="Xl_RC" value="ZYKLUS_CODE" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000700" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000387" resolve="lieferantNr" />
+        <node concept="Xl_RD" id="7vkd0000701" role="12k7lF">
+          <property role="Xl_RC" value="LIEFERANT_NR" />
+        </node>
+      </node>
+    </node>
+    <node concept="1o6$dd" id="7vkd0000702" role="jymVt">
+      <property role="TrG5h" value="AbgleichBelegNK" />
+      <ref role="1o6$9c" node="7vkd0000396" resolve="AbgleichBeleg" />
+      <node concept="12nEzJ" id="7vkd0000703" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000459" resolve="herkunft" />
+        <node concept="Xl_RD" id="7vkd0000704" role="12k7lF">
+          <property role="Xl_RC" value="HERKUNFT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000705" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000468" resolve="ursache" />
+        <node concept="Xl_RD" id="7vkd0000706" role="12k7lF">
+          <property role="Xl_RC" value="URSACHE" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000707" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000477" resolve="belegId" />
+        <node concept="Xl_RD" id="7vkd0000708" role="12k7lF">
+          <property role="Xl_RC" value="BELEG_ID" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000709" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000486" resolve="wareneingangId" />
+        <node concept="Xl_RD" id="7vkd0000710" role="12k7lF">
+          <property role="Xl_RC" value="WARENEINGANG_ID" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000711" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000495" resolve="forderungNr" />
+        <node concept="Xl_RD" id="7vkd0000712" role="12k7lF">
+          <property role="Xl_RC" value="FORDERUNG_NR" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000713" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000504" resolve="wbBelegId" />
+        <node concept="Xl_RD" id="7vkd0000714" role="12k7lF">
+          <property role="Xl_RC" value="WB_BELEG_ID" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000715" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000513" resolve="belegNr" />
+        <node concept="Xl_RD" id="7vkd0000716" role="12k7lF">
+          <property role="Xl_RC" value="BELEG_NR" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000717" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000522" resolve="belegDatum" />
+        <node concept="Xl_RD" id="7vkd0000718" role="12k7lF">
+          <property role="Xl_RC" value="BELEG_DATUM" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000719" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000531" resolve="vorgangArt" />
+        <node concept="Xl_RD" id="7vkd0000720" role="12k7lF">
+          <property role="Xl_RC" value="VORGANG_ART" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000721" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000540" resolve="betragWabu" />
+        <node concept="Xl_RD" id="7vkd0000722" role="12k7lF">
+          <property role="Xl_RC" value="BETRAG_WABU" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000723" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000549" resolve="betragLibu" />
+        <node concept="Xl_RD" id="7vkd0000724" role="12k7lF">
+          <property role="Xl_RC" value="BETRAG_LIBU" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000725" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000558" resolve="differenz" />
+        <node concept="Xl_RD" id="7vkd0000726" role="12k7lF">
+          <property role="Xl_RC" value="DIFFERENZ" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000727" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000567" resolve="hinweis" />
+        <node concept="Xl_RD" id="7vkd0000728" role="12k7lF">
+          <property role="Xl_RC" value="HINWEIS" />
+        </node>
+      </node>
+    </node>
+    <node concept="1o6$dd" id="7vkd0000729" role="jymVt">
+      <property role="TrG5h" value="VerrechnungskontoStandNK" />
+      <ref role="1o6$9c" node="7vkd0000576" resolve="VerrechnungskontoStand" />
+      <node concept="12nEzJ" id="7vkd0000730" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000600" resolve="bilanzJahr" />
+        <node concept="Xl_RD" id="7vkd0000731" role="12k7lF">
+          <property role="Xl_RC" value="BILANZ_JAHR" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000732" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000609" resolve="bilanzMonat" />
+        <node concept="Xl_RD" id="7vkd0000733" role="12k7lF">
+          <property role="Xl_RC" value="BILANZ_MONAT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000734" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000618" resolve="konsolidiertUm" />
+        <node concept="Xl_RD" id="7vkd0000735" role="12k7lF">
+          <property role="Xl_RC" value="KONSOLIDIERT_UM" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="7vkd0000736" role="3caO6$">
+        <ref role="12nL8z" node="7vkd0000627" resolve="abgeschlossen" />
+        <node concept="Xl_RD" id="7vkd0000737" role="12k7lF">
+          <property role="Xl_RC" value="ABGESCHLOSSEN" />
+        </node>
+      </node>
+    </node>
+    <node concept="DXQ2B" id="7vkd0000738" role="jymVt">
+      <property role="TrG5h" value="abgleich" />
+      <node concept="37vLTG" id="7vkd0000739" role="3clF46">
+        <property role="TrG5h" value="bilanzJahr" />
+        <node concept="10Oyi0" id="7vkd0000740" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0000741" role="3clF46">
+        <property role="TrG5h" value="bilanzMonat" />
+        <node concept="10Oyi0" id="7vkd0000742" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0000743" role="3clF46">
+        <property role="TrG5h" value="zyklus" />
+        <node concept="17QB3L" id="7vkd0000744" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0000745" role="3clF46">
+        <property role="TrG5h" value="lieferantNr" />
+        <node concept="10Oyi0" id="7vkd0000746" role="1tU5fm" />
+      </node>
+      <node concept="_YKpA" id="7vkd0000747" role="3clF45">
+        <node concept="3uibUv" id="7vkd0000748" role="_ZDj9">
+          <ref role="3uigEE" node="7vkd0000001" resolve="AbgleichZeile" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7vkd0000749" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0000750" role="3clF47">
+        <node concept="3SKdUt" id="7vkd0000751" role="3cqZAp">
+          <node concept="1PaTwC" id="7vkd0000752" role="1aUNEU">
+            <node concept="3oM_SD" id="7vkd0000753" role="1PaTwD">
+              <property role="3oM_SC" value="UC-010" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000754" role="1PaTwD">
+              <property role="3oM_SC" value="Schritte" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000755" role="1PaTwD">
+              <property role="3oM_SC" value="4" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000756" role="1PaTwD">
+              <property role="3oM_SC" value="bis" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000757" role="1PaTwD">
+              <property role="3oM_SC" value="7," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000758" role="1PaTwD">
+              <property role="3oM_SC" value="BR-001" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000759" role="1PaTwD">
+              <property role="3oM_SC" value="bis" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000760" role="1PaTwD">
+              <property role="3oM_SC" value="BR-008," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000761" role="1PaTwD">
+              <property role="3oM_SC" value="A3," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000762" role="1PaTwD">
+              <property role="3oM_SC" value="A6," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000763" role="1PaTwD">
+              <property role="3oM_SC" value="A7:" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000764" role="1PaTwD">
+              <property role="3oM_SC" value="je" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000765" role="1PaTwD">
+              <property role="3oM_SC" value="Lieferant" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000766" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000767" role="1PaTwD">
+              <property role="3oM_SC" value="Zyklus" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000768" role="1PaTwD">
+              <property role="3oM_SC" value="Saldo" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000769" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000770" role="1PaTwD">
+              <property role="3oM_SC" value="Bewegung" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000771" role="1PaTwD">
+              <property role="3oM_SC" value="laut" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000772" role="1PaTwD">
+              <property role="3oM_SC" value="Warenbuch" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000773" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000774" role="1PaTwD">
+              <property role="3oM_SC" value="laut" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000775" role="1PaTwD">
+              <property role="3oM_SC" value="LIBU," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000776" role="1PaTwD">
+              <property role="3oM_SC" value="abweichende" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000777" role="1PaTwD">
+              <property role="3oM_SC" value="Zeilen" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000778" role="1PaTwD">
+              <property role="3oM_SC" value="zuerst," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000779" role="1PaTwD">
+              <property role="3oM_SC" value="Summenzeile" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000780" role="1PaTwD">
+              <property role="3oM_SC" value="je" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000781" role="1PaTwD">
+              <property role="3oM_SC" value="Zyklus." />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000782" role="1PaTwD">
+              <property role="3oM_SC" value="Gerechnet" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000783" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000784" role="1PaTwD">
+              <property role="3oM_SC" value="PKG_LK_ABGLEICH" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000785" role="1PaTwD">
+              <property role="3oM_SC" value="(nur" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000786" role="1PaTwD">
+              <property role="3oM_SC" value="lesend," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000787" role="1PaTwD">
+              <property role="3oM_SC" value="BR-011)." />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000788" role="1PaTwD">
+              <property role="3oM_SC" value="zyklus" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000789" role="1PaTwD">
+              <property role="3oM_SC" value="''" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000790" role="1PaTwD">
+              <property role="3oM_SC" value="=" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000791" role="1PaTwD">
+              <property role="3oM_SC" value="alle" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000792" role="1PaTwD">
+              <property role="3oM_SC" value="drei" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000793" role="1PaTwD">
+              <property role="3oM_SC" value="Verrechnungskonten," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000794" role="1PaTwD">
+              <property role="3oM_SC" value="lieferantNr" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000795" role="1PaTwD">
+              <property role="3oM_SC" value="0" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000796" role="1PaTwD">
+              <property role="3oM_SC" value="=" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000797" role="1PaTwD">
+              <property role="3oM_SC" value="alle." />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000798" role="1PaTwD">
+              <property role="3oM_SC" value="Ist" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000799" role="1PaTwD">
+              <property role="3oM_SC" value="der" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000800" role="1PaTwD">
+              <property role="3oM_SC" value="Saldo" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000801" role="1PaTwD">
+              <property role="3oM_SC" value="des" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000802" role="1PaTwD">
+              <property role="3oM_SC" value="Warenbuchs" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000803" role="1PaTwD">
+              <property role="3oM_SC" value="nicht" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000804" role="1PaTwD">
+              <property role="3oM_SC" value="lesbar," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000805" role="1PaTwD">
+              <property role="3oM_SC" value="wirft" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000806" role="1PaTwD">
+              <property role="3oM_SC" value="das" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000807" role="1PaTwD">
+              <property role="3oM_SC" value="Package" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000808" role="1PaTwD">
+              <property role="3oM_SC" value="-20802" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0000809" role="1PaTwD">
+              <property role="3oM_SC" value="(A8)." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7vkd0000810" role="3cqZAp">
+          <node concept="3QLR3s" id="7vkd0000811" role="3cqZAk">
+            <node concept="3clFbS" id="7vkd0000812" role="Hy8HI">
+              <node concept="3QODVd" id="7vkd0000813" role="3cqZAp">
+                <node concept="1PaTwC" id="7vkd0000814" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000815" role="1PaTwD">
+                    <property role="3oM_SC" value="SELECT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000816" role="1PaTwD">
+                    <property role="3oM_SC" value="a.zeilenart" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000817" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000818" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000819" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000820" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000821" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000822" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000823" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000824" role="1PaTwD">
+                    <property role="3oM_SC" value="a.zyklus" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000825" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000826" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000827" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000828" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000829" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000830" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000831" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000832" role="1PaTwD">
+                    <property role="3oM_SC" value="a.zyklus" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000833" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000834" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000835" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000836" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000837" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000838" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000839" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000840" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000841" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000842" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000843" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000844" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000845" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000846" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000847" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000848" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000849" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000850" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000851" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000852" role="1PaTwD">
+                    <property role="3oM_SC" value="zyklus_code" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000853" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000854" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000855" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000856" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000857" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000858" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000859" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000860" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000861" role="1PaTwD">
+                    <property role="3oM_SC" value="a.zeilenart" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000862" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000863" role="1PaTwD">
+                    <property role="3oM_SC" value="'SUMME'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000864" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000865" role="1PaTwD">
+                    <property role="3oM_SC" value="-1" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000866" role="1PaTwD">
+                    <property role="3oM_SC" value="ELSE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000867" role="1PaTwD">
+                    <property role="3oM_SC" value="NVL(a.lieferant_nr," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000868" role="1PaTwD">
+                    <property role="3oM_SC" value="0)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000869" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000870" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000871" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000872" role="1PaTwD">
+                    <property role="3oM_SC" value="lieferant_schluessel" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000873" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000874" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000875" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000876" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000877" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000878" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000879" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000880" role="1PaTwD">
+                    <property role="3oM_SC" value="NVL(a.lieferant_nr," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000881" role="1PaTwD">
+                    <property role="3oM_SC" value="0)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000882" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000883" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000884" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000885" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000886" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000887" role="1PaTwD">
+                    <property role="3oM_SC" value="lieferant_nr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000888" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000889" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000890" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000891" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000892" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000893" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000894" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000895" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000896" role="1PaTwD">
+                    <property role="3oM_SC" value="a.zeilenart" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000897" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000898" role="1PaTwD">
+                    <property role="3oM_SC" value="'SUMME'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000899" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000900" role="1PaTwD">
+                    <property role="3oM_SC" value="'Summe" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000901" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000902" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000903" role="1PaTwD">
+                    <property role="3oM_SC" value="INITCAP(a.zyklus)" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000904" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000905" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000906" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000907" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000908" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000909" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000910" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000911" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000912" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000913" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000914" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000915" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000916" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000917" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000918" role="1PaTwD">
+                    <property role="3oM_SC" value="'OHNE_LIEFERANT'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000919" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000920" role="1PaTwD">
+                    <property role="3oM_SC" value="'(ohne" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000921" role="1PaTwD">
+                    <property role="3oM_SC" value="Lieferant," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000922" role="1PaTwD">
+                    <property role="3oM_SC" value="UC-010" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000923" role="1PaTwD">
+                    <property role="3oM_SC" value="A6)'" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000924" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000925" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000926" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000927" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000928" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000929" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000930" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000931" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000932" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000933" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000934" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000935" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000936" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000937" role="1PaTwD">
+                    <property role="3oM_SC" value="ELSE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000938" role="1PaTwD">
+                    <property role="3oM_SC" value="NVL(a.lieferant_name," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000939" role="1PaTwD">
+                    <property role="3oM_SC" value="'(nicht" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000940" role="1PaTwD">
+                    <property role="3oM_SC" value="im" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000941" role="1PaTwD">
+                    <property role="3oM_SC" value="Parteistamm," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000942" role="1PaTwD">
+                    <property role="3oM_SC" value="UC-010" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000943" role="1PaTwD">
+                    <property role="3oM_SC" value="A7)')" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000944" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000945" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000946" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000947" role="1PaTwD">
+                    <property role="3oM_SC" value="lieferant_name" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000948" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000949" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000950" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000951" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000952" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000953" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000954" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000955" role="1PaTwD">
+                    <property role="3oM_SC" value="a.stammdaten" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000956" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000957" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000958" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000959" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000960" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000961" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000962" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000963" role="1PaTwD">
+                    <property role="3oM_SC" value="a.seiten" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000964" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000965" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000966" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000967" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000968" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000969" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000970" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000971" role="1PaTwD">
+                    <property role="3oM_SC" value="a.saldo_wabu" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000972" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000973" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000974" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000975" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000976" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000977" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000978" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000979" role="1PaTwD">
+                    <property role="3oM_SC" value="a.saldo_libu" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000980" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000981" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000982" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000983" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000984" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000985" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000986" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000987" role="1PaTwD">
+                    <property role="3oM_SC" value="a.saldo_differenz" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000988" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000989" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000990" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000991" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000992" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000993" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000994" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000995" role="1PaTwD">
+                    <property role="3oM_SC" value="a.bewegung_wabu" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0000996" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0000997" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000998" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0000999" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001000" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001001" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001002" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001003" role="1PaTwD">
+                    <property role="3oM_SC" value="a.bewegung_libu" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001004" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001005" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001006" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001007" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001008" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001009" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001010" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001011" role="1PaTwD">
+                    <property role="3oM_SC" value="a.bewegung_differenz" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001012" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001013" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001014" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001015" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001016" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001017" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001018" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001019" role="1PaTwD">
+                    <property role="3oM_SC" value="a.nicht_konsolidiert" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001020" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001021" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001022" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001023" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001024" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001025" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001026" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001027" role="1PaTwD">
+                    <property role="3oM_SC" value="a.stimmt" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001028" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001029" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001030" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001031" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001032" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001033" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001034" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001035" role="1PaTwD">
+                    <property role="3oM_SC" value="a.offene_uebergaben" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001036" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001037" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001038" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001039" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001040" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001041" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001042" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001043" role="1PaTwD">
+                    <property role="3oM_SC" value="a.offene_ueberfaellig" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001044" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001045" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001046" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001047" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001048" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001049" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001050" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001051" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001052" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001053" role="1PaTwD">
+                    <property role="3oM_SC" value="a.seiten" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001054" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001055" role="1PaTwD">
+                    <property role="3oM_SC" value="'LIBU'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001056" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001057" role="1PaTwD">
+                    <property role="3oM_SC" value="'Kein" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001058" role="1PaTwD">
+                    <property role="3oM_SC" value="Saldo" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001059" role="1PaTwD">
+                    <property role="3oM_SC" value="im" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001060" role="1PaTwD">
+                    <property role="3oM_SC" value="Warenbuch" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001061" role="1PaTwD">
+                    <property role="3oM_SC" value="-" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001062" role="1PaTwD">
+                    <property role="3oM_SC" value="falsches" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001063" role="1PaTwD">
+                    <property role="3oM_SC" value="Konto" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001064" role="1PaTwD">
+                    <property role="3oM_SC" value="oder" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001065" role="1PaTwD">
+                    <property role="3oM_SC" value="falscher" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001066" role="1PaTwD">
+                    <property role="3oM_SC" value="Lieferant" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001067" role="1PaTwD">
+                    <property role="3oM_SC" value="im" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001068" role="1PaTwD">
+                    <property role="3oM_SC" value="Warenbuch?" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001069" role="1PaTwD">
+                    <property role="3oM_SC" value="(UC-010" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001070" role="1PaTwD">
+                    <property role="3oM_SC" value="A3)'" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001071" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001072" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001073" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001074" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001075" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001076" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001077" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001078" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001079" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001080" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001081" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001082" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001083" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001084" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001085" role="1PaTwD">
+                    <property role="3oM_SC" value="a.seiten" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001086" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001087" role="1PaTwD">
+                    <property role="3oM_SC" value="'WABU'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001088" role="1PaTwD">
+                    <property role="3oM_SC" value="AND" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001089" role="1PaTwD">
+                    <property role="3oM_SC" value="a.zeilenart" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001090" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001091" role="1PaTwD">
+                    <property role="3oM_SC" value="'LIEFERANT'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001092" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001093" role="1PaTwD">
+                    <property role="3oM_SC" value="'Nur" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001094" role="1PaTwD">
+                    <property role="3oM_SC" value="im" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001095" role="1PaTwD">
+                    <property role="3oM_SC" value="Warenbuch" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001096" role="1PaTwD">
+                    <property role="3oM_SC" value="gebucht," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001097" role="1PaTwD">
+                    <property role="3oM_SC" value="LIBU" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001098" role="1PaTwD">
+                    <property role="3oM_SC" value="erwartet" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001099" role="1PaTwD">
+                    <property role="3oM_SC" value="nichts." />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001100" role="1PaTwD">
+                    <property role="3oM_SC" value="(UC-010" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001101" role="1PaTwD">
+                    <property role="3oM_SC" value="A3)'" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001102" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001103" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001104" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001105" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001106" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001107" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001108" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001109" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001110" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001111" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001112" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001113" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001114" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001115" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001116" role="1PaTwD">
+                    <property role="3oM_SC" value="a.stimmt" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001117" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001118" role="1PaTwD">
+                    <property role="3oM_SC" value="'0'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001119" role="1PaTwD">
+                    <property role="3oM_SC" value="AND" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001120" role="1PaTwD">
+                    <property role="3oM_SC" value="a.bewegung_differenz" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001121" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001122" role="1PaTwD">
+                    <property role="3oM_SC" value="0" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001123" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001124" role="1PaTwD">
+                    <property role="3oM_SC" value="'Bewegung" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001125" role="1PaTwD">
+                    <property role="3oM_SC" value="stimmt," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001126" role="1PaTwD">
+                    <property role="3oM_SC" value="die" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001127" role="1PaTwD">
+                    <property role="3oM_SC" value="Ursache" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001128" role="1PaTwD">
+                    <property role="3oM_SC" value="liegt" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001129" role="1PaTwD">
+                    <property role="3oM_SC" value="in" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001130" role="1PaTwD">
+                    <property role="3oM_SC" value="einem" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001131" role="1PaTwD">
+                    <property role="3oM_SC" value="früheren" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001132" role="1PaTwD">
+                    <property role="3oM_SC" value="Monat." />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001133" role="1PaTwD">
+                    <property role="3oM_SC" value="(UC-010" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001134" role="1PaTwD">
+                    <property role="3oM_SC" value="BR-005)'" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001135" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001136" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001137" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001138" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001139" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001140" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001141" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001142" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001143" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001144" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001145" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001146" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001147" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001148" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001149" role="1PaTwD">
+                    <property role="3oM_SC" value="a.offene_ueberfaellig" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001150" role="1PaTwD">
+                    <property role="3oM_SC" value="&gt;" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001151" role="1PaTwD">
+                    <property role="3oM_SC" value="0" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001152" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001153" role="1PaTwD">
+                    <property role="3oM_SC" value="'Übergaben" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001154" role="1PaTwD">
+                    <property role="3oM_SC" value="älter" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001155" role="1PaTwD">
+                    <property role="3oM_SC" value="als" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001156" role="1PaTwD">
+                    <property role="3oM_SC" value="ein" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001157" role="1PaTwD">
+                    <property role="3oM_SC" value="Tagesabschluss" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001158" role="1PaTwD">
+                    <property role="3oM_SC" value="-" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001159" role="1PaTwD">
+                    <property role="3oM_SC" value="Import" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001160" role="1PaTwD">
+                    <property role="3oM_SC" value="oder" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001161" role="1PaTwD">
+                    <property role="3oM_SC" value="Rückmeldung" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001162" role="1PaTwD">
+                    <property role="3oM_SC" value="prüfen." />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001163" role="1PaTwD">
+                    <property role="3oM_SC" value="(UC-010" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001164" role="1PaTwD">
+                    <property role="3oM_SC" value="BR-008)'" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001165" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001166" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001167" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001168" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001169" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001170" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001171" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001172" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001173" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001174" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001175" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001176" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001177" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001178" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001179" role="1PaTwD">
+                    <property role="3oM_SC" value="a.nicht_konsolidiert" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001180" role="1PaTwD">
+                    <property role="3oM_SC" value="&lt;&gt;" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001181" role="1PaTwD">
+                    <property role="3oM_SC" value="0" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001182" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001183" role="1PaTwD">
+                    <property role="3oM_SC" value="'Teils" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001184" role="1PaTwD">
+                    <property role="3oM_SC" value="noch" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001185" role="1PaTwD">
+                    <property role="3oM_SC" value="nicht" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001186" role="1PaTwD">
+                    <property role="3oM_SC" value="konsolidiert." />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001187" role="1PaTwD">
+                    <property role="3oM_SC" value="(UC-010" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001188" role="1PaTwD">
+                    <property role="3oM_SC" value="BR-007)'" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001189" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001190" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001191" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001192" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001193" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001194" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001195" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001196" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001197" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001198" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001199" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001200" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001201" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001202" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001203" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001204" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001205" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001206" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001207" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001208" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001209" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001210" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001211" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001212" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001213" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001214" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001215" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001216" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001217" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001218" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001219" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001220" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001221" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001222" role="1PaTwD">
+                    <property role="3oM_SC" value="hinweis" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001223" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001224" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001225" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001226" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001227" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001228" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001229" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001230" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0000739" resolve="bilanzJahr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001231" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001232" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001233" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001234" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001235" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001236" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001237" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001238" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001239" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001240" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001241" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001242" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001243" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001244" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001245" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001246" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001247" role="1PaTwD">
+                    <property role="3oM_SC" value="bilanz_jahr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001248" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001249" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001250" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001251" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001252" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001253" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001254" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001255" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0000741" resolve="bilanzMonat" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001256" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001257" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001258" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001259" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001260" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001261" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001262" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001263" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001264" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001265" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001266" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001267" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001268" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001269" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001270" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001271" role="1PaTwD">
+                    <property role="3oM_SC" value="bilanz_monat" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001272" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001273" role="1PaTwD">
+                    <property role="3oM_SC" value="FROM" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001274" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001275" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001276" role="1PaTwD">
+                    <property role="3oM_SC" value="TABLE(PKG_LK_ABGLEICH.Abgleich(" />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001277" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0000739" resolve="bilanzJahr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001278" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001279" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0000741" resolve="bilanzMonat" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001280" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001281" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0000743" resolve="zyklus" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001282" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001283" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0000745" resolve="lieferantNr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001284" role="1PaTwD">
+                    <property role="3oM_SC" value="))" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001285" role="1PaTwD">
+                    <property role="3oM_SC" value="a" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001286" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001287" role="1PaTwD">
+                    <property role="3oM_SC" value="ORDER" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001288" role="1PaTwD">
+                    <property role="3oM_SC" value="BY" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001289" role="1PaTwD">
+                    <property role="3oM_SC" value="a.sortierung" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1pXOCm" id="7vkd0001290" role="FUZJ1">
+              <ref role="1pXOCo" node="7vkd0000638" resolve="AbgleichZeileNK" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="DXQ2B" id="7vkd0001291" role="jymVt">
+      <property role="TrG5h" value="herkuenfte" />
+      <node concept="37vLTG" id="7vkd0001292" role="3clF46">
+        <property role="TrG5h" value="bilanzJahr" />
+        <node concept="10Oyi0" id="7vkd0001293" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0001294" role="3clF46">
+        <property role="TrG5h" value="bilanzMonat" />
+        <node concept="10Oyi0" id="7vkd0001295" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0001296" role="3clF46">
+        <property role="TrG5h" value="zyklus" />
+        <node concept="17QB3L" id="7vkd0001297" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0001298" role="3clF46">
+        <property role="TrG5h" value="lieferantNr" />
+        <node concept="10Oyi0" id="7vkd0001299" role="1tU5fm" />
+      </node>
+      <node concept="_YKpA" id="7vkd0001300" role="3clF45">
+        <node concept="3uibUv" id="7vkd0001301" role="_ZDj9">
+          <ref role="3uigEE" node="7vkd0000263" resolve="AbgleichHerkunft" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7vkd0001302" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0001303" role="3clF47">
+        <node concept="3SKdUt" id="7vkd0001304" role="3cqZAp">
+          <node concept="1PaTwC" id="7vkd0001305" role="1aUNEU">
+            <node concept="3oM_SD" id="7vkd0001306" role="1PaTwD">
+              <property role="3oM_SC" value="UC-010" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001307" role="1PaTwD">
+              <property role="3oM_SC" value="Schritt" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001308" role="1PaTwD">
+              <property role="3oM_SC" value="9," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001309" role="1PaTwD">
+              <property role="3oM_SC" value="BR-009:" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001310" role="1PaTwD">
+              <property role="3oM_SC" value="Bewegung" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001311" role="1PaTwD">
+              <property role="3oM_SC" value="des" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001312" role="1PaTwD">
+              <property role="3oM_SC" value="Lieferanten" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001313" role="1PaTwD">
+              <property role="3oM_SC" value="im" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001314" role="1PaTwD">
+              <property role="3oM_SC" value="Bilanzmonat" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001315" role="1PaTwD">
+              <property role="3oM_SC" value="je" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001316" role="1PaTwD">
+              <property role="3oM_SC" value="Herkunft" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001317" role="1PaTwD">
+              <property role="3oM_SC" value="(Wareneingänge," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001318" role="1PaTwD">
+              <property role="3oM_SC" value="Forderungskorrekturen," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001319" role="1PaTwD">
+              <property role="3oM_SC" value="Forderungen," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001320" role="1PaTwD">
+              <property role="3oM_SC" value="Vortrag" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001321" role="1PaTwD">
+              <property role="3oM_SC" value="im" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001322" role="1PaTwD">
+              <property role="3oM_SC" value="Monat" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001323" role="1PaTwD">
+              <property role="3oM_SC" value="1," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001324" role="1PaTwD">
+              <property role="3oM_SC" value="sonstige)." />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001325" role="1PaTwD">
+              <property role="3oM_SC" value="zyklus" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001326" role="1PaTwD">
+              <property role="3oM_SC" value="Pflicht;" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001327" role="1PaTwD">
+              <property role="3oM_SC" value="lieferantNr" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001328" role="1PaTwD">
+              <property role="3oM_SC" value="0" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001329" role="1PaTwD">
+              <property role="3oM_SC" value="=" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001330" role="1PaTwD">
+              <property role="3oM_SC" value="Buchungen" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001331" role="1PaTwD">
+              <property role="3oM_SC" value="ohne" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001332" role="1PaTwD">
+              <property role="3oM_SC" value="Lieferant" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001333" role="1PaTwD">
+              <property role="3oM_SC" value="(A6)." />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001334" role="1PaTwD">
+              <property role="3oM_SC" value="Auswahl" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001335" role="1PaTwD">
+              <property role="3oM_SC" value="geht" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001336" role="1PaTwD">
+              <property role="3oM_SC" value="als" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001337" role="1PaTwD">
+              <property role="3oM_SC" value="Werte" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001338" role="1PaTwD">
+              <property role="3oM_SC" value="mit," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001339" role="1PaTwD">
+              <property role="3oM_SC" value="damit" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001340" role="1PaTwD">
+              <property role="3oM_SC" value="die" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001341" role="1PaTwD">
+              <property role="3oM_SC" value="Tabelle" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001342" role="1PaTwD">
+              <property role="3oM_SC" value="sie" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001343" role="1PaTwD">
+              <property role="3oM_SC" value="an" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001344" role="1PaTwD">
+              <property role="3oM_SC" value="den" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001345" role="1PaTwD">
+              <property role="3oM_SC" value="nächsten" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001346" role="1PaTwD">
+              <property role="3oM_SC" value="Drill-down" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001347" role="1PaTwD">
+              <property role="3oM_SC" value="übergeben" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001348" role="1PaTwD">
+              <property role="3oM_SC" value="kann." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7vkd0001349" role="3cqZAp">
+          <node concept="3QLR3s" id="7vkd0001350" role="3cqZAk">
+            <node concept="3clFbS" id="7vkd0001351" role="Hy8HI">
+              <node concept="3QODVd" id="7vkd0001352" role="3cqZAp">
+                <node concept="1PaTwC" id="7vkd0001353" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001354" role="1PaTwD">
+                    <property role="3oM_SC" value="SELECT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001355" role="1PaTwD">
+                    <property role="3oM_SC" value="h.herkunft" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001356" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001357" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001358" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001359" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001360" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001361" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001362" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001363" role="1PaTwD">
+                    <property role="3oM_SC" value="h.herkunft" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001364" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001365" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001366" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001367" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001368" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001369" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001370" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001371" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001372" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001373" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001374" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001375" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001376" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001377" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001378" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001379" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001380" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001381" role="1PaTwD">
+                    <property role="3oM_SC" value="herkunft_code" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001382" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001383" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001384" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001385" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001386" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001387" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001388" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001389" role="1PaTwD">
+                    <property role="3oM_SC" value="h.betrag_wabu" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001390" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001391" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001392" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001393" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001394" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001395" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001396" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001397" role="1PaTwD">
+                    <property role="3oM_SC" value="h.betrag_libu" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001398" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001399" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001400" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001401" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001402" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001403" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001404" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001405" role="1PaTwD">
+                    <property role="3oM_SC" value="h.differenz" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001406" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001407" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001408" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001409" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001410" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001411" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001412" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001413" role="1PaTwD">
+                    <property role="3oM_SC" value="h.nicht_konsolidiert" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001414" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001415" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001416" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001417" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001418" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001419" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001420" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001421" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001292" resolve="bilanzJahr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001422" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001423" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001424" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001425" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001426" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001427" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001428" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001429" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001430" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001431" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001432" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001433" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001434" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001435" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001436" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001437" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001438" role="1PaTwD">
+                    <property role="3oM_SC" value="bilanz_jahr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001439" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001440" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001441" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001442" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001443" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001444" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001445" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001446" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001294" resolve="bilanzMonat" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001447" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001448" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001449" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001450" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001451" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001452" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001453" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001454" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001455" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001456" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001457" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001458" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001459" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001460" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001461" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001462" role="1PaTwD">
+                    <property role="3oM_SC" value="bilanz_monat" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001463" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001464" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001465" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001466" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001467" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001468" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001469" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001470" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001296" resolve="zyklus" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001471" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001472" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001473" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001474" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001475" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001476" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001477" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001478" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001479" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001480" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001481" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001482" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001483" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001484" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001485" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001486" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001487" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001488" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001489" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001490" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001491" role="1PaTwD">
+                    <property role="3oM_SC" value="zyklus_code" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001492" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001493" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001494" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001495" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001496" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001497" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001498" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001499" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001298" resolve="lieferantNr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001500" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001501" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001502" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001503" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001504" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001505" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001506" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001507" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001508" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001509" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001510" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001511" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001512" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001513" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001514" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001515" role="1PaTwD">
+                    <property role="3oM_SC" value="lieferant_nr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001516" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001517" role="1PaTwD">
+                    <property role="3oM_SC" value="FROM" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001518" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001519" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001520" role="1PaTwD">
+                    <property role="3oM_SC" value="TABLE(PKG_LK_ABGLEICH.Herkuenfte(" />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001521" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001292" resolve="bilanzJahr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001522" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001523" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001294" resolve="bilanzMonat" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001524" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001525" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001296" resolve="zyklus" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001526" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001527" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001298" resolve="lieferantNr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001528" role="1PaTwD">
+                    <property role="3oM_SC" value="))" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001529" role="1PaTwD">
+                    <property role="3oM_SC" value="h" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001530" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001531" role="1PaTwD">
+                    <property role="3oM_SC" value="ORDER" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001532" role="1PaTwD">
+                    <property role="3oM_SC" value="BY" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001533" role="1PaTwD">
+                    <property role="3oM_SC" value="h.sortierung" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1pXOCm" id="7vkd0001534" role="FUZJ1">
+              <ref role="1pXOCo" node="7vkd0000681" resolve="AbgleichHerkunftNK" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="DXQ2B" id="7vkd0001535" role="jymVt">
+      <property role="TrG5h" value="belege" />
+      <node concept="37vLTG" id="7vkd0001536" role="3clF46">
+        <property role="TrG5h" value="bilanzJahr" />
+        <node concept="10Oyi0" id="7vkd0001537" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0001538" role="3clF46">
+        <property role="TrG5h" value="bilanzMonat" />
+        <node concept="10Oyi0" id="7vkd0001539" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0001540" role="3clF46">
+        <property role="TrG5h" value="zyklus" />
+        <node concept="17QB3L" id="7vkd0001541" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0001542" role="3clF46">
+        <property role="TrG5h" value="lieferantNr" />
+        <node concept="10Oyi0" id="7vkd0001543" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0001544" role="3clF46">
+        <property role="TrG5h" value="herkunft" />
+        <node concept="17QB3L" id="7vkd0001545" role="1tU5fm" />
+      </node>
+      <node concept="_YKpA" id="7vkd0001546" role="3clF45">
+        <node concept="3uibUv" id="7vkd0001547" role="_ZDj9">
+          <ref role="3uigEE" node="7vkd0000396" resolve="AbgleichBeleg" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7vkd0001548" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0001549" role="3clF47">
+        <node concept="3SKdUt" id="7vkd0001550" role="3cqZAp">
+          <node concept="1PaTwC" id="7vkd0001551" role="1aUNEU">
+            <node concept="3oM_SD" id="7vkd0001552" role="1PaTwD">
+              <property role="3oM_SC" value="UC-010" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001553" role="1PaTwD">
+              <property role="3oM_SC" value="Schritte" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001554" role="1PaTwD">
+              <property role="3oM_SC" value="10," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001555" role="1PaTwD">
+              <property role="3oM_SC" value="11," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001556" role="1PaTwD">
+              <property role="3oM_SC" value="BR-010:" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001557" role="1PaTwD">
+              <property role="3oM_SC" value="Belege" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001558" role="1PaTwD">
+              <property role="3oM_SC" value="der" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001559" role="1PaTwD">
+              <property role="3oM_SC" value="Herkunft," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001560" role="1PaTwD">
+              <property role="3oM_SC" value="bei" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001561" role="1PaTwD">
+              <property role="3oM_SC" value="denen" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001562" role="1PaTwD">
+              <property role="3oM_SC" value="Warenbuch" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001563" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001564" role="1PaTwD">
+              <property role="3oM_SC" value="LIBU" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001565" role="1PaTwD">
+              <property role="3oM_SC" value="nicht" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001566" role="1PaTwD">
+              <property role="3oM_SC" value="übereinstimmen," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001567" role="1PaTwD">
+              <property role="3oM_SC" value="mit" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001568" role="1PaTwD">
+              <property role="3oM_SC" value="Ursache;" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001569" role="1PaTwD">
+              <property role="3oM_SC" value="Rest" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001570" role="1PaTwD">
+              <property role="3oM_SC" value="ohne" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001571" role="1PaTwD">
+              <property role="3oM_SC" value="Belegbezug" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001572" role="1PaTwD">
+              <property role="3oM_SC" value="als" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001573" role="1PaTwD">
+              <property role="3oM_SC" value="'nicht" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001574" role="1PaTwD">
+              <property role="3oM_SC" value="erklärt'." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7vkd0001575" role="3cqZAp">
+          <node concept="3QLR3s" id="7vkd0001576" role="3cqZAk">
+            <node concept="3clFbS" id="7vkd0001577" role="Hy8HI">
+              <node concept="3QODVd" id="7vkd0001578" role="3cqZAp">
+                <node concept="1PaTwC" id="7vkd0001579" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001580" role="1PaTwD">
+                    <property role="3oM_SC" value="SELECT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001581" role="1PaTwD">
+                    <property role="3oM_SC" value="b.herkunft" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001582" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001583" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001584" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001585" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001586" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001587" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001588" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001589" role="1PaTwD">
+                    <property role="3oM_SC" value="b.ursache" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001590" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001591" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001592" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001593" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001594" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001595" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001596" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001597" role="1PaTwD">
+                    <property role="3oM_SC" value="TO_CHAR(b.beleg_id)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001598" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001599" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001600" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001601" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001602" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001603" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001604" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001605" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001606" role="1PaTwD">
+                    <property role="3oM_SC" value="beleg_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001607" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001608" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001609" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001610" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001611" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001612" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001613" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001614" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001615" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001616" role="1PaTwD">
+                    <property role="3oM_SC" value="b.herkunft" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001617" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001618" role="1PaTwD">
+                    <property role="3oM_SC" value="'WARENEINGANG'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001619" role="1PaTwD">
+                    <property role="3oM_SC" value="AND" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001620" role="1PaTwD">
+                    <property role="3oM_SC" value="b.beleg_id" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001621" role="1PaTwD">
+                    <property role="3oM_SC" value="IS" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001622" role="1PaTwD">
+                    <property role="3oM_SC" value="NOT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001623" role="1PaTwD">
+                    <property role="3oM_SC" value="NULL" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001624" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001625" role="1PaTwD">
+                    <property role="3oM_SC" value="TO_CHAR(b.beleg_id)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001626" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001627" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001628" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001629" role="1PaTwD">
+                    <property role="3oM_SC" value="wareneingang_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001630" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001631" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001632" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001633" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001634" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001635" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001636" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001637" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001638" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001639" role="1PaTwD">
+                    <property role="3oM_SC" value="b.herkunft" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001640" role="1PaTwD">
+                    <property role="3oM_SC" value="IN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001641" role="1PaTwD">
+                    <property role="3oM_SC" value="('KORREKTUR'," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001642" role="1PaTwD">
+                    <property role="3oM_SC" value="'FORDERUNG')" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001643" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001644" role="1PaTwD">
+                    <property role="3oM_SC" value="NVL(b.beleg_id," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001645" role="1PaTwD">
+                    <property role="3oM_SC" value="0)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001646" role="1PaTwD">
+                    <property role="3oM_SC" value="ELSE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001647" role="1PaTwD">
+                    <property role="3oM_SC" value="0" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001648" role="1PaTwD">
+                    <property role="3oM_SC" value="END" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001649" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001650" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001651" role="1PaTwD">
+                    <property role="3oM_SC" value="forderung_nr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001652" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001653" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001654" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001655" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001656" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001657" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001658" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001659" role="1PaTwD">
+                    <property role="3oM_SC" value="TO_CHAR(b.wb_beleg_id)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001660" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001661" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001662" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001663" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001664" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001665" role="1PaTwD">
+                    <property role="3oM_SC" value="wb_beleg_id" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001666" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001667" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001668" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001669" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001670" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001671" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001672" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001673" role="1PaTwD">
+                    <property role="3oM_SC" value="NVL(b.beleg_nr," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001674" role="1PaTwD">
+                    <property role="3oM_SC" value="CASE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001675" role="1PaTwD">
+                    <property role="3oM_SC" value="WHEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001676" role="1PaTwD">
+                    <property role="3oM_SC" value="b.vorgang_art" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001677" role="1PaTwD">
+                    <property role="3oM_SC" value="IS" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001678" role="1PaTwD">
+                    <property role="3oM_SC" value="NOT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001679" role="1PaTwD">
+                    <property role="3oM_SC" value="NULL" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001680" role="1PaTwD">
+                    <property role="3oM_SC" value="THEN" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001681" role="1PaTwD">
+                    <property role="3oM_SC" value="'Vorgangsart" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001682" role="1PaTwD">
+                    <property role="3oM_SC" value="'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001683" role="1PaTwD">
+                    <property role="3oM_SC" value="||" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001684" role="1PaTwD">
+                    <property role="3oM_SC" value="b.vorgang_art" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001685" role="1PaTwD">
+                    <property role="3oM_SC" value="ELSE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001686" role="1PaTwD">
+                    <property role="3oM_SC" value="'(ohne" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001687" role="1PaTwD">
+                    <property role="3oM_SC" value="Beleg)'" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001688" role="1PaTwD">
+                    <property role="3oM_SC" value="END)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001689" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001690" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001691" role="1PaTwD">
+                    <property role="3oM_SC" value="beleg_nr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001692" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001693" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001694" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001695" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001696" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001697" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001698" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001699" role="1PaTwD">
+                    <property role="3oM_SC" value="b.beleg_datum" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001700" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001701" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001702" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001703" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001704" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001705" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001706" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001707" role="1PaTwD">
+                    <property role="3oM_SC" value="b.vorgang_art" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001708" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001709" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001710" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001711" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001712" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001713" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001714" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001715" role="1PaTwD">
+                    <property role="3oM_SC" value="b.betrag_wabu" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001716" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001717" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001718" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001719" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001720" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001721" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001722" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001723" role="1PaTwD">
+                    <property role="3oM_SC" value="b.betrag_libu" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001724" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001725" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001726" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001727" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001728" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001729" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001730" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001731" role="1PaTwD">
+                    <property role="3oM_SC" value="b.differenz" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001732" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001733" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001734" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001735" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001736" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001737" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001738" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001739" role="1PaTwD">
+                    <property role="3oM_SC" value="b.hinweis" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001740" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001741" role="1PaTwD">
+                    <property role="3oM_SC" value="FROM" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001742" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001743" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001744" role="1PaTwD">
+                    <property role="3oM_SC" value="TABLE(PKG_LK_ABGLEICH.Belege(" />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001745" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001536" resolve="bilanzJahr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001746" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001747" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001538" resolve="bilanzMonat" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001748" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001749" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001540" resolve="zyklus" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001750" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001751" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001542" resolve="lieferantNr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001752" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001753" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001544" resolve="herkunft" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001754" role="1PaTwD">
+                    <property role="3oM_SC" value="))" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001755" role="1PaTwD">
+                    <property role="3oM_SC" value="b" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001756" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001757" role="1PaTwD">
+                    <property role="3oM_SC" value="ORDER" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001758" role="1PaTwD">
+                    <property role="3oM_SC" value="BY" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001759" role="1PaTwD">
+                    <property role="3oM_SC" value="b.sortierung" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1pXOCm" id="7vkd0001760" role="FUZJ1">
+              <ref role="1pXOCo" node="7vkd0000702" resolve="AbgleichBelegNK" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="DXQ2B" id="7vkd0001761" role="jymVt">
+      <property role="TrG5h" value="stand" />
+      <node concept="37vLTG" id="7vkd0001762" role="3clF46">
+        <property role="TrG5h" value="bilanzJahr" />
+        <node concept="10Oyi0" id="7vkd0001763" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0001764" role="3clF46">
+        <property role="TrG5h" value="bilanzMonat" />
+        <node concept="10Oyi0" id="7vkd0001765" role="1tU5fm" />
+      </node>
+      <node concept="_YKpA" id="7vkd0001766" role="3clF45">
+        <node concept="3uibUv" id="7vkd0001767" role="_ZDj9">
+          <ref role="3uigEE" node="7vkd0000576" resolve="VerrechnungskontoStand" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7vkd0001768" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0001769" role="3clF47">
+        <node concept="3SKdUt" id="7vkd0001770" role="3cqZAp">
+          <node concept="1PaTwC" id="7vkd0001771" role="1aUNEU">
+            <node concept="3oM_SD" id="7vkd0001772" role="1PaTwD">
+              <property role="3oM_SC" value="UC-010" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001773" role="1PaTwD">
+              <property role="3oM_SC" value="BR-007," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001774" role="1PaTwD">
+              <property role="3oM_SC" value="A4," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001775" role="1PaTwD">
+              <property role="3oM_SC" value="A5:" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001776" role="1PaTwD">
+              <property role="3oM_SC" value="Stand" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001777" role="1PaTwD">
+              <property role="3oM_SC" value="der" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001778" role="1PaTwD">
+              <property role="3oM_SC" value="Konsolidierung" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001779" role="1PaTwD">
+              <property role="3oM_SC" value="des" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001780" role="1PaTwD">
+              <property role="3oM_SC" value="Bilanzmonats;" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001781" role="1PaTwD">
+              <property role="3oM_SC" value="leer" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001782" role="1PaTwD">
+              <property role="3oM_SC" value="=" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001783" role="1PaTwD">
+              <property role="3oM_SC" value="noch" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001784" role="1PaTwD">
+              <property role="3oM_SC" value="nie" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001785" role="1PaTwD">
+              <property role="3oM_SC" value="konsolidiert." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7vkd0001786" role="3cqZAp">
+          <node concept="3cpWsn" id="7vkd0001787" role="3cpWs9">
+            <property role="TrG5h" value="mandant" />
+            <node concept="2XvVpB" id="7vkd0001788" role="1tU5fm">
+              <ref role="3$lB4D" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+            </node>
+            <node concept="2XvMaL" id="7vkd0001789" role="33vP2m">
+              <ref role="2XvMaQ" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+              <node concept="2vefiz" id="7vkd0001790" role="h55Ek">
+                <ref role="2vefiw" to="hg40:c_HYpdFSt9" resolve="ITALIEN" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7vkd0001791" role="3cqZAp">
+          <node concept="3QLR3s" id="7vkd0001792" role="3cqZAk">
+            <node concept="3clFbS" id="7vkd0001793" role="Hy8HI">
+              <node concept="3QODVd" id="7vkd0001794" role="3cqZAp">
+                <node concept="1PaTwC" id="7vkd0001795" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001796" role="1PaTwD">
+                    <property role="3oM_SC" value="SELECT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001797" role="1PaTwD">
+                    <property role="3oM_SC" value="s.bilanz_jahr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001798" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001799" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001800" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001801" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001802" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001803" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001804" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001805" role="1PaTwD">
+                    <property role="3oM_SC" value="s.bilanz_monat" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001806" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001807" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001808" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001809" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001810" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001811" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001812" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001813" role="1PaTwD">
+                    <property role="3oM_SC" value="s.konsolidiert_um" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001814" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001815" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001816" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001817" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001818" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001819" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001820" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001821" role="1PaTwD">
+                    <property role="3oM_SC" value="s.abgeschlossen" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001822" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001823" role="1PaTwD">
+                    <property role="3oM_SC" value="FROM" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001824" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001825" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001826" role="1PaTwD">
+                    <property role="3oM_SC" value="lk_verrechnungskonto_stand_v" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001827" role="1PaTwD">
+                    <property role="3oM_SC" value="s" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001828" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001829" role="1PaTwD">
+                    <property role="3oM_SC" value="WHERE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001830" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001831" role="1PaTwD">
+                    <property role="3oM_SC" value="s.mandant_nr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001832" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001833" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001787" resolve="mandant" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001834" role="1PaTwD">
+                    <property role="3oM_SC" value="AND" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001835" role="1PaTwD">
+                    <property role="3oM_SC" value="s.bilanz_jahr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001836" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001837" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001762" resolve="bilanzJahr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001838" role="1PaTwD">
+                    <property role="3oM_SC" value="AND" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001839" role="1PaTwD">
+                    <property role="3oM_SC" value="s.bilanz_monat" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001840" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001841" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001764" resolve="bilanzMonat" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1pXOCm" id="7vkd0001842" role="FUZJ1">
+              <ref role="1pXOCo" node="7vkd0000729" resolve="VerrechnungskontoStandNK" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="DXQ2B" id="7vkd0001843" role="jymVt">
+      <property role="TrG5h" value="letzterStand" />
+      <node concept="_YKpA" id="7vkd0001844" role="3clF45">
+        <node concept="3uibUv" id="7vkd0001845" role="_ZDj9">
+          <ref role="3uigEE" node="7vkd0000576" resolve="VerrechnungskontoStand" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7vkd0001846" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0001847" role="3clF47">
+        <node concept="3SKdUt" id="7vkd0001848" role="3cqZAp">
+          <node concept="1PaTwC" id="7vkd0001849" role="1aUNEU">
+            <node concept="3oM_SD" id="7vkd0001850" role="1PaTwD">
+              <property role="3oM_SC" value="UC-010" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001851" role="1PaTwD">
+              <property role="3oM_SC" value="Schritt" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001852" role="1PaTwD">
+              <property role="3oM_SC" value="2," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001853" role="1PaTwD">
+              <property role="3oM_SC" value="BR-007:" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001854" role="1PaTwD">
+              <property role="3oM_SC" value="zuletzt" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001855" role="1PaTwD">
+              <property role="3oM_SC" value="konsolidierter" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001856" role="1PaTwD">
+              <property role="3oM_SC" value="Bilanzmonat;" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001857" role="1PaTwD">
+              <property role="3oM_SC" value="leer" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001858" role="1PaTwD">
+              <property role="3oM_SC" value="=" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001859" role="1PaTwD">
+              <property role="3oM_SC" value="das" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001860" role="1PaTwD">
+              <property role="3oM_SC" value="Warenbuch" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001861" role="1PaTwD">
+              <property role="3oM_SC" value="hat" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001862" role="1PaTwD">
+              <property role="3oM_SC" value="noch" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001863" role="1PaTwD">
+              <property role="3oM_SC" value="nichts" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001864" role="1PaTwD">
+              <property role="3oM_SC" value="konsolidiert." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7vkd0001865" role="3cqZAp">
+          <node concept="3cpWsn" id="7vkd0001866" role="3cpWs9">
+            <property role="TrG5h" value="mandant" />
+            <node concept="2XvVpB" id="7vkd0001867" role="1tU5fm">
+              <ref role="3$lB4D" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+            </node>
+            <node concept="2XvMaL" id="7vkd0001868" role="33vP2m">
+              <ref role="2XvMaQ" to="hg40:c_HYpdFSt8" resolve="Mandant" />
+              <node concept="2vefiz" id="7vkd0001869" role="h55Ek">
+                <ref role="2vefiw" to="hg40:c_HYpdFSt9" resolve="ITALIEN" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7vkd0001870" role="3cqZAp">
+          <node concept="3QLR3s" id="7vkd0001871" role="3cqZAk">
+            <node concept="3clFbS" id="7vkd0001872" role="Hy8HI">
+              <node concept="3QODVd" id="7vkd0001873" role="3cqZAp">
+                <node concept="1PaTwC" id="7vkd0001874" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001875" role="1PaTwD">
+                    <property role="3oM_SC" value="SELECT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001876" role="1PaTwD">
+                    <property role="3oM_SC" value="x.bilanz_jahr" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001877" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001878" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001879" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001880" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001881" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001882" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001883" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001884" role="1PaTwD">
+                    <property role="3oM_SC" value="x.bilanz_monat" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001885" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001886" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001887" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001888" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001889" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001890" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001891" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001892" role="1PaTwD">
+                    <property role="3oM_SC" value="x.konsolidiert_um" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001893" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001894" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001895" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001896" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001897" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001898" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001899" role="1PaTwD">
+                    <property role="3oM_SC" value="," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001900" role="1PaTwD">
+                    <property role="3oM_SC" value="x.abgeschlossen" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001901" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001902" role="1PaTwD">
+                    <property role="3oM_SC" value="FROM" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001903" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001904" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001905" role="1PaTwD">
+                    <property role="3oM_SC" value="(SELECT" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001906" role="1PaTwD">
+                    <property role="3oM_SC" value="s.bilanz_jahr," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001907" role="1PaTwD">
+                    <property role="3oM_SC" value="s.bilanz_monat," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001908" role="1PaTwD">
+                    <property role="3oM_SC" value="s.konsolidiert_um," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001909" role="1PaTwD">
+                    <property role="3oM_SC" value="s.abgeschlossen" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001910" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001911" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001912" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001913" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001914" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001915" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001916" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001917" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001918" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001919" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001920" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001921" role="1PaTwD">
+                    <property role="3oM_SC" value="FROM" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001922" role="1PaTwD">
+                    <property role="3oM_SC" value="lk_verrechnungskonto_stand_v" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001923" role="1PaTwD">
+                    <property role="3oM_SC" value="s" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001924" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001925" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001926" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001927" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001928" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001929" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001930" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001931" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001932" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001933" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001934" role="1PaTwD">
+                    <property role="3oM_SC" value="WHERE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001935" role="1PaTwD">
+                    <property role="3oM_SC" value="s.mandant_nr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001936" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3DwW_1" id="7vkd0001937" role="1PaTwD">
+                    <ref role="3DSHjQ" node="7vkd0001866" resolve="mandant" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001938" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001939" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001940" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001941" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001942" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001943" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001944" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001945" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001946" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001947" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001948" role="1PaTwD">
+                    <property role="3oM_SC" value="ORDER" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001949" role="1PaTwD">
+                    <property role="3oM_SC" value="BY" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001950" role="1PaTwD">
+                    <property role="3oM_SC" value="s.bilanz_jahr" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001951" role="1PaTwD">
+                    <property role="3oM_SC" value="DESC," />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001952" role="1PaTwD">
+                    <property role="3oM_SC" value="s.bilanz_monat" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001953" role="1PaTwD">
+                    <property role="3oM_SC" value="DESC)" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001954" role="1PaTwD">
+                    <property role="3oM_SC" value="x" />
+                  </node>
+                </node>
+                <node concept="1PaTwC" id="7vkd0001955" role="3QOC2y">
+                  <node concept="3oM_SD" id="7vkd0001956" role="1PaTwD">
+                    <property role="3oM_SC" value="WHERE" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001957" role="1PaTwD">
+                    <property role="3oM_SC" value="" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001958" role="1PaTwD">
+                    <property role="3oM_SC" value="ROWNUM" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001959" role="1PaTwD">
+                    <property role="3oM_SC" value="=" />
+                  </node>
+                  <node concept="3oM_SD" id="7vkd0001960" role="1PaTwD">
+                    <property role="3oM_SC" value="1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1pXOCm" id="7vkd0001961" role="FUZJ1">
+              <ref role="1pXOCo" node="7vkd0000729" resolve="VerrechnungskontoStandNK" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2EH5hC" id="7vkd0001962">
+    <property role="TrG5h" value="VerrechnungskontoS" />
+    <node concept="3Tm1VV" id="7vkd0001963" role="1B3o_S" />
+    <node concept="2vDG_T" id="7vkd0001964" role="jymVt">
+      <property role="TrG5h" value="zyklusWert" />
+      <node concept="37vLTG" id="7vkd0001965" role="3clF46">
+        <property role="TrG5h" value="zyklus" />
+        <node concept="2XvVpB" id="7vkd0001966" role="1tU5fm">
+          <ref role="3$lB4D" to="uyeg:1SEqE6yBNJW" resolve="Zyklus" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0001967" role="3clF45" />
+      <node concept="3Tm1VV" id="7vkd0001968" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0001969" role="3clF47">
+        <node concept="3SKdUt" id="7vkd0001970" role="3cqZAp">
+          <node concept="1PaTwC" id="7vkd0001971" role="1aUNEU">
+            <node concept="3oM_SD" id="7vkd0001972" role="1PaTwD">
+              <property role="3oM_SC" value="UC-010" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001973" role="1PaTwD">
+              <property role="3oM_SC" value="BR-001:" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001974" role="1PaTwD">
+              <property role="3oM_SC" value="Zyklus" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001975" role="1PaTwD">
+              <property role="3oM_SC" value="als" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001976" role="1PaTwD">
+              <property role="3oM_SC" value="Wert" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001977" role="1PaTwD">
+              <property role="3oM_SC" value="für" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001978" role="1PaTwD">
+              <property role="3oM_SC" value="PKG_LK_ABGLEICH;" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001979" role="1PaTwD">
+              <property role="3oM_SC" value="leer" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001980" role="1PaTwD">
+              <property role="3oM_SC" value="=" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001981" role="1PaTwD">
+              <property role="3oM_SC" value="alle" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001982" role="1PaTwD">
+              <property role="3oM_SC" value="drei" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0001983" role="1PaTwD">
+              <property role="3oM_SC" value="Verrechnungskonten." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7vkd0001984" role="3cqZAp">
+          <node concept="3clFbC" id="7vkd0001985" role="3clFbw">
+            <node concept="37vLTw" id="7vkd0001986" role="3uHU7B">
+              <ref role="3cqZAo" node="7vkd0001965" resolve="zyklus" />
+            </node>
+            <node concept="10Nm6u" id="7vkd0001987" role="3uHU7w" />
+          </node>
+          <node concept="3clFbS" id="7vkd0001988" role="3clFbx">
+            <node concept="3cpWs6" id="7vkd0001989" role="3cqZAp">
+              <node concept="Xl_RD" id="7vkd0001990" role="3cqZAk">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7vkd0001991" role="3cqZAp">
+          <node concept="2veflS" id="7vkd0001992" role="3clFbw">
+            <node concept="37vLTw" id="7vkd0001993" role="2vefmd">
+              <ref role="3cqZAo" node="7vkd0001965" resolve="zyklus" />
+            </node>
+            <node concept="2vefiz" id="7vkd0001994" role="2vefj5">
+              <ref role="2vefiw" to="uyeg:1SEqE6yBNJX" resolve="Jahr" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="7vkd0001995" role="3clFbx">
+            <node concept="3cpWs6" id="7vkd0001996" role="3cqZAp">
+              <node concept="Xl_RD" id="7vkd0001997" role="3cqZAk">
+                <property role="Xl_RC" value="JAHR" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7vkd0001998" role="3cqZAp">
+          <node concept="2veflS" id="7vkd0001999" role="3clFbw">
+            <node concept="37vLTw" id="7vkd0002000" role="2vefmd">
+              <ref role="3cqZAo" node="7vkd0001965" resolve="zyklus" />
+            </node>
+            <node concept="2vefiz" id="7vkd0002001" role="2vefj5">
+              <ref role="2vefiw" to="uyeg:1SEqE6yBNTA" resolve="Quartal" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="7vkd0002002" role="3clFbx">
+            <node concept="3cpWs6" id="7vkd0002003" role="3cqZAp">
+              <node concept="Xl_RD" id="7vkd0002004" role="3cqZAk">
+                <property role="Xl_RC" value="QUARTAL" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7vkd0002005" role="3cqZAp">
+          <node concept="Xl_RD" id="7vkd0002006" role="3cqZAk">
+            <property role="Xl_RC" value="MONAT" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2vDG_T" id="7vkd0002007" role="jymVt">
+      <property role="TrG5h" value="pruefeAuswahl" />
+      <node concept="37vLTG" id="7vkd0002008" role="3clF46">
+        <property role="TrG5h" value="bilanzJahr" />
+        <node concept="10Oyi0" id="7vkd0002009" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7vkd0002010" role="3clF46">
+        <property role="TrG5h" value="bilanzMonat" />
+        <node concept="10Oyi0" id="7vkd0002011" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="7vkd0002012" role="3clF45" />
+      <node concept="3Tm1VV" id="7vkd0002013" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0002014" role="3clF47">
+        <node concept="Hy8HG" id="7vkd0002015" role="3cqZAp">
+          <node concept="3clFbS" id="7vkd0002016" role="Hy8HH">
+            <node concept="mlg3r" id="7vkd0002017" role="3cqZAp">
+              <node concept="1Wc70l" id="7vkd0002018" role="mlgNJ">
+                <node concept="2d3UOw" id="7vkd0002019" role="3uHU7B">
+                  <node concept="37vLTw" id="7vkd0002020" role="3uHU7B">
+                    <ref role="3cqZAo" node="7vkd0002008" resolve="bilanzJahr" />
+                  </node>
+                  <node concept="3cmrfG" id="7vkd0002021" role="3uHU7w">
+                    <property role="3cmrfH" value="1900" />
+                  </node>
+                </node>
+                <node concept="2dkUwp" id="7vkd0002022" role="3uHU7w">
+                  <node concept="37vLTw" id="7vkd0002023" role="3uHU7B">
+                    <ref role="3cqZAo" node="7vkd0002008" resolve="bilanzJahr" />
+                  </node>
+                  <node concept="3cmrfG" id="7vkd0002024" role="3uHU7w">
+                    <property role="3cmrfH" value="2999" />
+                  </node>
+                </node>
+              </node>
+              <node concept="lgADV" id="7vkd0002025" role="mlgNH">
+                <node concept="35AVbj" id="7vkd0002026" role="lgxf9">
+                  <node concept="ic4WF" id="7vkd0002027" role="icr7_">
+                    <property role="ic4Xk" value="Bitte ein Bilanzjahr wählen. (UC-010 BR-001)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="mlg3r" id="7vkd0002028" role="3cqZAp">
+              <node concept="1Wc70l" id="7vkd0002029" role="mlgNJ">
+                <node concept="2d3UOw" id="7vkd0002030" role="3uHU7B">
+                  <node concept="37vLTw" id="7vkd0002031" role="3uHU7B">
+                    <ref role="3cqZAo" node="7vkd0002010" resolve="bilanzMonat" />
+                  </node>
+                  <node concept="3cmrfG" id="7vkd0002032" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+                <node concept="2dkUwp" id="7vkd0002033" role="3uHU7w">
+                  <node concept="37vLTw" id="7vkd0002034" role="3uHU7B">
+                    <ref role="3cqZAo" node="7vkd0002010" resolve="bilanzMonat" />
+                  </node>
+                  <node concept="3cmrfG" id="7vkd0002035" role="3uHU7w">
+                    <property role="3cmrfH" value="12" />
+                  </node>
+                </node>
+              </node>
+              <node concept="lgADV" id="7vkd0002036" role="mlgNH">
+                <node concept="35AVbj" id="7vkd0002037" role="lgxf9">
+                  <node concept="ic4WF" id="7vkd0002038" role="icr7_">
+                    <property role="ic4Xk" value="Der Bilanzmonat liegt zwischen 1 und 12. (UC-010 BR-001)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2vDG_T" id="7vkd0002039" role="jymVt">
+      <property role="TrG5h" value="hinweis" />
+      <node concept="37vLTG" id="7vkd0002040" role="3clF46">
+        <property role="TrG5h" value="zeilen" />
+        <node concept="_YKpA" id="7vkd0002041" role="1tU5fm">
+          <node concept="3uibUv" id="7vkd0002042" role="_ZDj9">
+            <ref role="3uigEE" node="7vkd0000001" resolve="AbgleichZeile" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7vkd0002043" role="3clF46">
+        <property role="TrG5h" value="stand" />
+        <node concept="_YKpA" id="7vkd0002044" role="1tU5fm">
+          <node concept="3uibUv" id="7vkd0002045" role="_ZDj9">
+            <ref role="3uigEE" node="7vkd0000576" resolve="VerrechnungskontoStand" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="7vkd0002046" role="3clF45" />
+      <node concept="3Tm1VV" id="7vkd0002047" role="1B3o_S" />
+      <node concept="3clFbS" id="7vkd0002048" role="3clF47">
+        <node concept="3SKdUt" id="7vkd0002049" role="3cqZAp">
+          <node concept="1PaTwC" id="7vkd0002050" role="1aUNEU">
+            <node concept="3oM_SD" id="7vkd0002051" role="1PaTwD">
+              <property role="3oM_SC" value="UC-010" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002052" role="1PaTwD">
+              <property role="3oM_SC" value="A1," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002053" role="1PaTwD">
+              <property role="3oM_SC" value="A2," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002054" role="1PaTwD">
+              <property role="3oM_SC" value="A4," />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002055" role="1PaTwD">
+              <property role="3oM_SC" value="A5:" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002056" role="1PaTwD">
+              <property role="3oM_SC" value="Meldung" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002057" role="1PaTwD">
+              <property role="3oM_SC" value="zum" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002058" role="1PaTwD">
+              <property role="3oM_SC" value="Abgleich" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002059" role="1PaTwD">
+              <property role="3oM_SC" value="und" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002060" role="1PaTwD">
+              <property role="3oM_SC" value="zum" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002061" role="1PaTwD">
+              <property role="3oM_SC" value="Stand" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002062" role="1PaTwD">
+              <property role="3oM_SC" value="des" />
+            </node>
+            <node concept="3oM_SD" id="7vkd0002063" role="1PaTwD">
+              <property role="3oM_SC" value="Bilanzmonats." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7vkd0002064" role="3cqZAp">
+          <node concept="3cpWsn" id="7vkd0002065" role="3cpWs9">
+            <property role="TrG5h" value="text" />
+            <node concept="17QB3L" id="7vkd0002066" role="1tU5fm" />
+            <node concept="Xl_RD" id="7vkd0002067" role="33vP2m">
+              <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7vkd0002068" role="3cqZAp">
+          <node concept="3cpWsn" id="7vkd0002069" role="3cpWs9">
+            <property role="TrG5h" value="abweichend" />
+            <node concept="10Oyi0" id="7vkd0002070" role="1tU5fm" />
+            <node concept="2OqwBi" id="7vkd0002071" role="33vP2m">
+              <node concept="2OqwBi" id="7vkd0002072" role="2Oq$k0">
+                <node concept="37vLTw" id="7vkd0002073" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7vkd0002040" resolve="zeilen" />
+                </node>
+                <node concept="3zZkjj" id="7vkd0002074" role="2OqNvi">
+                  <node concept="1bVj0M" id="7vkd0002075" role="23t8la">
+                    <node concept="gl6BB" id="7vkd0002076" role="1bW2Oz">
+                      <property role="TrG5h" value="z" />
+                      <node concept="2jxLKc" id="7vkd0002077" role="1tU5fm" />
+                    </node>
+                    <node concept="3clFbS" id="7vkd0002078" role="1bW5cS">
+                      <node concept="3clFbF" id="7vkd0002079" role="3cqZAp">
+                        <node concept="1Wc70l" id="7vkd0002080" role="3clFbG">
+                          <node concept="2veflS" id="7vkd0002081" role="3uHU7B">
+                            <node concept="2OqwBi" id="7vkd0002082" role="2vefmd">
+                              <node concept="37vLTw" id="7vkd0002083" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7vkd0002076" resolve="z" />
+                              </node>
+                              <node concept="2S8uIT" id="7vkd0002084" role="2OqNvi">
+                                <ref role="2S8YL0" node="7vkd0000209" resolve="stimmt" />
+                              </node>
+                            </node>
+                            <node concept="2vefiz" id="7vkd0002085" role="2vefj5">
+                              <ref role="2vefiw" to="hg40:c_HYpdFRT4" resolve="Nein" />
+                            </node>
+                          </node>
+                          <node concept="2veflS" id="7vkd0002086" role="3uHU7w">
+                            <node concept="2OqwBi" id="7vkd0002087" role="2vefmd">
+                              <node concept="37vLTw" id="7vkd0002088" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7vkd0002076" resolve="z" />
+                              </node>
+                              <node concept="2S8uIT" id="7vkd0002089" role="2OqNvi">
+                                <ref role="2S8YL0" node="7vkd0000074" resolve="zeilenart" />
+                              </node>
+                            </node>
+                            <node concept="2vefiz" id="7vkd0002090" role="2vefj5">
+                              <ref role="2vefiw" node="7vkd0000053" resolve="Lieferant" />
+                            </node>
+                            <node concept="2vefiz" id="7vkd0002091" role="2vefj5">
+                              <ref role="2vefiw" node="7vkd0000057" resolve="OhneLieferant" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="34oBXx" id="7vkd0002092" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7vkd0002093" role="3cqZAp">
+          <node concept="2OqwBi" id="7vkd0002094" role="3clFbw">
+            <node concept="37vLTw" id="7vkd0002095" role="2Oq$k0">
+              <ref role="3cqZAo" node="7vkd0002040" resolve="zeilen" />
+            </node>
+            <node concept="1v1jN8" id="7vkd0002096" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="7vkd0002097" role="3clFbx">
+            <node concept="3clFbF" id="7vkd0002098" role="3cqZAp">
+              <node concept="37vLTI" id="7vkd0002099" role="3clFbG">
+                <node concept="37vLTw" id="7vkd0002100" role="37vLTJ">
+                  <ref role="3cqZAo" node="7vkd0002065" resolve="text" />
+                </node>
+                <node concept="Xl_RD" id="7vkd0002101" role="37vLTx">
+                  <property role="Xl_RC" value="Keine Buchungen auf dem Verrechnungskonto bis zu diesem Bilanzmonat. (UC-010 A2)" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="7vkd0002102" role="3eNLev">
+            <node concept="3clFbC" id="7vkd0002103" role="3eO9$A">
+              <node concept="37vLTw" id="7vkd0002104" role="3uHU7B">
+                <ref role="3cqZAo" node="7vkd0002069" resolve="abweichend" />
+              </node>
+              <node concept="3cmrfG" id="7vkd0002105" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="7vkd0002106" role="3eOfB_">
+              <node concept="3clFbF" id="7vkd0002107" role="3cqZAp">
+                <node concept="37vLTI" id="7vkd0002108" role="3clFbG">
+                  <node concept="37vLTw" id="7vkd0002109" role="37vLTJ">
+                    <ref role="3cqZAo" node="7vkd0002065" resolve="text" />
+                  </node>
+                  <node concept="Xl_RD" id="7vkd0002110" role="37vLTx">
+                    <property role="Xl_RC" value="Verrechnungskonto stimmt. (UC-010 A1)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="7vkd0002111" role="9aQIa">
+            <node concept="3clFbS" id="7vkd0002112" role="9aQI4">
+              <node concept="3clFbF" id="7vkd0002113" role="3cqZAp">
+                <node concept="37vLTI" id="7vkd0002114" role="3clFbG">
+                  <node concept="37vLTw" id="7vkd0002115" role="37vLTJ">
+                    <ref role="3cqZAo" node="7vkd0002065" resolve="text" />
+                  </node>
+                  <node concept="35AVbj" id="7vkd0002116" role="37vLTx">
+                    <node concept="ic4WF" id="7vkd0002117" role="icr7_">
+                      <property role="ic4Xk" value="%d Zeilen weichen ab, sie stehen je Zyklus oben. (UC-010 Schritt 7)" />
+                    </node>
+                    <node concept="37vLTw" id="7vkd0002118" role="35Gt3$">
+                      <ref role="3cqZAo" node="7vkd0002069" resolve="abweichend" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7vkd0002119" role="3cqZAp">
+          <node concept="2OqwBi" id="7vkd0002120" role="3clFbw">
+            <node concept="37vLTw" id="7vkd0002121" role="2Oq$k0">
+              <ref role="3cqZAo" node="7vkd0002043" resolve="stand" />
+            </node>
+            <node concept="1v1jN8" id="7vkd0002122" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="7vkd0002123" role="3clFbx">
+            <node concept="3clFbF" id="7vkd0002124" role="3cqZAp">
+              <node concept="37vLTI" id="7vkd0002125" role="3clFbG">
+                <node concept="37vLTw" id="7vkd0002126" role="37vLTJ">
+                  <ref role="3cqZAo" node="7vkd0002065" resolve="text" />
+                </node>
+                <node concept="3cpWs3" id="7vkd0002127" role="37vLTx">
+                  <node concept="37vLTw" id="7vkd0002128" role="3uHU7B">
+                    <ref role="3cqZAo" node="7vkd0002065" resolve="text" />
+                  </node>
+                  <node concept="Xl_RD" id="7vkd0002129" role="3uHU7w">
+                    <property role="Xl_RC" value=" Der Bilanzmonat ist im Warenbuch noch nicht konsolidiert, der Saldo hat den Stand der letzten Konsolidierung. (UC-010 A4)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="7vkd0002130" role="3eNLev">
+            <node concept="2veflS" id="7vkd0002131" role="3eO9$A">
+              <node concept="2OqwBi" id="7vkd0002132" role="2vefmd">
+                <node concept="2OqwBi" id="7vkd0002133" role="2Oq$k0">
+                  <node concept="37vLTw" id="7vkd0002134" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7vkd0002043" resolve="stand" />
+                  </node>
+                  <node concept="1uHKPH" id="7vkd0002135" role="2OqNvi" />
+                </node>
+                <node concept="2S8uIT" id="7vkd0002136" role="2OqNvi">
+                  <ref role="2S8YL0" node="7vkd0000627" resolve="abgeschlossen" />
+                </node>
+              </node>
+              <node concept="2vefiz" id="7vkd0002137" role="2vefj5">
+                <ref role="2vefiw" to="hg40:c_HYpdFS7U" resolve="Ja" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="7vkd0002138" role="3eOfB_">
+              <node concept="3clFbF" id="7vkd0002139" role="3cqZAp">
+                <node concept="37vLTI" id="7vkd0002140" role="3clFbG">
+                  <node concept="37vLTw" id="7vkd0002141" role="37vLTJ">
+                    <ref role="3cqZAo" node="7vkd0002065" resolve="text" />
+                  </node>
+                  <node concept="3cpWs3" id="7vkd0002142" role="37vLTx">
+                    <node concept="37vLTw" id="7vkd0002143" role="3uHU7B">
+                      <ref role="3cqZAo" node="7vkd0002065" resolve="text" />
+                    </node>
+                    <node concept="Xl_RD" id="7vkd0002144" role="3uHU7w">
+                      <property role="Xl_RC" value=" Bilanzmonat abgeschlossen - der Abgleich ist endgültig, eine Differenz gleicht nur ein späterer Bilanzmonat aus. (UC-010 A5)" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7vkd0002145" role="3cqZAp">
+          <node concept="37vLTw" id="7vkd0002146" role="3cqZAk">
+            <ref role="3cqZAo" node="7vkd0002065" resolve="text" />
           </node>
         </node>
       </node>
