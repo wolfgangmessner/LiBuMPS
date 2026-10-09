@@ -2,7 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/solutions/LieferantenKonditionen/LieferantenKonditionen.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.libu.LiefKond.test/org.modellwerkstatt.libu.LiefKond.test.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.libu.liefKond/org.modellwerkstatt.libu.liefKond.msd" folder="" />
     </projectModules>
   </component>
 </project>
