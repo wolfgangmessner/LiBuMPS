@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:06597830-36fd-48b8-905c-d3b7fe2f155f(org.modellwerkstatt.libu.LiefKond.test.ui)">
+<model ref="r:1067fad9-e181-4ab2-8973-64be1d966fac(org.modellwerkstatt.libu.LiefKond.test.ui)">
   <persistence version="9" />
   <languages>
     <use id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux" version="0" />
@@ -11,10 +11,10 @@
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
     <import index="h0p1" ref="r:46ddb3ce-809a-4f3b-a08a-26aa6b0e9c9a(org.modellwerkstatt.libu.LiefKond.belegartregel.ui)" />
     <import index="9evg" ref="r:a6c257f9-fc96-4114-be61-ce15e0320374(org.modellwerkstatt.libu.LiefKond.vereinbarung.ui)" />
-    <import index="752l" ref="r:bc1aa817-c898-4c87-9387-605f3f16a2a2(org.modellwerkstatt.libu.LiefKond.test.basics)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="anru" ref="r:cebad6b6-0377-4a76-b190-8df1969353eb(org.modellwerkstatt.libu.LiefKond.core.config)" />
-    <import index="8sa9" ref="r:14909b4c-0a98-4792-97da-f1d767d32038(org.modellwerkstatt.libu.LiefKond.bewertung.tests)" />
+    <import index="9ttu" ref="r:e117c318-e723-4d6a-bca2-693458e89f04(org.modellwerkstatt.libu.LiefKond.test.basics)" />
+    <import index="hug8" ref="r:0d13bccb-2bc6-4f13-9109-a5f591220f45(org.modellwerkstatt.libu.LiefKond.bewertung.tests)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -125,7 +125,7 @@
     <property role="TrG5h" value="LibuDemoApp" />
     <ref role="2WPtWl" to="anru:3xvuS$eSydi" resolve="ConfigFx8" />
     <node concept="33WYYh" id="64Z6K0hVCie" role="2N77jL">
-      <ref role="2_Hrw8" to="752l:64Z6K0hVxbx" resolve="TestUi" />
+      <ref role="2_Hrw8" to="9ttu:64Z6K0hVxbx" resolve="TestUi" />
     </node>
     <node concept="33WYYh" id="6L7N34hs4t" role="2N77jT">
       <ref role="2_Hrw8" to="9evg:c_HYpdFTKG" resolve="Vereinbarungen suchen" />
@@ -162,7 +162,7 @@
     </node>
     <node concept="2$ntO6" id="6DuqmNvDeou" role="2$nsuY">
       <node concept="33WYYh" id="6DuqmNvDeov" role="2$ntUL">
-        <ref role="2_Hrw8" to="8sa9:6DuqmNvDd_O" resolve="Belege suchen" />
+        <ref role="2_Hrw8" to="hug8:6DuqmNvDd_O" resolve="Belege suchen" />
       </node>
       <node concept="Xl_RD" id="6DuqmNvDewf" role="2$ntWM">
         <property role="Xl_RC" value="Belege" />

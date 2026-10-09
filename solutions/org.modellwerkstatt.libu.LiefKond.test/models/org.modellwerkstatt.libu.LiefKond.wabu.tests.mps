@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:048192bd-873a-4ddf-9861-7a2b22ab0ab4(org.modellwerkstatt.libu.LiefKond.wabu.tests)">
+<model ref="r:5951c814-3c44-4e5f-8be1-3a6682a50a27(org.modellwerkstatt.libu.LiefKond.wabu.tests)">
   <persistence version="9" />
   <languages>
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
