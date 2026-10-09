@@ -18332,7 +18332,7 @@
   </node>
   <node concept="2WPaUQ" id="7uc50000986">
     <property role="TrG5h" value="Wareneingang bewerten (UC-005)" />
-    <ref role="2WPtWl" to="9ttu:5E0k43hHz10" resolve="FilTestConf" />
+    <ref role="2WPtWl" to="9ttu:4eYAwYdZTJQ" resolve="LocalTestConf" />
     <node concept="3yPF9F" id="7uc50000987" role="3yMuLx">
       <property role="TrG5h" value="Vorbereitung: Testdaten früherer Läufe entfernen" />
       <node concept="3cqZAl" id="7uc50000988" role="3clF45" />
