@@ -307,44 +307,20 @@
       <property role="27cpiu" value="#BFBFBF" />
     </node>
     <node concept="27cpit" id="59sqMMqSSxN" role="27c1lO">
-      <property role="TrG5h" value="BereichBelegartregel" />
-      <property role="27cpiu" value="#d32f2f" />
+      <property role="TrG5h" value="BereichSteuerung" />
+      <property role="27cpiu" value="#d84315" />
     </node>
     <node concept="27cpit" id="59sqMMqSSyq" role="27c1lO">
       <property role="TrG5h" value="BereichBewertung" />
       <property role="27cpiu" value="#c2185b" />
-    </node>
-    <node concept="27cpit" id="59sqMMqSSyv" role="27c1lO">
-      <property role="TrG5h" value="BereichSortiment" />
-      <property role="27cpiu" value="#7b1fa2" />
-    </node>
-    <node concept="27cpit" id="59sqMMqSSy_" role="27c1lO">
-      <property role="TrG5h" value="BereichKondition" />
-      <property role="27cpiu" value="#512da8" />
     </node>
     <node concept="27cpit" id="59sqMMqSSyG" role="27c1lO">
       <property role="TrG5h" value="BereichForderung" />
       <property role="27cpiu" value="#303f9f" />
     </node>
     <node concept="27cpit" id="59sqMMqSSyO" role="27c1lO">
-      <property role="TrG5h" value="BereichVereinbarung" />
+      <property role="TrG5h" value="BereichPflege" />
       <property role="27cpiu" value="#1976d2" />
-    </node>
-    <node concept="27cpit" id="59sqMMqSSyX" role="27c1lO">
-      <property role="TrG5h" value="BereichAusschlussregel" />
-      <property role="27cpiu" value="#388e3c" />
-    </node>
-    <node concept="27cpit" id="59sqMMqSSz7" role="27c1lO">
-      <property role="TrG5h" value="BereichAbrechnung" />
-      <property role="27cpiu" value="#f57c00" />
-    </node>
-    <node concept="27cpit" id="7nbc0000001" role="27c1lO">
-      <property role="TrG5h" value="BereichNachbewertung" />
-      <property role="27cpiu" value="#00796b" />
-    </node>
-    <node concept="27cpit" id="7vkc0000001" role="27c1lO">
-      <property role="TrG5h" value="BereichVerrechnungskonto" />
-      <property role="27cpiu" value="#5d4037" />
     </node>
     <node concept="il5_x" id="1SEqE6yDQxw" role="2kzhMJ">
       <property role="TrG5h" value="Anzeigen" />
