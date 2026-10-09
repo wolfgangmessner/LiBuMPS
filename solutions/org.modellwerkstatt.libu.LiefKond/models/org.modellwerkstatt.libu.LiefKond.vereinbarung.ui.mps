@@ -979,7 +979,7 @@
       <property role="TrG5h" value="Vereinbarung" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
       <node concept="10qiFn" id="1SEqE6z0zZZ" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0$4r" resolve="Speichern" />
+        <ref role="2DFCCC" to="hg40:7l090000001" resolve="SpeichernSchliessen" />
         <node concept="20qIzx" id="1SEqE6z0$00" role="10ot2L">
           <node concept="3clFbS" id="1SEqE6z0$01" role="2VODD2">
             <node concept="3clFbF" id="1SEqE6z0$bZ" role="3cqZAp">
@@ -1209,7 +1209,7 @@
       <property role="TrG5h" value="Bestätigen" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
       <node concept="10qiFn" id="1SEqE6z4jQN" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z4jXd" resolve="EngueltigLoeschen" />
+        <ref role="2DFCCC" to="hg40:1SEqE6z4jXd" resolve="EntgueltigLoeschen" />
         <node concept="20qIzx" id="1SEqE6z4jQO" role="10ot2L">
           <node concept="3clFbS" id="1SEqE6z4jQP" role="2VODD2">
             <node concept="10Adxj" id="1SEqE6z4kjL" role="3cqZAp" />
@@ -1306,7 +1306,7 @@
       <property role="TrG5h" value="Erfassen" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
       <node concept="10qiFn" id="1SEqE6z0uV7" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0v19" resolve="Anlegen" />
+        <ref role="2DFCCC" to="hg40:7l090000001" resolve="SpeichernSchliessen" />
         <node concept="20qIzx" id="1SEqE6z0uV8" role="10ot2L">
           <node concept="3clFbS" id="1SEqE6z0uV9" role="2VODD2">
             <node concept="3clFbF" id="1SEqE6z0v7W" role="3cqZAp">
@@ -3222,7 +3222,7 @@
       <property role="TrG5h" value="Beschreibung" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
       <node concept="10qiFn" id="1SEqE6z0_pr" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="1SEqE6z0_ps" role="10ot2L">
           <node concept="3clFbS" id="1SEqE6z0_pt" role="2VODD2">
             <node concept="3clFbF" id="1SEqE6z0B07" role="3cqZAp">
@@ -3320,7 +3320,7 @@
       <property role="TrG5h" value="Gueltigkeit" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
       <node concept="10qiFn" id="1SEqE6z0_KC" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="1SEqE6z0_KD" role="10ot2L">
           <node concept="3clFbS" id="1SEqE6z0_KE" role="2VODD2">
             <node concept="3clFbF" id="1SEqE6z0APR" role="3cqZAp">
@@ -3442,7 +3442,7 @@
       <property role="TrG5h" value="Lieferant" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
       <node concept="10qiFn" id="1SEqE6z0Be8" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="1SEqE6z0Be9" role="10ot2L">
           <node concept="3clFbS" id="1SEqE6z0Bea" role="2VODD2">
             <node concept="3clFbF" id="1SEqE6z0Beb" role="3cqZAp">
@@ -3738,7 +3738,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="5VOHcF3TxRk" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="5VOHcF3TxRl" role="10ot2L">
           <node concept="3clFbS" id="5VOHcF3TxRm" role="2VODD2">
             <node concept="3clFbF" id="6DuqmNvzFkg" role="3cqZAp">
@@ -4517,7 +4517,7 @@
       <property role="TrG5h" value="Bezeichnung" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
       <node concept="10qiFn" id="5VOHcF41kps" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="5VOHcF41kpt" role="10ot2L">
           <node concept="3clFbS" id="5VOHcF41kpu" role="2VODD2">
             <node concept="3clFbF" id="5VOHcF41kv0" role="3cqZAp">
@@ -4641,7 +4641,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="5VOHcF41lFH" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="5VOHcF41lFI" role="10ot2L">
           <node concept="3clFbS" id="5VOHcF41lFJ" role="2VODD2">
             <node concept="3clFbF" id="5VOHcF41lLT" role="3cqZAp">
@@ -5403,7 +5403,7 @@
       <property role="TrG5h" value="Gueltigkeit" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
       <node concept="10qiFn" id="5VOHcF41of2" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="5VOHcF41of3" role="10ot2L">
           <node concept="3clFbS" id="5VOHcF41of4" role="2VODD2">
             <node concept="3SKdUt" id="6HrJs_lMHp1" role="3cqZAp">
@@ -6093,7 +6093,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="5VOHcF41D59" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="5VOHcF41D5a" role="10ot2L">
           <node concept="3clFbS" id="5VOHcF41D5b" role="2VODD2">
             <node concept="3clFbF" id="5VOHcF41Ddq" role="3cqZAp">
@@ -6958,7 +6958,7 @@
       <property role="TrG5h" value="Bestaetigen" />
       <ref role="3gcvY6" to="uyeg:c_HYpdEe8J" resolve="Kondition" />
       <node concept="10qiFn" id="5VOHcF41OlX" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:5VOHcF41OrQ" resolve="Loeschen" />
+        <ref role="2DFCCC" to="hg40:7l090000010" resolve="LoeschenAbschluss" />
         <node concept="20qIzx" id="5VOHcF41OlY" role="10ot2L">
           <node concept="3clFbS" id="5VOHcF41OlZ" role="2VODD2">
             <node concept="3clFbF" id="5VOHcF41Ox9" role="3cqZAp">
@@ -8041,7 +8041,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="7vub0000186" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0$4r" resolve="Speichern" />
+        <ref role="2DFCCC" to="hg40:7l090000001" resolve="SpeichernSchliessen" />
         <node concept="20qIzx" id="7vub0000187" role="10ot2L">
           <node concept="3clFbS" id="7vub0000188" role="2VODD2">
             <node concept="3SKdUt" id="7yk20000191" role="3cqZAp">
@@ -8949,7 +8949,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="7vub0000474" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0$4r" resolve="Speichern" />
+        <ref role="2DFCCC" to="hg40:7l090000001" resolve="SpeichernSchliessen" />
         <node concept="20qIzx" id="7vub0000475" role="10ot2L">
           <node concept="3clFbS" id="7vub0000476" role="2VODD2">
             <node concept="3SKdUt" id="7yk20000121" role="3cqZAp">
@@ -9411,7 +9411,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="7vub0000572" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="7vub0000573" role="10ot2L">
           <node concept="3clFbS" id="7vub0000574" role="2VODD2">
             <node concept="3clFbF" id="7vub0000575" role="3cqZAp">
@@ -9959,7 +9959,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="7vub0000727" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="7vub0000728" role="10ot2L">
           <node concept="3clFbS" id="7vub0000729" role="2VODD2">
             <node concept="3clFbF" id="7vub0000730" role="3cqZAp">
@@ -10636,7 +10636,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="7vub0000997" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="7vub0000998" role="10ot2L">
           <node concept="3clFbS" id="7vub0000999" role="2VODD2">
             <node concept="3clFbF" id="7vub0001000" role="3cqZAp">
@@ -11339,7 +11339,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="7vub0001281" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="7vub0001282" role="10ot2L">
           <node concept="3clFbS" id="7vub0001283" role="2VODD2">
             <node concept="3clFbF" id="7vub0001284" role="3cqZAp">
@@ -11732,7 +11732,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="7vub0001442" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0_ve" resolve="Uebernehmen" />
+        <ref role="2DFCCC" to="hg40:7l090000004" resolve="OK" />
         <node concept="20qIzx" id="7vub0001443" role="10ot2L">
           <node concept="3clFbS" id="7vub0001444" role="2VODD2">
             <node concept="3clFbF" id="7vub0001445" role="3cqZAp">
@@ -12381,7 +12381,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="7vub0001703" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:5VOHcF41OrQ" resolve="Loeschen" />
+        <ref role="2DFCCC" to="hg40:7l090000010" resolve="LoeschenAbschluss" />
         <node concept="20qIzx" id="7vub0001704" role="10ot2L">
           <node concept="3clFbS" id="7vub0001705" role="2VODD2">
             <node concept="3clFbF" id="7vub0001706" role="3cqZAp">

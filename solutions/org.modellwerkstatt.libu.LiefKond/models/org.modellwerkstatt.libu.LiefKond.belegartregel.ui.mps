@@ -337,7 +337,7 @@
         <property role="Xl_RC" value="Neue Belegart-Regel" />
       </node>
       <node concept="10qiFn" id="7ub50000466" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0$4r" resolve="Speichern" />
+        <ref role="2DFCCC" to="hg40:7l090000001" resolve="SpeichernSchliessen" />
         <node concept="20qIzx" id="7ub50000467" role="10ot2L">
           <node concept="3clFbS" id="7ub50000468" role="2VODD2">
             <node concept="3SKdUt" id="7ub50000469" role="3cqZAp">
@@ -919,7 +919,7 @@
         <property role="Xl_RC" value="Bewertungsrelevante Belegarten" />
       </node>
       <node concept="10qiFn" id="7ub50000658" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:5VOHcF3Tzhq" resolve="Aktualisieren" />
+        <ref role="2DFCCC" to="hg40:7l090000007" resolve="AktualisierenAbschluss" />
         <node concept="20qIzx" id="7ub50000659" role="10ot2L">
           <node concept="3clFbS" id="7ub50000660" role="2VODD2">
             <node concept="10Adxa" id="7ub50000661" role="3cqZAp">
@@ -1104,7 +1104,7 @@
         </node>
       </node>
       <node concept="10qiFn" id="7ub50000038" role="10qiF9">
-        <ref role="2DFCCC" to="hg40:1SEqE6z0$4r" resolve="Speichern" />
+        <ref role="2DFCCC" to="hg40:7l090000001" resolve="SpeichernSchliessen" />
         <node concept="20qIzx" id="7ub50000039" role="10ot2L">
           <node concept="3clFbS" id="7ub50000040" role="2VODD2">
             <node concept="3SKdUt" id="7ub50000041" role="3cqZAp">

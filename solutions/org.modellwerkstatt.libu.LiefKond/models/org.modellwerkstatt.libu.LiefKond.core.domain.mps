@@ -412,6 +412,7 @@
     <node concept="il5_x" id="1SEqE6z4jXd" role="2kzhMJ">
       <property role="TrG5h" value="EntgueltigLoeschen" />
       <node concept="2kzhL4" id="1SEqE6z4jXe" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NTD/F12" />
         <node concept="Xl_RD" id="1SEqE6z4jXf" role="il5_5">
           <property role="Xl_RC" value="Entgültig löschen" />
         </node>
@@ -420,6 +421,7 @@
     <node concept="il5_x" id="5VOHcF41wn9" role="2kzhMJ">
       <property role="TrG5h" value="TrotzdemUebernehmen" />
       <node concept="2kzhL4" id="5VOHcF41wna" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NTD/F12" />
         <node concept="Xl_RD" id="5VOHcF41wnb" role="il5_5">
           <property role="Xl_RC" value="Trotzdem übernehmen" />
         </node>
@@ -428,6 +430,7 @@
     <node concept="il5_x" id="5VOHcF41wrZ" role="2kzhMJ">
       <property role="TrG5h" value="Zurueck" />
       <node concept="2kzhL4" id="5VOHcF41ws0" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NTw/F3" />
         <node concept="Xl_RD" id="5VOHcF41ws1" role="il5_5">
           <property role="Xl_RC" value="Zurück" />
         </node>
@@ -436,6 +439,7 @@
     <node concept="il5_x" id="5VOHcF41Av5" role="2kzhMJ">
       <property role="TrG5h" value="Weiter" />
       <node concept="2kzhL4" id="5VOHcF41Av6" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NTx/F4" />
         <node concept="Xl_RD" id="5VOHcF41Av7" role="il5_5">
           <property role="Xl_RC" value="Weiter" />
         </node>
@@ -465,6 +469,7 @@
     <node concept="il5_x" id="6DuqmNwdwEq" role="2kzhMJ">
       <property role="TrG5h" value="Bestaetigen" />
       <node concept="2kzhL4" id="6DuqmNwdwEr" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NTD/F12" />
         <node concept="Xl_RD" id="6DuqmNwdwEs" role="il5_5">
           <property role="Xl_RC" value="Bestätigen" />
         </node>
@@ -582,6 +587,42 @@
       <node concept="2kzhL4" id="7uil0000035" role="2kzgdm">
         <node concept="Xl_RD" id="7uil0000036" role="il5_5">
           <property role="Xl_RC" value="Entfernen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7l090000001" role="2kzhMJ">
+      <property role="TrG5h" value="SpeichernSchliessen" />
+      <node concept="2kzhL4" id="7l090000002" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NTD/F12" />
+        <node concept="Xl_RD" id="7l090000003" role="il5_5">
+          <property role="Xl_RC" value="Speichern &amp; Schließen" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7l090000004" role="2kzhMJ">
+      <property role="TrG5h" value="OK" />
+      <node concept="2kzhL4" id="7l090000005" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NTD/F12" />
+        <node concept="Xl_RD" id="7l090000006" role="il5_5">
+          <property role="Xl_RC" value="OK" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7l090000007" role="2kzhMJ">
+      <property role="TrG5h" value="AktualisierenAbschluss" />
+      <node concept="2kzhL4" id="7l090000008" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NTD/F12" />
+        <node concept="Xl_RD" id="7l090000009" role="il5_5">
+          <property role="Xl_RC" value="Aktualisieren" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="7l090000010" role="2kzhMJ">
+      <property role="TrG5h" value="LoeschenAbschluss" />
+      <node concept="2kzhL4" id="7l090000011" role="2kzgdm">
+        <property role="il5CD" value="1hImSMr5NTD/F12" />
+        <node concept="Xl_RD" id="7l090000012" role="il5_5">
+          <property role="Xl_RC" value="Löschen" />
         </node>
       </node>
     </node>
