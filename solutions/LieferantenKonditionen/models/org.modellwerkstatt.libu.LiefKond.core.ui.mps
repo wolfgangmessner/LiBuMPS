@@ -128,7 +128,7 @@
   </registry>
   <node concept="2MVcZ9" id="c_HYpdEwWz">
     <property role="TrG5h" value="LibuApp" />
-    <ref role="2WPtWl" to="anru:5E0k43hHyU8" resolve="ConfigFx8" />
+    <ref role="2WPtWl" to="anru:4eYAwYe6xcl" resolve="LocalFx8Config" />
     <node concept="33WYYh" id="64Z6K0hVCie" role="2N77jL">
       <ref role="2_Hrw8" to="752l:64Z6K0hVxbx" resolve="TestUi" />
     </node>
