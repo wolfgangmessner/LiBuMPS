@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:d5626193-6518-4b9a-8e77-66a489968695(org.modellwerkstatt.libu.LiefKond.vereinbarung.tests)">
+<model ref="r:d0f75028-d5e2-4bb7-8766-4bbf298b1300(org.modellwerkstatt.libu.LiefKond.vereinbarung.tests)">
   <persistence version="9" />
   <languages>
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
@@ -7,7 +7,6 @@
     <devkit ref="b2950e54-da96-4c3b-868c-2b5e12af9605(org.modellwerkstatt.MoWareWerkbank)" />
   </languages>
   <imports>
-    <import index="anru" ref="r:cebad6b6-0377-4a76-b190-8df1969353eb(org.modellwerkstatt.libu.LiefKond.core.config)" />
     <import index="uyeg" ref="r:5ad24a95-c9f4-4fb1-9ab9-386086903dec(org.modellwerkstatt.libu.LiefKond.vereinbarung.domain)" />
     <import index="9evg" ref="r:a6c257f9-fc96-4114-be61-ce15e0320374(org.modellwerkstatt.libu.LiefKond.vereinbarung.ui)" />
     <import index="hg40" ref="r:dcc1c0ca-ab44-4898-906e-e8b4a9d7f836(org.modellwerkstatt.libu.LiefKond.core.domain)" />
@@ -16,8 +15,8 @@
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
-    <import index="752l" ref="r:bc1aa817-c898-4c87-9387-605f3f16a2a2(org.modellwerkstatt.libu.LiefKond.test.basics)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
+    <import index="9ttu" ref="r:e117c318-e723-4d6a-bca2-693458e89f04(org.modellwerkstatt.libu.LiefKond.test.basics)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1985,8 +1984,8 @@
         </node>
         <node concept="3clFbF" id="7x430000009" role="3cqZAp">
           <node concept="1odsa" id="7x430000010" role="3clFbG">
-            <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-            <ref role="37wK5l" to="752l:4HE8M78rhgY" resolve="COMMIT" />
+            <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+            <ref role="37wK5l" to="9ttu:4HE8M78rhgY" resolve="COMMIT" />
           </node>
         </node>
         <node concept="3cpWs6" id="7x330000649" role="3cqZAp">
@@ -2119,8 +2118,8 @@
         </node>
         <node concept="3clFbF" id="7x430000017" role="3cqZAp">
           <node concept="1odsa" id="7x430000018" role="3clFbG">
-            <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-            <ref role="37wK5l" to="752l:4HE8M78rhgY" resolve="COMMIT" />
+            <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+            <ref role="37wK5l" to="9ttu:4HE8M78rhgY" resolve="COMMIT" />
           </node>
         </node>
       </node>
@@ -2171,8 +2170,8 @@
         </node>
         <node concept="3clFbF" id="4HE8M78sLBo" role="3cqZAp">
           <node concept="1odsa" id="4HE8M78sLBm" role="3clFbG">
-            <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-            <ref role="37wK5l" to="752l:4HE8M78rhgY" resolve="COMMIT" />
+            <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+            <ref role="37wK5l" to="9ttu:4HE8M78rhgY" resolve="COMMIT" />
           </node>
         </node>
         <node concept="3cpWs6" id="4HE8M78sLbn" role="3cqZAp">
@@ -2193,7 +2192,7 @@
   </node>
   <node concept="2WPaUQ" id="7x330000696">
     <property role="TrG5h" value="Gültige Konditionen einsehen (UC-003)" />
-    <ref role="2WPtWl" to="anru:5E0k43hHz10" resolve="ConfigTest" />
+    <ref role="2WPtWl" to="9ttu:5E0k43hHz10" resolve="FilTestConf" />
     <node concept="3yPF9F" id="7td20000051" role="3yMuLx">
       <property role="TrG5h" value="Vorbereitung: Testdaten früherer Läufe entfernen" />
       <node concept="3cqZAl" id="7td20000052" role="3clF45" />
@@ -2255,11 +2254,11 @@
         </node>
         <node concept="3clFbF" id="7td20000073" role="3cqZAp">
           <node concept="1odsa" id="7td20000074" role="3clFbG">
-            <ref role="1ods_" to="752l:4HE8M78sIcn" resolve="Testdaten" />
-            <ref role="37wK5l" to="752l:7td10000032" resolve="entferneTestdaten" />
+            <ref role="1ods_" to="9ttu:4HE8M78sIcn" resolve="Testdaten" />
+            <ref role="37wK5l" to="9ttu:7td10000032" resolve="entferneTestdaten" />
             <node concept="1odsa" id="7td20000075" role="2f8TIa">
-              <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-              <ref role="37wK5l" to="752l:4HE8M78rchD" resolve="CREATE" />
+              <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+              <ref role="37wK5l" to="9ttu:4HE8M78rchD" resolve="CREATE" />
             </node>
           </node>
         </node>
@@ -2356,8 +2355,8 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="1odsa" id="7x430000019" role="2f8TIa">
-                <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-                <ref role="37wK5l" to="752l:4HE8M78rchD" resolve="CREATE" />
+                <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="9ttu:4HE8M78rchD" resolve="CREATE" />
               </node>
             </node>
           </node>
@@ -2654,8 +2653,8 @@
                 <ref role="3cqZAo" node="7x330000832" />
               </node>
               <node concept="1odsa" id="7x430000020" role="2f8TIa">
-                <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-                <ref role="37wK5l" to="752l:4HE8M78rchD" resolve="CREATE" />
+                <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="9ttu:4HE8M78rchD" resolve="CREATE" />
               </node>
             </node>
           </node>
@@ -2898,8 +2897,8 @@
                 <ref role="3cqZAo" node="7x330000932" />
               </node>
               <node concept="1odsa" id="7x430000021" role="2f8TIa">
-                <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-                <ref role="37wK5l" to="752l:4HE8M78rchD" resolve="CREATE" />
+                <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="9ttu:4HE8M78rchD" resolve="CREATE" />
               </node>
             </node>
           </node>
@@ -3222,8 +3221,8 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="1odsa" id="7x430000022" role="2f8TIa">
-                <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-                <ref role="37wK5l" to="752l:4HE8M78rchD" resolve="CREATE" />
+                <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="9ttu:4HE8M78rchD" resolve="CREATE" />
               </node>
             </node>
           </node>
@@ -3264,8 +3263,8 @@
               <ref role="3cqZAo" node="7x330000994" />
             </node>
             <node concept="1odsa" id="7x430000023" role="2f8TIa">
-              <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-              <ref role="37wK5l" to="752l:4HE8M78rchD" resolve="CREATE" />
+              <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+              <ref role="37wK5l" to="9ttu:4HE8M78rchD" resolve="CREATE" />
             </node>
           </node>
         </node>
@@ -3652,8 +3651,8 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="1odsa" id="7x430000024" role="2f8TIa">
-                <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
-                <ref role="37wK5l" to="752l:4HE8M78rchD" resolve="CREATE" />
+                <ref role="1ods_" to="9ttu:4HE8M78rbUl" resolve="CS" />
+                <ref role="37wK5l" to="9ttu:4HE8M78rchD" resolve="CREATE" />
               </node>
             </node>
           </node>
@@ -3849,7 +3848,7 @@
   </node>
   <node concept="2WPaUQ" id="4HE8M78sLHt">
     <property role="TrG5h" value="TemplateTest" />
-    <ref role="2WPtWl" to="anru:5E0k43hHz10" resolve="ConNfigTest" />
+    <ref role="2WPtWl" to="9ttu:5E0k43hHz10" resolve="FilTestConf" />
     <node concept="3yPF9F" id="4HE8M78sLLf" role="3yMuLx">
       <property role="TrG5h" value="Test1" />
       <node concept="3cqZAl" id="4HE8M78sLLh" role="3clF45" />

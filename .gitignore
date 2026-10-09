@@ -1,0 +1,41 @@
+#
+# Git Ignore for MPS Project
+# Dan 25th march 2013
+#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+*.java
+*.info
+*.iws
+*.xml
+*.bxml
+*.class
+*.dmp
+*.log
+dependencies
+generated
+build/*/LucaApps
+WabuDoku
+SQL
+
+# Ant builds
+build/LucaApps
+
+# MPS configs
+.mps/encodings.xml
+.mps/libraries.xml
+.mps/migration.xml
+.mps/misc.xml
+.mps/modules.xml
+.mps/vcs.xml
+.mps/version.xml
+.mps/workspace.xml
+
+# MacOS and source_gen
+.DS_Store
+solutions/org.modellwerkstatt.wabu/source_gen.caches/
+
+# Generierte Dateien aller Solutions (MPS)
+source_gen/
+source_gen.caches/
+classes_gen/

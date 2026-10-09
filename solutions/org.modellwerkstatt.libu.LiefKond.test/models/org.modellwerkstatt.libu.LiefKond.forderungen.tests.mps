@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7f7c4b03-01d3-4f60-a6ee-54cc3cac525f(org.modellwerkstatt.libu.LiefKond.forderungen.tests)">
+<model ref="r:73030b06-673c-4205-a0c9-159224f1eb06(org.modellwerkstatt.libu.LiefKond.forderungen.tests)">
   <persistence version="9" />
   <languages />
   <imports />

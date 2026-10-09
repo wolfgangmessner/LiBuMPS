@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:06597830-36fd-48b8-905c-d3b7fe2f155f(org.modellwerkstatt.libu.LiefKond.test.ui)">
+<model ref="r:1067fad9-e181-4ab2-8973-64be1d966fac(org.modellwerkstatt.libu.LiefKond.test.ui)">
   <persistence version="9" />
   <languages>
     <use id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux" version="0" />
@@ -11,10 +11,9 @@
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
     <import index="h0p1" ref="r:46ddb3ce-809a-4f3b-a08a-26aa6b0e9c9a(org.modellwerkstatt.libu.LiefKond.belegartregel.ui)" />
     <import index="9evg" ref="r:a6c257f9-fc96-4114-be61-ce15e0320374(org.modellwerkstatt.libu.LiefKond.vereinbarung.ui)" />
-    <import index="752l" ref="r:bc1aa817-c898-4c87-9387-605f3f16a2a2(org.modellwerkstatt.libu.LiefKond.test.basics)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="anru" ref="r:cebad6b6-0377-4a76-b190-8df1969353eb(org.modellwerkstatt.libu.LiefKond.core.config)" />
-    <import index="8sa9" ref="r:14909b4c-0a98-4792-97da-f1d767d32038(org.modellwerkstatt.libu.LiefKond.bewertung.tests)" />
+    <import index="9ttu" ref="r:e117c318-e723-4d6a-bca2-693458e89f04(org.modellwerkstatt.libu.LiefKond.test.basics)" />
+    <import index="hug8" ref="r:0d13bccb-2bc6-4f13-9109-a5f591220f45(org.modellwerkstatt.libu.LiefKond.bewertung.tests)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -85,9 +84,33 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="406105322043152820" name="org.modellwerkstatt.objectflow.structure.ComponentsScanning" flags="ng" index="20ptWn">
+        <child id="406105322043152971" name="componentBaseName" index="20ptNC" />
+      </concept>
       <concept id="3875131616719432922" name="org.modellwerkstatt.objectflow.structure.CommandCallBasis" flags="ng" index="2_HltQ">
         <reference id="3875131616719438756" name="command" index="2_Hrw8" />
       </concept>
+      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
+        <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
+        <child id="406105322043153886" name="dependencyResolution" index="20ptHX" />
+        <child id="478945708906902061" name="elements" index="2CGBMS" />
+      </concept>
+      <concept id="478945708907022269" name="org.modellwerkstatt.objectflow.structure.OFXConfigProperty" flags="ng" index="2CJ4$C">
+        <property id="478945708938010900" name="ref" index="2DlMY1" />
+        <child id="478945708914721971" name="value" index="2CaGCA" />
+      </concept>
+      <concept id="478945708907003617" name="org.modellwerkstatt.objectflow.structure.OFXConfigConstructorArg" flags="ng" index="2CJf1O">
+        <child id="478945708935709196" name="value" index="2DqwMp" />
+        <child id="478945708935709194" name="type" index="2DqwMv" />
+      </concept>
+      <concept id="478945708907003466" name="org.modellwerkstatt.objectflow.structure.OFXConfigInstance" flags="ng" index="2CJf3v">
+        <child id="478945708907022272" name="elements" index="2CJ4_l" />
+        <child id="478945708907003567" name="className" index="2CJf0U" />
+      </concept>
+      <concept id="478945708906907667" name="org.modellwerkstatt.objectflow.structure.OFXConfigSection" flags="ng" index="2CJoq6">
+        <child id="478945708906994221" name="elements" index="2CJdiS" />
+      </concept>
+      <concept id="478945708912703702" name="org.modellwerkstatt.objectflow.structure.OFXConfigEmpty" flags="ng" index="2CPvp3" />
       <concept id="4779674245164262437" name="org.modellwerkstatt.objectflow.structure.UserEnvironmentParameter" flags="ng" index="2Rjrh3" />
     </language>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
@@ -123,9 +146,9 @@
   </registry>
   <node concept="2MVcZ9" id="c_HYpdEwWz">
     <property role="TrG5h" value="LibuDemoApp" />
-    <ref role="2WPtWl" to="anru:3xvuS$eSydi" resolve="ConfigFx8" />
+    <ref role="2WPtWl" node="3xvuS$eSydi" resolve="FilFx8DemoConf" />
     <node concept="33WYYh" id="64Z6K0hVCie" role="2N77jL">
-      <ref role="2_Hrw8" to="752l:64Z6K0hVxbx" resolve="TestUi" />
+      <ref role="2_Hrw8" to="9ttu:64Z6K0hVxbx" resolve="TestUi" />
     </node>
     <node concept="33WYYh" id="6L7N34hs4t" role="2N77jT">
       <ref role="2_Hrw8" to="9evg:c_HYpdFTKG" resolve="Vereinbarungen suchen" />
@@ -162,7 +185,7 @@
     </node>
     <node concept="2$ntO6" id="6DuqmNvDeou" role="2$nsuY">
       <node concept="33WYYh" id="6DuqmNvDeov" role="2$ntUL">
-        <ref role="2_Hrw8" to="8sa9:6DuqmNvDd_O" resolve="Belege suchen" />
+        <ref role="2_Hrw8" to="hug8:6DuqmNvDd_O" resolve="Belege suchen" />
       </node>
       <node concept="Xl_RD" id="6DuqmNvDewf" role="2$ntWM">
         <property role="Xl_RC" value="Belege" />
@@ -265,6 +288,272 @@
       </node>
     </node>
     <node concept="2tJIrI" id="c_HYpdEzs$" role="jymVt" />
+  </node>
+  <node concept="2CG7Z0" id="3xvuS$eSydi">
+    <property role="TrG5h" value="FilFx8DemoConf" />
+    <property role="2320hu" value="2018-08-07T11:43:47.117+02:00" />
+    <node concept="2CPvp3" id="3xvuS$eSydj" role="2CGBMS" />
+    <node concept="2CJoq6" id="3xvuS$eSyme" role="2CGBMS">
+      <property role="TrG5h" value="SingleConnectionDataSource" />
+      <node concept="2CJf3v" id="3xvuS$eSynT" role="2CJdiS">
+        <property role="TrG5h" value="dataSource" />
+        <node concept="Xl_RD" id="3xvuS$eSynU" role="2CJf0U">
+          <property role="Xl_RC" value="org.springframework.jdbc.datasource.SingleConnectionDataSource" />
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$eSynV" role="2CJ4_l">
+          <property role="TrG5h" value="driverClassName" />
+          <node concept="Xl_RD" id="3xvuS$eSynW" role="2CaGCA">
+            <property role="Xl_RC" value="oracle.jdbc.driver.OracleDriver" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$eSynX" role="2CJ4_l">
+          <property role="TrG5h" value="url" />
+          <node concept="Xl_RD" id="3xvuS$eSynY" role="2CaGCA">
+            <property role="Xl_RC" value="jdbc:oracle:thin:@FIL" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$eSynZ" role="2CJ4_l">
+          <property role="TrG5h" value="username" />
+          <node concept="Xl_RD" id="3xvuS$eSyo0" role="2CaGCA">
+            <property role="Xl_RC" value="luca2" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$eSyo1" role="2CJ4_l">
+          <property role="TrG5h" value="password" />
+          <node concept="Xl_RD" id="3xvuS$eSyo2" role="2CaGCA">
+            <property role="Xl_RC" value="luca2" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$eSyo3" role="2CJ4_l">
+          <property role="TrG5h" value="suppressClose" />
+          <node concept="Xl_RD" id="3xvuS$eSyo4" role="2CaGCA">
+            <property role="Xl_RC" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CJf3v" id="3xvuS$f7Hnl" role="2CJdiS">
+        <property role="TrG5h" value="transactionManager" />
+        <node concept="Xl_RD" id="3xvuS$f7Hnm" role="2CJf0U">
+          <property role="Xl_RC" value="org.springframework.jdbc.datasource.DataSourceTransactionManager" />
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$f7Hnn" role="2CJ4_l">
+          <property role="2DlMY1" value="true" />
+          <property role="TrG5h" value="dataSource" />
+          <node concept="Xl_RD" id="3xvuS$f7Hno" role="2CaGCA">
+            <property role="Xl_RC" value="dataSource" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CPvp3" id="3xvuS$f7Hpo" role="2CJdiS" />
+      <node concept="2CJf3v" id="3xvuS$f7Hnc" role="2CJdiS">
+        <property role="TrG5h" value="transactionDefinition" />
+        <node concept="2CJ4$C" id="3xvuS$f7Hnd" role="2CJ4_l">
+          <property role="TrG5h" value="propagationBehaviorName" />
+          <node concept="Xl_RD" id="3xvuS$f7Hne" role="2CaGCA">
+            <property role="Xl_RC" value="PROPAGATION_REQUIRES_NEW" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$f7Hnf" role="2CJ4_l">
+          <property role="TrG5h" value="isolationLevelName" />
+          <node concept="Xl_RD" id="3xvuS$f7Hng" role="2CaGCA">
+            <property role="Xl_RC" value="ISOLATION_READ_COMMITTED" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$f7Hnh" role="2CJ4_l">
+          <property role="TrG5h" value="timeout" />
+          <node concept="Xl_RD" id="3xvuS$f7Hni" role="2CaGCA">
+            <property role="Xl_RC" value="5000" />
+          </node>
+        </node>
+        <node concept="Xl_RD" id="3xvuS$f7Hnj" role="2CJf0U">
+          <property role="Xl_RC" value="org.springframework.transaction.support.DefaultTransactionDefinition" />
+        </node>
+      </node>
+      <node concept="2CPvp3" id="3xvuS$f7Hnk" role="2CJdiS" />
+      <node concept="2CJf3v" id="3xvuS$f7Hnp" role="2CJdiS">
+        <property role="TrG5h" value="jdbcTemplate" />
+        <node concept="Xl_RD" id="3xvuS$f7Hnq" role="2CJf0U">
+          <property role="Xl_RC" value="org.springframework.jdbc.core.JdbcTemplate" />
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$f7Hnr" role="2CJ4_l">
+          <property role="2DlMY1" value="true" />
+          <property role="TrG5h" value="dataSource" />
+          <node concept="Xl_RD" id="3xvuS$f7Hns" role="2CaGCA">
+            <property role="Xl_RC" value="dataSource" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2CPvp3" id="3xvuS$eSydt" role="2CGBMS" />
+    <node concept="2CJoq6" id="3xvuS$eSysY" role="2CGBMS">
+      <property role="TrG5h" value="Base_FX8_PRINT" />
+      <node concept="2CJf3v" id="3xvuS$eSyuh" role="2CJdiS">
+        <property role="TrG5h" value="fxUiFactory" />
+        <node concept="2CJ4$C" id="3xvuS$eSyui" role="2CJ4_l">
+          <property role="TrG5h" value="EventBusLocking" />
+          <node concept="Xl_RD" id="3xvuS$eSyuj" role="2CaGCA">
+            <property role="Xl_RC" value="false" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$eSyuk" role="2CJ4_l">
+          <property role="TrG5h" value="SilentExLogging" />
+          <node concept="Xl_RD" id="3xvuS$eSyul" role="2CaGCA">
+            <property role="Xl_RC" value="false" />
+          </node>
+        </node>
+        <node concept="Xl_RD" id="3xvuS$eSyum" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.fx8forms.windows.FX8UiFactory" />
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$eSyun" role="2CJ4_l">
+          <property role="TrG5h" value="PortJ" />
+          <node concept="Xl_RD" id="3xvuS$eSyuo" role="2CaGCA">
+            <property role="Xl_RC" value="false" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$eSyup" role="2CJ4_l">
+          <property role="TrG5h" value="MowareTrace" />
+          <node concept="Xl_RD" id="3xvuS$eSyuq" role="2CaGCA">
+            <property role="Xl_RC" value="false" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3xvuS$eSyur" role="2CJ4_l">
+          <property role="TrG5h" value="CollectSelections" />
+          <node concept="Xl_RD" id="3xvuS$eSyus" role="2CaGCA">
+            <property role="Xl_RC" value="true" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="6IAJlnIbVgl" role="2CJ4_l">
+          <property role="TrG5h" value="AlwaysRollbackSession" />
+          <node concept="Xl_RD" id="6IAJlnIbVgm" role="2CaGCA">
+            <property role="Xl_RC" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7K" role="2CJdiS">
+        <property role="TrG5h" value="printFactory" />
+        <node concept="Xl_RD" id="5STQGl_lD7L" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXFakePrintFactory" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7Z" role="2CJdiS">
+        <property role="TrG5h" value="eventBus" />
+        <node concept="Xl_RD" id="5STQGl_lD80" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoFakeEventBus" />
+        </node>
+      </node>
+    </node>
+    <node concept="2CJoq6" id="5STQGl_lD7p" role="2CGBMS">
+      <property role="TrG5h" value="OFXBasisInfra" />
+      <node concept="2CJf3v" id="5STQGl_lD7q" role="2CJdiS">
+        <property role="TrG5h" value="printService" />
+        <node concept="Xl_RD" id="5STQGl_lD7r" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoSimplePrintService" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7s" role="2CJdiS">
+        <property role="TrG5h" value="stringFormatter" />
+        <node concept="Xl_RD" id="5STQGl_lD7t" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXStringFormatter2" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7u" role="2CJdiS">
+        <property role="TrG5h" value="databaseDescription" />
+        <node concept="Xl_RD" id="5STQGl_lD7v" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMOracleDescription" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7w" role="2CJdiS">
+        <property role="TrG5h" value="_dateTimeTypeHandler" />
+        <node concept="Xl_RD" id="5STQGl_lD7x" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMJodaDateTimeTypeHandler" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7y" role="2CJdiS">
+        <property role="TrG5h" value="_localDateTypeHandler" />
+        <node concept="Xl_RD" id="5STQGl_lD7z" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMJodaLocalDateTypeHandler" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7$" role="2CJdiS">
+        <property role="TrG5h" value="_bigDecimalTypeHandler" />
+        <node concept="Xl_RD" id="5STQGl_lD7_" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMBigDecimalTypeHandler" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7A" role="2CJdiS">
+        <property role="TrG5h" value="_stringTypeHandler" />
+        <node concept="Xl_RD" id="5STQGl_lD7B" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMStringTypeHandler" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7C" role="2CJdiS">
+        <property role="TrG5h" value="_intTypeHandler" />
+        <node concept="Xl_RD" id="5STQGl_lD7D" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMIntTypeHandler" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="3Pd0HzeZapt" role="2CJdiS">
+        <property role="TrG5h" value="_byteArrayTypeHandler" />
+        <node concept="Xl_RD" id="3Pd0HzeZapv" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMByteArrayTypeHandler" />
+        </node>
+      </node>
+      <node concept="2CPvp3" id="3Pd0HzeZaoK" role="2CJdiS" />
+      <node concept="2CJf3v" id="5STQGl_lD7E" role="2CJdiS">
+        <property role="TrG5h" value="deprecatedServerDateProvider" />
+        <node concept="Xl_RD" id="5STQGl_lD7F" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.DeprecatedServerDateProvider" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5STQGl_lD7G" role="2CJdiS">
+        <property role="TrG5h" value="_mmTypeHandlers" />
+        <node concept="Xl_RD" id="5STQGl_lD7H" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMStaticAccessHelper" />
+        </node>
+      </node>
+    </node>
+    <node concept="2CPvp3" id="c_HYpdECFE" role="2CGBMS" />
+    <node concept="2CJoq6" id="c_HYpdED1G" role="2CGBMS">
+      <property role="TrG5h" value="Platform_UIRich" />
+      <node concept="2CJf3v" id="6ni6$jL7Sn1" role="2CJdiS">
+        <property role="TrG5h" value="platForm" />
+        <node concept="Xl_RD" id="6ni6$jL7Sn2" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.libu.LiefKond.core.domain.Ressource_RICH" />
+        </node>
+      </node>
+      <node concept="2CPvp3" id="c_HYpdED$p" role="2CJdiS" />
+    </node>
+    <node concept="2CJoq6" id="c_HYpdEDIW" role="2CGBMS">
+      <property role="TrG5h" value="Log_Debug" />
+      <node concept="2CJf3v" id="X81yhT$xwI" role="2CJdiS">
+        <property role="TrG5h" value="logConfLibu" />
+        <node concept="Xl_RD" id="X81yhT$xwJ" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.Log4JLogLevel" />
+        </node>
+        <node concept="2CJf1O" id="X81yhT$xwK" role="2CJ4_l">
+          <node concept="Xl_RD" id="X81yhT$xwL" role="2DqwMv">
+            <property role="Xl_RC" value="String" />
+          </node>
+          <node concept="Xl_RD" id="X81yhT$xwM" role="2DqwMp">
+            <property role="Xl_RC" value="org.modellwerkstatt.libu" />
+          </node>
+        </node>
+        <node concept="2CJf1O" id="X81yhT$xwN" role="2CJ4_l">
+          <node concept="Xl_RD" id="X81yhT$xwO" role="2DqwMv">
+            <property role="Xl_RC" value="String" />
+          </node>
+          <node concept="Xl_RD" id="X81yhT$xwP" role="2DqwMp">
+            <property role="Xl_RC" value="DEBUG" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2CPvp3" id="c_HYpdEDFr" role="2CGBMS" />
+    <node concept="20ptWn" id="3xvuS$eSydx" role="20ptHX">
+      <node concept="Xl_RD" id="3xvuS$eSydy" role="20ptNC">
+        <property role="Xl_RC" value="org.modellwerkstatt.libu" />
+      </node>
+    </node>
   </node>
 </model>
 
