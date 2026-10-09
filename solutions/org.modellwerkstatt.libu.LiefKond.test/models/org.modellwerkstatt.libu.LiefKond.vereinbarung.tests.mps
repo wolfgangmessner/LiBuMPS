@@ -7,7 +7,6 @@
     <devkit ref="b2950e54-da96-4c3b-868c-2b5e12af9605(org.modellwerkstatt.MoWareWerkbank)" />
   </languages>
   <imports>
-    <import index="anru" ref="r:cebad6b6-0377-4a76-b190-8df1969353eb(org.modellwerkstatt.libu.LiefKond.core.config)" />
     <import index="uyeg" ref="r:5ad24a95-c9f4-4fb1-9ab9-386086903dec(org.modellwerkstatt.libu.LiefKond.vereinbarung.domain)" />
     <import index="9evg" ref="r:a6c257f9-fc96-4114-be61-ce15e0320374(org.modellwerkstatt.libu.LiefKond.vereinbarung.ui)" />
     <import index="hg40" ref="r:dcc1c0ca-ab44-4898-906e-e8b4a9d7f836(org.modellwerkstatt.libu.LiefKond.core.domain)" />
@@ -2193,7 +2192,7 @@
   </node>
   <node concept="2WPaUQ" id="7x330000696">
     <property role="TrG5h" value="Gültige Konditionen einsehen (UC-003)" />
-    <ref role="2WPtWl" to="anru:5E0k43hHz10" resolve="ConfigTest" />
+    <ref role="2WPtWl" to="9ttu:5E0k43hHz10" resolve="FilTestConf" />
     <node concept="3yPF9F" id="7td20000051" role="3yMuLx">
       <property role="TrG5h" value="Vorbereitung: Testdaten früherer Läufe entfernen" />
       <node concept="3cqZAl" id="7td20000052" role="3clF45" />
@@ -3849,7 +3848,7 @@
   </node>
   <node concept="2WPaUQ" id="4HE8M78sLHt">
     <property role="TrG5h" value="TemplateTest" />
-    <ref role="2WPtWl" to="anru:5E0k43hHz10" resolve="ConNfigTest" />
+    <ref role="2WPtWl" to="9ttu:5E0k43hHz10" resolve="FilTestConf" />
     <node concept="3yPF9F" id="4HE8M78sLLf" role="3yMuLx">
       <property role="TrG5h" value="Test1" />
       <node concept="3cqZAl" id="4HE8M78sLLh" role="3clF45" />

@@ -12,7 +12,6 @@
     <devkit ref="b2950e54-da96-4c3b-868c-2b5e12af9605(org.modellwerkstatt.MoWareWerkbank)" />
   </languages>
   <imports>
-    <import index="anru" ref="r:cebad6b6-0377-4a76-b190-8df1969353eb(org.modellwerkstatt.libu.LiefKond.core.config)" />
     <import index="uyeg" ref="r:5ad24a95-c9f4-4fb1-9ab9-386086903dec(org.modellwerkstatt.libu.LiefKond.vereinbarung.domain)" />
     <import index="7ahv" ref="r:0d4c8261-8ada-4629-8cc1-f778130e30d3(org.modellwerkstatt.libu.LiefKond.bewertung.domain)" />
     <import index="hg40" ref="r:dcc1c0ca-ab44-4898-906e-e8b4a9d7f836(org.modellwerkstatt.libu.LiefKond.core.domain)" />
@@ -2728,7 +2727,7 @@
   </node>
   <node concept="2WPaUQ" id="7bwt0000748">
     <property role="TrG5h" value="Bewertungslücken prüfen (UC-011)" />
-    <ref role="2WPtWl" to="anru:5E0k43hHz10" resolve="ConfigTest" />
+    <ref role="2WPtWl" to="9ttu:5E0k43hHz10" resolve="FilTestConf" />
     <node concept="3yPF9F" id="7td30000138" role="3yMuLx">
       <property role="TrG5h" value="Vorbereitung: Testdaten früherer Läufe entfernen" />
       <node concept="3cqZAl" id="7td30000139" role="3clF45" />
