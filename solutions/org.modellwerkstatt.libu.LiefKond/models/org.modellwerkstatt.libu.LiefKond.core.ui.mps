@@ -170,7 +170,7 @@
         <property role="Xl_RC" value="Vereinbarungen" />
       </node>
       <node concept="276gdk" id="zKoHWacglo" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichVereinbarung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichPflege" />
       </node>
     </node>
     <node concept="2$ntO6" id="6DuqmNw0LEV" role="2$nsuY">
@@ -181,7 +181,7 @@
         <property role="Xl_RC" value="Gültige Konditionen" />
       </node>
       <node concept="276gdk" id="zKoHWacgnM" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSy_" resolve="BereichKondition" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichPflege" />
       </node>
     </node>
     <node concept="2$ntO6" id="1pSXiqN9qJ" role="2$nsuY">
@@ -192,7 +192,7 @@
         <property role="Xl_RC" value="Sortimente" />
       </node>
       <node concept="276gdk" id="zKoHWacgpI" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSyv" resolve="BereichSortiment" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyO" resolve="BereichPflege" />
       </node>
     </node>
     <node concept="2$ntO6" id="6DuqmNw0M5$" role="2$nsuY">
@@ -203,7 +203,7 @@
         <property role="Xl_RC" value="Belegart-Regeln" />
       </node>
       <node concept="276gdk" id="zKoHWaci1k" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichBelegartregel" />
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichSteuerung" />
       </node>
     </node>
     <node concept="2$ntO6" id="7auc0000002" role="2$nsuY">
@@ -214,7 +214,7 @@
         <property role="Xl_RC" value="Nicht konditionsrelevante Artikel" />
       </node>
       <node concept="276gdk" id="zKoHWaci2M" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSyX" resolve="BereichAusschlussregel" />
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichSteuerung" />
       </node>
     </node>
     <node concept="2$ntO6" id="7abx0000002" role="2$nsuY">
@@ -225,7 +225,7 @@
         <property role="Xl_RC" value="Abrechnungsgrundlage" />
       </node>
       <node concept="276gdk" id="7abx0000005" role="2$ntZF">
-        <ref role="276gdn" to="hg40:59sqMMqSSz7" resolve="BereichAbrechnung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
     <node concept="2$ntO6" id="7vkx0000002" role="2$nsuY">
@@ -236,7 +236,7 @@
         <property role="Xl_RC" value="Verrechnungskonto" />
       </node>
       <node concept="276gdk" id="7vkx0000005" role="2$ntZF">
-        <ref role="276gdn" to="hg40:7vkc0000001" resolve="BereichVerrechnungskonto" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
     <node concept="2$ntO6" id="7bwm0000002" role="2$nsuY">
@@ -258,7 +258,7 @@
         <property role="Xl_RC" value="Nachbewertung" />
       </node>
       <node concept="276gdk" id="7nbx0000005" role="2$ntZF">
-        <ref role="276gdn" to="hg40:7nbc0000001" resolve="BereichNachbewertung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyG" resolve="BereichForderung" />
       </node>
     </node>
     <node concept="2$ntO6" id="7fdx0000002" role="2$nsuY">

@@ -807,7 +807,7 @@
     </node>
     <node concept="UTR7Y" id="7ub50000710" role="UTRd0">
       <node concept="276gdk" id="7ub50000711" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichBelegartregel" />
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichSteuerung" />
       </node>
     </node>
   </node>
@@ -2114,7 +2114,7 @@
     </node>
     <node concept="UTR7Y" id="7ub70000037" role="UTRd0">
       <node concept="276gdk" id="7ub70000038" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichBelegartregel" />
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichSteuerung" />
       </node>
     </node>
   </node>
@@ -2163,7 +2163,7 @@
     </node>
     <node concept="UTR7Y" id="7ub50000422" role="UTRd0">
       <node concept="276gdk" id="7ub50000423" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichBelegartregel" />
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichSteuerung" />
       </node>
     </node>
   </node>
@@ -2210,7 +2210,7 @@
     </node>
     <node concept="UTR7Y" id="7ub50000441" role="UTRd0">
       <node concept="276gdk" id="7ub50000442" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichBelegartregel" />
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichSteuerung" />
       </node>
     </node>
   </node>
@@ -2234,7 +2234,7 @@
     </node>
     <node concept="UTR7Y" id="7ub50000450" role="UTRd0">
       <node concept="276gdk" id="7ub50000451" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichBelegartregel" />
+        <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichSteuerung" />
       </node>
     </node>
   </node>
