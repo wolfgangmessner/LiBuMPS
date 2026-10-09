@@ -2126,7 +2126,7 @@
       </node>
     </node>
     <node concept="2vDG_T" id="4HE8M78sIhu" role="jymVt">
-      <property role="TrG5h" value="erzeugeBeispielVereibarung" />
+      <property role="TrG5h" value="erzeugeBeispielVereinbarung" />
       <node concept="3clFbS" id="4HE8M78sIhx" role="3clF47">
         <node concept="3cpWs8" id="4HE8M78sIpA" role="3cqZAp">
           <node concept="3cpWsn" id="4HE8M78sIp$" role="3cpWs9">
