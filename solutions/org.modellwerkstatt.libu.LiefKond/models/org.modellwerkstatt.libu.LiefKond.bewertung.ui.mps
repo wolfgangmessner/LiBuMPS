@@ -4754,7 +4754,7 @@
     </node>
     <node concept="UTR7Y" id="7abu0000979" role="UTRd0">
       <node concept="276gdk" id="7abu0000980" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSz7" resolve="BereichAbrechnung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
@@ -4895,7 +4895,7 @@
     </node>
     <node concept="UTR7Y" id="7abu0001030" role="UTRd0">
       <node concept="276gdk" id="7abu0001031" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSz7" resolve="BereichAbrechnung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
@@ -5028,7 +5028,7 @@
     </node>
     <node concept="UTR7Y" id="7abu0001078" role="UTRd0">
       <node concept="276gdk" id="7abu0001079" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSz7" resolve="BereichAbrechnung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
@@ -5147,7 +5147,7 @@
     </node>
     <node concept="UTR7Y" id="7abu0001121" role="UTRd0">
       <node concept="276gdk" id="7abu0001122" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSz7" resolve="BereichAbrechnung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
@@ -5302,7 +5302,7 @@
     </node>
     <node concept="UTR7Y" id="7abk0000275" role="UTRd0">
       <node concept="276gdk" id="7abk0000276" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSz7" resolve="BereichAbrechnung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
@@ -5419,7 +5419,7 @@
     </node>
     <node concept="UTR7Y" id="7abu0001235" role="UTRd0">
       <node concept="276gdk" id="7abu0001236" role="26Uuoe">
-        <ref role="276gdn" to="hg40:59sqMMqSSz7" resolve="BereichAbrechnung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
@@ -6978,7 +6978,7 @@
     </node>
     <node concept="UTR7Y" id="7nbu0000603" role="UTRd0">
       <node concept="276gdk" id="7nbu0000604" role="26Uuoe">
-        <ref role="276gdn" to="hg40:7nbc0000001" resolve="BereichNachbewertung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyG" resolve="BereichForderung" />
       </node>
     </node>
   </node>
@@ -7170,7 +7170,7 @@
     </node>
     <node concept="UTR7Y" id="7nbu0000677" role="UTRd0">
       <node concept="276gdk" id="7nbu0000678" role="26Uuoe">
-        <ref role="276gdn" to="hg40:7nbc0000001" resolve="BereichNachbewertung" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyG" resolve="BereichForderung" />
       </node>
     </node>
   </node>
@@ -9144,7 +9144,7 @@
     </node>
     <node concept="UTR7Y" id="7vku0000792" role="UTRd0">
       <node concept="276gdk" id="7vku0000793" role="26Uuoe">
-        <ref role="276gdn" to="hg40:7vkc0000001" resolve="BereichVerrechnungskonto" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
@@ -9245,7 +9245,7 @@
     </node>
     <node concept="UTR7Y" id="7vku0000828" role="UTRd0">
       <node concept="276gdk" id="7vku0000829" role="26Uuoe">
-        <ref role="276gdn" to="hg40:7vkc0000001" resolve="BereichVerrechnungskonto" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
@@ -9357,7 +9357,7 @@
     </node>
     <node concept="UTR7Y" id="7vku0000868" role="UTRd0">
       <node concept="276gdk" id="7vku0000869" role="26Uuoe">
-        <ref role="276gdn" to="hg40:7vkc0000001" resolve="BereichVerrechnungskonto" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
@@ -9482,7 +9482,7 @@
     </node>
     <node concept="UTR7Y" id="7vku0000913" role="UTRd0">
       <node concept="276gdk" id="7vku0000914" role="26Uuoe">
-        <ref role="276gdn" to="hg40:7vkc0000001" resolve="BereichVerrechnungskonto" />
+        <ref role="276gdn" to="hg40:59sqMMqSSyq" resolve="BereichBewertung" />
       </node>
     </node>
   </node>
