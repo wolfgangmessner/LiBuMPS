@@ -3,7 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.libu.LiefKond.test/org.modellwerkstatt.libu.LiefKond.test.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.libu.liefKond/org.modellwerkstatt.libu.liefKond.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.libu.LiefKond/org.modellwerkstatt.libu.LiefKond.msd" folder="" />
     </projectModules>
   </component>
 </project>
