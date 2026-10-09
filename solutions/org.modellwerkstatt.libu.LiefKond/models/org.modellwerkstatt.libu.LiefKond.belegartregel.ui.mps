@@ -211,6 +211,14 @@
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.DTO" flags="ig" index="1YeyE5" />
     </language>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
+      <concept id="7834248083556629548" name="org.modellwerkstatt.dataux.structure.GridLayout" flags="ng" index="2U5qGN">
+        <child id="2954183761501582914" name="uxChild" index="21u2wS" />
+        <child id="7834248083556639664" name="colWeights" index="2U5niJ" />
+        <child id="7834248083556639662" name="rowWeights" index="2U5niL" />
+      </concept>
+      <concept id="465568541573490192" name="org.modellwerkstatt.dataux.structure.LabelFOption" flags="ng" index="PoUSf">
+        <child id="465568541573490195" name="expression" index="PoUSc" />
+      </concept>
       <concept id="1750699687529771422" name="org.modellwerkstatt.dataux.structure.IHasMenu" flags="ngI" index="fOGQ9">
         <child id="1750699687529771423" name="menuItems" index="fOGQ8" />
       </concept>
@@ -1025,6 +1033,12 @@
         <node concept="3uibUv" id="7ub50000014" role="_ZDj9">
           <ref role="3uigEE" to="6wp2:c_HYpdHwc4" resolve="Belegartregelinfo" />
         </node>
+      </node>
+      <node concept="Xl_RD" id="7ub70000001" role="2CNmdP">
+        <property role="Xl_RC" value="Belegart-Regeln" />
+      </node>
+      <node concept="Xl_RD" id="7ub70000002" role="2CNmdL">
+        <property role="Xl_RC" value="Belegart-Regeln" />
       </node>
     </node>
   </node>
@@ -2005,91 +2019,101 @@
     <property role="TrG5h" value="BelegartRegelnSuchenPP" />
     <property role="1Nb$_v" value="true" />
     <ref role="1Tjo7l" node="7ub50000001" resolve="BelegartRegelSuche" />
-    <node concept="2U5qGQ" id="7ub50000372" role="21u2x1">
+    <node concept="2U5qGN" id="7ub70000003" role="21u2x1">
       <property role="TrG5h" value="#" />
-      <ref role="1Tjo7l" node="7ub50000001" resolve="BelegartRegelSuche" />
-      <ref role="1Tjo6F" node="7ub50000007" resolve="results" />
-      <node concept="3Oe2Ik" id="7ub50000373" role="3OfFNq">
-        <node concept="3Oe$u_" id="7ub50000374" role="3Oe2NS">
-          <ref role="3O0p26" to="6wp2:c_HYpdHwcE" resolve="vorgangArt" />
+      <node concept="2U5nhG" id="7ub70000004" role="2U5niJ" />
+      <node concept="2U5qGQ" id="7ub70000005" role="21u2wS">
+        <property role="TrG5h" value="#" />
+        <ref role="1Tjo7l" node="7ub50000001" resolve="BelegartRegelSuche" />
+        <ref role="1Tjo6F" node="7ub50000007" resolve="results" />
+        <node concept="PoUSf" id="7ub70000006" role="PoUSn">
+          <node concept="Xl_RD" id="7ub70000007" role="PoUSc">
+            <property role="Xl_RC" value="Belegart-Regeln" />
+          </node>
         </node>
-        <node concept="PnLzW" id="7ub50000375" role="PoUSh">
-          <property role="PiFy3" value="15" />
+        <node concept="3Oe2Ik" id="7ub70000008" role="3OfFNq">
+          <node concept="3Oe$u_" id="7ub70000009" role="3Oe2NS">
+            <ref role="3O0p26" to="6wp2:c_HYpdHwcE" resolve="vorgangArt" />
+          </node>
+          <node concept="PnLzW" id="7ub70000010" role="PoUSh">
+            <property role="PiFy3" value="15" />
+          </node>
         </node>
-      </node>
-      <node concept="3Oe2Ik" id="7ub50000376" role="3OfFNq">
-        <node concept="3Oe$u_" id="7ub50000377" role="3Oe2NS">
-          <ref role="3O0p26" to="6wp2:c_HYpdHwcT" resolve="belegArt" />
+        <node concept="3Oe2Ik" id="7ub70000011" role="3OfFNq">
+          <node concept="3Oe$u_" id="7ub70000012" role="3Oe2NS">
+            <ref role="3O0p26" to="6wp2:c_HYpdHwcT" resolve="belegArt" />
+          </node>
+          <node concept="PnLzW" id="7ub70000013" role="PoUSh">
+            <property role="PiFy3" value="12" />
+          </node>
         </node>
-        <node concept="PnLzW" id="7ub50000378" role="PoUSh">
-          <property role="PiFy3" value="12" />
+        <node concept="3Oe2IN" id="7ub70000014" role="3OfFNq">
+          <node concept="3Oe$u_" id="7ub70000015" role="3Oe2NS">
+            <ref role="3O0p26" to="6wp2:c_HYpdHwd8" resolve="vorzeichen" />
+          </node>
+          <node concept="PnLzW" id="7ub70000016" role="PoUSh">
+            <property role="PiFy3" value="10" />
+          </node>
         </node>
-      </node>
-      <node concept="3Oe2IN" id="7ub50000379" role="3OfFNq">
-        <node concept="3Oe$u_" id="7ub50000380" role="3Oe2NS">
-          <ref role="3O0p26" to="6wp2:c_HYpdHwd8" resolve="vorzeichen" />
+        <node concept="2TG9WX" id="7ub70000017" role="3OfFNq">
+          <node concept="3Oe$u_" id="7ub70000018" role="3Oe2NS">
+            <ref role="3O0p26" to="6wp2:c_HYpdHwdn" resolve="aktiv" />
+          </node>
+          <node concept="PnLzW" id="7ub70000019" role="PoUSh">
+            <property role="PiFy3" value="10" />
+          </node>
         </node>
-        <node concept="PnLzW" id="7ub50000381" role="PoUSh">
-          <property role="PiFy3" value="10" />
+        <node concept="3Oe2Ik" id="7ub70000020" role="3OfFNq">
+          <node concept="3Oe$u_" id="7ub70000021" role="3Oe2NS">
+            <ref role="3O0p26" to="6wp2:c_HYpdHwdA" resolve="bemerkung" />
+          </node>
+          <node concept="PnLzW" id="7ub70000022" role="PoUSh">
+            <property role="PiFy3" value="38" />
+          </node>
         </node>
-      </node>
-      <node concept="2TG9WX" id="7ub50000382" role="3OfFNq">
-        <node concept="3Oe$u_" id="7ub50000383" role="3Oe2NS">
-          <ref role="3O0p26" to="6wp2:c_HYpdHwdn" resolve="aktiv" />
+        <node concept="3Oe2IN" id="7ub70000023" role="3OfFNq">
+          <node concept="3Oe$u_" id="7ub70000024" role="3Oe2NS">
+            <ref role="3O0p26" to="6wp2:c_HYpdHwdP" resolve="anzahlBewertungen" />
+          </node>
+          <node concept="PnLzW" id="7ub70000025" role="PoUSh">
+            <property role="PiFy3" value="15" />
+          </node>
         </node>
-        <node concept="PnLzW" id="7ub50000384" role="PoUSh">
-          <property role="PiFy3" value="10" />
+        <node concept="33WYYh" id="7ub70000026" role="fOGQ8">
+          <ref role="2_Hrw8" node="6DuqmNw0JgU" resolve="Belegart-Regel anlegen" />
+          <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
         </node>
-      </node>
-      <node concept="3Oe2Ik" id="7ub50000385" role="3OfFNq">
-        <node concept="3Oe$u_" id="7ub50000386" role="3Oe2NS">
-          <ref role="3O0p26" to="6wp2:c_HYpdHwdA" resolve="bemerkung" />
-        </node>
-        <node concept="PnLzW" id="7ub50000387" role="PoUSh">
-          <property role="PiFy3" value="38" />
-        </node>
-      </node>
-      <node concept="3Oe2IN" id="7ub50000388" role="3OfFNq">
-        <node concept="3Oe$u_" id="7ub50000389" role="3Oe2NS">
-          <ref role="3O0p26" to="6wp2:c_HYpdHwdP" resolve="anzahlBewertungen" />
-        </node>
-        <node concept="PnLzW" id="7ub50000390" role="PoUSh">
-          <property role="PiFy3" value="15" />
-        </node>
-      </node>
-      <node concept="33WYYh" id="7ub50000391" role="fOGQ8">
-        <ref role="2_Hrw8" node="6DuqmNw0JgU" resolve="Belegart-Regel anlegen" />
-        <ref role="3uz5Vf" to="hg40:1SEqE6z0Dyr" resolve="Neu" />
-      </node>
-      <node concept="fOGPe" id="7ub50000392" role="fOGQ8">
-        <node concept="33WYYh" id="7ub50000393" role="fOGQ8">
-          <ref role="2_Hrw8" node="7ub50000015" resolve="Belegart-Regel ändern" />
-          <ref role="3uz5Vf" to="hg40:7uil0000009" resolve="AendernEnter" />
-          <node concept="2OqwBi" id="7ub50000394" role="2_HrWp">
-            <node concept="2IFXgM" id="7ub50000395" role="2Oq$k0">
-              <ref role="2IFZ7r" to="6wp2:c_HYpdHwc4" resolve="Belegartregelinfo" />
+        <node concept="fOGPe" id="7ub70000027" role="fOGQ8">
+          <node concept="33WYYh" id="7ub70000028" role="fOGQ8">
+            <ref role="2_Hrw8" node="7ub50000015" resolve="Belegart-Regel ändern" />
+            <ref role="3uz5Vf" to="hg40:7uil0000009" resolve="AendernEnter" />
+            <node concept="2OqwBi" id="7ub70000029" role="2_HrWp">
+              <node concept="2IFXgM" id="7ub70000030" role="2Oq$k0">
+                <ref role="2IFZ7r" to="6wp2:c_HYpdHwc4" resolve="Belegartregelinfo" />
+              </node>
+              <node concept="2S8uIT" id="7ub70000031" role="2OqNvi">
+                <ref role="2S8YL0" to="6wp2:c_HYpdHwcr" resolve="id" />
+              </node>
             </node>
-            <node concept="2S8uIT" id="7ub50000396" role="2OqNvi">
-              <ref role="2S8YL0" to="6wp2:c_HYpdHwcr" resolve="id" />
+          </node>
+          <node concept="33WYYh" id="7ub70000032" role="fOGQ8">
+            <ref role="2_Hrw8" node="7ub50000229" resolve="Belegart-Regel löschen" />
+            <ref role="3uz5Vf" to="hg40:5VOHcF41OrQ" resolve="Loeschen" />
+            <node concept="2OqwBi" id="7ub70000033" role="2_HrWp">
+              <node concept="2IFXgM" id="7ub70000034" role="2Oq$k0">
+                <ref role="2IFZ7r" to="6wp2:c_HYpdHwc4" resolve="Belegartregelinfo" />
+              </node>
+              <node concept="2S8uIT" id="7ub70000035" role="2OqNvi">
+                <ref role="2S8YL0" to="6wp2:c_HYpdHwcr" resolve="id" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="33WYYh" id="7ub50000397" role="fOGQ8">
-          <ref role="2_Hrw8" node="7ub50000229" resolve="Belegart-Regel löschen" />
-          <ref role="3uz5Vf" to="hg40:5VOHcF41OrQ" resolve="Loeschen" />
-          <node concept="2OqwBi" id="7ub50000398" role="2_HrWp">
-            <node concept="2IFXgM" id="7ub50000399" role="2Oq$k0">
-              <ref role="2IFZ7r" to="6wp2:c_HYpdHwc4" resolve="Belegartregelinfo" />
-            </node>
-            <node concept="2S8uIT" id="7ub50000400" role="2OqNvi">
-              <ref role="2S8YL0" to="6wp2:c_HYpdHwcr" resolve="id" />
-            </node>
-          </node>
-        </node>
       </node>
+      <node concept="2U5nhG" id="7ub70000036" role="2U5niL" />
     </node>
-    <node concept="UTR7Y" id="7ub50000401" role="UTRd0">
-      <node concept="276gdk" id="7ub50000402" role="26Uuoe">
+    <node concept="UTR7Y" id="7ub70000037" role="UTRd0">
+      <node concept="276gdk" id="7ub70000038" role="26Uuoe">
         <ref role="276gdn" to="hg40:59sqMMqSSxN" resolve="BereichBelegartregel" />
       </node>
     </node>

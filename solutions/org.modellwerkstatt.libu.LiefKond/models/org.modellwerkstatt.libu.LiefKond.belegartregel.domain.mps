@@ -10,87 +10,17 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
-        <child id="5680397130376446158" name="type" index="1tU5fm" />
-      </concept>
-      <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
-        <child id="1068431790190" name="initializer" index="33vP2m" />
-      </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
-        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
-      </concept>
-      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
-        <child id="1068498886295" name="lValue" index="37vLTJ" />
-        <child id="1068498886297" name="rValue" index="37vLTx" />
-      </concept>
-      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
-        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
-        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
-      </concept>
-      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
-        <child id="1068580123156" name="expression" index="3clFbG" />
-      </concept>
-      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
-      <concept id="1225271546410" name="jetbrains.mps.baseLanguage.structure.TrimOperation" flags="nn" index="17S1cR" />
-      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
-        <property id="1068580320021" name="value" index="3cmrfH" />
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
-      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="5862977038373003187" name="jetbrains.mps.baseLanguage.structure.LocalPropertyReference" flags="nn" index="338YkY">
-        <reference id="5862977038373003188" name="property" index="338YkT" />
-      </concept>
-      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="8356039341262087992" name="line" index="1aUNEU" />
-      </concept>
-      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
-        <child id="1163668914799" name="condition" index="3K4Cdx" />
-        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
-        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
-      </concept>
-      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
-      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-      <concept id="1201385106094" name="jetbrains.mps.baseLanguage.structure.PropertyReference" flags="nn" index="2S8uIT">
-        <reference id="1201385237847" name="property" index="2S8YL0" />
-      </concept>
-      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
-        <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
-      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
-      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
-        <child id="1068580123160" name="condition" index="3clFbw" />
-        <child id="1068580123161" name="ifTrue" index="3clFbx" />
-      </concept>
-      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
-      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
-      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
-        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
-      </concept>
-      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
-      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
-      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
-        <reference id="1107535924139" name="classifier" index="3uigEE" />
-      </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
-      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
-        <child id="1068581517676" name="expression" index="3cqZAk" />
-      </concept>
-      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
-      <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
-        <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
-      </concept>
-      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1201370618622" name="jetbrains.mps.baseLanguage.structure.Property" flags="ig" index="2RhdJD">
         <property id="1201371481316" name="propertyName" index="2RkwnN" />
         <child id="1201371521209" name="type" index="2RkE6I" />
@@ -100,67 +30,133 @@
         <child id="1202065356069" name="defaultGetAccessor" index="3wFrgM" />
         <child id="1202078082794" name="defaultSetAccessor" index="3xrYvX" />
       </concept>
+      <concept id="1201385106094" name="jetbrains.mps.baseLanguage.structure.PropertyReference" flags="nn" index="2S8uIT">
+        <reference id="1201385237847" name="property" index="2S8YL0" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="5862977038373003187" name="jetbrains.mps.baseLanguage.structure.LocalPropertyReference" flags="nn" index="338YkY">
+        <reference id="5862977038373003188" name="property" index="338YkT" />
+      </concept>
+      <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
+        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
+      </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
+      <concept id="1225271546410" name="jetbrains.mps.baseLanguage.structure.TrimOperation" flags="nn" index="17S1cR" />
+      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
+        <child id="5680397130376446158" name="type" index="1tU5fm" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
-        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
+      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
+      <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
+        <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
+      </concept>
+      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
+      </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1202065242027" name="jetbrains.mps.baseLanguage.structure.DefaultGetAccessor" flags="ng" index="3wEZqW" />
       <concept id="1202077725299" name="jetbrains.mps.baseLanguage.structure.DefaultSetAccessor" flags="ng" index="3xqBd$">
         <child id="1202077744034" name="visibility" index="3xqFEP" />
       </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
-      <concept id="5788629615597606700" name="org.modellwerkstatt.objectflow.structure.Precondition" flags="ng" index="mlg3r">
-        <child id="5788629615597607706" name="problemdesc" index="mlgNH" />
-        <child id="5788629615597607704" name="condition" index="mlgNJ" />
+      <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
+        <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
+      </concept>
+      <concept id="4986415014450757922" name="org.modellwerkstatt.objectflow.structure.StringFormatString" flags="ng" index="ic4WF">
+        <property id="4986415014450757981" name="formatStringValue" index="ic4Xk" />
       </concept>
       <concept id="5788629615582330252" name="org.modellwerkstatt.objectflow.structure.ProblemMessage" flags="ng" index="lgADV">
         <child id="5788629615582331966" name="problem" index="lgxf9" />
       </concept>
-      <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
-        <child id="3585259589780682365" name="arguments" index="35Gt3$" />
-        <child id="4986415014450757612" name="formatString" index="icr7_" />
+      <concept id="5788629615597606700" name="org.modellwerkstatt.objectflow.structure.Precondition" flags="ng" index="mlg3r">
+        <child id="5788629615597607706" name="problemdesc" index="mlgNH" />
+        <child id="5788629615597607704" name="condition" index="mlgNJ" />
       </concept>
-      <concept id="4533072425307838443" name="org.modellwerkstatt.objectflow.structure.StatusConstReference" flags="ng" index="2XvMaL">
-        <reference id="4533072425307838444" name="status" index="2XvMaQ" />
-        <child id="1410203836819592831" name="operation" index="h55Ek" />
-      </concept>
-      <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
-        <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
-      </concept>
-      <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
-      <concept id="4986415014450757922" name="org.modellwerkstatt.objectflow.structure.StringFormatString" flags="ng" index="ic4WF">
-        <property id="4986415014450757981" name="formatStringValue" index="ic4Xk" />
+      <concept id="7919209473516657581" name="org.modellwerkstatt.objectflow.structure.StatusElementReference" flags="ng" index="2vefiz">
+        <reference id="7919209473516657582" name="statusElement" index="2vefiw" />
       </concept>
       <concept id="7919209473516657270" name="org.modellwerkstatt.objectflow.structure.StatusOfOperator" flags="ng" index="2veflS">
         <child id="7919209473516657611" name="statusElements" index="2vefj5" />
         <child id="7919209473516657283" name="statusLeftSide" index="2vefmd" />
       </concept>
+      <concept id="7919209473506305655" name="org.modellwerkstatt.objectflow.structure.ServiceInstanceMethodDeclaration" flags="ig" index="2vDG_T" />
+      <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
       <concept id="2252697316673436458" name="org.modellwerkstatt.objectflow.structure.ValidationStatement" flags="ng" index="Hy8HG">
         <child id="2252697316673436459" name="statements" index="Hy8HH" />
       </concept>
-      <concept id="7919209473516657581" name="org.modellwerkstatt.objectflow.structure.StatusElementReference" flags="ng" index="2vefiz">
-        <reference id="7919209473516657582" name="statusElement" index="2vefiw" />
+      <concept id="4533072425307838443" name="org.modellwerkstatt.objectflow.structure.StatusConstReference" flags="ng" index="2XvMaL">
+        <reference id="4533072425307838444" name="status" index="2XvMaQ" />
+        <child id="1410203836819592831" name="operation" index="h55Ek" />
       </concept>
-      <concept id="7919209473506305655" name="org.modellwerkstatt.objectflow.structure.ServiceInstanceMethodDeclaration" flags="ig" index="2vDG_T" />
       <concept id="4533072425307800381" name="org.modellwerkstatt.objectflow.structure.StatusType" flags="ig" index="2XvVpB">
         <reference id="6600213247848012755" name="status" index="3$lB4D" />
       </concept>
@@ -168,51 +164,44 @@
         <child id="3207218222495905601" name="businessProperties" index="TxmiU" />
       </concept>
       <concept id="1372017518093514468" name="org.modellwerkstatt.objectflow.structure.Entity" flags="ig" index="34Athd" />
+      <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
+        <child id="4986415014450757612" name="formatString" index="icr7_" />
+        <child id="3585259589780682365" name="arguments" index="35Gt3$" />
+      </concept>
       <concept id="8396343267227475961" name="org.modellwerkstatt.objectflow.structure.BusinessProperty" flags="ig" index="1bOX9e">
+        <child id="5770301300929026308" name="longDesc" index="2CNmdL" />
+        <child id="5770301300929026304" name="shortDesc" index="2CNmdP" />
         <child id="3674496190757459099" name="propertyOption" index="0orDa" />
       </concept>
       <concept id="8394088404405502420" name="org.modellwerkstatt.objectflow.structure.NotPersistedOption" flags="ng" index="1xFgGU" />
       <concept id="5225022991485184063" name="org.modellwerkstatt.objectflow.structure.DTO" flags="ig" index="1YeyE5" />
     </language>
     <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" name="org.modellwerkstatt.manmap">
-      <concept id="8172309840348950202" name="org.modellwerkstatt.manmap.structure.INeedsClassMapper" flags="ngI" index="P14SU">
-        <reference id="8172309840348950203" name="entityMapping" index="P14SV" />
-      </concept>
+      <concept id="774207833082820017" name="org.modellwerkstatt.manmap.structure.QuerySmartClosureParamDeclaration" flags="ig" index="jxRLt" />
       <concept id="774207833082573402" name="org.modellwerkstatt.manmap.structure.QueryFromMap" flags="ng" index="jybIQ">
         <child id="774207833082779687" name="queryOperation" index="jxX7b" />
       </concept>
-      <concept id="1810748140025176330" name="org.modellwerkstatt.manmap.structure.C2SqlBlock" flags="ng" index="3QLR3s">
-        <child id="5265354401584361519" name="mapping" index="FUZJ1" />
-        <child id="2252697316673436459" name="statements" index="Hy8HI" />
+      <concept id="774207833082448725" name="org.modellwerkstatt.manmap.structure.OptimisticOption" flags="ng" index="jyGaT" />
+      <concept id="774207833082557389" name="org.modellwerkstatt.manmap.structure.KeyOption" flags="ng" index="jyRCx" />
+      <concept id="774207833082557394" name="org.modellwerkstatt.manmap.structure.AutoidOption" flags="ng" index="jyRCY">
+        <child id="774207833082557396" name="sequenceName" index="jyRCS" />
       </concept>
+      <concept id="4421815423107469587" name="org.modellwerkstatt.manmap.structure.Repository" flags="ig" index="DXQ2w" />
       <concept id="4421815423107469588" name="org.modellwerkstatt.manmap.structure.RepositoryInstanceMethodDeclaration" flags="ig" index="DXQ2B">
         <property id="8796175910513646269" name="repoMethodType" index="2a4t7v" />
       </concept>
-      <concept id="8172309840349143193" name="org.modellwerkstatt.manmap.structure.DeleteWithMap" flags="ng" index="P6k0p">
-        <child id="8172309840349143194" name="expression" index="P6k0q" />
+      <concept id="8172309840348950202" name="org.modellwerkstatt.manmap.structure.INeedsClassMapper" flags="ngI" index="P14SU">
+        <reference id="8172309840348950203" name="entityMapping" index="P14SV" />
       </concept>
       <concept id="8172309840348863378" name="org.modellwerkstatt.manmap.structure.SaveWithMap" flags="ng" index="P1rGi">
         <child id="8172309840348863385" name="expression" index="P1rGp" />
       </concept>
-      <concept id="774207833082820017" name="org.modellwerkstatt.manmap.structure.QuerySmartClosureParamDeclaration" flags="ig" index="jxRLt" />
-      <concept id="1810748140026040091" name="org.modellwerkstatt.manmap.structure.C2SqlText" flags="ng" index="3QODVd">
-        <child id="1810748140026040692" name="lines" index="3QOC2y" />
+      <concept id="8172309840349143193" name="org.modellwerkstatt.manmap.structure.DeleteWithMap" flags="ng" index="P6k0p">
+        <child id="8172309840349143194" name="expression" index="P6k0q" />
       </concept>
       <concept id="6435836305144935126" name="org.modellwerkstatt.manmap.structure.GetQuery" flags="ng" index="TUlRj">
         <child id="6435836305144935143" name="argument" index="TUlRy" />
       </concept>
-      <concept id="1810748140037527703" name="org.modellwerkstatt.manmap.structure.C2SqlWordVarReference" flags="ng" index="3DwW_1">
-        <reference id="1810748140039685408" name="varDecl" index="3DSHjQ" />
-      </concept>
-      <concept id="774207833082557394" name="org.modellwerkstatt.manmap.structure.AutoidOption" flags="ng" index="jyRCY">
-        <child id="774207833082557396" name="sequenceName" index="jyRCS" />
-      </concept>
-      <concept id="781751828146429235" name="org.modellwerkstatt.manmap.structure.NoKeyMapperFieldRef" flags="ng" index="1pXOCm">
-        <reference id="781751828146429245" name="noKeyMapperField" index="1pXOCo" />
-      </concept>
-      <concept id="774207833082448725" name="org.modellwerkstatt.manmap.structure.OptimisticOption" flags="ng" index="jyGaT" />
-      <concept id="774207833082557389" name="org.modellwerkstatt.manmap.structure.KeyOption" flags="ng" index="jyRCx" />
-      <concept id="4421815423107469587" name="org.modellwerkstatt.manmap.structure.Repository" flags="ig" index="DXQ2w" />
       <concept id="871579071900124823" name="org.modellwerkstatt.manmap.structure.PersistenceDescription" flags="ng" index="12nvSr">
         <child id="871579071900209328" name="persistenceMapping" index="12nEwW" />
       </concept>
@@ -231,32 +220,18 @@
       <concept id="781751828139414632" name="org.modellwerkstatt.manmap.structure.NoKeyMapperField" flags="ng" index="1o6$dd">
         <reference id="781751828139414889" name="classConcept" index="1o6$9c" />
       </concept>
-    </language>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
-        <property id="1169194664001" name="name" index="TrG5h" />
+      <concept id="781751828146429235" name="org.modellwerkstatt.manmap.structure.NoKeyMapperFieldRef" flags="ng" index="1pXOCm">
+        <reference id="781751828146429245" name="noKeyMapperField" index="1pXOCo" />
       </concept>
-    </language>
-    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
-      <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
-        <child id="1237721435807" name="elementType" index="HW$YZ" />
+      <concept id="1810748140037527703" name="org.modellwerkstatt.manmap.structure.C2SqlWordVarReference" flags="ng" index="3DwW_1">
+        <reference id="1810748140039685408" name="varDecl" index="3DSHjQ" />
       </concept>
-      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
-        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      <concept id="1810748140025176330" name="org.modellwerkstatt.manmap.structure.C2SqlBlock" flags="ng" index="3QLR3s">
+        <child id="5265354401584361519" name="mapping" index="FUZJ1" />
+        <child id="2252697316673436459" name="statements" index="Hy8HI" />
       </concept>
-      <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
-      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
-        <child id="1151688676805" name="elementType" index="_ZDj9" />
-      </concept>
-      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
-      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
-    </language>
-    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
-        <child id="2535923850359271783" name="elements" index="1PaTwD" />
-      </concept>
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
-        <property id="155656958578482949" name="value" index="3oM_SC" />
+      <concept id="1810748140026040091" name="org.modellwerkstatt.manmap.structure.C2SqlText" flags="ng" index="3QODVd">
+        <child id="1810748140026040692" name="lines" index="3QOC2y" />
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -264,6 +239,33 @@
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
+      </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
+      <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
+        <child id="1237721435807" name="elementType" index="HW$YZ" />
+      </concept>
+      <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
+      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
   </registry>
   <node concept="DXQ2w" id="c_HYpdHvXw">
@@ -2296,6 +2298,12 @@
         </node>
       </node>
       <node concept="10Oyi0" id="c_HYpdHwcB" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000021" role="2CNmdP">
+        <property role="Xl_RC" value="Id" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000022" role="2CNmdL">
+        <property role="Xl_RC" value="Id" />
+      </node>
     </node>
     <node concept="1bOX9e" id="c_HYpdHwcE" role="TxmiU">
       <property role="2RkwnN" value="vorgangArt" />
@@ -2307,6 +2315,12 @@
         </node>
       </node>
       <node concept="17QB3L" id="c_HYpdHwcQ" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000023" role="2CNmdP">
+        <property role="Xl_RC" value="Vorgangsart" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000024" role="2CNmdL">
+        <property role="Xl_RC" value="Vorgangsart" />
+      </node>
     </node>
     <node concept="1bOX9e" id="c_HYpdHwcT" role="TxmiU">
       <property role="2RkwnN" value="belegArt" />
@@ -2318,6 +2332,12 @@
         </node>
       </node>
       <node concept="17QB3L" id="c_HYpdHwd5" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000025" role="2CNmdP">
+        <property role="Xl_RC" value="Belegart" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000026" role="2CNmdL">
+        <property role="Xl_RC" value="Belegart (leer = alle Belegarten)" />
+      </node>
     </node>
     <node concept="1bOX9e" id="c_HYpdHwd8" role="TxmiU">
       <property role="2RkwnN" value="vorzeichen" />
@@ -2329,6 +2349,12 @@
         </node>
       </node>
       <node concept="10Oyi0" id="c_HYpdHwdk" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000027" role="2CNmdP">
+        <property role="Xl_RC" value="Vorzeichen" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000028" role="2CNmdL">
+        <property role="Xl_RC" value="Vorzeichen" />
+      </node>
     </node>
     <node concept="1bOX9e" id="c_HYpdHwdn" role="TxmiU">
       <property role="2RkwnN" value="aktiv" />
@@ -2342,6 +2368,12 @@
       <node concept="2XvVpB" id="c_HYpdHwdz" role="2RkE6I">
         <ref role="3$lB4D" to="hg40:c_HYpdFRT3" resolve="JaNein" />
       </node>
+      <node concept="Xl_RD" id="7ub60000029" role="2CNmdP">
+        <property role="Xl_RC" value="Aktiv" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000030" role="2CNmdL">
+        <property role="Xl_RC" value="Aktiv" />
+      </node>
     </node>
     <node concept="1bOX9e" id="c_HYpdHwdA" role="TxmiU">
       <property role="2RkwnN" value="bemerkung" />
@@ -2353,6 +2385,12 @@
         </node>
       </node>
       <node concept="17QB3L" id="c_HYpdHwdM" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000031" role="2CNmdP">
+        <property role="Xl_RC" value="Bemerkung" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000032" role="2CNmdL">
+        <property role="Xl_RC" value="Bemerkung" />
+      </node>
     </node>
     <node concept="1bOX9e" id="c_HYpdHwdP" role="TxmiU">
       <property role="2RkwnN" value="anzahlBewertungen" />
@@ -2364,6 +2402,12 @@
         </node>
       </node>
       <node concept="10Oyi0" id="c_HYpdHwe1" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000033" role="2CNmdP">
+        <property role="Xl_RC" value="Bewertungen" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000034" role="2CNmdL">
+        <property role="Xl_RC" value="Zahl der Bewertungen mit dieser Regel" />
+      </node>
     </node>
     <node concept="3clFb_" id="7ub40000207" role="jymVt">
       <property role="TrG5h" value="alsText" />
@@ -2480,6 +2524,12 @@
           <property role="Xl_RC" value="seq_belegart_regel_id" />
         </node>
       </node>
+      <node concept="Xl_RD" id="7ub60000001" role="2CNmdP">
+        <property role="Xl_RC" value="Id" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000002" role="2CNmdL">
+        <property role="Xl_RC" value="Id" />
+      </node>
     </node>
     <node concept="1bOX9e" id="6DuqmNw0JD$" role="TxmiU">
       <property role="2RkwnN" value="mandantNr" />
@@ -2493,6 +2543,12 @@
       <node concept="2XvVpB" id="6DuqmNw0JRj" role="2RkE6I">
         <ref role="3$lB4D" to="hg40:c_HYpdFSt8" resolve="Mandant" />
       </node>
+      <node concept="Xl_RD" id="7ub60000003" role="2CNmdP">
+        <property role="Xl_RC" value="Mandant" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000004" role="2CNmdL">
+        <property role="Xl_RC" value="Mandant" />
+      </node>
     </node>
     <node concept="1bOX9e" id="6DuqmNw0JDN" role="TxmiU">
       <property role="2RkwnN" value="vorgangArt" />
@@ -2504,6 +2560,12 @@
         </node>
       </node>
       <node concept="17QB3L" id="6DuqmNw0JDZ" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000005" role="2CNmdP">
+        <property role="Xl_RC" value="Vorgangsart" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000006" role="2CNmdL">
+        <property role="Xl_RC" value="Vorgangsart" />
+      </node>
     </node>
     <node concept="1bOX9e" id="6DuqmNw0JE2" role="TxmiU">
       <property role="2RkwnN" value="belegArt" />
@@ -2515,6 +2577,12 @@
         </node>
       </node>
       <node concept="17QB3L" id="6DuqmNw0JEe" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000007" role="2CNmdP">
+        <property role="Xl_RC" value="Belegart" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000008" role="2CNmdL">
+        <property role="Xl_RC" value="Belegart (leer = alle Belegarten)" />
+      </node>
     </node>
     <node concept="1bOX9e" id="6DuqmNw0JEh" role="TxmiU">
       <property role="2RkwnN" value="vorzeichen" />
@@ -2526,6 +2594,12 @@
         </node>
       </node>
       <node concept="10Oyi0" id="6DuqmNw0JEt" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000009" role="2CNmdP">
+        <property role="Xl_RC" value="Vorzeichen" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000010" role="2CNmdL">
+        <property role="Xl_RC" value="Vorzeichen (+1 Lieferung, -1 Retoure)" />
+      </node>
     </node>
     <node concept="1bOX9e" id="6DuqmNw0JEw" role="TxmiU">
       <property role="2RkwnN" value="aktiv" />
@@ -2539,6 +2613,12 @@
       <node concept="2XvVpB" id="6DuqmNw0JUz" role="2RkE6I">
         <ref role="3$lB4D" to="hg40:c_HYpdFRT3" resolve="JaNein" />
       </node>
+      <node concept="Xl_RD" id="7ub60000011" role="2CNmdP">
+        <property role="Xl_RC" value="Aktiv" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000012" role="2CNmdL">
+        <property role="Xl_RC" value="Aktiv" />
+      </node>
     </node>
     <node concept="1bOX9e" id="6DuqmNw0JEJ" role="TxmiU">
       <property role="2RkwnN" value="bemerkung" />
@@ -2550,6 +2630,12 @@
         </node>
       </node>
       <node concept="17QB3L" id="6DuqmNw0JEV" role="2RkE6I" />
+      <node concept="Xl_RD" id="7ub60000013" role="2CNmdP">
+        <property role="Xl_RC" value="Bemerkung" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000014" role="2CNmdL">
+        <property role="Xl_RC" value="Bemerkung" />
+      </node>
     </node>
     <node concept="1bOX9e" id="6DuqmNw0JW5" role="TxmiU">
       <property role="2RkwnN" value="istVerwendet" />
@@ -2564,6 +2650,12 @@
         <ref role="3$lB4D" to="hg40:c_HYpdFRT3" resolve="JaNein" />
       </node>
       <node concept="1xFgGU" id="6DuqmNw0K0f" role="0orDa" />
+      <node concept="Xl_RD" id="7ub60000015" role="2CNmdP">
+        <property role="Xl_RC" value="Verwendet" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000016" role="2CNmdL">
+        <property role="Xl_RC" value="In Bewertungen verwendet" />
+      </node>
     </node>
     <node concept="1bOX9e" id="7ub40000003" role="TxmiU">
       <property role="2RkwnN" value="geladenesVorzeichen" />
@@ -2576,6 +2668,12 @@
       </node>
       <node concept="10Oyi0" id="7ub40000009" role="2RkE6I" />
       <node concept="1xFgGU" id="7ub40000010" role="0orDa" />
+      <node concept="Xl_RD" id="7ub60000017" role="2CNmdP">
+        <property role="Xl_RC" value="Vorzeichen geladen" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000018" role="2CNmdL">
+        <property role="Xl_RC" value="Vorzeichen beim Öffnen" />
+      </node>
     </node>
     <node concept="1bOX9e" id="7ub40000011" role="TxmiU">
       <property role="2RkwnN" value="geladenAktiv" />
@@ -2590,6 +2688,12 @@
         <ref role="3$lB4D" to="hg40:c_HYpdFRT3" resolve="JaNein" />
       </node>
       <node concept="1xFgGU" id="7ub40000018" role="0orDa" />
+      <node concept="Xl_RD" id="7ub60000019" role="2CNmdP">
+        <property role="Xl_RC" value="Aktiv geladen" />
+      </node>
+      <node concept="Xl_RD" id="7ub60000020" role="2CNmdL">
+        <property role="Xl_RC" value="Aktiv beim Öffnen" />
+      </node>
     </node>
     <node concept="3clFb_" id="7ub40000019" role="jymVt">
       <property role="TrG5h" value="istMandantZulaessig" />
@@ -2993,14 +3097,14 @@
           </node>
         </node>
         <node concept="3cpWs6" id="7ub40000180" role="3cqZAp">
-          <node concept="1Wc70l" id="7ub40000181" role="3cqZAk">
-            <node concept="3fqX7Q" id="7ub40000182" role="3uHU7B">
-              <node concept="1rXfSq" id="7ub40000183" role="3fr31v">
-                <ref role="37wK5l" node="7ub40000121" resolve="istNeu" />
+          <node concept="1Wc70l" id="7ub40000184" role="3cqZAk">
+            <node concept="1Wc70l" id="7ub40000181" role="3uHU7B">
+              <node concept="3fqX7Q" id="7ub40000182" role="3uHU7B">
+                <node concept="1rXfSq" id="7ub40000183" role="3fr31v">
+                  <ref role="37wK5l" node="7ub40000121" resolve="istNeu" />
+                </node>
               </node>
-            </node>
-            <node concept="1Wc70l" id="7ub40000184" role="3uHU7w">
-              <node concept="2veflS" id="7ub40000185" role="3uHU7B">
+              <node concept="2veflS" id="7ub40000185" role="3uHU7w">
                 <node concept="338YkY" id="7ub40000186" role="2vefmd">
                   <ref role="338YkT" node="7ub40000011" resolve="geladenAktiv" />
                 </node>
@@ -3008,13 +3112,13 @@
                   <ref role="2vefiw" to="hg40:c_HYpdFS7U" resolve="Ja" />
                 </node>
               </node>
-              <node concept="2veflS" id="7ub40000188" role="3uHU7w">
-                <node concept="338YkY" id="7ub40000189" role="2vefmd">
-                  <ref role="338YkT" node="6DuqmNw0JEw" resolve="aktiv" />
-                </node>
-                <node concept="2vefiz" id="7ub40000190" role="2vefj5">
-                  <ref role="2vefiw" to="hg40:c_HYpdFRT4" resolve="Nein" />
-                </node>
+            </node>
+            <node concept="2veflS" id="7ub40000188" role="3uHU7w">
+              <node concept="338YkY" id="7ub40000189" role="2vefmd">
+                <ref role="338YkT" node="6DuqmNw0JEw" resolve="aktiv" />
+              </node>
+              <node concept="2vefiz" id="7ub40000190" role="2vefj5">
+                <ref role="2vefiw" to="hg40:c_HYpdFRT4" resolve="Nein" />
               </node>
             </node>
           </node>
