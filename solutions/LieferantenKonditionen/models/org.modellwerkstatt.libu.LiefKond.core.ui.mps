@@ -6,7 +6,6 @@
   </languages>
   <imports>
     <import index="9evg" ref="r:a6c257f9-fc96-4114-be61-ce15e0320374(org.modellwerkstatt.libu.LiefKond.vereinbarung.ui)" />
-    <import index="752l" ref="r:bc1aa817-c898-4c87-9387-605f3f16a2a2(org.modellwerkstatt.libu.LiefKond.test.basics)" />
     <import index="h0p1" ref="r:46ddb3ce-809a-4f3b-a08a-26aa6b0e9c9a(org.modellwerkstatt.libu.LiefKond.belegartregel.ui)" />
     <import index="anru" ref="r:cebad6b6-0377-4a76-b190-8df1969353eb(org.modellwerkstatt.libu.LiefKond.core.config)" />
     <import index="ntlu" ref="r:55056d43-a6a3-4e26-996e-7a2b88e9b3ec(org.modellwerkstatt.libu.LiefKond.ausschlussregel.ui)" />
@@ -107,7 +106,6 @@
       <concept id="7784207101901652180" name="org.modellwerkstatt.dataux.structure.AppUiModule" flags="ng" index="2MVcZ9">
         <child id="2781909770750563212" name="tiles" index="2$nsuY" />
         <child id="7784207101902499646" name="authFunction" index="2MZU0z" />
-        <child id="7784207101904780268" name="extrasMenu" index="2N77jL" />
         <child id="7784207101904780260" name="mainMenu" index="2N77jT" />
       </concept>
       <concept id="7784207101902368101" name="org.modellwerkstatt.dataux.structure.AppAuthenticationFunction" flags="ig" index="2MWq9S" />
@@ -129,9 +127,6 @@
   <node concept="2MVcZ9" id="c_HYpdEwWz">
     <property role="TrG5h" value="LibuApp" />
     <ref role="2WPtWl" to="anru:4eYAwYe6xcl" resolve="LocalFx8Config" />
-    <node concept="33WYYh" id="64Z6K0hVCie" role="2N77jL">
-      <ref role="2_Hrw8" to="752l:64Z6K0hVxbx" resolve="TestUi" />
-    </node>
     <node concept="33WYYh" id="6L7N34hs4t" role="2N77jT">
       <ref role="2_Hrw8" to="9evg:c_HYpdFTKG" resolve="Vereinbarungen suchen" />
     </node>

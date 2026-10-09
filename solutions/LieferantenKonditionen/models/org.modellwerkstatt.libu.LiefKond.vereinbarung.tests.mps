@@ -2,6 +2,8 @@
 <model ref="r:d5626193-6518-4b9a-8e77-66a489968695(org.modellwerkstatt.libu.LiefKond.vereinbarung.tests)">
   <persistence version="9" />
   <languages>
+    <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="b2950e54-da96-4c3b-868c-2b5e12af9605(org.modellwerkstatt.MoWareWerkbank)" />
   </languages>
   <imports>
@@ -175,6 +177,9 @@
       </concept>
       <concept id="8113764509537711426" name="org.modellwerkstatt.objectflow.structure.OFXTestFailInAttribue" flags="ng" index="16GPin">
         <reference id="8113764509539932973" name="classifier" index="16PnFS" />
+      </concept>
+      <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
+        <child id="2884851879187602662" name="expression" index="38$l6p" />
       </concept>
       <concept id="594565203027877250" name="org.modellwerkstatt.objectflow.structure.Session" flags="ng" index="3y28L$" />
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
@@ -2120,6 +2125,71 @@
         </node>
       </node>
     </node>
+    <node concept="2vDG_T" id="4HE8M78sIhu" role="jymVt">
+      <property role="TrG5h" value="erzeugeBeispielVereibarung" />
+      <node concept="3clFbS" id="4HE8M78sIhx" role="3clF47">
+        <node concept="3cpWs8" id="4HE8M78sIpA" role="3cqZAp">
+          <node concept="3cpWsn" id="4HE8M78sIp$" role="3cpWs9">
+            <property role="3TUv4t" value="true" />
+            <property role="TrG5h" value="vereinbarung" />
+            <node concept="3uibUv" id="4HE8M78sIrw" role="1tU5fm">
+              <ref role="3uigEE" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
+            </node>
+            <node concept="2ShNRf" id="4HE8M78sIvU" role="33vP2m">
+              <node concept="1pGfFk" id="4HE8M78sIvj" role="2ShVmc">
+                <ref role="37wK5l" to="uyeg:c_HYpdEe0Q" resolve="Vereinbarung" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4HE8M78sIyu" role="3cqZAp">
+          <node concept="37vLTI" id="4HE8M78sJKg" role="3clFbG">
+            <node concept="37vLTw" id="4HE8M78sKml" role="37vLTx">
+              <ref role="3cqZAo" node="4HE8M78sK2e" resolve="bezeichnung" />
+            </node>
+            <node concept="2OqwBi" id="4HE8M78sIBI" role="37vLTJ">
+              <node concept="37vLTw" id="4HE8M78sIys" role="2Oq$k0">
+                <ref role="3cqZAo" node="4HE8M78sIp$" resolve="vereinbarung" />
+              </node>
+              <node concept="2S8uIT" id="4HE8M78sIG2" role="2OqNvi">
+                <ref role="2S8YL0" to="uyeg:c_HYpdEe1X" resolve="bezeichnung" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="l3yvj" id="4HE8M78sLiX" role="3cqZAp">
+          <node concept="1odsa" id="4HE8M78sLiZ" role="_4bL5">
+            <ref role="1ods_" to="uyeg:c_HYpdEeiQ" resolve="VereinbarungR" />
+            <ref role="37wK5l" to="uyeg:c_HYpdEfkg" resolve="checkinVereinbarung" />
+            <node concept="37vLTw" id="4HE8M78sLpi" role="37wK5m">
+              <ref role="3cqZAo" node="4HE8M78sIp$" resolve="vereinbarung" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="4HE8M78sLsz" role="3y5pYT">
+            <property role="Xl_RC" value="Testdaten Vereinbarung" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4HE8M78sLBo" role="3cqZAp">
+          <node concept="1odsa" id="4HE8M78sLBm" role="3clFbG">
+            <ref role="1ods_" to="752l:4HE8M78rbUl" resolve="CS" />
+            <ref role="37wK5l" to="752l:4HE8M78rhgY" resolve="COMMIT" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4HE8M78sLbn" role="3cqZAp">
+          <node concept="37vLTw" id="4HE8M78sLf1" role="3cqZAk">
+            <ref role="3cqZAo" node="4HE8M78sIp$" resolve="vereinbarung" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="4HE8M78sIiU" role="3clF45">
+        <ref role="3uigEE" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
+      </node>
+      <node concept="3Tm1VV" id="4HE8M78sIh$" role="1B3o_S" />
+      <node concept="37vLTG" id="4HE8M78sK2e" role="3clF46">
+        <property role="TrG5h" value="bezeichnung" />
+        <node concept="17QB3L" id="4HE8M78sK2d" role="1tU5fm" />
+      </node>
+    </node>
   </node>
   <node concept="2WPaUQ" id="7x330000696">
     <property role="TrG5h" value="Gültige Konditionen einsehen (UC-003)" />
@@ -3771,6 +3841,41 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2WPaUQ" id="4HE8M78sLHt">
+    <property role="TrG5h" value="TemplateTest" />
+    <ref role="2WPtWl" to="anru:5E0k43hHz10" resolve="ConNfigTest" />
+    <node concept="3yPF9F" id="4HE8M78sLLf" role="3yMuLx">
+      <property role="TrG5h" value="Test1" />
+      <node concept="3cqZAl" id="4HE8M78sLLh" role="3clF45" />
+      <node concept="3clFbS" id="4HE8M78sLLi" role="3clF47">
+        <node concept="3cpWs8" id="4HE8M78yI76" role="3cqZAp">
+          <node concept="3cpWsn" id="4HE8M78yI77" role="3cpWs9">
+            <property role="TrG5h" value="vereinbarung" />
+            <node concept="3uibUv" id="4HE8M78yI78" role="1tU5fm">
+              <ref role="3uigEE" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
+            </node>
+            <node concept="1odsa" id="4HE8M78yIbh" role="33vP2m">
+              <ref role="1ods_" node="7x330000368" resolve="VereinbarungTestDaten" />
+              <ref role="37wK5l" node="4HE8M78sIhu" resolve="erzeugeVereinbarung" />
+              <node concept="Xl_RD" id="4HE8M78yIbi" role="37wK5m">
+                <property role="Xl_RC" value="Vertrag1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="38$l6q" id="4HE8M78yIse" role="3cqZAp">
+          <node concept="2OqwBi" id="4HE8M78yIxr" role="38$l6p">
+            <node concept="37vLTw" id="4HE8M78yItj" role="2Oq$k0">
+              <ref role="3cqZAo" node="4HE8M78yI77" resolve="vereinbarung" />
+            </node>
+            <node concept="2S8uIT" id="4HE8M78yI_M" role="2OqNvi">
+              <ref role="2S8YL0" to="uyeg:c_HYpdEe1X" resolve="bezeichnung" />
             </node>
           </node>
         </node>

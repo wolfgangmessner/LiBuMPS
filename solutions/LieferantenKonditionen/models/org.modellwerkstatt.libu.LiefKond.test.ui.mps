@@ -13,8 +13,8 @@
     <import index="9evg" ref="r:a6c257f9-fc96-4114-be61-ce15e0320374(org.modellwerkstatt.libu.LiefKond.vereinbarung.ui)" />
     <import index="752l" ref="r:bc1aa817-c898-4c87-9387-605f3f16a2a2(org.modellwerkstatt.libu.LiefKond.test.basics)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="yrn6" ref="r:791b941e-5d22-40b1-8af0-af623b3367bf(org.modellwerkstatt.libu.LiefKond.test.bewertung)" />
     <import index="anru" ref="r:cebad6b6-0377-4a76-b190-8df1969353eb(org.modellwerkstatt.libu.LiefKond.core.config)" />
+    <import index="8sa9" ref="r:14909b4c-0a98-4792-97da-f1d767d32038(org.modellwerkstatt.libu.LiefKond.bewertung.tests)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -205,7 +205,7 @@
     </node>
     <node concept="2$ntO6" id="6DuqmNvDeou" role="2$nsuY">
       <node concept="33WYYh" id="6DuqmNvDeov" role="2$ntUL">
-        <ref role="2_Hrw8" to="yrn6:6DuqmNvDd_O" resolve="Belege suchen" />
+        <ref role="2_Hrw8" to="8sa9:6DuqmNvDd_O" resolve="Belege suchen" />
       </node>
       <node concept="Xl_RD" id="6DuqmNvDewf" role="2$ntWM">
         <property role="Xl_RC" value="Belege" />
@@ -353,7 +353,7 @@
       </node>
       <node concept="_YKpA" id="6DuqmNw7WN6" role="2RkE6I">
         <node concept="3uibUv" id="6DuqmNw7WOY" role="_ZDj9">
-          <ref role="3uigEE" to="yrn6:6DuqmNw7PuU" resolve="BelegInfo" />
+          <ref role="3uigEE" to="8sa9:6DuqmNw7PuU" resolve="BelegInfo" />
         </node>
       </node>
       <node concept="Xl_RD" id="6DuqmNw7X1F" role="2CNmdP">

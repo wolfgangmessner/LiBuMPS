@@ -9,16 +9,12 @@
     <import index="anru" ref="r:cebad6b6-0377-4a76-b190-8df1969353eb(org.modellwerkstatt.libu.LiefKond.core.config)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.runtime/)" />
-    <import index="uyeg" ref="r:5ad24a95-c9f4-4fb1-9ab9-386086903dec(org.modellwerkstatt.libu.LiefKond.vereinbarung.domain)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="8356039341262087992" name="line" index="1aUNEU" />
-      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -71,7 +67,6 @@
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
-        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
@@ -80,7 +75,6 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
-      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
@@ -91,7 +85,6 @@
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
-        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
@@ -147,6 +140,9 @@
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -231,9 +227,6 @@
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
         <child id="4986415014450757612" name="formatString" index="icr7_" />
       </concept>
-      <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
-        <child id="2884851879187602662" name="expression" index="38$l6p" />
-      </concept>
       <concept id="8396343267227475961" name="org.modellwerkstatt.objectflow.structure.BusinessProperty" flags="ig" index="1bOX9e">
         <child id="3674496190757459099" name="propertyOption" index="0orDa" />
         <child id="6287236659904683502" name="documentation" index="3b_Q0" />
@@ -264,20 +257,20 @@
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
     </language>
     <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" name="org.modellwerkstatt.manmap">
-      <concept id="1810748140025176330" name="org.modellwerkstatt.manmap.structure.C2SqlBlock" flags="ng" index="3QLR3s">
-        <property id="2190195849782008629" name="sqlType" index="1KFVyK" />
-        <child id="2252697316673436459" name="statements" index="Hy8HI" />
+      <concept id="774207833082557389" name="org.modellwerkstatt.manmap.structure.KeyOption" flags="ng" index="jyRCx" />
+      <concept id="774207833082557394" name="org.modellwerkstatt.manmap.structure.AutoidOption" flags="ng" index="jyRCY">
+        <child id="774207833082557396" name="sequenceName" index="jyRCS" />
       </concept>
       <concept id="4421815423107469587" name="org.modellwerkstatt.manmap.structure.Repository" flags="ig" index="DXQ2w" />
       <concept id="4421815423107469588" name="org.modellwerkstatt.manmap.structure.RepositoryInstanceMethodDeclaration" flags="ig" index="DXQ2B">
         <property id="8796175910513646269" name="repoMethodType" index="2a4t7v" />
       </concept>
+      <concept id="1810748140025176330" name="org.modellwerkstatt.manmap.structure.C2SqlBlock" flags="ng" index="3QLR3s">
+        <property id="2190195849782008629" name="sqlType" index="1KFVyK" />
+        <child id="2252697316673436459" name="statements" index="Hy8HI" />
+      </concept>
       <concept id="1810748140026040091" name="org.modellwerkstatt.manmap.structure.C2SqlText" flags="ng" index="3QODVd">
         <child id="1810748140026040692" name="lines" index="3QOC2y" />
-      </concept>
-      <concept id="774207833082557389" name="org.modellwerkstatt.manmap.structure.KeyOption" flags="ng" index="jyRCx" />
-      <concept id="774207833082557394" name="org.modellwerkstatt.manmap.structure.AutoidOption" flags="ng" index="jyRCY">
-        <child id="774207833082557396" name="sequenceName" index="jyRCS" />
       </concept>
     </language>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
@@ -1194,71 +1187,6 @@
   </node>
   <node concept="2EH5hC" id="4HE8M78sIcn">
     <property role="TrG5h" value="Testdaten" />
-    <node concept="2vDG_T" id="4HE8M78sIhu" role="jymVt">
-      <property role="TrG5h" value="erzeugeVereinbarung" />
-      <node concept="3clFbS" id="4HE8M78sIhx" role="3clF47">
-        <node concept="3cpWs8" id="4HE8M78sIpA" role="3cqZAp">
-          <node concept="3cpWsn" id="4HE8M78sIp$" role="3cpWs9">
-            <property role="3TUv4t" value="true" />
-            <property role="TrG5h" value="vereinbarung" />
-            <node concept="3uibUv" id="4HE8M78sIrw" role="1tU5fm">
-              <ref role="3uigEE" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
-            </node>
-            <node concept="2ShNRf" id="4HE8M78sIvU" role="33vP2m">
-              <node concept="1pGfFk" id="4HE8M78sIvj" role="2ShVmc">
-                <ref role="37wK5l" to="uyeg:c_HYpdEe0Q" resolve="Vereinbarung" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4HE8M78sIyu" role="3cqZAp">
-          <node concept="37vLTI" id="4HE8M78sJKg" role="3clFbG">
-            <node concept="37vLTw" id="4HE8M78sKml" role="37vLTx">
-              <ref role="3cqZAo" node="4HE8M78sK2e" resolve="bezeichnung" />
-            </node>
-            <node concept="2OqwBi" id="4HE8M78sIBI" role="37vLTJ">
-              <node concept="37vLTw" id="4HE8M78sIys" role="2Oq$k0">
-                <ref role="3cqZAo" node="4HE8M78sIp$" resolve="vereinbarung" />
-              </node>
-              <node concept="2S8uIT" id="4HE8M78sIG2" role="2OqNvi">
-                <ref role="2S8YL0" to="uyeg:c_HYpdEe1X" resolve="bezeichnung" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="l3yvj" id="4HE8M78sLiX" role="3cqZAp">
-          <node concept="1odsa" id="4HE8M78sLiZ" role="_4bL5">
-            <ref role="1ods_" to="uyeg:c_HYpdEeiQ" resolve="VereinbarungR" />
-            <ref role="37wK5l" to="uyeg:c_HYpdEfkg" resolve="checkinVereinbarung" />
-            <node concept="37vLTw" id="4HE8M78sLpi" role="37wK5m">
-              <ref role="3cqZAo" node="4HE8M78sIp$" resolve="vereinbarung" />
-            </node>
-          </node>
-          <node concept="Xl_RD" id="4HE8M78sLsz" role="3y5pYT">
-            <property role="Xl_RC" value="Testdaten Vereinbarung" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="4HE8M78sLBo" role="3cqZAp">
-          <node concept="1odsa" id="4HE8M78sLBm" role="3clFbG">
-            <ref role="1ods_" node="4HE8M78rbUl" resolve="CS" />
-            <ref role="37wK5l" node="4HE8M78rhgY" resolve="COMMIT" />
-          </node>
-        </node>
-        <node concept="3cpWs6" id="4HE8M78sLbn" role="3cqZAp">
-          <node concept="37vLTw" id="4HE8M78sLf1" role="3cqZAk">
-            <ref role="3cqZAo" node="4HE8M78sIp$" resolve="vereinbarung" />
-          </node>
-        </node>
-      </node>
-      <node concept="3uibUv" id="4HE8M78sIiU" role="3clF45">
-        <ref role="3uigEE" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
-      </node>
-      <node concept="3Tm1VV" id="4HE8M78sIh$" role="1B3o_S" />
-      <node concept="37vLTG" id="4HE8M78sK2e" role="3clF46">
-        <property role="TrG5h" value="bezeichnung" />
-        <node concept="17QB3L" id="4HE8M78sK2d" role="1tU5fm" />
-      </node>
-    </node>
     <node concept="3Tm1VV" id="4HE8M78sIco" role="1B3o_S" />
     <node concept="2vDG_T" id="7td10000032" role="jymVt">
       <property role="TrG5h" value="entferneTestdaten" />
@@ -1321,41 +1249,6 @@
           <node concept="1odsa" id="7td10000055" role="3clFbG">
             <ref role="1ods_" node="4HE8M78rbUl" resolve="CS" />
             <ref role="37wK5l" node="4HE8M78rhgY" resolve="COMMIT" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2WPaUQ" id="4HE8M78sLHt">
-    <property role="TrG5h" value="TemplateTest" />
-    <ref role="2WPtWl" to="anru:5E0k43hHz10" resolve="ConfigTest" />
-    <node concept="3yPF9F" id="4HE8M78sLLf" role="3yMuLx">
-      <property role="TrG5h" value="Test1" />
-      <node concept="3cqZAl" id="4HE8M78sLLh" role="3clF45" />
-      <node concept="3clFbS" id="4HE8M78sLLi" role="3clF47">
-        <node concept="3cpWs8" id="4HE8M78yI76" role="3cqZAp">
-          <node concept="3cpWsn" id="4HE8M78yI77" role="3cpWs9">
-            <property role="TrG5h" value="vereinbarung" />
-            <node concept="3uibUv" id="4HE8M78yI78" role="1tU5fm">
-              <ref role="3uigEE" to="uyeg:c_HYpdEe0N" resolve="Vereinbarung" />
-            </node>
-            <node concept="1odsa" id="4HE8M78yIbh" role="33vP2m">
-              <ref role="1ods_" node="4HE8M78sIcn" resolve="Testdaten" />
-              <ref role="37wK5l" node="4HE8M78sIhu" resolve="erzeugeVereinbarung" />
-              <node concept="Xl_RD" id="4HE8M78yIbi" role="37wK5m">
-                <property role="Xl_RC" value="Vertrag1" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="38$l6q" id="4HE8M78yIse" role="3cqZAp">
-          <node concept="2OqwBi" id="4HE8M78yIxr" role="38$l6p">
-            <node concept="37vLTw" id="4HE8M78yItj" role="2Oq$k0">
-              <ref role="3cqZAo" node="4HE8M78yI77" resolve="vereinbarung" />
-            </node>
-            <node concept="2S8uIT" id="4HE8M78yI_M" role="2OqNvi">
-              <ref role="2S8YL0" to="uyeg:c_HYpdEe1X" resolve="bezeichnung" />
-            </node>
           </node>
         </node>
       </node>
