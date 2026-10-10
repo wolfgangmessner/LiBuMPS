@@ -308,19 +308,19 @@
     </node>
     <node concept="27cpit" id="59sqMMqSSxN" role="27c1lO">
       <property role="TrG5h" value="BereichSteuerung" />
-      <property role="27cpiu" value="#d84315" />
+      <property role="27cpiu" value="#A16207" />
     </node>
     <node concept="27cpit" id="59sqMMqSSyq" role="27c1lO">
       <property role="TrG5h" value="BereichBewertung" />
-      <property role="27cpiu" value="#c2185b" />
+      <property role="27cpiu" value="#AD1457" />
     </node>
     <node concept="27cpit" id="59sqMMqSSyG" role="27c1lO">
       <property role="TrG5h" value="BereichForderung" />
-      <property role="27cpiu" value="#303f9f" />
+      <property role="27cpiu" value="#00796B" />
     </node>
     <node concept="27cpit" id="59sqMMqSSyO" role="27c1lO">
       <property role="TrG5h" value="BereichPflege" />
-      <property role="27cpiu" value="#1976d2" />
+      <property role="27cpiu" value="#1565C0" />
     </node>
     <node concept="il5_x" id="1SEqE6yDQxw" role="2kzhMJ">
       <property role="TrG5h" value="Anzeigen" />
