@@ -1033,7 +1033,7 @@
               <property role="3oM_SC" value="die" />
             </node>
             <node concept="3oM_SD" id="7bwt0000229" role="1PaTwD">
-              <property role="3oM_SC" value="Wabu12-Stubs" />
+              <property role="3oM_SC" value="Wabu-Stubs" />
             </node>
             <node concept="3oM_SD" id="7bwt0000230" role="1PaTwD">
               <property role="3oM_SC" value="schreiben" />
